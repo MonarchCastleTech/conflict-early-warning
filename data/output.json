@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-11T13:44:09.048460+00:00",
+    "generated": "2026-08-11T19:22:31.891367+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -33,276 +33,286 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "Trump tariffs fallout : China moves to join Brazil WTO challenge of US forced labor duties",
+        "url": "https://www.undercurrentnews.com/2026/08/11/trump-tariffs-fallout/",
+        "domain": "undercurrentnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260811T163000Z",
+        "source": "GDELT"
+      }
+    ],
     "earthquakes": [
       {
-        "place": "58 km S of Whites City, New Mexico",
-        "mag": 1.7,
-        "time": 1786455484339,
-        "lon": -104.354,
-        "lat": 31.65,
-        "depth": 3.0722,
+        "place": "5 km NNW of Pinnacles, CA",
+        "mag": 1.28,
+        "time": 1786476013930,
+        "lon": -121.175163269043,
+        "lat": 36.5731658935547,
+        "depth": 4.71000003814697,
         "source": "USGS"
       },
       {
-        "place": "46 km ESE of Naalehu, Hawaii",
-        "mag": 3.08,
-        "time": 1786455060470,
-        "lon": -155.205337524414,
-        "lat": 18.8528327941895,
-        "depth": 11.1899995803833,
+        "place": "8 km W of Cobb, CA",
+        "mag": 1.03,
+        "time": 1786475604440,
+        "lon": -122.810333251953,
+        "lat": 38.8318328857422,
+        "depth": 1.92999994754791,
+        "source": "USGS"
+      },
+      {
+        "place": "18 km E of Julian, CA",
+        "mag": 0.69,
+        "time": 1786475054770,
+        "lon": -116.407333333333,
+        "lat": 33.0625,
+        "depth": 13.11,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km ENE of Lebec, CA",
+        "mag": 1.46,
+        "time": 1786473942270,
+        "lon": -118.782166666667,
+        "lat": 34.8565,
+        "depth": 0.79,
+        "source": "USGS"
+      },
+      {
+        "place": "65 km S of Whites City, New Mexico",
+        "mag": 1.2,
+        "time": 1786473753223,
+        "lon": -104.488,
+        "lat": 31.589,
+        "depth": 0.8584,
+        "source": "USGS"
+      },
+      {
+        "place": "63 km W of Anchor Point, Alaska",
+        "mag": 1.2,
+        "time": 1786472098694,
+        "lon": -152.958,
+        "lat": 59.837,
+        "depth": 100.5,
+        "source": "USGS"
+      },
+      {
+        "place": "17 km ESE of Anza, CA",
+        "mag": 0.85,
+        "time": 1786471446420,
+        "lon": -116.503833333333,
+        "lat": 33.4985,
+        "depth": 13.34,
+        "source": "USGS"
+      },
+      {
+        "place": "87 km ESE of Egegik, Alaska",
+        "mag": 0.5,
+        "time": 1786470860181,
+        "lon": -155.972,
+        "lat": 57.964,
+        "depth": 19.3,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NW of The Geysers, CA",
+        "mag": 0.77,
+        "time": 1786469781090,
+        "lon": -122.802665710449,
+        "lat": 38.8181648254395,
+        "depth": 2.70000004768372,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NW of The Geysers, CA",
+        "mag": 0.71,
+        "time": 1786469089670,
+        "lon": -122.805999755859,
+        "lat": 38.8173332214355,
+        "depth": 3.4300000667572,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km ESE of Big Spring, Texas",
+        "mag": 1.4,
+        "time": 1786468924156,
+        "lon": -101.412,
+        "lat": 32.222,
+        "depth": 9.1064,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km W of Lunca Jariștei, Romania",
+        "mag": 4.6,
+        "time": 1786468875884,
+        "lon": 26.1598,
+        "lat": 45.487,
+        "depth": 140.003,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NW of The Geysers, CA",
+        "mag": 2.38,
+        "time": 1786468852600,
+        "lon": -122.805999755859,
+        "lat": 38.8196678161621,
+        "depth": 2.90000009536743,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km ESE of Cloverdale, CA",
+        "mag": 1.35,
+        "time": 1786468767740,
+        "lon": -122.932830810547,
+        "lat": 38.7770004272461,
+        "depth": 4.40999984741211,
+        "source": "USGS"
+      },
+      {
+        "place": "107 km WNW of Kerema, Papua New Guinea",
+        "mag": 5,
+        "time": 1786467978902,
+        "lon": 144.8583,
+        "lat": -7.6341,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "11 km NNE of Pāhala, Hawaii",
+        "mag": 1.9,
+        "time": 1786467595120,
+        "lon": -155.440673828125,
+        "lat": 19.3026676177979,
+        "depth": 27.2199993133545,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km NW of The Geysers, CA",
+        "mag": 0.93,
+        "time": 1786467371700,
+        "lon": -122.814666748047,
+        "lat": 38.8316650390625,
+        "depth": 2,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NW of Pinnacles, CA",
+        "mag": 1.92,
+        "time": 1786466196130,
+        "lon": -121.181335449219,
+        "lat": 36.5745010375977,
+        "depth": 2.97000002861023,
+        "source": "USGS"
+      },
+      {
+        "place": "70 km WNW of Karluk, Alaska",
+        "mag": 0.9,
+        "time": 1786465695512,
+        "lon": -155.561,
+        "lat": 57.795,
+        "depth": 10.2,
+        "source": "USGS"
+      },
+      {
+        "place": "94 km S of McCarthy, Alaska",
+        "mag": 1.4,
+        "time": 1786465683949,
+        "lon": -142.645,
+        "lat": 60.593,
+        "depth": 19.8,
+        "source": "USGS"
+      },
+      {
+        "place": "5 km WSW of Harrah, Washington",
+        "mag": 3.09,
+        "time": 1786465432580,
+        "lon": -120.609,
+        "lat": 46.3901666666667,
+        "depth": 11.81,
+        "source": "USGS"
+      },
+      {
+        "place": "16 km SE of Anza, CA",
+        "mag": 0.45,
+        "time": 1786464731570,
+        "lon": -116.541333333333,
+        "lat": 33.4601666666667,
+        "depth": 10.5,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km ENE of Big Lake, Alaska",
+        "mag": 1.8,
+        "time": 1786464725282,
+        "lon": -149.842,
+        "lat": 61.552,
+        "depth": 33.3,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km NW of The Geysers, CA",
+        "mag": 1.07,
+        "time": 1786463277140,
+        "lon": -122.811164855957,
+        "lat": 38.8310012817383,
+        "depth": 2.01999998092651,
+        "source": "USGS"
+      },
+      {
+        "place": "13 km NNE of Banning, CA",
+        "mag": 0.72,
+        "time": 1786463174480,
+        "lon": -116.848666666667,
+        "lat": 34.0405,
+        "depth": 13.99,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km NW of The Geysers, CA",
+        "mag": 1.06,
+        "time": 1786463041070,
+        "lon": -122.810668945312,
+        "lat": 38.8311653137207,
+        "depth": 1.79999995231628,
+        "source": "USGS"
+      },
+      {
+        "place": "29 km SW of Trapper Creek, Alaska",
+        "mag": 2.7,
+        "time": 1786463035960,
+        "lon": -150.56,
+        "lat": 62.096,
+        "depth": 5,
         "source": "USGS"
       },
       {
         "place": "49 km SE of Naalehu, Hawaii",
         "mag": 1.89,
-        "time": 1786453653230,
-        "lon": -155.191833496094,
-        "lat": 18.8193340301514,
-        "depth": 7.23000001907349,
+        "time": 1786462579540,
+        "lon": -155.192001342773,
+        "lat": 18.8139991760254,
+        "depth": 7.84000015258789,
         "source": "USGS"
       },
       {
-        "place": "19 km NE of Susitna North, Alaska",
-        "mag": 1.4,
-        "time": 1786453346327,
-        "lon": -149.549,
-        "lat": 62.262,
-        "depth": 71.5,
-        "source": "USGS"
-      },
-      {
-        "place": "8 km N of Covelo, CA",
-        "mag": 1.85,
-        "time": 1786452819000,
-        "lon": -123.236167907715,
-        "lat": 39.8671684265137,
-        "depth": 7.59000015258789,
-        "source": "USGS"
-      },
-      {
-        "place": "4 km WSW of Aguanga, CA",
-        "mag": 0.5,
-        "time": 1786452403200,
-        "lon": -116.899,
-        "lat": 33.4288333333333,
-        "depth": 11.01,
-        "source": "USGS"
-      },
-      {
-        "place": "Pulau Pulau Tanimbar, Indonesia",
-        "mag": 4.8,
-        "time": 1786452312884,
-        "lon": 130.3922,
-        "lat": -7.397,
-        "depth": 30.609,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km W of Cobb, CA",
-        "mag": 0.71,
-        "time": 1786451981660,
-        "lon": -122.792999267578,
-        "lat": 38.8246650695801,
-        "depth": 2.74000000953674,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of The Geysers, CA",
-        "mag": 0.76,
-        "time": 1786451890820,
-        "lon": -122.796165466309,
-        "lat": 38.810001373291,
-        "depth": 3.5699999332428,
-        "source": "USGS"
-      },
-      {
-        "place": "2 km NW of Fontana, CA",
-        "mag": 0.8,
-        "time": 1786451582290,
-        "lon": -117.474333333333,
-        "lat": 34.1131666666667,
-        "depth": 6.75,
-        "source": "USGS"
-      },
-      {
-        "place": "58 km S of Whites City, New Mexico",
-        "mag": 2.3,
-        "time": 1786451482380,
-        "lon": -104.345,
-        "lat": 31.652,
-        "depth": 2.967,
-        "source": "USGS"
-      },
-      {
-        "place": "13 km ENE of Borrego Springs, CA",
-        "mag": 0.66,
-        "time": 1786451341250,
-        "lon": -116.248833333333,
-        "lat": 33.2991666666667,
-        "depth": 9.54,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km N of Moreno Valley, CA",
-        "mag": 0.86,
-        "time": 1786450592930,
-        "lon": -117.223,
-        "lat": 33.9495,
-        "depth": 12.92,
-        "source": "USGS"
-      },
-      {
-        "place": "10 km ESE of Pearsall, Texas",
-        "mag": 1.9,
-        "time": 1786450458924,
-        "lon": -98.992,
-        "lat": 28.874,
-        "depth": 7.64,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of Pinnacles, CA",
-        "mag": 2.66,
-        "time": 1786450169580,
-        "lon": -121.175003051758,
-        "lat": 36.5691680908203,
-        "depth": 0.509999990463257,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km W of Cobb, CA",
-        "mag": 0.7,
-        "time": 1786449833490,
-        "lon": -122.791496276855,
-        "lat": 38.8235015869141,
-        "depth": 2,
-        "source": "USGS"
-      },
-      {
-        "place": "2 km N of Moreno Valley, CA",
-        "mag": 0.77,
-        "time": 1786449753690,
-        "lon": -117.225,
-        "lat": 33.9483333333333,
-        "depth": 12.83,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of Pinnacles, CA",
-        "mag": 1.91,
-        "time": 1786449600880,
-        "lon": -121.179664611816,
-        "lat": 36.564998626709,
-        "depth": 5.53000020980835,
-        "source": "USGS"
-      },
-      {
-        "place": "12 km NNW of Warner Springs, CA",
-        "mag": 0.19,
-        "time": 1786449568080,
-        "lon": -116.692166666667,
-        "lat": 33.3736666666667,
-        "depth": 12.54,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NNW of Pinnacles, CA",
-        "mag": 1.29,
-        "time": 1786449038520,
-        "lon": -121.168334960938,
-        "lat": 36.5706672668457,
-        "depth": 3.26999998092651,
-        "source": "USGS"
-      },
-      {
-        "place": "7 km SE of Pinnacles, CA",
-        "mag": 1.92,
-        "time": 1786448466420,
-        "lon": -121.092002868652,
-        "lat": 36.478832244873,
-        "depth": 6.57000017166138,
-        "source": "USGS"
-      },
-      {
-        "place": "9 km WSW of Shafter, CA",
-        "mag": 1.41,
-        "time": 1786448101470,
-        "lon": -119.364166666667,
-        "lat": 35.474,
-        "depth": 26.12,
-        "source": "USGS"
-      },
-      {
-        "place": "11 km WNW of Pyote, Texas",
-        "mag": 1.6,
-        "time": 1786447922569,
-        "lon": -103.242,
-        "lat": 31.557,
-        "depth": 5.1206,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of Pinnacles, CA",
-        "mag": 1.21,
-        "time": 1786447869600,
-        "lon": -121.17733001709,
-        "lat": 36.5688323974609,
-        "depth": 3.41000008583069,
-        "source": "USGS"
-      },
-      {
-        "place": "4 km NW of Pinnacles, CA",
-        "mag": 1.47,
-        "time": 1786447797530,
-        "lon": -121.181167602539,
-        "lat": 36.5568351745605,
-        "depth": -0.239999994635582,
-        "source": "USGS"
-      },
-      {
-        "place": "4 km ENE of Borrego Springs, CA",
-        "mag": 0.46,
-        "time": 1786447622580,
-        "lon": -116.335,
-        "lat": 33.269,
-        "depth": 2.61,
-        "source": "USGS"
-      },
-      {
-        "place": "53 km WNW of Skwentna, Alaska",
-        "mag": 1.6,
-        "time": 1786447346809,
-        "lon": -152.28,
-        "lat": 62.242,
-        "depth": 5,
+        "place": "59 km SE of Chignik, Alaska",
+        "mag": 2,
+        "time": 1786462188695,
+        "lon": -157.636,
+        "lat": 55.982,
+        "depth": 21,
         "source": "USGS"
       },
       {
         "place": "6 km NW of Pinnacles, CA",
-        "mag": 1.9,
-        "time": 1786445858820,
-        "lon": -121.183166503906,
-        "lat": 36.5719985961914,
-        "depth": 0.280000001192093,
-        "source": "USGS"
-      },
-      {
-        "place": "36 km WSW of Ackerly, Texas",
-        "mag": 1,
-        "time": 1786445631068,
-        "lon": -102.078,
-        "lat": 32.399,
-        "depth": 6.4918,
-        "source": "USGS"
-      },
-      {
-        "place": "Banda Sea",
-        "mag": 4.6,
-        "time": 1786445392149,
-        "lon": 129.7317,
-        "lat": -6.7252,
-        "depth": 170.699,
+        "mag": 1.72,
+        "time": 1786461833310,
+        "lon": -121.183670043945,
+        "lat": 36.579833984375,
+        "depth": 2.76999998092651,
         "source": "USGS"
       }
     ],
@@ -389,8 +399,27 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "Trump tariffs fallout : China moves to join Brazil WTO chall",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260811T163000Z",
+      "source": "undercurrentnews.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "Trump tariffs fallout : China moves to join Brazil WTO challenge of US forced labor duties",
+      "url": "https://www.undercurrentnews.com/2026/08/11/trump-tariffs-fallout/",
+      "domain": "undercurrentnews.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260811T163000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
