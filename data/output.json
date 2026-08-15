@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-15T06:59:11.352530+00:00",
+    "generated": "2026-08-15T13:00:28.373634+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -33,276 +33,304 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "5 năm Taliban nắm quyền Afghanistan",
+        "url": "http://vov.vn/the-gioi/5-nam-taliban-tro-lai-nam-quyen-tai-afghanistan-hoa-binh-khong-co-nu-cuoi-post1324222.vov",
+        "domain": "vov.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260815T014500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "National Dialogue , Youth Ownership , And The Path To Stability : Girma Seifu On Ethiopia Political Future",
+        "url": "https://www.thereporterethiopia.com/52293/",
+        "domain": "thereporterethiopia.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "美國 「 政 、 經 」 備忘錄 – 開欄文 - 時事論壇",
+        "url": "https://city.udn.com/2976/7295372?raid=7297786",
+        "domain": "city.udn.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T060000Z",
+        "source": "GDELT"
+      }
+    ],
     "earthquakes": [
       {
-        "place": "42 km WSW of Olancha, CA",
-        "mag": 2.28,
-        "time": 1786776573720,
-        "lon": -118.439833333333,
-        "lat": 36.1351666666667,
-        "depth": 5.73,
+        "place": "60 km ESE of Denali Park, Alaska",
+        "mag": 1.4,
+        "time": 1786798644463,
+        "lon": -147.748,
+        "lat": 63.57,
+        "depth": 8.6,
         "source": "USGS"
       },
       {
-        "place": "6 km W of Cobb, CA",
-        "mag": 0.62,
-        "time": 1786776551770,
-        "lon": -122.795501708984,
-        "lat": 38.8266677856445,
-        "depth": 2.82999992370605,
+        "place": "30 km NW of Valdez, Alaska",
+        "mag": 2,
+        "time": 1786796369515,
+        "lon": -146.817,
+        "lat": 61.284,
+        "depth": 17.4,
         "source": "USGS"
       },
       {
-        "place": "23 km ESE of Naalehu, Hawaii",
-        "mag": 2.87,
-        "time": 1786775904010,
-        "lon": -155.367828369141,
-        "lat": 19.0161666870117,
-        "depth": 15.289999961853,
-        "source": "USGS"
-      },
-      {
-        "place": "71 km NNW of Ende, Indonesia",
-        "mag": 5.1,
-        "time": 1786775331109,
-        "lon": 121.3664,
-        "lat": -8.2671,
+        "place": "78 km NW of Ende, Indonesia",
+        "mag": 5.2,
+        "time": 1786796079321,
+        "lon": 121.2565,
+        "lat": -8.2575,
         "depth": 10,
         "source": "USGS"
       },
       {
-        "place": "16 km ESE of Julian, CA",
-        "mag": 1.41,
-        "time": 1786774867450,
-        "lon": -116.437,
-        "lat": 33.0455,
-        "depth": 9.56,
-        "source": "USGS"
-      },
-      {
-        "place": "1 km NNW of Volcano, Hawaii",
-        "mag": 2.58,
-        "time": 1786774303760,
-        "lon": -155.241,
-        "lat": 19.4531666666667,
-        "depth": 21.73,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km W of Cobb, CA",
-        "mag": 1.07,
-        "time": 1786773897170,
-        "lon": -122.795829772949,
-        "lat": 38.8266677856445,
-        "depth": 3.24000000953674,
-        "source": "USGS"
-      },
-      {
-        "place": "1 km SSW of Houston, Alaska",
-        "mag": 2.8,
-        "time": 1786773649516,
-        "lon": -149.836,
-        "lat": 61.617,
-        "depth": 15.4,
-        "source": "USGS"
-      },
-      {
-        "place": "18 km NW of Stanton, Texas",
-        "mag": 1,
-        "time": 1786773452228,
-        "lon": -101.917,
-        "lat": 32.259,
-        "depth": 2.7343,
-        "source": "USGS"
-      },
-      {
-        "place": "53 km E of Egegik, Alaska",
-        "mag": 2.3,
-        "time": 1786773237175,
-        "lon": -156.464,
-        "lat": 58.182,
-        "depth": 0.6,
-        "source": "USGS"
-      },
-      {
-        "place": "62 km NNW of Ende, Indonesia",
-        "mag": 5,
-        "time": 1786772708046,
-        "lon": 121.3609,
-        "lat": -8.3681,
-        "depth": 10,
-        "source": "USGS"
-      },
-      {
-        "place": "13 km WSW of Barview, Oregon",
-        "mag": 2.22070121765137,
-        "time": 1786772024360,
-        "lon": -124.452499389648,
-        "lat": 43.2911682128906,
-        "depth": 15.7399997711182,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km SSE of Pāhala, Hawaii",
-        "mag": 1.8,
-        "time": 1786771277720,
-        "lon": -155.471160888672,
-        "lat": 19.1690006256104,
-        "depth": 27.3600006103516,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of Pinnacles, CA",
-        "mag": 1.66,
-        "time": 1786771195980,
-        "lon": -121.183502197266,
-        "lat": 36.5661659240723,
-        "depth": -0.129999995231628,
-        "source": "USGS"
-      },
-      {
-        "place": "2 km ENE of Pacifica, CA",
-        "mag": 1.04,
-        "time": 1786771054830,
-        "lon": -122.46533203125,
-        "lat": 37.6175003051758,
-        "depth": 7.59999990463257,
-        "source": "USGS"
-      },
-      {
-        "place": "1 km NE of Temple City, CA",
-        "mag": 1.39,
-        "time": 1786770452270,
-        "lon": -118.048166666667,
-        "lat": 34.1175,
-        "depth": 11.02,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km SE of The Geysers, CA",
-        "mag": 0.99,
-        "time": 1786770297840,
-        "lon": -122.737335205078,
-        "lat": 38.757999420166,
-        "depth": 1.33000004291534,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km SE of The Geysers, CA",
-        "mag": 1.14,
-        "time": 1786770138380,
-        "lon": -122.736167907715,
-        "lat": 38.7573318481445,
-        "depth": 1.47000002861023,
-        "source": "USGS"
-      },
-      {
-        "place": "7 km WNW of The Geysers, CA",
-        "mag": 1.07,
-        "time": 1786768982110,
-        "lon": -122.820999145508,
-        "lat": 38.8088340759277,
-        "depth": 2.84999990463257,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km SSW of Pāhala, Hawaii",
-        "mag": 1.88,
-        "time": 1786768823440,
-        "lon": -155.503829956055,
-        "lat": 19.1481666564941,
-        "depth": 29.3899993896484,
-        "source": "USGS"
-      },
-      {
-        "place": "285 km WNW of Houma, Tonga",
-        "mag": 4.2,
-        "time": 1786768278890,
-        "lon": -177.9262,
-        "lat": -20.4191,
-        "depth": 544.691,
-        "source": "USGS"
-      },
-      {
-        "place": "64 km NW of Ende, Indonesia",
-        "mag": 4.6,
-        "time": 1786767787762,
-        "lon": 121.2851,
-        "lat": -8.3988,
-        "depth": 10,
-        "source": "USGS"
-      },
-      {
-        "place": "11 km E of Pearsall, Texas",
-        "mag": 1.5,
-        "time": 1786767094367,
-        "lon": -98.975,
-        "lat": 28.906,
-        "depth": 9.0509,
-        "source": "USGS"
-      },
-      {
-        "place": "7 km SSE of Pāhala, Hawaii",
-        "mag": 1.79,
-        "time": 1786767026760,
-        "lon": -155.443496704102,
-        "lat": 19.1396675109863,
-        "depth": 27.1299991607666,
+        "place": "6 km SW of Pāhala, Hawaii",
+        "mag": 2.71,
+        "time": 1786795732450,
+        "lon": -155.52082824707,
+        "lat": 19.162166595459,
+        "depth": 29.6399993896484,
         "source": "USGS"
       },
       {
         "place": "10 km WNW of The Geysers, CA",
-        "mag": 1.33,
-        "time": 1786766702610,
-        "lon": -122.85383605957,
-        "lat": 38.821834564209,
-        "depth": 2.5699999332428,
+        "mag": 0.95,
+        "time": 1786795345640,
+        "lon": -122.857498168945,
+        "lat": 38.8255004882812,
+        "depth": 1.78999996185303,
         "source": "USGS"
       },
       {
-        "place": "6 km NNE of Lake Henshaw, CA",
-        "mag": 1.81,
-        "time": 1786766291520,
-        "lon": -116.740333333333,
-        "lat": 33.2891666666667,
-        "depth": 13.02,
+        "place": "4 km SSW of Volcano, Hawaii",
+        "mag": 2.63,
+        "time": 1786795048280,
+        "lon": -155.247665405273,
+        "lat": 19.4021663665771,
+        "depth": 39.5299987792969,
         "source": "USGS"
       },
       {
-        "place": "15 km S of Fern Forest, Hawaii",
-        "mag": 1.8,
-        "time": 1786766194870,
-        "lon": -155.151336669922,
-        "lat": 19.3286666870117,
-        "depth": 2.36999988555908,
+        "place": "10 km SSW of Idyllwild, CA",
+        "mag": 0.32,
+        "time": 1786794007950,
+        "lon": -116.759833333333,
+        "lat": 33.6605,
+        "depth": 14.32,
         "source": "USGS"
       },
       {
-        "place": "67 km NNW of Ende, Indonesia",
-        "mag": 5,
-        "time": 1786766053099,
-        "lon": 121.3458,
-        "lat": -8.32,
+        "place": "18 km SW of Toms Place, CA",
+        "mag": 1.62,
+        "time": 1786793765330,
+        "lon": -118.837997436523,
+        "lat": 37.4550018310547,
+        "depth": 2.71000003814697,
+        "source": "USGS"
+      },
+      {
+        "place": "63 km ESE of Yilan, Taiwan",
+        "mag": 4.9,
+        "time": 1786793415368,
+        "lon": 122.2931,
+        "lat": 24.4732,
+        "depth": 66.357,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km ESE of Redwood Valley, CA",
+        "mag": 1.54,
+        "time": 1786792424500,
+        "lon": -123.120002746582,
+        "lat": 39.2376670837402,
+        "depth": 3.60999989509583,
+        "source": "USGS"
+      },
+      {
+        "place": "41 km SSW of Angoram, Papua New Guinea",
+        "mag": 5.4,
+        "time": 1786792224937,
+        "lon": 143.9212,
+        "lat": -4.411,
+        "depth": 120.214,
+        "source": "USGS"
+      },
+      {
+        "place": "15 km NNW of Pematangsiantar, Indonesia",
+        "mag": 6.9,
+        "time": 1786791291796,
+        "lon": 99.015,
+        "lat": 3.0856,
+        "depth": 172.526,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km SW of Banning, CA",
+        "mag": 0.22,
+        "time": 1786790901220,
+        "lon": -116.923333333333,
+        "lat": 33.8923333333333,
+        "depth": 14.08,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km SW of Banning, CA",
+        "mag": 0.49,
+        "time": 1786790768720,
+        "lon": -116.925,
+        "lat": 33.8913333333333,
+        "depth": 13.49,
+        "source": "USGS"
+      },
+      {
+        "place": "39 km NNW of Ruteng, Indonesia",
+        "mag": 5.1,
+        "time": 1786789890185,
+        "lon": 120.3675,
+        "lat": -8.264,
         "depth": 10,
         "source": "USGS"
       },
       {
-        "place": "7 km NW of The Geysers, CA",
-        "mag": 0.51,
-        "time": 1786765982310,
-        "lon": -122.818168640137,
-        "lat": 38.8136672973633,
-        "depth": 3.0699999332428,
+        "place": "136 km NNE of Cruz Bay, U.S. Virgin Islands",
+        "mag": 3.54,
+        "time": 1786789017590,
+        "lon": -64.3383,
+        "lat": 19.4871,
+        "depth": 10,
         "source": "USGS"
       },
       {
-        "place": "7 km NNW of Pinnacles, CA",
+        "place": "57 km S of Whites City, New Mexico",
+        "mag": 1.8,
+        "time": 1786788618192,
+        "lon": -104.442,
+        "lat": 31.664,
+        "depth": 4.4334,
+        "source": "USGS"
+      },
+      {
+        "place": "5 km S of Lytle Creek, CA",
+        "mag": 1.2,
+        "time": 1786788062090,
+        "lon": -117.500833333333,
+        "lat": 34.2178333333333,
+        "depth": 10.22,
+        "source": "USGS"
+      },
+      {
+        "place": "122 km NW of Luwuk, Indonesia",
+        "mag": 4.6,
+        "time": 1786787505571,
+        "lon": 122.0236,
+        "lat": -0.1583,
+        "depth": 272.756,
+        "source": "USGS"
+      },
+      {
+        "place": "26 km SSW of Manley Hot Springs, Alaska",
+        "mag": 1.6,
+        "time": 1786787468868,
+        "lon": -150.815,
+        "lat": 64.78,
+        "depth": 19.9,
+        "source": "USGS"
+      },
+      {
+        "place": "20 km ESE of Little Lake, CA",
+        "mag": 0.65,
+        "time": 1786787048720,
+        "lon": -117.6875,
+        "lat": 35.8885,
+        "depth": 10.43,
+        "source": "USGS"
+      },
+      {
+        "place": "55 km WNW of Skwentna, Alaska",
+        "mag": 1.2,
+        "time": 1786787023245,
+        "lon": -152.31,
+        "lat": 62.247,
+        "depth": 15.9,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NNW of The Geysers, CA",
+        "mag": 0.9,
+        "time": 1786786907310,
+        "lon": -122.793998718262,
+        "lat": 38.8235015869141,
+        "depth": 18.4599990844727,
+        "source": "USGS"
+      },
+      {
+        "place": "65 km NNW of Ende, Indonesia",
+        "mag": 4.9,
+        "time": 1786786373800,
+        "lon": 121.4883,
+        "lat": -8.2814,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "12 km NW of The Geysers, CA",
         "mag": 1.26,
-        "time": 1786765943180,
-        "lon": -121.181503295898,
-        "lat": 36.5826683044434,
-        "depth": 4.30999994277954,
+        "time": 1786786115590,
+        "lon": -122.875335693359,
+        "lat": 38.8398323059082,
+        "depth": 2.46000003814697,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km NW of The Geysers, CA",
+        "mag": 0.74,
+        "time": 1786786026070,
+        "lon": -122.822334289551,
+        "lat": 38.8120002746582,
+        "depth": 3.79999995231628,
+        "source": "USGS"
+      },
+      {
+        "place": "10 km WNW of The Geysers, CA",
+        "mag": 1.63,
+        "time": 1786785923190,
+        "lon": -122.854331970215,
+        "lat": 38.8276672363281,
+        "depth": 2.54999995231628,
+        "source": "USGS"
+      },
+      {
+        "place": "15 km NE of Pāhala, Hawaii",
+        "mag": 1.93,
+        "time": 1786785009810,
+        "lon": -155.359497070312,
+        "lat": 19.2898330688477,
+        "depth": 28.0900001525879,
+        "source": "USGS"
+      },
+      {
+        "place": "53 km N of Ruteng, Indonesia",
+        "mag": 4.6,
+        "time": 1786784902294,
+        "lon": 120.4925,
+        "lat": -8.1297,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "19 km N of Pāhala, Hawaii",
+        "mag": 1.94,
+        "time": 1786784817120,
+        "lon": -155.468170166016,
+        "lat": 19.3780002593994,
+        "depth": 6.34999990463257,
         "source": "USGS"
       }
     ],
@@ -389,8 +417,61 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "5 năm Taliban nắm quyền Afghanistan",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260815T014500Z",
+      "source": "vov.vn"
+    },
+    {
+      "id": 2,
+      "name": "National Dialogue , Youth Ownership , And The Path To Stabil",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260815T091500Z",
+      "source": "thereporterethiopia.com"
+    },
+    {
+      "id": 3,
+      "name": "美國 「 政 、 經 」 備忘錄 – 開欄文 - 時事論壇",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260815T060000Z",
+      "source": "city.udn.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "5 năm Taliban nắm quyền Afghanistan",
+      "url": "http://vov.vn/the-gioi/5-nam-taliban-tro-lai-nam-quyen-tai-afghanistan-hoa-binh-khong-co-nu-cuoi-post1324222.vov",
+      "domain": "vov.vn",
+      "language": "Vietnamese",
+      "tone": 0,
+      "seendate": "20260815T014500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "National Dialogue , Youth Ownership , And The Path To Stability : Girma Seifu On Ethiopia Political Future",
+      "url": "https://www.thereporterethiopia.com/52293/",
+      "domain": "thereporterethiopia.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260815T091500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "美國 「 政 、 經 」 備忘錄 – 開欄文 - 時事論壇",
+      "url": "https://city.udn.com/2976/7295372?raid=7297786",
+      "domain": "city.udn.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260815T060000Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
