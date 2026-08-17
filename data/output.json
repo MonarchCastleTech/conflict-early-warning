@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-17T01:56:23.772546+00:00",
+    "generated": "2026-08-17T07:17:43.978751+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -33,276 +33,286 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
+    "gdelt_articles": [
+      {
+        "title": "10 Best Bon Jovi Songs of All Time - Singersroom . com",
+        "url": "https://singersroom.com/w98/best-bon-jovi-songs-of-all-time/",
+        "domain": "singersroom.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T101500Z",
+        "source": "GDELT"
+      }
+    ],
     "earthquakes": [
       {
-        "place": "2 km W of The Geysers, CA",
-        "mag": 0.35,
-        "time": 1786931588060,
-        "lon": -122.778335571289,
-        "lat": 38.7804985046387,
-        "depth": 3.36999988555908,
-        "source": "USGS"
-      },
-      {
-        "place": "40 km NW of Toyah, Texas",
-        "mag": 1.6,
-        "time": 1786931191084,
-        "lon": -104.144,
-        "lat": 31.526,
-        "depth": 4.9202,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km SSE of Redlands, CA",
-        "mag": 0.94,
-        "time": 1786930550180,
-        "lon": -117.173666666667,
-        "lat": 34.0285,
-        "depth": 3.82,
-        "source": "USGS"
-      },
-      {
-        "place": "12 km ESE of Chickaloon, Alaska",
-        "mag": 0.9,
-        "time": 1786930185951,
-        "lon": -148.234,
-        "lat": 61.771,
-        "depth": 16.9,
-        "source": "USGS"
-      },
-      {
-        "place": "9 km S of Volcano, Hawaii",
-        "mag": 1.78,
-        "time": 1786929639530,
-        "lon": -155.236328125,
-        "lat": 19.3546657562256,
-        "depth": 27.7800006866455,
-        "source": "USGS"
-      },
-      {
-        "place": "35 km E of Poso, Indonesia",
-        "mag": 4.5,
-        "time": 1786928489183,
-        "lon": 121.0709,
-        "lat": -1.3664,
-        "depth": 10,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km SSE of Redlands, CA",
+        "place": "12 km W of Little Lake, CA",
         "mag": 0.97,
-        "time": 1786928096650,
-        "lon": -117.1755,
-        "lat": 34.0278333333333,
-        "depth": 4.79,
+        "time": 1786949425060,
+        "lon": -118.044333333333,
+        "lat": 35.9496666666667,
+        "depth": 3.79,
         "source": "USGS"
       },
       {
-        "place": "6 km SE of Amber, Oklahoma",
-        "mag": 1.56,
-        "time": 1786927872228,
-        "lon": -97.83156586,
-        "lat": 35.1145668,
-        "depth": 4.613502979,
+        "place": "10 km NE of Fox River, Alaska",
+        "mag": 2.4,
+        "time": 1786949405323,
+        "lon": -150.841,
+        "lat": 59.932,
+        "depth": 20.8,
         "source": "USGS"
       },
       {
-        "place": "65 km NNW of Ende, Indonesia",
-        "mag": 5.7,
-        "time": 1786927605640,
-        "lon": 121.5148,
-        "lat": -8.2665,
-        "depth": 48.947,
+        "place": "0 km NNW of Manhattan Beach, CA",
+        "mag": 1.47,
+        "time": 1786949224750,
+        "lon": -118.413666666667,
+        "lat": 33.8883333333333,
+        "depth": 13.93,
         "source": "USGS"
       },
       {
-        "place": "2 km N of The Geysers, CA",
-        "mag": 0.75,
-        "time": 1786927031320,
-        "lon": -122.76000213623,
-        "lat": 38.7915000915527,
-        "depth": 2.80999994277954,
+        "place": "5 km WNW of Cobb, CA",
+        "mag": 0.9,
+        "time": 1786948705930,
+        "lon": -122.783668518066,
+        "lat": 38.8346672058105,
+        "depth": 2.66000008583069,
         "source": "USGS"
       },
       {
-        "place": "123 km W of Yakutat, Alaska",
-        "mag": 1.9,
-        "time": 1786926888510,
-        "lon": -141.872,
-        "lat": 59.76,
-        "depth": 22.2,
+        "place": "0 km WSW of Pedley, CA",
+        "mag": 0.7,
+        "time": 1786948045120,
+        "lon": -117.481,
+        "lat": 33.9738333333333,
+        "depth": 2.27,
         "source": "USGS"
       },
       {
-        "place": "12 km N of Pāhala, Hawaii",
-        "mag": 2.26,
-        "time": 1786926740500,
-        "lon": -155.490173339844,
-        "lat": 19.3146667480469,
-        "depth": 2.25999999046326,
-        "source": "USGS"
-      },
-      {
-        "place": "71 km NNE of Labuan Bajo, Indonesia",
-        "mag": 4.5,
-        "time": 1786926456214,
-        "lon": 120.2426,
-        "lat": -7.9505,
-        "depth": 35,
-        "source": "USGS"
-      },
-      {
-        "place": "25 km SW of Snyder, Texas",
-        "mag": 1.3,
-        "time": 1786926447873,
-        "lon": -101.126,
-        "lat": 32.569,
-        "depth": 3.1555,
-        "source": "USGS"
-      },
-      {
-        "place": "52 km NW of Toyah, Texas",
-        "mag": 1.5,
-        "time": 1786926139690,
-        "lon": -104.182,
-        "lat": 31.645,
-        "depth": 3.4313,
-        "source": "USGS"
-      },
-      {
-        "place": "12 km N of Pāhala, Hawaii",
-        "mag": 1.94,
-        "time": 1786926057800,
-        "lon": -155.493666666667,
-        "lat": 19.3145,
-        "depth": 7.14,
-        "source": "USGS"
-      },
-      {
-        "place": "43 km W of Tyonek, Alaska",
-        "mag": 2.2,
-        "time": 1786925902644,
-        "lon": -151.934,
-        "lat": 61.12,
-        "depth": 111.9,
-        "source": "USGS"
-      },
-      {
-        "place": "215 km ENE of Levuka, Fiji",
-        "mag": 5,
-        "time": 1786925287431,
-        "lon": -178.692,
-        "lat": -17.6896,
-        "depth": 564.366,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km S of Pāhala, Hawaii",
-        "mag": 2.29,
-        "time": 1786924663920,
-        "lon": -155.488327026367,
-        "lat": 19.140832901001,
-        "depth": 31.3199996948242,
-        "source": "USGS"
-      },
-      {
-        "place": "11 km WNW of Cobb, CA",
-        "mag": 1.05,
-        "time": 1786923954780,
-        "lon": -122.842834472656,
-        "lat": 38.8643341064453,
-        "depth": -0.779999971389771,
-        "source": "USGS"
-      },
-      {
-        "place": "11 km WNW of Cobb, CA",
-        "mag": 0.42,
-        "time": 1786923908300,
-        "lon": -122.846832275391,
-        "lat": 38.8499984741211,
-        "depth": 1.29999995231628,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km NW of The Geysers, CA",
-        "mag": 0.84,
-        "time": 1786923811170,
+        "place": "8 km WNW of Cobb, CA",
+        "mag": 0.69,
+        "time": 1786947949800,
         "lon": -122.811500549316,
-        "lat": 38.8166656494141,
-        "depth": 2.97000002861023,
+        "lat": 38.8366661071777,
+        "depth": 1.78999996185303,
         "source": "USGS"
       },
       {
-        "place": "24 km N of Pāhala, Hawaii",
-        "mag": 1.82,
-        "time": 1786923165370,
-        "lon": -155.498840332031,
-        "lat": 19.4211673736572,
-        "depth": 4.38000011444092,
+        "place": "8 km WNW of Cobb, CA",
+        "mag": 1.46,
+        "time": 1786947828670,
+        "lon": -122.810668945312,
+        "lat": 38.8359985351562,
+        "depth": 2.02999997138977,
         "source": "USGS"
       },
       {
-        "place": "63 km SSW of Whites City, New Mexico",
-        "mag": 1.5,
-        "time": 1786923056167,
-        "lon": -104.516,
-        "lat": 31.611,
-        "depth": 3.1321,
+        "place": "7 km NW of The Geysers, CA",
+        "mag": 0.49,
+        "time": 1786947754420,
+        "lon": -122.81233215332,
+        "lat": 38.8228340148926,
+        "depth": 2.79999995231628,
         "source": "USGS"
       },
       {
-        "place": "8 km NW of The Geysers, CA",
-        "mag": 1.3,
-        "time": 1786922219660,
-        "lon": -122.815170288086,
-        "lat": 38.8303337097168,
-        "depth": 2.19000005722046,
+        "place": "1 km ESE of The Geysers, CA",
+        "mag": 0.71,
+        "time": 1786947062470,
+        "lon": -122.750503540039,
+        "lat": 38.7750015258789,
+        "depth": 1.79999995231628,
         "source": "USGS"
       },
       {
-        "place": "11 km S of Volcano, Hawaii",
-        "mag": 1.74,
-        "time": 1786921838470,
-        "lon": -155.228332519531,
-        "lat": 19.3409996032715,
-        "depth": 29.2099990844727,
-        "source": "USGS"
-      },
-      {
-        "place": "26 km NNW of Pāhala, Hawaii",
-        "mag": 1.85,
-        "time": 1786920456230,
-        "lon": -155.578002929688,
-        "lat": 19.4273338317871,
-        "depth": 38.2299995422363,
-        "source": "USGS"
-      },
-      {
-        "place": "8 km E of Fox, Alaska",
-        "mag": 1.2,
-        "time": 1786920085400,
-        "lon": -147.434,
-        "lat": 64.97,
-        "depth": 5,
-        "source": "USGS"
-      },
-      {
-        "place": "17 km W of Searles Valley, CA",
-        "mag": 1.06,
-        "time": 1786919711210,
-        "lon": -117.596833333333,
-        "lat": 35.7773333333333,
-        "depth": 9.92,
+        "place": "8 km NE of Coso Junction, CA",
+        "mag": 0.81,
+        "time": 1786946853140,
+        "lon": -117.8895,
+        "lat": 36.104,
+        "depth": 2.72,
         "source": "USGS"
       },
       {
         "place": "10 km ENE of Coso Junction, CA",
-        "mag": 0.65,
-        "time": 1786919505200,
-        "lon": -117.841833333333,
-        "lat": 36.066,
-        "depth": 2.68,
+        "mag": 0.41,
+        "time": 1786946485680,
+        "lon": -117.838166666667,
+        "lat": 36.0653333333333,
+        "depth": 2.18,
+        "source": "USGS"
+      },
+      {
+        "place": "58 km E of Denali National Park, Alaska",
+        "mag": 1.8,
+        "time": 1786946436312,
+        "lon": -150.555,
+        "lat": 63.597,
+        "depth": 1,
+        "source": "USGS"
+      },
+      {
+        "place": "11 km SSW of Idyllwild, CA",
+        "mag": 0.38,
+        "time": 1786945917870,
+        "lon": -116.778666666667,
+        "lat": 33.6575,
+        "depth": 12.78,
+        "source": "USGS"
+      },
+      {
+        "place": "25 km SE of Lindsay, Texas",
+        "mag": 1.9,
+        "time": 1786945748043,
+        "lon": -103.369,
+        "lat": 31.191,
+        "depth": 5.1876,
+        "source": "USGS"
+      },
+      {
+        "place": "10 km ENE of Coso Junction, CA",
+        "mag": 1.63,
+        "time": 1786944408670,
+        "lon": -117.840666666667,
+        "lat": 36.0648333333333,
+        "depth": 2.58,
+        "source": "USGS"
+      },
+      {
+        "place": "9 km S of Volcano, Hawaii",
+        "mag": 1.89,
+        "time": 1786944213550,
+        "lon": -155.245498657227,
+        "lat": 19.3543338775635,
+        "depth": 29,
+        "source": "USGS"
+      },
+      {
+        "place": "32 km E of Halibut Cove, Alaska",
+        "mag": 3.8,
+        "time": 1786943269191,
+        "lon": -150.655,
+        "lat": 59.604,
+        "depth": 34.9,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km E of Cloverdale, CA",
+        "mag": 1.14,
+        "time": 1786941868710,
+        "lon": -122.936332702637,
+        "lat": 38.7963333129883,
+        "depth": 5.19000005722046,
+        "source": "USGS"
+      },
+      {
+        "place": "5 km WNW of The Geysers, CA",
+        "mag": 0.77,
+        "time": 1786941513700,
+        "lon": -122.81266784668,
+        "lat": 38.7993316650391,
+        "depth": 3.75,
+        "source": "USGS"
+      },
+      {
+        "place": "18 km WSW of Falls City, Texas",
+        "mag": 1.6,
+        "time": 1786941177986,
+        "lon": -98.191,
+        "lat": 28.914,
+        "depth": 5.9743,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NNE of Lake Henshaw, CA",
+        "mag": 2.01,
+        "time": 1786940058400,
+        "lon": -116.733666666667,
+        "lat": 33.2878333333333,
+        "depth": 14.71,
+        "source": "USGS"
+      },
+      {
+        "place": "24 km SSW of La Quinta, CA",
+        "mag": 0.38,
+        "time": 1786939377680,
+        "lon": -116.429166666667,
+        "lat": 33.4743333333333,
+        "depth": 11.88,
+        "source": "USGS"
+      },
+      {
+        "place": "70 km NNW of Ende, Indonesia",
+        "mag": 5.2,
+        "time": 1786938484873,
+        "lon": 121.327,
+        "lat": -8.2999,
+        "depth": 16.335,
+        "source": "USGS"
+      },
+      {
+        "place": "10 km SE of Lake Pillsbury, CA",
+        "mag": 1.72,
+        "time": 1786938453880,
+        "lon": -122.873336791992,
+        "lat": 39.3520011901855,
+        "depth": 6.90000009536743,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NNW of Pinnacles, CA",
+        "mag": 1.28,
+        "time": 1786937991490,
+        "lon": -121.172996520996,
+        "lat": 36.5791664123535,
+        "depth": 4.8600001335144,
+        "source": "USGS"
+      },
+      {
+        "place": "68 km NNW of Ende, Indonesia",
+        "mag": 5.3,
+        "time": 1786937799370,
+        "lon": 121.407,
+        "lat": -8.278,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "90 km NE of Ruteng, Indonesia",
+        "mag": 4.9,
+        "time": 1786937633507,
+        "lon": 121.0947,
+        "lat": -8.0913,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "11 km WNW of Cobb, CA",
+        "mag": 0.71,
+        "time": 1786937089720,
+        "lon": -122.846336364746,
+        "lat": 38.8479995727539,
+        "depth": 1.55999994277954,
+        "source": "USGS"
+      },
+      {
+        "place": "62 km SE of Denali National Park, Alaska",
+        "mag": 2.9,
+        "time": 1786935658270,
+        "lon": -150.737,
+        "lat": 63.2,
+        "depth": 134.1,
+        "source": "USGS"
+      },
+      {
+        "place": "43 km NNW of Ende, Indonesia",
+        "mag": 4.2,
+        "time": 1786935508488,
+        "lon": 121.5676,
+        "lat": -8.4617,
+        "depth": 10,
         "source": "USGS"
       }
     ],
@@ -389,8 +399,27 @@
       }
     ]
   },
-  "entities": [],
-  "events": [],
+  "entities": [
+    {
+      "id": 1,
+      "name": "10 Best Bon Jovi Songs of All Time - Singersroom . com",
+      "score": 5.0,
+      "category": "news",
+      "last_seen": "20260816T101500Z",
+      "source": "singersroom.com"
+    }
+  ],
+  "events": [
+    {
+      "title": "10 Best Bon Jovi Songs of All Time - Singersroom . com",
+      "url": "https://singersroom.com/w98/best-bon-jovi-songs-of-all-time/",
+      "domain": "singersroom.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260816T101500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
