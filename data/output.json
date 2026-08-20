@@ -1,10 +1,11 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-20T13:12:23.054806+00:00",
+    "generated": "2026-08-20T19:00:04.361331+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
+      "conflict_news",
       "earthquakes",
       "exchange_rates"
     ],
@@ -33,7 +34,350 @@
     }
   ],
   "live_data": {
-    "gdelt_articles": [
+    "gdelt_articles": [],
+    "conflict_news": [
+      {
+        "title": "भर्ती परीक्षाओं में  घपले  रोकें , वरना विरोध - प्रदर्शन और तेज होंगे : रामदेव ने मोदी सरकार से कहा - stop irregularities in recruitment exams or else protests will intensify ram",
+        "url": "https://www.punjabkesari.in/national/news/stop--irregularities--in-recruitment-exams-or-else-protests-will-intensify-ram-2369203",
+        "domain": "punjabkesari.in",
+        "language": "Hindi",
+        "tone": 0,
+        "seendate": "20260815T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Putinden Tokyoyu ayaða kaldýran hamle : Kuril Adalarý ziyareti sonrasý ülke alarma geçti",
+        "url": "https://www.aksam.com.tr/dunya/putinden-tokyoyu-ayaga-kaldiran-hamle-kuril-adalari-ziyareti-sonrasi-ulke-alarma-gecti/haber-1690673",
+        "domain": "aksam.com.tr",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T171500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Manipur : UNC calls 24 - hour shutdown after attack kills two Naga people in Kangpokpi district",
+        "url": "https://economictimes.indiatimes.com/news/india/manipur-unc-calls-24-hour-shutdown-after-attack-kills-two-naga-people-in-kangpokpi-district/articleshow/133264804.cms",
+        "domain": "economictimes.indiatimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T154500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Prapaskena | Prapaskena",
+        "url": "https://prapaskena.com/2026/08/20/thellohen-perplasjet-brenda-protestes-nga-dhuna-te-akuzat-per-perdorim-te-lendeve-narkotike/",
+        "domain": "prapaskena.com",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260820T081500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Obeležena mesta nasilja policije 2025 , i dalje bez optužnica - BBC News na srpskom",
+        "url": "https://www.danas.rs/bbc-news-serbian/valjevo-ne-zaboravlja-obelezena-mesta-nasilja-policije-2025-i-dalje-bez-optuznica/",
+        "domain": "danas.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T213000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "המשטרה מאפשרת לפעיל ימין במדים לבצע פעולות שיטור בהפגנות נגד הממשלה",
+        "url": "https://www.haaretz.co.il/news/law/2026-08-18/ty-article/000001a0-1507-d129-a3ba-572f94940000",
+        "domain": "haaretz.co.il",
+        "language": "Hebrew",
+        "tone": 0,
+        "seendate": "20260818T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Alman aktiviste İstanbul Geri Gönderme Merkezinde tecavüz iddiası",
+        "url": "https://www.medyafaresi.com/haber/alman-aktiviste-istanbul-geri-gonderme-merkezinde-tecavuz-iddiasi/1045977",
+        "domain": "medyafaresi.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Rechazan que el acusado de atacar a un policía frente al Congreso evite el juicio a cambio de tareas comunitarias",
+        "url": "https://www.lanacion.com.ar/politica/rechazan-que-el-acusado-de-atacar-a-un-policia-frente-al-congreso-evite-el-juicio-a-cambio-de-tareas-nid18082026/",
+        "domain": "lanacion.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T034500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Obeležena mesta nasilja policije 2025 , i dalje bez optužnica - Povezane vesti",
+        "url": "https://naslovi.net/tema/2553842",
+        "domain": "naslovi.net",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Protest podsećanja na nasilje policije 2025 , i dalje bez optužnica - BBC News na srpskom",
+        "url": "https://www.danas.rs/bbc-news-serbian/valjevo-ne-zaboravlja-protest-podsecanja-na-nasilje-policije-2025-i-dalje-bez-optuznica/",
+        "domain": "danas.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T183000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Obeležena mesta nasilja policije 2025 , i dalje bez optužnica",
+        "url": "https://naslovi.net/2026-08-14/bbc-news/valjevo-ne-zaboravlja-obelezena-mesta-nasilja-policije-2025-i-dalje-bez-optuznica/42221289",
+        "domain": "naslovi.net",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cuarto día de paro por alza de combustibles : continúan los bloqueos y la crisis amenaza con extenderse",
+        "url": "https://larepublica.pe/sociedad/2026/08/13/cuarto-dia-de-paro-por-alza-de-combustibles-continuan-los-bloqueos-y-la-crisis-amenaza-con-extenderse-a-mas-regiones-641498",
+        "domain": "larepublica.pe",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260813T233000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cinco anos de poder talibã no Afeganistão marcados por graves violaes dos direitos humanos",
+        "url": "https://sapo.pt/artigo/cinco-anos-de-poder-taliba-no-afeganistao-marcados-por-graves-violacoes-dos-direitos-humanos-6a800b627feb5726f86ef885",
+        "domain": "sapo.pt",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260815T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Zvaničnik talibana ubijen u eskalaciji nasilja na sjeveru Afganistana",
+        "url": "https://www.slobodnaevropa.org/a/talibani-afganistan-nasilje/33830366.html",
+        "domain": "slobodnaevropa.org",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T130000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "提升公民行动力 湾区举办非暴力抵抗培训",
+        "url": "https://www.epochtimes.com/gb/26/8/10/n14827107.htm",
+        "domain": "epochtimes.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260814T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  U shit te Tom Doshi / Sherr brenda  Revolucionit Flamingo , përplasen organizatorët , akuza për administrimin e mbi 1 – 24 ore",
+        "url": "https://24-ore.com/u-shit-te-tom-doshi-sherr-brenda-revolucionit-flamingo-perplasen-organizatoret-akuza-per-administrimin-e-mbi-1/",
+        "domain": "24-ore.com",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260817T101500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Protest podsećanja na nasilje policije 2025 , i dalje bez optužnica",
+        "url": "https://naslovi.net/2026-08-14/bbc-news/valjevo-ne-zaboravlja-protest-podsecanja-na-nasilje-policije-2025-i-dalje-bez-optuznica/42221289",
+        "domain": "naslovi.net",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Напад на українців у Познані - поліція затримала жінку",
+        "url": "https://www.rbc.ua/rus/news/polshchi-zatrimali-zhinku-ka-napala-ukrayintsiv-1786724939.html",
+        "domain": "rbc.ua",
+        "language": "Ukrainian",
+        "tone": 0,
+        "seendate": "20260814T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "DEM Partiden saç örme kampanyasına katılan hemşire İkra Avcı  nın meslekten atılmasına tepki",
+        "url": "https://www.medyafaresi.com/haber/dem-partiden-sac-orme-kampanyasina-katilan-hemsire-ikra-avcinin-meslekten-atilmasina-tepki/1046171",
+        "domain": "medyafaresi.com",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260820T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "When will she be safe ? The continuum of violence in refugee and migrant women lives",
+        "url": "https://mg.co.za/thought-leader/2026-08-18-when-will-she-be-safe-the-continuum-of-violence-in-refugee-and-migrant-women-s-lives/",
+        "domain": "mg.co.za",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "國民黨花蓮大造勢 民進黨參選人 「 躲廁所 」 一聽傅崐萁奪門而出鬧場 | 縣市長議員選戰 | 要聞",
+        "url": "https://udn.com/news/story/7328/9693596",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260815T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "國民黨花蓮大造勢 民進黨參選人 「 躲廁所 」 一聽傅崐萁奪門而出鬧場",
+        "url": "https://udn.com/vote2026/story/124652/9693596",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260815T093000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "國民黨花蓮大造勢 民進黨參選人 「 躲廁所 」 一聽傅崐萁奪門而出鬧場 | 縣市長議員選戰 | 要聞",
+        "url": "https://udn.com/news/story/124652/9693596",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260815T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Буддийские монахи конфликтуют с Хабадом на Шри - Ланке",
+        "url": "https://www.9tv.co.il/item/262058",
+        "domain": "9tv.co.il",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260817T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Alman aktivist Paula Maier : Geri gönderme sürecinde cinsel saldırıya maruz kaldım",
+        "url": "https://www.evrensel.net/haber/5996345/alman-aktivist-paula-maier-geri-gonderme-surecinde-cinsel-saldiriya-maruz-kaldim",
+        "domain": "evrensel.net",
+        "language": "Turkish",
+        "tone": 0,
+        "seendate": "20260814T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Bihar tiger attack : Farmer killed near Valmiki reserve , mob assaults forest staff",
+        "url": "https://www.hindustantimes.com/india-news/bihar-tiger-attack-farmer-killed-near-valmiki-reserve-mob-assaults-forest-staff-101786942262628.html",
+        "domain": "hindustantimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "طرابلس تشهد احتجاجاً مسلحاً للمرتزقة السوريين .. وإطلاق نار للمطالبة بالمستحقات",
+        "url": "https://www.libyaakhbar.com/libya-news/2856300.html",
+        "domain": "libyaakhbar.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Napätie v španielskej exkláve : Stovky migrantov žiadajú azyl namiesto vyhostenia",
+        "url": "https://www.topky.sk/cl/11/9470965/Napatie-v-spanielskej-exklave--Stovky-migrantov-ziadaju-azyl-namiesto-vyhostenia",
+        "domain": "topky.sk",
+        "language": "Slovak",
+        "tone": 0,
+        "seendate": "20260816T190000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Stovky migrantov v Ceute usporiadali protest , žiadali o azyl",
+        "url": "https://www.cas.sk/spravy/situacia-v-ceute-je-katastrofalna-tisice-migrantov-siria-sa-infekcie-ludia-sa-zacali-burit",
+        "domain": "cas.sk",
+        "language": "Slovak",
+        "tone": 0,
+        "seendate": "20260816T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Anti - Israel Protest Turns Violent Outside Colombo Chabad House",
+        "url": "https://www.lankanewspapers.com/2026/08/17/anti-israel-protest-turns-violent-outside-colombo-chabad-house",
+        "domain": "lankanewspapers.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T071500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  बच्चों से झूठ मत बोलिए , जंतर - मंतर प्रोटेस्ट में लाठीचार्ज पर राहुल गांधी का सरकार पर तंज - rahul gandhi taunts over kiren rijiju on lathicharge delhi student protest at jantar mantar protest do not lie to children",
+        "url": "https://www.jagran.com/news/national-rahul-gandhi-taunts-over-kiren-rijiju-on-lathicharge-delhi-student-protest-at-jantar-mantar-protest-do-not-lie-to-children-40344654.html",
+        "domain": "jagran.com",
+        "language": "Hindi",
+        "tone": 0,
+        "seendate": "20260818T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Relatório aponta sequestro de indígenas e cães enterrados vivos em MS",
+        "url": "https://correiodoestado.com.br/cidades/relatorio-aponta-sequestro-de-indigenas-e-caes-enterrados-vivos-em-ms/471353/",
+        "domain": "correiodoestado.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260818T230000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Avenida Ernesto Geisel começa a receber novo asfalto em Campo Grande",
+        "url": "https://correiodoestado.com.br/cidades/ernesto-geisel-comeca-a-receber-novo-asfalto-em-campo-grande/471365/",
+        "domain": "correiodoestado.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260819T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Tensión y denuncias en la Clínica Mar del Plata por falta de atención : PAMI aclaró que tiene los pagos al día",
+        "url": "https://www.minutouno.com/sociedad/tension-y-denuncias-la-clinica-mar-del-plata-falta-atencion-pami-aclaro-que-tiene-los-pagos-al-dia-n6310837",
+        "domain": "minutouno.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "जेन - जी के कई - कई बॉयफ्रेंड और गर्लफ्रेंड , बाबा रामदेव ने क्यों दी आंदोलन की चेतावनी ? ",
+        "url": "https://www.livehindustan.com/national/genz-has-multiple-boyfriends-and-girlfriends-why-did-baba-ramdev-warn-of-a-protest-201786794636329.html",
+        "domain": "livehindustan.com",
+        "language": "Hindi",
+        "tone": 0,
+        "seendate": "20260815T124500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Stovky migrantov v Ceute usporiadali protest , žiadali o azyl",
+        "url": "https://www.teraz.sk/zahranicie/stovky-migrantov-v-ceute-usporiadali-pro/985401-clanok.html",
+        "domain": "teraz.sk",
+        "language": "Slovak",
+        "tone": 0,
+        "seendate": "20260816T193000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Convocan marcha por la paz en Sinaloa a 2 años de violencia",
+        "url": "https://www.eldiariodechihuahua.mx/nacional/2026/aug/13/convocan-marcha-por-la-paz-en-sinaloa-a-2-anos-de-violencia-827511.html",
+        "domain": "eldiariodechihuahua.mx",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T024500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El Deportivo denuncia insultos y presiones a sus jugadores",
+        "url": "https://www.estadiodeportivo.com/futbol/deportivo/deportivo-denuncia-insultos-presiones-sus-jugadores-20260819-544749.html",
+        "domain": "estadiodeportivo.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T091500Z",
+        "source": "GDELT"
+      },
       {
         "title": "South African President Apologizes for Violence Against Migrants",
         "url": "https://www.breitbart.com/africa/2026/08/19/south-african-president-apologizes-for-violence-against-migrants/",
@@ -42,277 +386,826 @@
         "tone": 0,
         "seendate": "20260819T230000Z",
         "source": "GDELT"
+      },
+      {
+        "title": "  Francia resolvió un conflicto similar al de Ceuta y Melilla con Marruecos mediante un referéndum donde más del 80 % votó a favor de mantenerse bajo administración francesa , fue en la isla de Mayotte  ",
+        "url": "https://www.cope.es/programas/la-linterna/el-foco/audios/francia-resolvio-conflicto-similar-ceuta-melilla-marruecos-mediante-referendum-80-voto-favor-mantenerse-administracion-francesa-isla-mayotte-20260817_3421035.html",
+        "domain": "cope.es",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260817T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "全国首例 ！ 陕西  反暴力强拆致死案  一审宣判 ： 房主属正当防卫 ， 判处无罪 ， 驳回死者家属全部民事索赔诉求|法院",
+        "url": "https://www.163.com/dy/article/L4N6JJS70514D3UH.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T093000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "日本大使被叫去挨骂 ， 25分钟脸色铁青",
+        "url": "https://finance.sina.com.cn/roll/2026-08-19/doc-ininuzmc9562883.shtml",
+        "domain": "finance.sina.com.cn",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "日本大使被叫去挨骂 ， 25分钟脸色铁青",
+        "url": "https://www.163.com/dy/article/L4M867BQ052182V3.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "日本大使被叫去挨骂 ， 25 分钟脸色铁青",
+        "url": "https://www.163.com/news/article/L4MAN49P0001899O.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "日本大使被叫去挨骂 ， 25分钟脸色铁青",
+        "url": "https://news.ifeng.com/c/8vi2UmbQZ5Z",
+        "domain": "news.ifeng.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Grupo de extrema izquierda llama a rebelión en los liceos para dinamitar otro  estallido social  en Chile",
+        "url": "https://panampost.com/gabriela-moreno/2026/08/17/grupo-de-extrema-izquierda-llama-a-rebelion-en-los-liceos-para-dinamitar-otro-estallido-social-en-chile/",
+        "domain": "panampost.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260817T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "نائب رئيس حزب المؤتمر : اعتصام رابعة كشف الوجه الحقيقي للإخوان .. والدولة واجهت الإرهاب بالبناء",
+        "url": "https://www.elwatannews.com/news/details/8339399",
+        "domain": "elwatannews.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T163000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "In Good Faith :  Counter steering  is letting Jesus take the wheel - Post Bulletin | Rochester Minnesota news , weather , sports",
+        "url": "https://www.postbulletin.com/lifestyle/in-good-faith-counter-steering-is-letting-jesus-take-the-wheel",
+        "domain": "postbulletin.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260818T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Armiqësi e rreme , pazar i vërtetë , gazetari Poli Hoxha zbulon lojën e fëlliqur Rama - Berisha , ja si po lëvizin gurët .. - Sot News",
+        "url": "https://sot.com.al/aktualitet/armiqesi-e-rreme-pazar-i-vertete-gazetari-poli-hoxha-zbulon-lojen-e-felliqur-rama-berisha-ja-si-po-levizin-guret/",
+        "domain": "sot.com.al",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260817T084500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "重庆  时代峻峰  群众冲突事件 , 目前我们知道什么 ？ ",
+        "url": "https://www.wenxuecity.com/news/2026/08/20/126747876.html",
+        "domain": "wenxuecity.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T104500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Centre can resolve any Manipur issue , in 2 - 3 months if its determined : Cong",
+        "url": "https://www.business-standard.com/politics/centre-can-resolve-any-manipur-issue-in-2-3-months-if-its-determined-cong-126082000555_1.html",
+        "domain": "business-standard.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T101500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "美国制裁赤根智子 ， 高市早苗回应 ： 遗憾",
+        "url": "https://www.163.com/news/article/L4PFFHOO0001899O.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T064500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pichao na Embaixada dos EUA : Advogado do MST é detido pela PM",
+        "url": "https://g1.globo.com/df/distrito-federal/noticia/2026/08/13/pichacao-na-embaixada-dos-eua-detido-por-participar-do-ato-e-advogado-e-ligado-ao-mst-diz-pm.ghtml",
+        "domain": "g1.globo.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260813T201500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Crimen : una mujer trans murió tras recibir una puñalada en el pecho ; investigan a una joven y a su padre - Jessica Nez , de 44 años , murió luego de ser atacada con un arma blanca durante una pelea en Villa Nueva . Por el crimen fueron detenidos un...",
+        "url": "https://www.elliberal.com.ar/nota/88545/2026/08/crimen--una-mujer-trans-murio-tras-recibir-una-punalada-en-el-pecho-investigan-a-una-joven-y-a-su-padre",
+        "domain": "elliberal.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Assam , Arunachal MPs call for peace after violence breaks out along border",
+        "url": "https://www.tribuneindia.com/news/india/assam-arunachal-mps-call-for-peace-after-violence-breaks-out-along-border/",
+        "domain": "tribuneindia.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260813T214500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "重庆  时代峻峰  群众冲突事件 目前我们知道什么 ？ ",
+        "url": "https://www.dw.com/zh/%E9%87%8D%E5%BA%86%E6%97%B6%E4%BB%A3%E5%B3%BB%E5%B3%B0%E7%BE%A4%E4%BC%97%E5%86%B2%E7%AA%81%E4%BA%8B%E4%BB%B6-%E7%9B%AE%E5%89%8D%E6%88%91%E4%BB%AC%E7%9F%A5%E9%81%93%E4%BB%80%E4%B9%88/a-78439886",
+        "domain": "dw.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Obeležena mesta nasilja policije 2025 , i dalje bez optužnica :: BBC :: RTCG - Radio Televizija Crne Gore",
+        "url": "https://rtcg.me/vijesti/bbc/873300/valjevo-ne-zaboravlja-obelezena-mesta-nasilja-policije-2025-i-dalje-bez-optuznica.html",
+        "domain": "rtcg.me",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " [ 주장 ] 활동지원사의 안전 , 중계기관이 책임 있게 보장해야",
+        "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003259262&CMPT_CD=M0153",
+        "domain": "ohmynews.com",
+        "language": "Korean",
+        "tone": 0,
+        "seendate": "20260815T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Данас : Годину дана од полицијске бруталности у Ваљеву - појачава се кампања режимских медија . Владимир Јанковић , бивши потпуковник полиције из Ваљева : Власт правда насиље полиције заменом теза",
+        "url": "http://www.nspm.rs/hronika/danas-godinu-dana-od-policijske-brutalnosti-u-valjevu-pojacava-se-kampanja-rezimskih-medija.-vladimir-jankovic-bivsi-potpukovnik-policije-iz-valjeva-vlast-pravda-nasilje-policije-zamenom-teza.html",
+        "domain": "nspm.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260813T204500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La crisis golpea a Cuba y dispara las protestas : hubo más de 700 manifestaciones en seis meses y 410 detenciones arbitrarias",
+        "url": "https://www.infobae.com/america/america-latina/2026/08/19/la-crisis-golpea-a-cuba-y-dispara-las-protestas-hubo-mas-de-700-manifestaciones-en-seis-meses-y-410-detenciones-arbitrarias/",
+        "domain": "infobae.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T230000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kако до успеха на северу Косова | Wikileaks на НСПМ",
+        "url": "https://www.nspm.rs/wikileaks-na-nspm/kako-do-uspeha-na-severu-kosova.html",
+        "domain": "nspm.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260817T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "In Spain Ceuta , hundreds of migrants stage protest and demand asylum",
+        "url": "https://www.freemalaysiatoday.com/category/highlight/2026/08/17/in-spain-s-ceuta-hundreds-of-migrants-stage-protest-and-demand-asylum",
+        "domain": "freemalaysiatoday.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T223000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "María Elvira Salazar y Ashley Moody , dos de las candidatas de Trump que prevalecieron en las primarias de Florida",
+        "url": "https://eldiariony.com/2026/08/19/maria-elvira-salazar-y-ashley-moody-dos-de-las-candidatas-de-trump-que-prevalecieron-en-las-primarias-de-florida/",
+        "domain": "eldiariony.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260819T144500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "中国首例 ！ 房主反击入户强拆者致1死3伤 被判无罪",
+        "url": "https://www.wenxuecity.com/news/2026/08/20/126748105.html",
+        "domain": "wenxuecity.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260820T160000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  Valjevo ne zaboravlja : Protest podsećanja na nasilje policije 2025 , i dalje bez optužnica :: BBC :: RTCG - Radio Televizija Crne Gore",
+        "url": "https://rtcg.me/vijesti/bbc/873300/valjevo-ne-zaboravlja-protest-podsecanja-na-nasilje-policije-2025-i-dalje-bez-optuznica.html",
+        "domain": "rtcg.me",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260814T151500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La crisis golpea a Cuba y dispara las protestas : hubo más de 700 manifestaciones en seis meses y 410 detenciones arbitrarias",
+        "url": "https://eju.tv/2026/08/la-crisis-golpea-a-cuba-y-dispara-las-protestas-hubo-mas-de-700-manifestaciones-en-seis-meses-y-410-detenciones-arbitrarias/",
+        "domain": "eju.tv",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260820T041500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "El peronismo porteño pidió distinguir a Pablo Grillo por su aporte a la  comunicación popular  ",
+        "url": "https://www.parlamentario.com/2026/08/14/el-peronismo-porteno-pidio-distinguir-a-pablo-grillo-por-su-aporte-a-la-comunicacion-popular/",
+        "domain": "parlamentario.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T141500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cameroon journalist held incommunicado for publishing photo",
+        "url": "https://www.premiumtimesng.com/foreign/903184-cameroon-journalist-held-incommunicado-for-publishing-photo.html",
+        "domain": "premiumtimesng.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260815T200000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Local GAA figures involved with protest against Allianz at Croke Park",
+        "url": "https://www.oceanfm.ie/news/local-gaa-figures-involved-with-protest-against-allianz-at-croke-park-1403322",
+        "domain": "oceanfm.ie",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260820T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "In Spain Ceuta , hundreds of migrants stage protest and demand asylum",
+        "url": "https://www.yahoo.com/news/articles/spains-ceuta-hundreds-migrants-stage-164250662.html",
+        "domain": "yahoo.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T174500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "这两字改变 ， 意味深长|日本 _ 网易新闻",
+        "url": "https://www.163.com/news/article/L4OP8Q7P0001899O.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260819T234500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Shteti i Bektashinjve – akt tradhtie e lartë ku - Syri",
+        "url": "https://www.syri.net/politike/910942/shteti-i-bektashinjve-ndash-akt-tradhtie-e-larte-kunder-republikes-se-shqiperise/",
+        "domain": "syri.net",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260819T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  아이들 새벽 2시까지 공부시킨 아내 , 알고 보니 그 시간에 불륜  ",
+        "url": "https://www.edaily.co.kr/News/Read?newsId=03526006645548960&mediaCodeNo=257",
+        "domain": "edaily.co.kr",
+        "language": "Korean",
+        "tone": 0,
+        "seendate": "20260819T040000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "In Spain Ceuta , hundreds of migrants stage protest and demand asylum",
+        "url": "https://www.internazionale.it/ultime-notizie-reuters/2026/08/16/in-spain-s-ceuta-hundreds-of-migrants-stage-protest-and-demand-asylum",
+        "domain": "internazionale.it",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nga paralajmërimi :  Demokracia nuk pret  te zgjimi qytetar dhe alarmi : demokracia në rrezik ! ",
+        "url": "https://www.botasot.info/opinione/2518723/nga-paralajmerimi-demokracia-nuk-pret-te-zgjimi-qytetar-dhe-alarmi-demokracia-ne-rrezik/",
+        "domain": "botasot.info",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260819T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "وزير الدولة البريطاني لشؤون الشرق الأوسط ستيفن داوتي .. الرجل ذو الألف وجه .. انتقادات باهتة لعنف المستوطنين .. ودعم مطلق لسياسات إسرائيل العنصرية ضد الوجود الفلسطيني",
+        "url": "https://www.vetogate.com/5713635",
+        "domain": "vetogate.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260816T113000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  दिमागी नक्सली  शब्द पर हंगामा क्यों - why the uproar over the term mental naxalite",
+        "url": "https://www.punjabkesari.in/blogs/news/why-the-uproar-over-the-term--mental-naxalite-2369502",
+        "domain": "punjabkesari.in",
+        "language": "Hindi",
+        "tone": 0,
+        "seendate": "20260817T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  노래방 도우미와  불륜  빠진 아내가 밀회 위해 아이들을 밤 12시까지 학원에 보냈습니다  ",
+        "url": "https://www.insight.co.kr/news/569042",
+        "domain": "insight.co.kr",
+        "language": "Korean",
+        "tone": 0,
+        "seendate": "20260819T080000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Court backs Benoni homeless ; No bail for Peet Viljoen : Today top 7 stories",
+        "url": "https://www.news24.com/southafrica/news/court-backs-benoni-homeless-no-bail-for-peet-viljoen-todays-top-7-stories-20260817-1061",
+        "domain": "news24.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Riazor descubre que el silencio también juega",
+        "url": "https://www.mundiario.com/articulo/deportes/riazor-descubre-que-silencio-tambien-juega/20260817235915435906.html",
+        "domain": "mundiario.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260818T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Hundreds of migrants in Spain Ceuta enclave protest for asylum , against deportation to Morocco",
+        "url": "https://www.cbc.ca/news/world/protest-migrant-spain-ceuta-morocco-9.7309187",
+        "domain": "cbc.ca",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sida qoraal baraha bulshada lagu faafiyay uu u kiciyay mowjado khaldan oo ka dhan ah muhaajiriinta Liibiya",
+        "url": "https://www.bbc.com/somali/articles/cwyqk091z0jo",
+        "domain": "bbc.com",
+        "language": "Somali",
+        "tone": 0,
+        "seendate": "20260814T153000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Sadc summit in Durban on alert ahead of anti - immigrant march",
+        "url": "https://www.businessday.co.za/news/2026-08-16-sadc-summit-in-durban-on-alert-ahead-of-anti-immigrant-march/",
+        "domain": "businessday.co.za",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260816T180000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Алексей Беляев : Чем грозит возрождение пиратства ? ",
+        "url": "https://www.sb.by/articles/morskoy-razboy-bez-pravil.html",
+        "domain": "sb.by",
+        "language": "Russian",
+        "tone": 0,
+        "seendate": "20260820T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Shteti i Bektashinjve – akt tradhtie e lartë kundër Republikës së Shqipërisë ! ",
+        "url": "https://www.botasot.info/opinione/2518819/shteti-i-bektashinjve-ndash-akt-tradhtie-e-larte-kunder-republikes-se-shqiperise/",
+        "domain": "botasot.info",
+        "language": "Albanian",
+        "tone": 0,
+        "seendate": "20260819T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Kosovo : Succes in the north key to a successful",
+        "url": "https://www.nspm.rs/wikileaks-na-nspm/kosovo-succes-in-the-north-key-to-a-successful.html",
+        "domain": "nspm.rs",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260817T231500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "La nueva  caza de brujas : cómo EE . UU . exporta la doctrina del terrorismo de extrema izquierda",
+        "url": "http://www.eldestapeweb.com/internacionales/nueva-caza-brujas-ee-uu-exporta-doctrina-terrorismo-extrema-izquierda-202681422719",
+        "domain": "eldestapeweb.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T020000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "ونستون تشرشل وفكرة فك الرسن ( ٢ - ٢ ) ",
+        "url": "https://sudanile.com/%D9%88%D9%86%D8%B3%D8%AA%D9%88%D9%86-%D8%AA%D8%B4%D8%B1%D8%B4%D9%84-%D9%88%D9%81%D9%83%D8%B1%D8%A9-%D9%81%D9%83-%D8%A7%D9%84%D8%B1%D8%B3%D9%86-%D9%A2-%D9%A2/",
+        "domain": "sudanile.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260819T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "为何无法共享一段历史 ： 波兰 乌克兰安全共识的破裂",
+        "url": "https://baijiahao.baidu.com/s?id=1873837364534840168",
+        "domain": "baijiahao.baidu.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260818T134500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "رابعة .. يوم تحوّل فض الاعتصام إلى واحدة من أكثر وقائع القتل الجماعي إثارة للجدل في تارخ مصر الحديث",
+        "url": "https://www.fj-p.com/432817/%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%8A%D9%88%D9%85-%D8%AA%D8%AD%D9%88%D9%91%D9%84-%D9%81%D8%B6-%D8%A7%D9%84%D8%A7%D8%B9%D8%AA%D8%B5%D8%A7%D9%85-%D8%A5%D9%84%D9%89-%D9%88%D8%A7%D8%AD%D8%AF%D8%A9/",
+        "domain": "fj-p.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T060000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  رابعة  مذبحة لم تنته .. 13 سنة من ترسيخ القبضة الأمنية وتجفيف المجال العام",
+        "url": "https://www.fj-p.com/432832/%D8%B1%D8%A7%D8%A8%D8%B9%D8%A9-%D9%85%D8%B0%D8%A8%D8%AD%D8%A9-%D9%84%D9%85-%D8%AA%D9%86%D8%AA%D9%87-13-%D8%B3%D9%86%D8%A9-%D9%85%D9%86-%D8%AA%D8%B1%D8%B3%D9%8A%D8%AE-%D8%A7%D9%84%D9%82%D8%A8/",
+        "domain": "fj-p.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260814T203000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Fédéralisme camerounais : lenterrement de 1972 et ses fantômes",
+        "url": "https://www.camer.be/94363/35:32/federalisme-camerounais-lenterrement-de-1972-et-ses-fantomes.html",
+        "domain": "camer.be",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260814T120000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Paros por alza de combustibles y homicidios al alza : las complejas dos primeras semanas de gobierno de Keiko Fujimori",
+        "url": "https://www.latercera.com/mundo/noticia/paros-por-alza-de-combustibles-y-homicidios-al-alza-las-complejas-dos-primeras-semanas-de-gobierno-de-keiko-fujimori/",
+        "domain": "latercera.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260814T181500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "معضلة الشرق الأوسط : تقاطعات فساد السلطة والنص والإنسان في ظل الرأسمالية المراوغة – كتابات",
+        "url": "https://kitabat.com/%D9%85%D8%B9%D8%B6%D9%84%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7-%D8%AA%D9%82%D8%A7%D8%B7%D8%B9%D8%A7%D8%AA-%D9%81%D8%B3%D8%A7%D8%AF-%D8%A7%D9%84%D8%B3%D9%84%D8%B7/",
+        "domain": "kitabat.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260817T224500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "人在莫斯科 ， 死刑  从天降  |俄罗斯|叙利亚|过渡政府",
+        "url": "https://www.163.com/dy/article/L4F4VQ050514BE2Q.html",
+        "domain": "163.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260816T061500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Po skambių pažadų – kraujo balos : štai ką kalba Trumpu patikėję Irano žmonės",
+        "url": "https://www.15min.lt/naujiena/aktualu/pasaulis/po-skambiu-pazadu-kraujo-balos-stai-ka-kalba-trumpu-patikeje-irano-zmones-57-2744872",
+        "domain": "15min.lt",
+        "language": "Lithuanian",
+        "tone": 0,
+        "seendate": "20260817T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "مصر بين مأزق  التأسيس  وتحديات الاستدامة .. من رابعة إلى  فرعون مصر الجديد  ",
+        "url": "https://www.fj-p.com/432901/%D9%85%D8%B5%D8%B1-%D8%A8%D9%8A%D9%86-%D9%85%D8%A3%D8%B2%D9%82-%D8%A7%D9%84%D8%AA%D8%A3%D8%B3%D9%8A%D8%B3-%D9%88%D8%AA%D8%AD%D8%AF%D9%8A%D8%A7%D8%AA-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%AF%D8%A7/",
+        "domain": "fj-p.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260815T200000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Cameroun : Fédéralisme camerounais - Lenterrement de 1972 et ses fantômes",
+        "url": "https://fr.allafrica.com/stories/202608140307.html",
+        "domain": "fr.allafrica.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260814T130000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Una mujer trans murió tras recibir una puñalada en el pecho",
+        "url": "https://www.catamarcactual.com.ar/policiales/2026/8/14/una-mujer-trans-murio-tras-recibir-una-punalada-en-el-pecho-313940.html",
+        "domain": "catamarcactual.com.ar",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260815T010000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Gigantes del gas y los pobres rebeldes : La ilusión económica de Irán en 2026 y la ceguera occidental",
+        "url": "https://www.periodistadigital.com/masalladelasnoticias/20260817/gigantes-del-gas-y-los-pobres-rebeldes-la-ilusion-economica-de-iran-en-2026-y-la-ceguera-occidental-689405237365/",
+        "domain": "periodistadigital.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260817T063000Z",
+        "source": "GDELT"
       }
     ],
     "earthquakes": [
       {
-        "place": "7 km WNW of Cobb, CA",
-        "mag": 1,
-        "time": 1787230094290,
-        "lon": -122.797164916992,
-        "lat": 38.837833404541,
-        "depth": 2.16000008583069,
+        "place": "16 km E of Coso Junction, CA",
+        "mag": 1.3,
+        "time": 1787251417400,
+        "lon": -117.776,
+        "lat": 36.0356666666667,
+        "depth": 1.9,
         "source": "USGS"
       },
       {
-        "place": "15 km N of Warner Springs, CA",
-        "mag": 0.84,
-        "time": 1787229818970,
-        "lon": -116.642666666667,
-        "lat": 33.413,
-        "depth": 6.35,
+        "place": "47 km E of Pedro Bay, Alaska",
+        "mag": 2.2,
+        "time": 1787250957410,
+        "lon": -153.266,
+        "lat": 59.864,
+        "depth": 139.8,
         "source": "USGS"
       },
       {
-        "place": "3 km ESE of The Geysers, CA",
-        "mag": 0.65,
-        "time": 1787229709820,
-        "lon": -122.729499816895,
-        "lat": 38.7686653137207,
-        "depth": 0.00999999977648258,
+        "place": "183 km SE of Kokopo, Papua New Guinea",
+        "mag": 5.1,
+        "time": 1787250319502,
+        "lon": 153.5631,
+        "lat": -5.3709,
+        "depth": 35,
         "source": "USGS"
       },
       {
-        "place": "62 km N of Chickaloon, Alaska",
-        "mag": 1.6,
-        "time": 1787229597580,
-        "lon": -148.392,
-        "lat": 62.358,
-        "depth": 6.5,
+        "place": "5 km NNE of Kenwood, CA",
+        "mag": 1.31,
+        "time": 1787250294580,
+        "lon": -122.52433013916,
+        "lat": 38.4528350830078,
+        "depth": 1.25,
         "source": "USGS"
       },
       {
-        "place": "8 km WNW of Cobb, CA",
-        "mag": 0.83,
-        "time": 1787229467080,
-        "lon": -122.811500549316,
-        "lat": 38.8383331298828,
-        "depth": 1.78999996185303,
-        "source": "USGS"
-      },
-      {
-        "place": "217 km E of Levuka, Fiji",
-        "mag": 4.8,
-        "time": 1787228856440,
-        "lon": -178.6517,
-        "lat": -17.7971,
-        "depth": 564.28,
-        "source": "USGS"
-      },
-      {
-        "place": "15 km S of Anza, CA",
-        "mag": 1.36487324245522,
-        "time": 1787228851660,
-        "lon": -116.647003173828,
-        "lat": 33.4199981689453,
-        "depth": 4.3899998664856,
-        "source": "USGS"
-      },
-      {
-        "place": "85 km NNW of Karluk, Alaska",
-        "mag": 0.4,
-        "time": 1787228356578,
-        "lon": -154.964,
-        "lat": 58.285,
-        "depth": 5,
-        "source": "USGS"
-      },
-      {
-        "place": "3 km WSW of Cobb, CA",
-        "mag": 1.05,
-        "time": 1787227665210,
-        "lon": -122.751663208008,
-        "lat": 38.8089981079102,
-        "depth": 0.660000026226044,
-        "source": "USGS"
-      },
-      {
-        "place": "15 km NW of Glacier View, Alaska",
-        "mag": 1.7,
-        "time": 1787227579408,
-        "lon": -147.83,
-        "lat": 61.917,
-        "depth": 34.7,
-        "source": "USGS"
-      },
-      {
-        "place": "5 km NW of The Geysers, CA",
-        "mag": 1.18,
-        "time": 1787226823980,
-        "lon": -122.78800201416,
-        "lat": 38.8128318786621,
-        "depth": 2.82999992370605,
-        "source": "USGS"
-      },
-      {
-        "place": "16 km NW of Pinnacles, CA",
-        "mag": 1.83,
-        "time": 1787226681770,
-        "lon": -121.277000427246,
-        "lat": 36.6248321533203,
-        "depth": 4,
-        "source": "USGS"
-      },
-      {
-        "place": "51 km N of Chickaloon, Alaska",
-        "mag": 1.7,
-        "time": 1787226196348,
-        "lon": -148.415,
-        "lat": 62.26,
-        "depth": 22.8,
-        "source": "USGS"
-      },
-      {
-        "place": "9 km N of Anza, CA",
-        "mag": 0.39,
-        "time": 1787225914910,
-        "lon": -116.690333333333,
-        "lat": 33.6341666666667,
-        "depth": 14.33,
-        "source": "USGS"
-      },
-      {
-        "place": "2 km WNW of Wrightwood, CA",
-        "mag": 1.43,
-        "time": 1787225849350,
-        "lon": -117.655333333333,
-        "lat": 34.3681666666667,
-        "depth": 7.75,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km SSE of Mentone, CA",
-        "mag": 0.62,
-        "time": 1787225050200,
-        "lon": -117.116,
-        "lat": 34.0201666666667,
-        "depth": 17.31,
-        "source": "USGS"
-      },
-      {
-        "place": "22 km ESE of Elmendorf Air Force Base, Alaska",
-        "mag": 3,
-        "time": 1787224992566,
-        "lon": -149.246,
-        "lat": 61.169,
-        "depth": 15.1,
-        "source": "USGS"
-      },
-      {
-        "place": "23 km N of Ridgecrest, CA",
-        "mag": 1.2,
-        "time": 1787224980610,
-        "lon": -117.673833333333,
-        "lat": 35.8285,
-        "depth": 7.37,
-        "source": "USGS"
-      },
-      {
-        "place": "63 km W of Happy Valley, Alaska",
-        "mag": 2.9,
-        "time": 1787224926036,
-        "lon": -152.858,
-        "lat": 60.029,
-        "depth": 121.5,
-        "source": "USGS"
-      },
-      {
-        "place": "9 km S of Idyllwild, CA",
-        "mag": 0.44,
-        "time": 1787224385070,
-        "lon": -116.718833333333,
-        "lat": 33.657,
-        "depth": 15.35,
-        "source": "USGS"
-      },
-      {
-        "place": "6 km NW of The Geysers, CA",
-        "mag": 1.34,
-        "time": 1787223755090,
-        "lon": -122.80916595459,
-        "lat": 38.8148345947266,
-        "depth": 2.24000000953674,
-        "source": "USGS"
-      },
-      {
-        "place": "8 km NW of Morongo Valley, CA",
-        "mag": 0.52,
-        "time": 1787223674770,
-        "lon": -116.643666666667,
-        "lat": 34.1021666666667,
-        "depth": 2.02,
-        "source": "USGS"
-      },
-      {
-        "place": "60 km SE of Denali National Park, Alaska",
+        "place": "44 km WNW of Toyah, Texas",
         "mag": 1.4,
-        "time": 1787223534951,
-        "lon": -150.78,
-        "lat": 63.198,
-        "depth": 131.5,
+        "time": 1787250167322,
+        "lon": -104.207,
+        "lat": 31.498,
+        "depth": 0,
         "source": "USGS"
       },
       {
-        "place": "84 km NW of Karluk, Alaska",
-        "mag": 0.4,
-        "time": 1787222862126,
-        "lon": -155.335,
-        "lat": 58.161,
-        "depth": 5,
+        "place": "67 km NNW of Ende, Indonesia",
+        "mag": 5.6,
+        "time": 1787249571721,
+        "lon": 121.3981,
+        "lat": -8.2877,
+        "depth": 10,
         "source": "USGS"
       },
       {
-        "place": "51 km SSE of Denali National Park, Alaska",
-        "mag": 1.7,
-        "time": 1787222499611,
-        "lon": -151.472,
-        "lat": 63.092,
-        "depth": 5,
+        "place": "65 km W of Happy Valley, Alaska",
+        "mag": 1.6,
+        "time": 1787249514553,
+        "lon": -152.89,
+        "lat": 60.048,
+        "depth": 118.3,
         "source": "USGS"
       },
       {
-        "place": "79 km ESE of Denali Park, Alaska",
-        "mag": 1.5,
-        "time": 1787222356683,
-        "lon": -147.362,
-        "lat": 63.539,
-        "depth": 0.3,
+        "place": "4 km SSW of Pāhala, Hawaii",
+        "mag": 2.04,
+        "time": 1787249260320,
+        "lon": -155.499328613281,
+        "lat": 19.1713333129883,
+        "depth": 29,
         "source": "USGS"
       },
       {
-        "place": "40 km W of Tatitlek, Alaska",
-        "mag": 2.5,
-        "time": 1787221850880,
-        "lon": -147.417,
-        "lat": 60.93,
-        "depth": 0.2,
+        "place": "21 km ENE of Pine Valley, CA",
+        "mag": 0.66,
+        "time": 1787249020590,
+        "lon": -116.338666666667,
+        "lat": 32.9196666666667,
+        "depth": 8.95,
         "source": "USGS"
       },
       {
-        "place": "16 km N of Warner Springs, CA",
-        "mag": 0.3,
-        "time": 1787220284570,
-        "lon": -116.618833333333,
-        "lat": 33.4218333333333,
-        "depth": 7.7,
+        "place": "31 km NW of Aniso, Peru",
+        "mag": 6.7,
+        "time": 1787248818626,
+        "lon": -73.5236,
+        "lat": -14.6414,
+        "depth": 99,
+        "source": "USGS"
+      },
+      {
+        "place": "31 km SE of Chickaloon, Alaska",
+        "mag": 3.5,
+        "time": 1787248707739,
+        "lon": -148.103,
+        "lat": 61.566,
+        "depth": 12.4,
         "source": "USGS"
       },
       {
         "place": "1 km NNE of The Geysers, CA",
-        "mag": 0.76,
-        "time": 1787220075560,
-        "lon": -122.749336242676,
-        "lat": 38.7888336181641,
-        "depth": 4.05999994277954,
+        "mag": 0.86,
+        "time": 1787248694450,
+        "lon": -122.749000549316,
+        "lat": 38.7876663208008,
+        "depth": 0.779999971389771,
         "source": "USGS"
       },
       {
-        "place": "95 km W of Akhiok, Alaska",
-        "mag": 2,
-        "time": 1787220060286,
-        "lon": -155.731,
-        "lat": 56.827,
-        "depth": 73.8,
+        "place": "11 km WNW of Cobb, CA",
+        "mag": 0.31,
+        "time": 1787247806400,
+        "lon": -122.849334716797,
+        "lat": 38.8499984741211,
+        "depth": 1.70000004768372,
+        "source": "USGS"
+      },
+      {
+        "place": "8 km NE of Coso Junction, CA",
+        "mag": 0.75,
+        "time": 1787245780500,
+        "lon": -117.884,
+        "lat": 36.0888333333333,
+        "depth": 2.66,
+        "source": "USGS"
+      },
+      {
+        "place": "52 km SE of Naalehu, Hawaii",
+        "mag": 1.7,
+        "time": 1787244460630,
+        "lon": -155.172332763672,
+        "lat": 18.7946662902832,
+        "depth": 7.94999980926514,
+        "source": "USGS"
+      },
+      {
+        "place": "26 km NNW of Pāhala, Hawaii",
+        "mag": 1.81,
+        "time": 1787244128230,
+        "lon": -155.590835571289,
+        "lat": 19.4211673736572,
+        "depth": 44.5699996948242,
+        "source": "USGS"
+      },
+      {
+        "place": "6 km NE of Rancho Cucamonga, CA",
+        "mag": 0.48,
+        "time": 1787243658980,
+        "lon": -117.5395,
+        "lat": 34.163,
+        "depth": 9.26,
+        "source": "USGS"
+      },
+      {
+        "place": "50 km SSW of Covenant Life, Alaska",
+        "mag": 3.1,
+        "time": 1787242481207,
+        "lon": -136.351,
+        "lat": 58.998,
+        "depth": 1.8,
+        "source": "USGS"
+      },
+      {
+        "place": "58 km S of Whites City, New Mexico",
+        "mag": 1.6,
+        "time": 1787239825239,
+        "lon": -104.366,
+        "lat": 31.651,
+        "depth": 6.0999,
+        "source": "USGS"
+      },
+      {
+        "place": "38 km NW of Stanton, Texas",
+        "mag": 1.1,
+        "time": 1787238903614,
+        "lon": -102.097,
+        "lat": 32.353,
+        "depth": 8.252,
+        "source": "USGS"
+      },
+      {
+        "place": "38 km NNE of Chenega, Alaska",
+        "mag": 1.5,
+        "time": 1787238867342,
+        "lon": -147.795,
+        "lat": 60.396,
+        "depth": 25.4,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km WSW of Chelan, Washington",
+        "mag": 1.82483994960785,
+        "time": 1787238646460,
+        "lon": -120.114166259766,
+        "lat": 47.8208351135254,
+        "depth": -0.589999973773956,
+        "source": "USGS"
+      },
+      {
+        "place": "13 km NNW of Gustavus, Alaska",
+        "mag": 2.5,
+        "time": 1787238164796,
+        "lon": -135.787,
+        "lat": 58.532,
+        "depth": 2.6,
+        "source": "USGS"
+      },
+      {
+        "place": "7 km SW of Sand Point, Alaska",
+        "mag": 3.7,
+        "time": 1787237199024,
+        "lon": -160.5879,
+        "lat": 55.2887,
+        "depth": 10,
+        "source": "USGS"
+      },
+      {
+        "place": "11 km ENE of Cloverdale, CA",
+        "mag": 0.79,
+        "time": 1787236737640,
+        "lon": -122.898170471191,
+        "lat": 38.8264999389648,
+        "depth": 4.15999984741211,
+        "source": "USGS"
+      },
+      {
+        "place": "10 km ENE of Coso Junction, CA",
+        "mag": 0.7,
+        "time": 1787236502980,
+        "lon": -117.839166666667,
+        "lat": 36.0631666666667,
+        "depth": 3.75,
+        "source": "USGS"
+      },
+      {
+        "place": "2 km NE of The Geysers, CA",
+        "mag": 0.73,
+        "time": 1787236296280,
+        "lon": -122.744331359863,
+        "lat": 38.7876663208008,
+        "depth": 1.89999997615814,
+        "source": "USGS"
+      },
+      {
+        "place": "85 km SSW of Singaparna, Indonesia",
+        "mag": 4.5,
+        "time": 1787236293917,
+        "lon": 107.8108,
+        "lat": -8.0612,
+        "depth": 60.864,
+        "source": "USGS"
+      },
+      {
+        "place": "10 km W of Packwood, Washington",
+        "mag": 0.360000014,
+        "time": 1787234662310,
+        "lon": -121.807830810547,
+        "lat": 46.6144981384277,
+        "depth": 1.37000000476837,
+        "source": "USGS"
+      },
+      {
+        "place": "170 km NE of Lorengau, Papua New Guinea",
+        "mag": 4.9,
+        "time": 1787234100053,
+        "lon": 148.5355,
+        "lat": -1.1659,
+        "depth": 10,
         "source": "USGS"
       }
     ],
@@ -399,27 +1292,8 @@
       }
     ]
   },
-  "entities": [
-    {
-      "id": 1,
-      "name": "South African President Apologizes for Violence Against Migr",
-      "score": 5.0,
-      "category": "news",
-      "last_seen": "20260819T230000Z",
-      "source": "breitbart.com"
-    }
-  ],
-  "events": [
-    {
-      "title": "South African President Apologizes for Violence Against Migrants",
-      "url": "https://www.breitbart.com/africa/2026/08/19/south-african-president-apologizes-for-violence-against-migrants/",
-      "domain": "breitbart.com",
-      "language": "English",
-      "tone": 0,
-      "seendate": "20260819T230000Z",
-      "source": "GDELT"
-    }
-  ],
+  "entities": [],
+  "events": [],
   "timeseries": [],
   "llm_summary": "Pending API key..."
 }
