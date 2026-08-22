@@ -1,309 +1,488 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-22T15:02:50.584086+00:00",
+    "generated": "2026-08-22T16:35:37.728318+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
-      "earthquakes",
       "exchange_rates"
     ],
-    "version": "1.0.0"
+    "source_notes": [],
+    "version": "1.1.0"
   },
   "stats": [
     {
-      "label": "Countries Monitored",
-      "value": "195",
+      "label": "Articles Tracked",
+      "value": "50",
       "delta": "live"
     },
     {
-      "label": "High Risk",
-      "value": "23",
-      "delta": "live"
+      "label": "News Domains",
+      "value": "43",
+      "delta": "deduplicated"
     },
     {
-      "label": "Events (7d)",
-      "value": "1,847",
-      "delta": "live"
+      "label": "Tone Index",
+      "value": "50/100 (neutral)",
+      "delta": "GDELT scale"
     },
     {
-      "label": "Predictions",
-      "value": "147",
-      "delta": "live"
+      "label": "Geo Points",
+      "value": "0",
+      "delta": "geolocated"
     }
   ],
   "live_data": {
-    "gdelt_articles": [],
-    "earthquakes": [
+    "gdelt_articles": [
       {
-        "place": "14 km SSW of Volcano, Hawaii",
-        "mag": 1.91,
-        "time": 1787410493400,
-        "lon": -155.264007568359,
-        "lat": 19.3150005340576,
-        "depth": 3.01999998092651,
-        "source": "USGS"
+        "title": "Operativo en Pakistán : Fuerzas de seguridad eliminan a 49 milicianos en recientes redadas",
+        "url": "https://www.cadena3.com/noticia/mundo/operativo-en-pakistan-fuerzas-de-seguridad-eliminan-a-49-milicianos-en-recientes-redadas_585869",
+        "domain": "cadena3.com",
+        "language": "Spanish",
+        "tone": 0,
+        "seendate": "20260821T164500Z",
+        "source": "GDELT"
       },
       {
-        "place": "15 km SSW of Volcano, Hawaii",
-        "mag": 1.83,
-        "time": 1787410363690,
-        "lon": -155.26350402832,
-        "lat": 19.3098335266113,
-        "depth": 4.34000015258789,
-        "source": "USGS"
+        "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
+        "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
+        "domain": "sbs.com.au",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
       },
       {
-        "place": "20 km WSW of Petrolia, CA",
-        "mag": 1.73,
-        "time": 1787409611140,
-        "lon": -124.515830993652,
-        "lat": 40.2748336791992,
-        "depth": 20.4200000762939,
-        "source": "USGS"
+        "title": "Bangkok Post - Dozens more civilians killed , kidnapped in Nigeria",
+        "url": "https://www.bangkokpost.com/world/3306178/dozens-more-civilians-killed-kidnapped-in-nigeria",
+        "domain": "bangkokpost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
       },
       {
-        "place": "14 km S of Volcano, Hawaii",
-        "mag": 1.73,
-        "time": 1787409556610,
-        "lon": -155.256164550781,
-        "lat": 19.3108329772949,
-        "depth": 2.99000000953674,
-        "source": "USGS"
+        "title": "Balochistan Constitutional Peace : From Conflict to Settlem",
+        "url": "https://www.pakistantoday.com.pk/2026/08/22/from-conflict-to-constitutional-peace",
+        "domain": "pakistantoday.com.pk",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T203000Z",
+        "source": "GDELT"
       },
       {
-        "place": "35 km NNW of Sutton-Alpine, Alaska",
-        "mag": 2,
-        "time": 1787409069405,
-        "lon": -148.972,
-        "lat": 62.081,
-        "depth": 12.6,
-        "source": "USGS"
+        "title": "Angola acolhe 21 . ª Cimeira Extraordinária da União Africana",
+        "url": "https://www.angonoticias.com/Artigos/item/82556/angola-acolhe-21-cimeira-extraordinaria-da-uniao-africana",
+        "domain": "angonoticias.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260822T134500Z",
+        "source": "GDELT"
       },
       {
-        "place": "44 km NW of Toyah, Texas",
-        "mag": 1.7,
-        "time": 1787408896519,
-        "lon": -104.104,
-        "lat": 31.61,
-        "depth": 5.3876,
-        "source": "USGS"
+        "title": " Ils ont massacré certains des nôtres  : au Nigeria , des dizaines de civils tués et enlevés par des djihadistes",
+        "url": "https://www.leparisien.fr/international/ils-ont-massacre-certains-des-notres-au-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-djihadistes-22-08-2026-OVTIZHL3RJFC7J6VDCWFV4E3LY.php",
+        "domain": "leparisien.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T141500Z",
+        "source": "GDELT"
       },
       {
-        "place": "8 km E of Ashford, Washington",
-        "mag": 1.70308011770248,
-        "time": 1787407954880,
-        "lon": -121.924003601074,
-        "lat": 46.7630004882812,
-        "depth": -0.910000026226044,
-        "source": "USGS"
+        "title": "Au Nigeria , des dizaines de civils tués et enlevés par des djihadistes dans le centre du pays",
+        "url": "https://www.letemps.ch/monde/afrique/au-nigeria-des-djihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants",
+        "domain": "letemps.ch",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
       },
       {
-        "place": "21 km NW of Parkfield, CA",
-        "mag": 0.64,
-        "time": 1787407659550,
-        "lon": -120.601333618164,
-        "lat": 36.0315017700195,
-        "depth": 1.49000000953674,
-        "source": "USGS"
+        "title": "Civis encurralados entre a guerra e o ebola - 21 / 08 / 2026 - Opinião",
+        "url": "https://www1.folha.uol.com.br/opiniao/2026/08/civis-encurralados-entre-a-guerra-e-o-ebola.shtml",
+        "domain": "folha.uol.com.br",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260822T020000Z",
+        "source": "GDELT"
       },
       {
-        "place": "17 km ESE of Naalehu, Hawaii",
-        "mag": 1.77,
-        "time": 1787406191530,
-        "lon": -155.420837402344,
-        "lat": 19.0211658477783,
-        "depth": 29.8400001525879,
-        "source": "USGS"
+        "title": "مليشيا الحوثي تعتقل أحد قيادييها الأمنيين بتهمة  الخيانة  ",
+        "url": "https://www.khabaragency.net/news251855.html",
+        "domain": "khabaragency.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T194500Z",
+        "source": "GDELT"
       },
       {
-        "place": "9 km SSW of Willow, Alaska",
-        "mag": 1.7,
-        "time": 1787405834535,
-        "lon": -150.073,
-        "lat": 61.666,
-        "depth": 0.2,
-        "source": "USGS"
+        "title": "مصرع مشرف حوثي في ذمار يكشف صراع الجبايات داخل المليشيا .. خلاف مالي ينتهي باشتباك ومصرع ثلاثة",
+        "url": "https://www.almontasaf.net/news147345.html",
+        "domain": "almontasaf.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
       },
       {
-        "place": "8 km W of Cobb, CA",
-        "mag": 1.04,
-        "time": 1787405134720,
-        "lon": -122.816497802734,
-        "lat": 38.836498260498,
-        "depth": 1.78999996185303,
-        "source": "USGS"
+        "title": "Des dizaines de personnes tuées et enlevées par des djihadistes dans le centre du Nigeria",
+        "url": "https://www.dakaractu.com/Des-dizaines-de-personnes-tuees-et-enlevees-par-des-djihadistes-dans-le-centre-du-Nigeria_a275252.html",
+        "domain": "dakaractu.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T151500Z",
+        "source": "GDELT"
       },
       {
-        "place": "9 km SSE of San Juan Bautista, CA",
-        "mag": 1.7,
-        "time": 1787403652640,
-        "lon": -121.493667602539,
-        "lat": 36.7741661071777,
-        "depth": 4.46000003814697,
-        "source": "USGS"
+        "title": "Milica Vučković otkrila da je izgubila bebu : Sine moj , neka te anđeli čuvaju",
+        "url": "https://www.blic.rs/sudbine/milica-vuckovic-otkrila-da-je-izgubila-bebu-sine-moj-neka-te-andjeli-cuvaju/cm3nmjt",
+        "domain": "blic.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260821T213000Z",
+        "source": "GDELT"
       },
       {
-        "place": "63 km SE of Denali National Park, Alaska",
-        "mag": 2,
-        "time": 1787403051455,
-        "lon": -150.683,
-        "lat": 63.219,
-        "depth": 128.3,
-        "source": "USGS"
+        "title": "Aceh peace anniversary turmoil : The gap between generations - Academia",
+        "url": "http://www.thejakartapost.com/opinion/2026/08/22/acehs-peace-anniversary-turmoil-the-gap-between-generations",
+        "domain": "thejakartapost.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T060000Z",
+        "source": "GDELT"
       },
       {
-        "place": "4 km S of Willow, Alaska",
-        "mag": 1.8,
-        "time": 1787402535512,
-        "lon": -150.046,
-        "lat": 61.705,
-        "depth": 26.7,
-        "source": "USGS"
+        "title": "أسعار النفط تتجاوز 94 دولار والأسواق تتجه للتأقلم مع اضطرابات حركة الملاحة",
+        "url": "https://www.elwatannews.com/news/details/8344061",
+        "domain": "elwatannews.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T113000Z",
+        "source": "GDELT"
       },
       {
-        "place": "14 km N of Warner Springs, CA",
-        "mag": 1.33,
-        "time": 1787402508040,
-        "lon": -116.653,
-        "lat": 33.4083333333333,
-        "depth": 4.47,
-        "source": "USGS"
+        "title": "العراق ..  حوار السلاح  يدخل الحسم ومواجهات ضد الميليشيات الرافضة",
+        "url": "https://www.eremnews.com/news/arab-world/on42anr",
+        "domain": "eremnews.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
       },
       {
-        "place": "8 km NW of The Geysers, CA",
-        "mag": 0.74,
-        "time": 1787401880570,
-        "lon": -122.814666748047,
-        "lat": 38.8311653137207,
-        "depth": 1.70000004768372,
-        "source": "USGS"
+        "title": "Ndume To Military : Rescue 78 School Children Abducted By Bandits in Two Borno Communities – THISDAYLIVE",
+        "url": "https://www.thisdaylive.com/2026/08/22/ndume-to-military-rescue-78-school-children-abducted-by-bandits-in-two-borno-communities/",
+        "domain": "thisdaylive.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
       },
       {
-        "place": "24 km N of Yucca Valley, CA",
-        "mag": 0.94,
-        "time": 1787401267190,
-        "lon": -116.467333333333,
-        "lat": 34.3325,
-        "depth": 5.14,
-        "source": "USGS"
+        "title": "Nigeria : des jihadistes ont tué et enlevé des dizaines de personnes dans le centre du pays , selon des survivants",
+        "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-jihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants_n_502156.html",
+        "domain": "seneweb.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T123000Z",
+        "source": "GDELT"
       },
       {
-        "place": "4 km WNW of The Geysers, CA",
-        "mag": 1.34,
-        "time": 1787400221390,
-        "lon": -122.800498962402,
-        "lat": 38.7944984436035,
-        "depth": 3.09999990463257,
-        "source": "USGS"
+        "title": "La milizia che scricchiola",
+        "url": "https://www.tio.ch/rubriche/ospite/1945423/milizia-paolo-ortelli-societa-condizioni",
+        "domain": "tio.ch",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
       },
       {
-        "place": "60 km S of Whites City, New Mexico",
-        "mag": 1,
-        "time": 1787399997733,
-        "lon": -104.435,
-        "lat": 31.633,
-        "depth": 3.0737,
-        "source": "USGS"
+        "title": "Nel grande caos del medio oriente , sono tornati i pirati somali – due navi sono state dirottate",
+        "url": "https://www.dagospia.com/cronache/nel-grande-caos-medio-oriente-tornati-i-pirati-somali-navi-state-484396",
+        "domain": "dagospia.com",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260822T121500Z",
+        "source": "GDELT"
       },
       {
-        "place": "15 km S of Volcano, Hawaii",
-        "mag": 2.1,
-        "time": 1787399551500,
-        "lon": -155.256164550781,
-        "lat": 19.3083324432373,
-        "depth": 3.24000000953674,
-        "source": "USGS"
+        "title": "Houthi Militia Arrests Senior Security Official Amid Internal Power Struggles",
+        "url": "https://www.khabaragency.net/news251874.html",
+        "domain": "khabaragency.net",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T053000Z",
+        "source": "GDELT"
       },
       {
-        "place": "0 km WNW of Pāhala, Hawaii",
-        "mag": 2.05,
-        "time": 1787398631020,
-        "lon": -155.483001708984,
-        "lat": 19.2056674957275,
-        "depth": 33.7000007629395,
-        "source": "USGS"
+        "title": "Verhalten erklärt : Warum Ihr Hund nicht zur Ruhe kommt",
+        "url": "https://www.bild.de/leben-wissen/haustiere/verhalten-erklaert-warum-ihr-hund-nicht-zur-ruhe-kommt-6a86ae03cbb4a8f2ce8fecd4",
+        "domain": "bild.de",
+        "language": "German",
+        "tone": 0,
+        "seendate": "20260822T134500Z",
+        "source": "GDELT"
       },
       {
-        "place": "5 km NW of The Geysers, CA",
-        "mag": 0.77,
-        "time": 1787397962190,
-        "lon": -122.790832519531,
-        "lat": 38.8091659545898,
-        "depth": 3.47000002861023,
-        "source": "USGS"
+        "title": "美智庫質疑部署國民兵未降低犯罪 川普揚言提告 | 美國新聞 | 全球",
+        "url": "https://udn.com/news/story/6813/9707874",
+        "domain": "udn.com",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T101500Z",
+        "source": "GDELT"
       },
       {
-        "place": "7 km SSW of Canton, North Carolina",
-        "mag": 1.96,
-        "time": 1787397843910,
-        "lon": -82.8691666666667,
-        "lat": 35.4708333333333,
-        "depth": 6.2,
-        "source": "USGS"
+        "title": "美智庫質疑部署國民兵未降低犯罪 川普揚言提告 | 國際",
+        "url": "https://www.cna.com.tw/news/aopl/202608220149.aspx",
+        "domain": "cna.com.tw",
+        "language": "Chinese",
+        "tone": 0,
+        "seendate": "20260822T100000Z",
+        "source": "GDELT"
       },
       {
-        "place": "9 km NW of Imperial, CA",
-        "mag": 1.14,
-        "time": 1787397142530,
-        "lon": -115.629666666667,
-        "lat": 32.9096666666667,
-        "depth": 5.47,
-        "source": "USGS"
+        "title": "Flávio diz no Rio de Janeiro que pretende retomar territórios dominados pelo crime",
+        "url": "https://noticias.r7.com/prisma/blog-do-nolasco/flavio-diz-no-rio-de-janeiro-que-pretende-retomar-territorios-dominados-pelo-crime-21082026/",
+        "domain": "noticias.r7.com",
+        "language": "Portuguese",
+        "tone": 0,
+        "seendate": "20260821T213000Z",
+        "source": "GDELT"
       },
       {
-        "place": "7 km NW of The Geysers, CA",
-        "mag": 0.93,
-        "time": 1787396734500,
-        "lon": -122.80916595459,
-        "lat": 38.829833984375,
-        "depth": 2.05999994277954,
-        "source": "USGS"
+        "title": "Ritorno dei pirati somali in Medio Oriente due navi dirottate in pochi giorni",
+        "url": "https://www.laregione.ch/estero/estero/1945364/navi-oriente-due-pirati-dirottate-ali",
+        "domain": "laregione.ch",
+        "language": "Italian",
+        "tone": 0,
+        "seendate": "20260821T184500Z",
+        "source": "GDELT"
       },
       {
-        "place": "8 km E of Ashford, Washington",
-        "mag": 2.42,
-        "time": 1787396064220,
-        "lon": -121.9255,
-        "lat": 46.7611666666667,
-        "depth": 3.64,
-        "source": "USGS"
+        "title": "Naša influenserka podelila bolnu ispovest o gubitku bebe : Ovo je rasplakalo sve  Hvala ti što si bio deo nas  ",
+        "url": "https://www.telegraf.rs/jetset/vesti-jetset/4382598-nasa-influenserka-podelila-bolnu-ispovest-o-gubitku-bebe-ovo-je-rasplakalo-sve-hvala-ti-sto-si-bio-deo-nas",
+        "domain": "telegraf.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260821T211500Z",
+        "source": "GDELT"
       },
       {
-        "place": "120 km SSE of Ugashik, Alaska",
-        "mag": 2.2,
-        "time": 1787396034629,
-        "lon": -156.448,
-        "lat": 56.562,
-        "depth": 5,
-        "source": "USGS"
+        "title": "الدينار الليبي يدفع ثمن الانقسام وفوضى الميليشيات",
+        "url": "https://www.libyaakhbar.com/libya-news/2860086.html",
+        "domain": "libyaakhbar.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
       },
       {
-        "place": "6 km NNW of Pinnacles, CA",
-        "mag": 2.01,
-        "time": 1787394883180,
-        "lon": -121.176170349121,
-        "lat": 36.5738334655762,
-        "depth": 4.13000011444092,
-        "source": "USGS"
+        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
+        "url": "https://www.franceguyane.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
+        "domain": "franceguyane.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T124500Z",
+        "source": "GDELT"
       },
       {
-        "place": "24 km ENE of Ashford, Washington",
-        "mag": 0.910000026,
-        "time": 1787394088050,
-        "lon": -121.746002197266,
-        "lat": 46.8536682128906,
-        "depth": -1.47000002861023,
-        "source": "USGS"
+        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
+        "url": "https://www.guadeloupe.franceantilles.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
+        "domain": "guadeloupe.franceantilles.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T141500Z",
+        "source": "GDELT"
       },
       {
-        "place": "9 km WNW of Cobb, CA",
-        "mag": 1.51,
-        "time": 1787394085390,
-        "lon": -122.821502685547,
-        "lat": 38.8404998779297,
-        "depth": 1.95000004768372,
-        "source": "USGS"
+        "title": "ألغام الحوثيين تحصد المدنيين وتزرع الرعب في البيضاء",
+        "url": "https://www.almontasaf.net/news147344.html",
+        "domain": "almontasaf.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "مسؤولون إسرائيليون يكشفون تفاصيل تحركات مجهولة المصدر لعرقلة رحلة وزيرة إسرائيلية إلى المغرب",
+        "url": "https://www.akhbarona.com/world/431191.html",
+        "domain": "akhbarona.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260821T210000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Somalia faces another hunger crisis and the UN food agency head says it has far less funds to help",
+        "url": "https://www.twincities.com/2026/08/20/somalia-faces-another-hunger-crisis-and-the-un-food-agency-head-says-it-has-far-less-funds-to-help/",
+        "domain": "twincities.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T023000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pakistan military says security forces killed 49 militants in raids in northwest and southwest",
+        "url": "https://www.nbcnews.com/world/pakistan/pakistans-military-says-security-forces-killed-49-militants-raids-nort-rcna593822",
+        "domain": "nbcnews.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T001500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Why Does the Iranian Regime Cling to War When Its Own Officials Warn of Social Explosion ? ",
+        "url": "https://irannewsupdate.com/news/infightings/why-does-the-iranian-regime-cling-to-war-when-its-own-officials-warn-of-social-explosion/",
+        "domain": "irannewsupdate.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "القوات الحكومية تستهدف موقعاً استراتيجياً للحوثيين في الجوف",
+        "url": "https://www.almontasaf.net/news147348.html",
+        "domain": "almontasaf.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Mưa lớn ở Lạng Sơn làm hơn 300 nhà dân bị ảnh hưởng",
+        "url": "http://vov.vn/xa-hoi/mua-lu-o-lang-son-lam-hon-300-nha-dan-bi-anh-huong-post1326454.vov",
+        "domain": "vov.vn",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260822T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Jihadists slaughter and kidnap dozens of people for  not practicing the true teachings of Islam  during Friday prayers in Nigeria",
+        "url": "https://www.dailymail.com/news/article-16071761/Jihadists-slaughter-kidnap-dozens-people-not-practicing-true-teachings-Islam-Friday-prayers-Nigeria.html",
+        "domain": "dailymail.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T111500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "FN : Er snart tomme for penger i kampen mot ebola",
+        "url": "https://www.nrk.no/urix/fn_-er-snart-tomme-for-penger-i-kampen-mot-ebola-1.17997102",
+        "domain": "nrk.no",
+        "language": "Norwegian",
+        "tone": 0,
+        "seendate": "20260821T201500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": " # EndSARS : Why Lagos hasnt replaced burnt BRT buses – Deputy Gov Hamzat - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",
+        "url": "https://www.nigerianeye.com/2026/08/endsars-why-lagos-hasnt-replaced-burnt.html",
+        "domain": "nigerianeye.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T170000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Maó , port de pas per a lexpedició del capità Bayo a Mallorca el 1936",
+        "url": "https://www.menorca.info/menorca/cultura/2026/08/22/2693493/mao-port-pas-per-expedicio-del-capita-bayo-mallorca-1936.html",
+        "domain": "menorca.info",
+        "language": "Catalan",
+        "tone": 0,
+        "seendate": "20260822T031500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Pakistani military says security forces killed 49 militants in raids in northwest and southwest",
+        "url": "https://www.wboc.com/news/international/pakistanis-military-says-security-forces-killed-49-militants-in-raids-in-northwest-and-southwest/article_17191cf3-4f99-597f-9d5e-bade7a62658f.html",
+        "domain": "wboc.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T194500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Darko Lazić sprema zimnicu u Brestaču : Sa majkom i ćerkom čisti paprike",
+        "url": "https://www.blic.rs/zabava/darko-lazic-sprema-zimnicu-u-brestacu-sa-majkom-i-cerkom-cisti-paprike/gcc61cn",
+        "domain": "blic.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260822T091500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Linkse kandidaten boeken opvallend veel primary - zeges , binnen de Democraten groeit de onrust",
+        "url": "https://drimble.nl/buitenlands-nieuws/107773863/linkse-kandidaten-boeken-opvallend-veel-primary-zeges-binnen-de-democraten-groeit-de-onrust.html",
+        "domain": "drimble.nl",
+        "language": "Dutch",
+        "tone": 0,
+        "seendate": "20260822T143000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Mann dømt for å ha puttet amfetamin i drikken til eks - samboer",
+        "url": "https://www.tv2.no/nyheter/putta-amfetamin-i-drikka-til-sambuaren/19148908/",
+        "domain": "tv2.no",
+        "language": "NorwegianNynorsk",
+        "tone": 0,
+        "seendate": "20260822T150000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "  On our radar as threat : Ex - army chief MM Naravane calls China India competitor , Pakistan a security challenge",
+        "url": "https://www.hindustantimes.com/india-news/on-our-radar-as-threat-ex-army-chief-mm-naravane-calls-china-india-competitor-pakistan-a-security-challenge-101787325895895.html",
+        "domain": "hindustantimes.com",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260821T173000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Evo da li se Sanja Kužet vraća u  Zvezde Granda  nakon dve i po godine",
+        "url": "https://www.blic.rs/zabava/evo-da-li-se-sanja-kuzet-vraca-u-zvezde-granda-nakon-dve-i-po-godine/f9md7xb",
+        "domain": "blic.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260822T074500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "USGS Volcano Notice - DOI - USGS - AVO - 2026 - 08 - 21T18 : 17 : 09+00 : 00",
+        "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-08-21T18:17:09+00:00",
+        "domain": "volcanoes.usgs.gov",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T000000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "الحوثيون يدفعون اليمنيين إلى محرقة الحرب الروسية الأوكرانية .. تجنيد واسع عبر قياداتهم في سلطنة عُمان",
+        "url": "https://www.almontasaf.net/news147346.html",
+        "domain": "almontasaf.net",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "III RP jako kraj absurdu",
+        "url": "https://dorzeczy.pl/wideo/kanal-do-rzeczy/932110/iii-rp-jako-kraj-absurdu.html",
+        "domain": "dorzeczy.pl",
+        "language": "Polish",
+        "tone": 0,
+        "seendate": "20260821T200000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ivan Marinković saznao da njegova ćerka Lena menja prezime : Ovako je reagovao",
+        "url": "https://www.blic.rs/zabava/ivan-marinkovic-saznao-da-njegova-cerka-lena-menja-prezime-ovako-je-reagovao/26ztte2",
+        "domain": "blic.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260822T064500Z",
+        "source": "GDELT"
       }
     ],
     "exchange_rates": [
@@ -390,7 +569,143 @@
     ]
   },
   "entities": [],
-  "events": [],
+  "events": [
+    {
+      "title": "Operativo en Pakistán : Fuerzas de seguridad eliminan a 49 milicianos en recientes redadas",
+      "url": "https://www.cadena3.com/noticia/mundo/operativo-en-pakistan-fuerzas-de-seguridad-eliminan-a-49-milicianos-en-recientes-redadas_585869",
+      "domain": "cadena3.com",
+      "language": "Spanish",
+      "tone": 0,
+      "seendate": "20260821T164500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
+      "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
+      "domain": "sbs.com.au",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260822T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Bangkok Post - Dozens more civilians killed , kidnapped in Nigeria",
+      "url": "https://www.bangkokpost.com/world/3306178/dozens-more-civilians-killed-kidnapped-in-nigeria",
+      "domain": "bangkokpost.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260822T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Balochistan Constitutional Peace : From Conflict to Settlem",
+      "url": "https://www.pakistantoday.com.pk/2026/08/22/from-conflict-to-constitutional-peace",
+      "domain": "pakistantoday.com.pk",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260821T203000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Angola acolhe 21 . ª Cimeira Extraordinária da União Africana",
+      "url": "https://www.angonoticias.com/Artigos/item/82556/angola-acolhe-21-cimeira-extraordinaria-da-uniao-africana",
+      "domain": "angonoticias.com",
+      "language": "Portuguese",
+      "tone": 0,
+      "seendate": "20260822T134500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": " Ils ont massacré certains des nôtres  : au Nigeria , des dizaines de civils tués et enlevés par des djihadistes",
+      "url": "https://www.leparisien.fr/international/ils-ont-massacre-certains-des-notres-au-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-djihadistes-22-08-2026-OVTIZHL3RJFC7J6VDCWFV4E3LY.php",
+      "domain": "leparisien.fr",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260822T141500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Au Nigeria , des dizaines de civils tués et enlevés par des djihadistes dans le centre du pays",
+      "url": "https://www.letemps.ch/monde/afrique/au-nigeria-des-djihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants",
+      "domain": "letemps.ch",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260822T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Civis encurralados entre a guerra e o ebola - 21 / 08 / 2026 - Opinião",
+      "url": "https://www1.folha.uol.com.br/opiniao/2026/08/civis-encurralados-entre-a-guerra-e-o-ebola.shtml",
+      "domain": "folha.uol.com.br",
+      "language": "Portuguese",
+      "tone": 0,
+      "seendate": "20260822T020000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "مليشيا الحوثي تعتقل أحد قيادييها الأمنيين بتهمة  الخيانة  ",
+      "url": "https://www.khabaragency.net/news251855.html",
+      "domain": "khabaragency.net",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260821T194500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "مصرع مشرف حوثي في ذمار يكشف صراع الجبايات داخل المليشيا .. خلاف مالي ينتهي باشتباك ومصرع ثلاثة",
+      "url": "https://www.almontasaf.net/news147345.html",
+      "domain": "almontasaf.net",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260822T003000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Des dizaines de personnes tuées et enlevées par des djihadistes dans le centre du Nigeria",
+      "url": "https://www.dakaractu.com/Des-dizaines-de-personnes-tuees-et-enlevees-par-des-djihadistes-dans-le-centre-du-Nigeria_a275252.html",
+      "domain": "dakaractu.com",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260822T151500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Milica Vučković otkrila da je izgubila bebu : Sine moj , neka te anđeli čuvaju",
+      "url": "https://www.blic.rs/sudbine/milica-vuckovic-otkrila-da-je-izgubila-bebu-sine-moj-neka-te-andjeli-cuvaju/cm3nmjt",
+      "domain": "blic.rs",
+      "language": "Serbian",
+      "tone": 0,
+      "seendate": "20260821T213000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Aceh peace anniversary turmoil : The gap between generations - Academia",
+      "url": "http://www.thejakartapost.com/opinion/2026/08/22/acehs-peace-anniversary-turmoil-the-gap-between-generations",
+      "domain": "thejakartapost.com",
+      "language": "English",
+      "tone": 0,
+      "seendate": "20260822T060000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "أسعار النفط تتجاوز 94 دولار والأسواق تتجه للتأقلم مع اضطرابات حركة الملاحة",
+      "url": "https://www.elwatannews.com/news/details/8344061",
+      "domain": "elwatannews.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260822T113000Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "العراق ..  حوار السلاح  يدخل الحسم ومواجهات ضد الميليشيات الرافضة",
+      "url": "https://www.eremnews.com/news/arab-world/on42anr",
+      "domain": "eremnews.com",
+      "language": "Arabic",
+      "tone": 0,
+      "seendate": "20260822T064500Z",
+      "source": "GDELT"
+    }
+  ],
   "timeseries": [],
   "llm_summary": ""
 }
