@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-22T16:35:37.728318+00:00",
+    "generated": "2026-08-22T18:51:06.086995+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
@@ -18,7 +18,7 @@
     },
     {
       "label": "News Domains",
-      "value": "43",
+      "value": "44",
       "delta": "deduplicated"
     },
     {
@@ -34,15 +34,6 @@
   ],
   "live_data": {
     "gdelt_articles": [
-      {
-        "title": "Operativo en Pakistán : Fuerzas de seguridad eliminan a 49 milicianos en recientes redadas",
-        "url": "https://www.cadena3.com/noticia/mundo/operativo-en-pakistan-fuerzas-de-seguridad-eliminan-a-49-milicianos-en-recientes-redadas_585869",
-        "domain": "cadena3.com",
-        "language": "Spanish",
-        "tone": 0,
-        "seendate": "20260821T164500Z",
-        "source": "GDELT"
-      },
       {
         "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
         "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
@@ -95,6 +86,24 @@
         "language": "French",
         "tone": 0,
         "seendate": "20260822T114500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria  : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
+        "url": "https://www.linternaute.com/actualite/depeches/11223594-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays/",
+        "domain": "linternaute.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T161500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre - ouest du pays",
+        "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-ouest-du-pays_n_502189.html",
+        "domain": "seneweb.com",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T173000Z",
         "source": "GDELT"
       },
       {
@@ -152,6 +161,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Milica Milša kod kozmetičarke saznala da ima rak kože :  Videla je promenu  ",
+        "url": "https://www.blic.rs/zabava/milica-milsa-kod-kozmeticarke-saznala-da-ima-rak-koze-videla-je-promenu/zywjdvv",
+        "domain": "blic.rs",
+        "language": "Serbian",
+        "tone": 0,
+        "seendate": "20260822T173000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "أسعار النفط تتجاوز 94 دولار والأسواق تتجه للتأقلم مع اضطرابات حركة الملاحة",
         "url": "https://www.elwatannews.com/news/details/8344061",
         "domain": "elwatannews.com",
@@ -206,6 +224,15 @@
         "source": "GDELT"
       },
       {
+        "title": "مساعد وزير الدفاع اليمني لـ « عكاظ »: الحوثي بدأ الحرب والشرعية من ستنهيها",
+        "url": "https://www.okaz.com.sa/local/na/2262384",
+        "domain": "okaz.com.sa",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T170000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Houthi Militia Arrests Senior Security Official Amid Internal Power Struggles",
         "url": "https://www.khabaragency.net/news251874.html",
         "domain": "khabaragency.net",
@@ -251,21 +278,21 @@
         "source": "GDELT"
       },
       {
-        "title": "Ritorno dei pirati somali in Medio Oriente due navi dirottate in pochi giorni",
-        "url": "https://www.laregione.ch/estero/estero/1945364/navi-oriente-due-pirati-dirottate-ali",
-        "domain": "laregione.ch",
-        "language": "Italian",
-        "tone": 0,
-        "seendate": "20260821T184500Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Naša influenserka podelila bolnu ispovest o gubitku bebe : Ovo je rasplakalo sve  Hvala ti što si bio deo nas  ",
         "url": "https://www.telegraf.rs/jetset/vesti-jetset/4382598-nasa-influenserka-podelila-bolnu-ispovest-o-gubitku-bebe-ovo-je-rasplakalo-sve-hvala-ti-sto-si-bio-deo-nas",
         "domain": "telegraf.rs",
         "language": "Serbian",
         "tone": 0,
         "seendate": "20260821T211500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Thông báo , hướng dẫn gần 53 . 000 phương tiện tránh trú bão",
+        "url": "https://baomoi.com/thong-bao-huong-dan-gan-53-000-phuong-tien-tranh-tru-bao-c55891608.epi",
+        "domain": "baomoi.com",
+        "language": "Vietnamese",
+        "tone": 0,
+        "seendate": "20260822T173000Z",
         "source": "GDELT"
       },
       {
@@ -296,12 +323,30 @@
         "source": "GDELT"
       },
       {
+        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
+        "url": "https://www.martinique.franceantilles.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
+        "domain": "martinique.franceantilles.fr",
+        "language": "French",
+        "tone": 0,
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "ألغام الحوثيين تحصد المدنيين وتزرع الرعب في البيضاء",
         "url": "https://www.almontasaf.net/news147344.html",
         "domain": "almontasaf.net",
         "language": "Arabic",
         "tone": 0,
         "seendate": "20260822T003000Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Ndume Seeks NEDC Annex Office , More Housing Projects In Borno South",
+        "url": "https://leadership.ng/ndume-seeks-nedc-annex-office-more-housing-projects-in-borno-south/",
+        "domain": "leadership.ng",
+        "language": "English",
+        "tone": 0,
+        "seendate": "20260822T163000Z",
         "source": "GDELT"
       },
       {
@@ -323,6 +368,15 @@
         "source": "GDELT"
       },
       {
+        "title": "Oron på världens börser trycker upp guldpriset",
+        "url": "https://www.svd.se/a/0pXO7B/oron-pa-varldens-borser-trycker-upp-guldpriset",
+        "domain": "svd.se",
+        "language": "Swedish",
+        "tone": 0,
+        "seendate": "20260822T163000Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Pakistan military says security forces killed 49 militants in raids in northwest and southwest",
         "url": "https://www.nbcnews.com/world/pakistan/pakistans-military-says-security-forces-killed-49-militants-raids-nort-rcna593822",
         "domain": "nbcnews.com",
@@ -338,6 +392,15 @@
         "language": "English",
         "tone": 0,
         "seendate": "20260822T131500Z",
+        "source": "GDELT"
+      },
+      {
+        "title": "Oron på världens börser trycker upp guldpriset",
+        "url": "https://nyheter24.se/nyheter/ekonomi/naringsliv/1506969-oron-pa-varldens-borser-trycker-upp-guldpriset",
+        "domain": "nyheter24.se",
+        "language": "Swedish",
+        "tone": 0,
+        "seendate": "20260822T180000Z",
         "source": "GDELT"
       },
       {
@@ -377,15 +440,6 @@
         "source": "GDELT"
       },
       {
-        "title": " # EndSARS : Why Lagos hasnt replaced burnt BRT buses – Deputy Gov Hamzat - Latest News In Nigeria , Nigeria News Today , Your Online Nigerian Newspaper",
-        "url": "https://www.nigerianeye.com/2026/08/endsars-why-lagos-hasnt-replaced-burnt.html",
-        "domain": "nigerianeye.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T170000Z",
-        "source": "GDELT"
-      },
-      {
         "title": "Maó , port de pas per a lexpedició del capità Bayo a Mallorca el 1936",
         "url": "https://www.menorca.info/menorca/cultura/2026/08/22/2693493/mao-port-pas-per-expedicio-del-capita-bayo-mallorca-1936.html",
         "domain": "menorca.info",
@@ -404,6 +458,15 @@
         "source": "GDELT"
       },
       {
+        "title": "الجيش اليمني يعلن مقتل أحد قادته في مواجهات مع الحوثيين",
+        "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=112d8a3c-9761-4f95-8a25-6a3b1ad7307d",
+        "domain": "shorouknews.com",
+        "language": "Arabic",
+        "tone": 0,
+        "seendate": "20260822T171500Z",
+        "source": "GDELT"
+      },
+      {
         "title": "Darko Lazić sprema zimnicu u Brestaču : Sa majkom i ćerkom čisti paprike",
         "url": "https://www.blic.rs/zabava/darko-lazic-sprema-zimnicu-u-brestacu-sa-majkom-i-cerkom-cisti-paprike/gcc61cn",
         "domain": "blic.rs",
@@ -419,69 +482,6 @@
         "language": "Dutch",
         "tone": 0,
         "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mann dømt for å ha puttet amfetamin i drikken til eks - samboer",
-        "url": "https://www.tv2.no/nyheter/putta-amfetamin-i-drikka-til-sambuaren/19148908/",
-        "domain": "tv2.no",
-        "language": "NorwegianNynorsk",
-        "tone": 0,
-        "seendate": "20260822T150000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "  On our radar as threat : Ex - army chief MM Naravane calls China India competitor , Pakistan a security challenge",
-        "url": "https://www.hindustantimes.com/india-news/on-our-radar-as-threat-ex-army-chief-mm-naravane-calls-china-india-competitor-pakistan-a-security-challenge-101787325895895.html",
-        "domain": "hindustantimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T173000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Evo da li se Sanja Kužet vraća u  Zvezde Granda  nakon dve i po godine",
-        "url": "https://www.blic.rs/zabava/evo-da-li-se-sanja-kuzet-vraca-u-zvezde-granda-nakon-dve-i-po-godine/f9md7xb",
-        "domain": "blic.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260822T074500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "USGS Volcano Notice - DOI - USGS - AVO - 2026 - 08 - 21T18 : 17 : 09+00 : 00",
-        "url": "https://volcanoes.usgs.gov/hans-public/notice/DOI-USGS-AVO-2026-08-21T18:17:09+00:00",
-        "domain": "volcanoes.usgs.gov",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T000000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الحوثيون يدفعون اليمنيين إلى محرقة الحرب الروسية الأوكرانية .. تجنيد واسع عبر قياداتهم في سلطنة عُمان",
-        "url": "https://www.almontasaf.net/news147346.html",
-        "domain": "almontasaf.net",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "III RP jako kraj absurdu",
-        "url": "https://dorzeczy.pl/wideo/kanal-do-rzeczy/932110/iii-rp-jako-kraj-absurdu.html",
-        "domain": "dorzeczy.pl",
-        "language": "Polish",
-        "tone": 0,
-        "seendate": "20260821T200000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ivan Marinković saznao da njegova ćerka Lena menja prezime : Ovako je reagovao",
-        "url": "https://www.blic.rs/zabava/ivan-marinkovic-saznao-da-njegova-cerka-lena-menja-prezime-ovako-je-reagovao/26ztte2",
-        "domain": "blic.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260822T064500Z",
         "source": "GDELT"
       }
     ],
@@ -571,15 +571,6 @@
   "entities": [],
   "events": [
     {
-      "title": "Operativo en Pakistán : Fuerzas de seguridad eliminan a 49 milicianos en recientes redadas",
-      "url": "https://www.cadena3.com/noticia/mundo/operativo-en-pakistan-fuerzas-de-seguridad-eliminan-a-49-milicianos-en-recientes-redadas_585869",
-      "domain": "cadena3.com",
-      "language": "Spanish",
-      "tone": 0,
-      "seendate": "20260821T164500Z",
-      "source": "GDELT"
-    },
-    {
       "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
       "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
       "domain": "sbs.com.au",
@@ -631,6 +622,24 @@
       "language": "French",
       "tone": 0,
       "seendate": "20260822T114500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Nigeria  : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
+      "url": "https://www.linternaute.com/actualite/depeches/11223594-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays/",
+      "domain": "linternaute.com",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260822T161500Z",
+      "source": "GDELT"
+    },
+    {
+      "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre - ouest du pays",
+      "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-ouest-du-pays_n_502189.html",
+      "domain": "seneweb.com",
+      "language": "French",
+      "tone": 0,
+      "seendate": "20260822T173000Z",
       "source": "GDELT"
     },
     {
@@ -688,21 +697,12 @@
       "source": "GDELT"
     },
     {
-      "title": "أسعار النفط تتجاوز 94 دولار والأسواق تتجه للتأقلم مع اضطرابات حركة الملاحة",
-      "url": "https://www.elwatannews.com/news/details/8344061",
-      "domain": "elwatannews.com",
-      "language": "Arabic",
+      "title": "Milica Milša kod kozmetičarke saznala da ima rak kože :  Videla je promenu  ",
+      "url": "https://www.blic.rs/zabava/milica-milsa-kod-kozmeticarke-saznala-da-ima-rak-koze-videla-je-promenu/zywjdvv",
+      "domain": "blic.rs",
+      "language": "Serbian",
       "tone": 0,
-      "seendate": "20260822T113000Z",
-      "source": "GDELT"
-    },
-    {
-      "title": "العراق ..  حوار السلاح  يدخل الحسم ومواجهات ضد الميليشيات الرافضة",
-      "url": "https://www.eremnews.com/news/arab-world/on42anr",
-      "domain": "eremnews.com",
-      "language": "Arabic",
-      "tone": 0,
-      "seendate": "20260822T064500Z",
+      "seendate": "20260822T173000Z",
       "source": "GDELT"
     }
   ],
