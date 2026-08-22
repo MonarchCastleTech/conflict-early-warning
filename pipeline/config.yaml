@@ -1,14 +1,14 @@
-# Conflict Early Warning System Configuration
+﻿# Conflict Early Warning System Configuration
 project:
   id: conflict-early-warning
   name: "Conflict Early Warning System"
   description: "Predictive conflict scoring using climate, economic, and political indicators."
 
 openrouter:
-  model: "openrouter/free"
-  fallback_model: "openrouter/free"
+  model: "z-ai/glm-5.2:free"
+  fallback_model: "google/gemma-4-31b-it:free"
 
-gdelt_query: "conflict violence protest instability"
+gdelt_query: "(conflict OR unrest OR insurgency OR militia)"
 include_forex: true
 
 sources:
