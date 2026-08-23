@@ -1,13 +1,15 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-22T18:51:06.086995+00:00",
+    "generated": "2026-08-23T02:03:19.881484+00:00",
     "mode": "live",
     "sources": [
       "gdelt_articles",
       "exchange_rates"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "GDELT unavailable; headlines sourced via Google News RSS fallback."
+    ],
     "version": "1.1.0"
   },
   "stats": [
@@ -18,7 +20,7 @@
     },
     {
       "label": "News Domains",
-      "value": "44",
+      "value": "35",
       "delta": "deduplicated"
     },
     {
@@ -35,454 +37,454 @@
   "live_data": {
     "gdelt_articles": [
       {
-        "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
-        "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
-        "domain": "sbs.com.au",
-        "language": "English",
+        "title": "An Expert on Conflict Says Your Relationships Are Doomed Without It",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LTTRYaGkyc25GSERsdEtzMmdneGlIeUJOVnA4MFpaV2NqSlhrWnJUWWQ3M0dfbFc3dUo1U3RYZTU0VkNoLUxoNnZ3cF8wWE1BdzYycENCUGhRSVBhYldWYmRWLXo3ZEEtdnJ1dHh2NnFsYUFJVExHTUwxdw?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
+        "seendate": "20260822T091506Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Bangkok Post - Dozens more civilians killed , kidnapped in Nigeria",
-        "url": "https://www.bangkokpost.com/world/3306178/dozens-more-civilians-killed-kidnapped-in-nigeria",
-        "domain": "bangkokpost.com",
-        "language": "English",
+        "title": "Pope in San Marino: Respond to conflict by following Gospel",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVktDRzNSRGtYbDNFelBIbmJHUm5NNU5Ed28yYTFuX3pWSmlDbkVCMmpPSnlSTlpBMy1OQW8zNDZMR0NFZU5mQmZtRU15VWpIcVVEcUJsb3g4MUVmNnFTWThVdGE1VW02YklxQ1BBZW9YNU9QcDVvVnA2V3JHR05GQUZ5M0JwLWJ3dkdkRHhEek1Ob29JUE1iOUl2dHFLekZsZC0xRjNITUowdmFsRWtsQQ?oc=5",
+        "domain": "vaticannews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
+        "seendate": "20260822T091333Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Balochistan Constitutional Peace : From Conflict to Settlem",
-        "url": "https://www.pakistantoday.com.pk/2026/08/22/from-conflict-to-constitutional-peace",
-        "domain": "pakistantoday.com.pk",
-        "language": "English",
+        "title": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NnpuajF4cU9fY3VHTEpIc2tTSzU4ZGdWSmp1bFg2VkhHUnFoNVU4SlpScFI5aUtVMndMT1dkNXdBNXNEMGVlR0tKYUZmLU1GM3VuQTJabWZtaF9jSkZJVW1hNldjYTBPRXBuNVo5STU?oc=5",
+        "domain": "financialtimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T203000Z",
-        "source": "GDELT"
+        "seendate": "20260822T181756Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Angola acolhe 21 . ª Cimeira Extraordinária da União Africana",
-        "url": "https://www.angonoticias.com/Artigos/item/82556/angola-acolhe-21-cimeira-extraordinaria-da-uniao-africana",
-        "domain": "angonoticias.com",
-        "language": "Portuguese",
+        "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T232736Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGh3U3AyWTFxdE5ZN25iNjZCUWVUOW5zY2drY1NVWi1uajVJajBINkJjSElDakV6M29UWHJUQjhHNnZ5OTFNSjNCbUFiTl8xc09ZUkN5MDZjU1NhUFBKSHNfSTlhc1dxdU51WWFXbmNZTDIyOU1OeGlfQmtrWnMtWTYzd1lXek9RRlR1Tkt3bzdLeVdaWTVBNklORVV4NjhLTFJMWEFTWmxaNkNjY1NDYjdaS2E3aHlJRHd5V0ZIcXM0cUxBWFowdUZTdmZGQQ?oc=5",
+        "domain": "losangelestimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T230025Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Renewed Conflict Derails Lebanon’s Fragile Economic Recovery",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY3RDcWpkS1NLV3oybnlOSFpuQVI4cXBpbGpWa0lQcnNiZ2M0Z3VqZ241ZTl2djNBRXd3Z3llX2laODMzX2RRNmRkZjFyekJmTFJnMjc5RU4xYjVIZ1NwZEpfUHN4UzJVeDhFMEg5dEVHOUs3Qzd3TGxmVGFlWlhscFdlalhJcnJpNHdxTWZlRXRtZU1MQW9zR3k1UHRkTGZYOFRLck9xZDNjTTFLV21YZmFwOVFuamhyRGxv?oc=5",
+        "domain": "worldbankgroup",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T191829Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+        "domain": "encyclopediabritannica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T050000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NEWSLETTER: A conflict on autopilot?",
+        "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVLU1hck1lTnZYbmRWSWFMTS10cFJTSl9DZWpLMEtydlFWT3FvUTBsckQyN0xhRTFwaG9lVWZfaTVNVldabGMyTXhGRU9zTUZlV1dJSGNLUElKS3plSVF5a0pQUEhjS1cydDcwWVZlOXZLVnFDWXdfRGs5Slc?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260819T163200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Editorial | Netanyahu is dragging Israel into another pointless confrontation – with Turkey",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQN0xFSlpGd3RVTnNZdUlhb053Rm5OdDAwX1UzaXRqQzV2YU90M3NEa2g0YnlIeTlmRmN0RTdROFdpZzh1WVhMUUJabldaamJZX0ZmTTcxRDE5RWpUV0E5LVZBb0hfS2N4QzNMeTgzVHhjS04taWNlcF9vM2t1V285NUhHRFctRXVHWmc5TzRoVE5nSmR1NGV3UkwzdXNfSkdDeDl3UGVVMVdvM2lYa2ZZa3YzUFQ2aURWZWF2U3hEM0VBTzYxQWFYZXRXZm1rS3A2b21rTTF5Q0lPSGxRM0t1a0lXcGxSMDZpM09CbERxOF95V25TWlR6Q09BQ0ZHYjFxQmkyMjl2WEYwdVJiSVpOVUJMcXg?oc=5",
+        "domain": "haaretz",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T000500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "East Jerusalem man killed in apparent family conflict; two others killed by cops dispatched to the scene",
+        "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY3FHZV9sMmMyT1NIM1owUTllQ3kzMUxxYnJqMThkdVBTVGJyU1hMVERjZFo2Q2hXNjFlTFhaLU03QWdHRWpnU0tnSjAxQ0VUQWxCU09sX0Ryblc3b0dGMVp5bThldS03eVlndm5UVWZKY2RGUl9pOElyZk9WQ0w2eUR5bFl3bUZNWTlkbll3SUFMOGVsZkM3U2xYdEhLZ2pkRDV2QUItQ3N6aGpYalNjNEZoZHlkRkxqREowWkQ1bmRyZnoyN2g1UTFvRnE3YjFOdWk4enpNM0Q5VlN4NWx3c0tZUQ?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T235630Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "US military casualties rise to over 770 as Iran conflict enters 6th month",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaW1ESzdZZXotTktVTURwLWxsR1Q4czF6T2UyTkJucmlVTFFLREZsN1NJMzI3RHRHMWJYNzFubFBtbDNlQmVjeHJFQ25vdEgtUzBwUUVYbi1GTk5CRDhtaUtiNDRTb1p3NHZ3d1Y1anRuNmtjSjlyZVNRQm1HbzNsc2tqR1dzU25FQzN1VDE0TE9vRm9QS3V0Vk5KX0wzdElfTndDVGhJb0Z3NjF3WDFOX2NRd3VJdGlt?oc=5",
+        "domain": "dailyfinland",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T195046Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "DW News. . The Sahel has quietly become the deadliest hotspot of terrorism in the world. How did this region turn into the frontline of jihadist insurgency? #dwgeopolitics #mappedout",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3loWXFva1ptb0JDTlhVS1dYVlh4MmFRZkxBMFRSenlGazktWGFCbkZtMHVPWkM5SzR4a1J3aEI1SlNCdzVvajlhYm8tM2dDWk5oYUt3amhpejVGRW81ai1ZTFk4OS1ELTl5blk2c3dtWFJKR0pVeUZuRU9QLWxhQUxlRG9ORXdYaElMU3VtM1IyVEM3U0NSUm9VWXVwMDdqaHExclFsR0RBbkxLNWNiR181Q2oxRGpmMjhKM3J3VXY2X3hsdWZRb1hUT0tzRm9EaVZyX1ZJZ2gxNDVGb01DbVV3?oc=5",
+        "domain": "facebook.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T131505Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Bolivia’s President Rodrigo Paz fires economy minister amid unrest",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXQ2UEtHMXU1dk9HS2VqaUxDaTVjZXFxTGQ0QVhFdDVUX1ZVeFBJektFM0xTVEEtQmRIOWtBeE5uUGZMSnVVTkY0bkRSVzc1MHJHTElXVHI0bm12UUFBWE94WVIwZVpZMjNPOER3OW82b2FzeEJSXzdnemhNOGViSUduck5UUnBGVl9jNmdQbWFoZlRkWVdwdmNleXVsM0dBY0dXZkJFeF9RZ9IBrwFBVV95cUxOdlhWamtRWV8zeUd5LW1HQW1ZZUNoc1BhWUswSHFPZ0JubHlhUzBXck5nV2tTamxaX2IzSVp0MnBIMUNzQTFIVzAtb09iUWNVQnlUcnJ0NmZRdS1ScDlKeVFCMkRNNkR2dmVYc1MwWXc2c1EyQVluNFBBYmw0c0dkYUdrMXpjVkFHN2lLOEtQT2psRDJQcVZmRURNUXg1Njh1YndJSENETmI3Nk9IeTdF?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T201349Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
+        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T235338Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Video: An Expert on Conflict Says Your Relationships Are Doomed Without It",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWXBFam9zTEpwUWNfUWRBYXFTWGg0aWNJM3pCNXRDTVUtdTc2Y191RF80VVdJYUlwY0JGUkc0UHBiMWpjbE04TGNUX3NLYXFyWnBQeFJvbXdtSFp4VnRKZk1IeFNnMWVfQzVPRkppck1PbHFOTHpFRWJrOGVZdmpabm83UU9DQ01lN0lDMGtqajNTSVlJN1BWcW41cHdpaTBTNFlPTjA0TnM0bmxrN2ZZekROYTVWcGVoWXZaSzd5ckQ0N0RWV2c?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T085019Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Video: How Slack Has ‘Turbocharged Conflict’ at Work",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRS1IdUVsNWlyNmFmZ3lMaWJWVTZ6Y1NxZmtDc1RNeEt3eDRJRC1SNnhIRlZ6Smg3WTRiLUdHQm8weXVNQUpXenJISWRNVy1TU3VUdDdocjNoVHU0eDNXazg3NEtDcTNuNm9iaS1VbmlmS2dNWUlfMTNTOFRPb3FDc01xSzVnRUpfdzIxc0ttcV85Rm5GSERxLU9LYkktc3l0LUNGYkdn?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T090239Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "‘A Blatant and Gargantuan Conflict of Interest’",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEpNQl9QYkJCMDQ4YWM1ZVYwenRYRExNWWVFRW1xUnRKMlM0SnpRZUVLRFpPY1RDQWdtM2VWWWNlTVlDdFJXSURwM3dFdHlPZldvYkQ1dmxwZVQ1SVdHYWVBakxzQ25JU2JNOTlnZDV6dUtkT3hzcURBT3ZCX1RreUdIWjZaN2FTR3lndDE0UlZvUQ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260818T090344Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Libya’s brain drain, 15 years after Tripoli fell",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV2VabkhwcXd0RUx0Y0hENXlkbXZlYkZ1MHJ2eUNtWHhXV3NpU1FyQmJ0aUlZYWdrNHQ4NTBJcUNwaThTYjJqY1p4QV9wOEhSZkJ0RDh1Y2J6eEVxQTlHNmswT3RVVnNzaDV4RlFiSkpJWk5nTDRfTUx4bm9hOG9aUTJMcGZZdmktaTBQME9GM3JQa1ozVlFUcTBDcFlDUlZ0UDhQVTlPSEVSdkXSAbABQVVfeXFMUEktd2x0NjJPM3ZRT0IzaDJRUWlZemZnX1VJbzlZVkVGeXZGdEV5TlZSRjhMR21ERkFGOWtuV2xKM2pXVER3cDBJeFNUTWVWQVFzeDM4eEdLbVpDTDdsOFJ0MVRheDdDSllrZkN6M29mYVhYQ21PZ3dCOUN1VW5paS0ybVlpWndheTU2bWlRQ2l3M1hMWUpHMFd2eTRxSm5VV0tyd1p2Ukp3ZDhHVjh2bFY?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T110101Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "DW News. . Climate change and conflict are testing the global food supply chain. Insecure access to food drives up inequality and historically has been behind episodes of upheaval, including wars and revolutions. Population ecology Professor Tim Benton tell",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOWTlqSGNOSUw1RUNHcFdUd2lxMTYwLUVLLWxOZnpDS3RiaUVJS3NTTDU2bmFKWnNJbDdCbHhoZmRsZTFnQ1o2ZzBlRjhYUEdkNDJvcnZwdnF5QWozN0pkU21EYzYxcGw4dWFQLUtJYVNzYlhtdllpT3ZhTVowUjlTZ2NoQzlmYllrSkYtZFVQUWs0X3l3eDQxRUFyazFDTXRTNkdtdkJQMDJmSTlwUWxGR2h1bVUtdGM1WFdjTGZfM3RiVkpMckstSzduRzZYMzFyU1pNemoyMXRFYlE3bG1lQTNn?oc=5",
+        "domain": "facebook.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T030021Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iraqi speaker confronts Iran's Ghalibaf over militia support",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcTlWZlljV2xpUjJnLTZVRE5LR2xQWklRMThqRW15MDdaYW1BNlp3TjBQUVNsOFpmSGJzRS1fYlVSMnlVM3ZWRUlDd2RWLUxxMmtXY3FWUDZDMHJURzB3RkQwd2o5aU8yQTlQTTJCRmFhRWdiY3pHQ3dsQkI2V1QzQjFac1hQbXRpbnNpcGtYWHBld9IBlwFBVV95cUxQdjV2Qnd0Wk9NWFhGbUEzbzFGQ0h6VkF0Y1V4b0ZEZ3lYVW02VUYwTHVvc1Q4Q1dEMDBWNXNmaW5nLTdTS1JsUGFUZmFVN2ZHQWlSZ1UwalgxVmtNWWVlWFowbUdvemRUY3VpRHBvX1h2VVh5SjJIcGt5NzJhdGNxNGRnSERiM0lFb2lEa1RZckhaTm4wY0ow?oc=5",
+        "domain": "thenewarab",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T165215Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQTDl1ZExpSXQxeElETUgxMkI1b2hrLURidDVlTHNlclpjYmwybjMwamE4dkhTYkxhUldnd2dPZFNyWlFneVpwSVk5TUZfRURYeVk1SU1MWkh1RkpnSVg2a0pxUFVKcHhLVHliUU8waWQ4V0h1RUNJaGRGVVVjRUZrWlVoaF9KNjlIcUhYai1rd1h5eW5Na2gzUkxuU0pWZzZHbFdQdlZnMFc3WlVUcHZsSEdYeURBT0FtNUVTZy1PWnBTQ0NUM01TWjlqcnd3LThHbkZGX0Y1Z1lIVGtFRDZFOVJBek5TeTJLUi1kLXIzek1oa3k1cVJKQ1ZoUEFMbWZ1RXJoQW5aSWpjdw?oc=5",
+        "domain": "caledonianrecord",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T145812Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "China’s 'Ironclad Friendship' With Cambodia Under Test: What The Border Conflict With Thailand Reveals - Analysis",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNeDVXa0pVekdvUGR5M3d3Yk9fMlVNZWxZUlJ3WTNheFhjaTV0Q2Y1M2J0WDZ1Yldoa3FTWmdfUDVaSTFRVkthZzhIcnp2VWI5TGVfaDk1NXN6LWt1MnhRY3pSUzltVXp4emt1dWU4ZVliVkFWTnotVy1LUXdJYVNTZnk4eFV5MkFLQVFQeTI1cVFrbUpGdnk5TjlRXzhteUVUYmdITnNOQ3JySFVWTWU4eFdSOVpqTGFPTFpSb01abERvenhNNk1sTGZueXlxQXdwWnJpWjlvUXEwTHkxaVFweg?oc=5",
+        "domain": "eurasiareview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T183736Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Israeli drone strike on ‘civilian vehicle’ injures several in Syria",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORTJLYU12dTBCT1NUYVlSQ3BrcTVRWFd6NUVLdnVpcmRoZURBd1dkM0JRd1NjY19faVBBYkhrQlpKUnVqRkFCMXRYbk5Hd0N0S291X2NSQ0RFVWgycHhWRGVXMGVJdk44cWdVbmUyNDNfeE45YnFVekdTSW5aanlEQVpWS052aUE4QklTaUNSQ3VETjdCNWZlNUFULUUtY1doWVdJbHAxMmdPUdIBrwFBVV95cUxNY09CbUtqTjdiUWl6R01LdVBqQXBEYVJ5RFI4UkdGNmMxT3NxX3VKUnQzZElkendCWFdsODJRcW04bVhtb20wZ0xvVERzOHY4bDFuOTJMWVpwd3I4ZmlCV2xnSVFJUHRzcEJWY0pCSGRPd3E2NmowU3dOTV9RbVRFdUhNdDRkNE9SMVVxR3J5andGR0N5S09YMUQ1TC1KS1JOelMzaWxkS1Y0V3pJTWtz?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T175721Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "South Korea ship to test alternative Arctic route as Mideast conflict disrupts shipping",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajk5a01VOExwTzhvLUo3RVlMdDMxS0VOT3M3c0xMaFdkdzByUTJ6ZXQ5UXRCam92QURxRldRdXBhdVlfUUtNX0J0NjRob1UyZ19uOFU4MnlJTUhNRjZpcnNkTTlvMlN5RmdHYkFrRVVtSDJHc29tcFNkTkFSazU4bkljdEJtNkpUZjFEdjZycWRhajJ1ZmhINlIzd1BzTFIxU1lFWFhwZFkzSF92SG52X2paSUxjSm5IemtacFRUbUNwYmhKczd0dFc2QWg?oc=5",
+        "domain": "france24",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T024712Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Jewish activists push back against Israeli settlers",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMDRVejd3NFF6TWVSUGJuVzBYbEFITGVRX250aFBpaFV2WkRsU2FQV2lveHNWcXczYXVNWVRna3hqdUdxajdJQndsdFEyb1NyWWViQnFDTXg1amJnUVFsZlVMYnJSTW1lRzl5RmNqM3E3UUYzeG1rcm5CN1B0T0NUS1dlMFBvT01CZnR4M0RXVlJNRHFUQjdCNldKUERyUTQ5ak5qYdIBqgFBVV95cUxPWDVscTYwM1BtaHBoTFpDMnRoaWF0WlJJUExwVUQ4T3pLYnozSDZlWEFBcWpfZVJNamo1S1lEY25KbW93QkQ4MG90d2hsbGprYmpTMjhTZEhNcW5iYktONFltTXMxemNaeFJnVDRGSDJqRWZ2SjhrWVUwZGVueXJwdFpXQmxIQXBpQWdURjk5MzZlenk1eENKYnRNckJhMGtKM1UySTUwYnpHQQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T151312Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "UN candidate Baki vows focus on conflict prevention, UN renewal",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWjh2TzQ3QjlELTc3Z0JoMmw5Y19uVjlzcFNUblU0MzJvS1ppNU8weERNQmZUb21TN1BRVXhrRXdkUThlUDhvQVR5Yno3bmVhbW9OTmFaVkE0bldmX3kzSXU3M3BPRXkxbUFEdTNsOC12emF0VFFWNzRfaXJiZnk2MDNXNEllR2JhX3B5YllvR3RXWFNrQjdXRXdLZ0FuOE4zOENz?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T182956Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nicholas Cusanus as Prince-Bishop of Brixen (1450-64): Historians and a Conflict of Church and State",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8xYXRpUHRoNTJqSzEwbzVRWnk5RWJFOFZaeVhucVlKYjNlUDlZQVpqUGVBMEl1T1ZKU3RxR3JFSFg0LTNFQjRiZW0tRkt4ZmNyeWtLdW5Mcjg1YXJBZ1BNYnpydVRvNkl0RmlDU1Z3?oc=5",
+        "domain": "medievalists.net",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T104125Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOSG1oMDRFMDkyT1daTGRHZkp2WUlBSlh4RXJwVW9wQ2tzRzU5YnZGWEo5OU4wQnZXUklwWHZkWGFBMmZfTERmYVI1eHg3ZHBWd0RGNjRXOHlwWEtXQVBqdzhGcnExS0FfOTVkVWs0ckVDN0JjdkVsNGVqVFVIV3RoanZMQ3FvbUZZajVHRm1hQ0lXU1FFMkE5Z0ViVHItSnhSZ1cxdzEyZUVBdWkwbWFpNGtRdFJSVXROc18zdHVVQTduNDdQNFBBcEU0dVpjWjU1YXRETGg5aEw1Q2NSSWI4SGp0QnVkVzcwYklvc1l0SkpWX1Ita0Vud1A3ODh1UjExaFVnTWwzdXVWMlU0aEE?oc=5",
+        "domain": "ottumwacourier",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260822T145812Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The impossibility of African Union conflict prevention",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQldfanBrR09BempPTUc2V2RaRE8tYjhrZmItSmFINlNOaDVkeERwMTVlLUJPbmtWTE5wUFIyQ3hHRk5ORFBSVy1jdUpsbDQwS0hTbVVTZEt6cW95T1dDRTdGdE5UYVhZNEpRWDZLand6cS13RDB3cGpvblhaZ1lJUUJTUTRpc2JTeTNuQkpoWQ?oc=5",
+        "domain": "diis",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260818T112450Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "No truth to conflict allegations made against D203 board members, Cush says",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUTBEbnZ2VkUyaWEzZzJNMGJmSHQwQVVINDlBUDFpZnhhd0ZKLTk1Z3F2T28teTBQR21jTFRNSldicUhTbHN4ZC1kWHFNSm1yUjNBbzdyRFF5S1VoVS0zZlhQYVJpcndZZmtwNy12WHRxY0VhbGFrcGdYYjFmZ2sxQkhTMU5rT3c3VWtLSFJ0cDhHT2c?oc=5",
+        "domain": "chicagotribune",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T221905Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "AI-enabled deception threatens future operations, raises chances of large conflict, says Special Operations leader",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNNU5maXVycm1KTEk3cUpCYTNZM3djUkVSZzdxazJJOEZWVE44UTFKYVQta0hVQ1A2UDVxZ1VybDBnSXdGZGZrUU9hcnM4eXhMR1dVZUFYVGFSV3VDSUxkWklUVHVoeF83MnZ6MVZJbFVNUjJIT0tBZzlCM3IyUEVIVWJtUjNRUUE4bjZ2YklhdnE1SkVvVHpMUFRGWklDckxpdFRhR081N19GZ0lZTTVoLTMzczFOR3lZSnJ2ZzF5Y1NKN2xzRWlyQXhueE16c1dYT2lYZTM5QlNWMnFiVzU3ZjBPbVViZGRIZFJJbnRnWjUtZw?oc=5",
+        "domain": "defenseone",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T212700Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Athletic, NFL may deepen their relationship (conflict of interest be damned)",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ19OazcxbFF4VGRpTFc1dWZfWXFBTHhzckNZemFJdnFlUWRaV1RXRDhFNVoxU1F0VkZ5S2tEUDRtY2gtMXlaclJOdTVRaVFxa2JrTDgzRGRqdmtRU1FJaWNPam9PdFBodDExeEQxbTRQU2xKZjg0WWx3THV0bEo5NmNxeXRsM0FyS0VkM0RiRkJVdEJiVUd3ZUMxZTZWVFYtOTYwX0JmVDh0NlZZMnpVcUhDZGY0SGZIR01LdmxpdzFyX1g2SzJhM0xKYnFuMWpaNHNQZFBR?oc=5",
+        "domain": "nbcsports",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260821T141549Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Breaking the silence over sexual violence against men and boys in war",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE51c3BrNXZrbzE1RU5hdXFCT3lVQkRXUWVoWnlLbFMtdmVCU3F4VE5ocGdhZUctLTBiQkVwUm9GamZhVEU1eHN0dDh2Rk90X2laenNuQTVQSQ?oc=5",
+        "domain": "unnews",
+        "language": "",
         "tone": 0,
         "seendate": "20260822T134500Z",
-        "source": "GDELT"
+        "source": "GoogleNews"
       },
       {
-        "title": " Ils ont massacré certains des nôtres  : au Nigeria , des dizaines de civils tués et enlevés par des djihadistes",
-        "url": "https://www.leparisien.fr/international/ils-ont-massacre-certains-des-notres-au-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-djihadistes-22-08-2026-OVTIZHL3RJFC7J6VDCWFV4E3LY.php",
-        "domain": "leparisien.fr",
-        "language": "French",
+        "title": "How conflict is making life more expensive for Iranians",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVkt2QzhLOVhCSlBIZ3NGXzlEamQtaHRPcFQ5ZjdZS1FJaWFxWGZwX1NTZ1ZNNXNnNDU0ZFdaXzY1RFZZeHZHX3lQQWNzR29CZ2g1N1lEMUFWY0dEbmh6RTVHM2RlU0VlakhvVWQ5X2xLN3QyQXZ4N2lha1BXRXNYWThOV0l2aFlXVE9lb3V0el9OeS1lRW9RQUlEcENLcjNUTmRKaVFQNzdRUdIBrwFBVV95cUxNbmpyUUtmdHdqMnNDaVNWbzJfdGZuZTVwVXdtVFIwdjBlMTJHbW9xMWhyX2FRWXVsMnFoOVAtRVhScWU4bU5PXzk3THR0a2NZZEtoWWRONlVrcE1SLUZBcnRfRGdkdzZGb25vSGYxX3NjaEQtdXZPS3QwVGpsSmlNX0VlejhfYXhFU3ZXNTJJUkRGZkhuYjNnck8tQkJYMmRqUDRxem12cHhlc3Y4Smxn?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T141500Z",
-        "source": "GDELT"
+        "seendate": "20260820T094245Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Au Nigeria , des dizaines de civils tués et enlevés par des djihadistes dans le centre du pays",
-        "url": "https://www.letemps.ch/monde/afrique/au-nigeria-des-djihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants",
-        "domain": "letemps.ch",
-        "language": "French",
+        "title": "World Bank projects war-hit Lebanon’s economy to contract by 6.4 percent",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRXhtX1FMSzdCTWNPbjFaZVR1VjczVFVLRDZwTHgxUTR5N2NQakVGa2dmQVYyYllsQnVub3BzejhPSThZTUNOcVZac2dMeUR0SmV2QjZINmFTRHBaRW10Y1lZQlZpdXJTX3k3ak1sejRGbnZzOEZ4TVBuLTROTmVvOFJjX2EyMkJ1MFAxcE8wY0U2SlVqQVpZSk9OVzd5c2pBNjR3ZDlKQnFFTURhT29nLWNn0gG3AUFVX3lxTE5KX1Q5MWNGdTBzbXdqb01NRUtmb2NfZDR3a0NIN0tkT3FXeGRfOTRhYmtmS0RwaGtfR2QtM3p1ekt6MVdKcHMydmVrdllQd2IycjJQa2hMZDJseDFOclhyZG90Rk5NV3dtbkpEY09OUUthcVgyaXQzel9uTnowMGZSVTJOczFDeV93YmZpSVpvSTh6TzNjaFhtUkVnbnFVN1FoTFRsMWpxb2tibDVoUklFSFpRclg3QQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
+        "seendate": "20260822T075557Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Nigeria  : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
-        "url": "https://www.linternaute.com/actualite/depeches/11223594-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays/",
-        "domain": "linternaute.com",
-        "language": "French",
+        "title": "Why is Israel building new illegal settlements?",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcU5PR2VfR29ndnp3Tms2ZmJBTWtFS0pJeTV1TGswTWYyVWdORHg2eGt3UGlSQnRmN3haRjZBaXdVZmRmSXRhNVg5S3dnQlY3VHk5MzZPYWNDR1poX1RwQVl5NGJGanhVc0o4QmJFeTUxWm5kX0JjMXA4X2puLVltVU5OdldRTm5nN3RpOEFNbzkxeHpEVFZrdTVaSUJMSDllQ0Vj0gGoAUFVX3lxTE5KR1lPcFV5TDV4dUZQUnJXZkdyVDdiRjJaemQ4a3lkTVlwcTVodWJBNnpLTUE2NS1Zb25saGRtckx5cUJLRHlVQjc2Y0lVd010QThGRjE0endmYjhxWnd0d1k4SU5iN0Q2cFlPUUt3OFprZWwzdmkxQ2tEV1g4MlVBeGRTUlEtVXB4WHp1M2FrTVg1TEFPYXVUeERRY2RsSEJBRERzSjk5Xw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T161500Z",
-        "source": "GDELT"
+        "seendate": "20260822T194128Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre - ouest du pays",
-        "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-ouest-du-pays_n_502189.html",
-        "domain": "seneweb.com",
-        "language": "French",
+        "title": "Iran moves to reshape Iraq ties amid militia disarmament, Hormuz economic crisis",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9HSFJoUk1hNmVvZkpHX2pUZE02UHFUWTRRQmJYSkkwLUU1THdZbDU4aXUtN3A2Z3Z0S09DNFpNZmNlQng2eXlYV0hBUGhaZi1GeE9GX3JRWjh1cF9wak9LbkZxLUdxanh6MkE?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T173000Z",
-        "source": "GDELT"
+        "seendate": "20260820T144304Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Civis encurralados entre a guerra e o ebola - 21 / 08 / 2026 - Opinião",
-        "url": "https://www1.folha.uol.com.br/opiniao/2026/08/civis-encurralados-entre-a-guerra-e-o-ebola.shtml",
-        "domain": "folha.uol.com.br",
-        "language": "Portuguese",
+        "title": "Iran’s Pezeshkian says war should end while Tehran holds 'position of power'",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9VM2ZrRnc2TjNVMnRMSWZqd3pRcHRneG0tQ3J4UnFQOU5fWjRSTXRhN3p0YUNwa0dlRmQxM0E4cThCMjctV1hFUkUyUk9UdV8tS2Q4REM5eWNpY0pyYThGQjgtWXlMd29rbkE?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T020000Z",
-        "source": "GDELT"
+        "seendate": "20260821T192228Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "مليشيا الحوثي تعتقل أحد قيادييها الأمنيين بتهمة  الخيانة  ",
-        "url": "https://www.khabaragency.net/news251855.html",
-        "domain": "khabaragency.net",
-        "language": "Arabic",
+        "title": "Myanmar military bombing kills 14 at Buddhist monastery, opposition reports",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWmdSZ19OZkdoS2QwZ2VRZGlGejZ3VVd6UGlTYTltakxyeUQtRFdma2w3dzRwY2swdElxaWZvZ2pyVGttZ3lxeXRScTJ2anhoVU1NMjlGcjJGLVo0NTFpM0hyRjFqbTlVQjUyUElNd2FlVXBQd2NTZGhSeTJuUFlJRExEb3h1cTk0NUtCS2RfNW13aHd4bWFjWGFtRXpCanVfaExBcDFiZGxwb3p5dmdjaGVpX3dlZ9IBuwFBVV95cUxNemFQcG5TdldRUVFwWjZCOUVqT0hNeUw3WXhzWFQxZWl0LVpFSGZyUUdtcFA4TGFBQzY2dENWTnltZnRSMEs0UFlqeE05VHZEN0d3dDdZYjZTenhDTVl4OXVuSDk5WHhtSXA1cmlobTlkVmRmSGdLaHlyWEhZaDJVRlRET3JhaDAza3JHV2RWSWdVc2lCaUFPbkNFYjVwZVZNRHFVNWxFcHlyRUkzaktQRUJ3U0VZcEJRM2Y0?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T194500Z",
-        "source": "GDELT"
+        "seendate": "20260821T235653Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "مصرع مشرف حوثي في ذمار يكشف صراع الجبايات داخل المليشيا .. خلاف مالي ينتهي باشتباك ومصرع ثلاثة",
-        "url": "https://www.almontasaf.net/news147345.html",
-        "domain": "almontasaf.net",
-        "language": "Arabic",
+        "title": "Engelbert calls out 'haters' using WNBA to 'sow divisiveness'",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVlRZa0VwUEJEaDV5RVRzLTc5aVRTbWxOLWhIdS1TY2hkQXNVVU9yUlFsYk92MDJuWVprdkkwSEZmYV9SNVZNMmtZOENVZExvdEpHWDZ6QTN6cHJrUHZIS0t6VHMtRFFuQ2MtYWluY1pSS0d5aVdwbF9meF9qR0lKSE9EM3ZzN19meEJ2ZmVma25wLThDbzFyV3BYV2k?oc=5",
+        "domain": "espn",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T003000Z",
-        "source": "GDELT"
+        "seendate": "20260821T035700Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Des dizaines de personnes tuées et enlevées par des djihadistes dans le centre du Nigeria",
-        "url": "https://www.dakaractu.com/Des-dizaines-de-personnes-tuees-et-enlevees-par-des-djihadistes-dans-le-centre-du-Nigeria_a275252.html",
-        "domain": "dakaractu.com",
-        "language": "French",
+        "title": "U.S.-Iran conflict enters new phase as Saudi Arabia helps hit proxies and diplomacy stalls",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWF6QXRGc2lYY1JwU2djeW0tcUQyYmwxMVRZWm91ZGtfYmtoUG15Qk9CY1gxRjdXT2YtYTV2QWltQlE2elVPSmxmdGQtYUJjVlBBMndwRVpXVXdwX3JXRW5PR2hoRnV2YmdUai1IVVlXUGxnWE11TXhtTWJPX1hKcVd1bnhCWXpuSC1PRmdRYzlqdXl6ZjdUZWdLMThIYVFzejZjZUhNUTNBeGdsbjlTX3VZdkRFdHpsNVk1UWpHVmRjd9IBxwFBVV95cUxNZHIxeUR2em5tZTRMOEphVWdVdlFYVWRNUUVicmE0bjhOVVB3NWlVcFppM0hfWHo5UnVmXzlZQTBJTm5SczBoQlJ3SXFwemJJc2wtLS1acGtKb2RjamhId1ZtVk9TWmNOTkRVcmJZc2dHd3ZGMEFEcmhXX1VISWxEcWNwdmNvX2VYd2hVNFVaWk1jMEJiSzhPZkpjbFZSNi1WdE1DbFRZTi1NS3lOMVVhWEFhaTRXeFEzYWRkcXpoRmJMNnZueGRn?oc=5",
+        "domain": "pbs",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T151500Z",
-        "source": "GDELT"
+        "seendate": "20260730T070000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Milica Vučković otkrila da je izgubila bebu : Sine moj , neka te anđeli čuvaju",
-        "url": "https://www.blic.rs/sudbine/milica-vuckovic-otkrila-da-je-izgubila-bebu-sine-moj-neka-te-andjeli-cuvaju/cm3nmjt",
-        "domain": "blic.rs",
-        "language": "Serbian",
+        "title": "UN warns South Sudan election could reignite conflict, atrocities",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcTV2SGYyRG10cEctRzRCb0Y2Z2xNX2dxNDFkZUVUOHdHdUVCVGw5ZjhrbmZfdmNvalNENU15cEJWUTEyWGRRd2gtRUlYVzAyaV9OOU5MZkFVRF9fdVFJN3JUOVBfUFBtS1NTZ2d4aXRVZXRybklCUllFSjVZamxERjJQbVp0c0ZKc1BNNFZndDBtV1h1RktMeGlOTHM1enY1cTlxelVXNA?oc=5",
+        "domain": "dailysabah",
+        "language": "",
         "tone": 0,
-        "seendate": "20260821T213000Z",
-        "source": "GDELT"
+        "seendate": "20260820T121900Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Aceh peace anniversary turmoil : The gap between generations - Academia",
-        "url": "http://www.thejakartapost.com/opinion/2026/08/22/acehs-peace-anniversary-turmoil-the-gap-between-generations",
-        "domain": "thejakartapost.com",
-        "language": "English",
+        "title": "Pentagon: 18 Killed, 756 Wounded in Iran War as Six-Month Conflict Defies Trump's Early Predictions",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQcUkxUmtOVi1nenRxSVBVQ29jRmRxQTJqTkRnYVhINjc5RVpmNFEtRFU4eS1yb0dJbjc4UzVLQjFzd2x2YUNtdklNZm9LSWdHZVpnWHBlaWpoWkxVc1FocWR1TTJka1VZYW5PUG15WnJtVVNQS2RTeFoydW02Z2ZnTWRsN1NBWVk3bU1TWUhEZXJzX0l1cUk5dGN2cHVnM2ZrUUdkOXJ6QzVsWEVNNHhhb2QtVXAwX0ZodVpia3RxWjNEdW5Tc3dBeVQ1a0laSElhM1BaYzNsOA?oc=5",
+        "domain": "kurdistan24",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T060000Z",
-        "source": "GDELT"
+        "seendate": "20260821T191734Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Milica Milša kod kozmetičarke saznala da ima rak kože :  Videla je promenu  ",
-        "url": "https://www.blic.rs/zabava/milica-milsa-kod-kozmeticarke-saznala-da-ima-rak-koze-videla-je-promenu/zywjdvv",
-        "domain": "blic.rs",
-        "language": "Serbian",
+        "title": "Slain Ayatollah Khamenei wanted to end conflict with US through peace talks, Iranian president claims",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYzhTc21BdXRjcERkeWdfcTRMLUtSQVpVVnhzSlhJRlFqTTVvTVRkX3NyT1JUTlFmYTVWRG5Cd2JwZHlYeUI5QTc4OENQSTRaVTROR0ZublJsLXFNdlctRmxhLUppR3NXYS1kaWZkejU1eWpWV3RaNmtZZGtLS0pzTFBOd01ObnBZQUg3Z1RVd0pVNC1wRVpyOG5tamVVOVYzd296amF6cWxFeHM?oc=5",
+        "domain": "newyorkpost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T173000Z",
-        "source": "GDELT"
+        "seendate": "20260822T222400Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "أسعار النفط تتجاوز 94 دولار والأسواق تتجه للتأقلم مع اضطرابات حركة الملاحة",
-        "url": "https://www.elwatannews.com/news/details/8344061",
-        "domain": "elwatannews.com",
-        "language": "Arabic",
+        "title": "Bombings and arson hit districts in Thailand’s southern insurgency",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFAxbGN5Y0dsSWxoRmtnaElpQWRIMldmWlRUa0dPYm80NDFwQVNkVWc3b3Y2MDVTS2x5SWI3YWlpbElDQ3czdzh2QUp5NEJTaXQ4UGZBY3JRY3pCREFnaWRvRlpB?oc=5",
+        "domain": "nationthailand",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T113000Z",
-        "source": "GDELT"
+        "seendate": "20260823T002100Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "العراق ..  حوار السلاح  يدخل الحسم ومواجهات ضد الميليشيات الرافضة",
-        "url": "https://www.eremnews.com/news/arab-world/on42anr",
-        "domain": "eremnews.com",
-        "language": "Arabic",
+        "title": "Chris Hansen and the Film About Chris Hansen Are Now Arguing",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdktHQlhvekREWEZ3UGJ5ZjVHTjNWemF6dVFPM1hzNW5MUXZBN0xPOG9CNS1Mc3JTQUpiNlNCZlVYeWxBLW5QTXBsVkJ0aUNfNVdpeXJ6SlRYQzJRSWxLUGZ0M21seE5fZG9ucmNtNTd3VUlscWloV2p1ZDVZVWtCU25sN01EUFBZZEZGSTBkNjlwLU5icjV0REx1cjc3VWlyYmF1YURHdw?oc=5",
+        "domain": "rollingstone",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T064500Z",
-        "source": "GDELT"
+        "seendate": "20260821T183830Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Ndume To Military : Rescue 78 School Children Abducted By Bandits in Two Borno Communities – THISDAYLIVE",
-        "url": "https://www.thisdaylive.com/2026/08/22/ndume-to-military-rescue-78-school-children-abducted-by-bandits-in-two-borno-communities/",
-        "domain": "thisdaylive.com",
-        "language": "English",
+        "title": "Wife Constantly Criticizes Her SIL’s Family—So Her SIL Finally Turns the Conflict Back on Her",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSnR5dTd3Um9ucHdHazN2MFdBRWs3UnlWZXRfbWVuMEJab1Zra3Q5ZTloUXRCajNtRjlGUUhrZHRtSkdRN2s1U3RIMWpRTzR2ZEVEODdyYjd5WmZYMFhURlVnbG50cFlxRWF3SVJoV1VXTzhlTnBETllvcldSTXN3MUMzVlRaa29QQ2RlXzh6OVFIN3FuODI1b3ByZnBVc0FwS20weFJ6d19HUXF2N1J2TEYwOGp5MEpUT3pGUVlDRGM3UnoxREE?oc=5",
+        "domain": "twistedsifter",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
+        "seendate": "20260822T132520Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Nigeria : des jihadistes ont tué et enlevé des dizaines de personnes dans le centre du pays , selon des survivants",
-        "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-jihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants_n_502156.html",
-        "domain": "seneweb.com",
-        "language": "French",
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNTXR1c2VjYjRZZ3U4Q1ZZVHlKblI0Q0hnVXowNm8tSFo2dFNCbG44d014QzAxTjI5S1NFbEQxZGRPdmVQcERzcXdnd3U5ODlncS1fMHFIWkN5STVhVG0wYk5UNUhfTmQ3VF96c3RmNWlVZWktcUNLQ2s1VWU1YXkzejVlb2FsNHFwZER4QTNOV1pndWY1cTFqWnFyTUFwdzZBWTJ1YUthakdzLVlJbnB2WjhpVldiMS1TR2xpN0Iwc1Z2eXZJUDZfcDQ1TlVNeXhEZHp3VXJuekxQNVJZSldNTnZOc0NmV1ZZd21lbS1FZENmUDhNTnpPMVZVRQ?oc=5",
+        "domain": "eagle-tribune",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T123000Z",
-        "source": "GDELT"
+        "seendate": "20260822T145812Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "La milizia che scricchiola",
-        "url": "https://www.tio.ch/rubriche/ospite/1945423/milizia-paolo-ortelli-societa-condizioni",
-        "domain": "tio.ch",
-        "language": "Italian",
+        "title": "Iranian president calls for end to ongoing conflict",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiMWV6OEVNU0dWLWN2T2x0M2tJMGhLTk45QzRjV0xzV3IzRnp4WUZkSlRIMEFGNWxZaDBiNHlsSW4xRUYzTFpzWE1Vc1FVOTlSVklJWndOUk9vZ03SAWBBVV95cUxOcTlSbGtHZHk3TVJERFV0OXZ1bUVQd0FRRFVTQVhvTm54aXVnc2dYcm9ORVcwd2RyXzdhMzVwYWZDWmQ0ejFEU0RaRVhwSDBnZXFqSGF0ZGhDWVdoanBvVTk?oc=5",
+        "domain": "ktvu",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T124500Z",
-        "source": "GDELT"
+        "seendate": "20260822T010710Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Nel grande caos del medio oriente , sono tornati i pirati somali – due navi sono state dirottate",
-        "url": "https://www.dagospia.com/cronache/nel-grande-caos-medio-oriente-tornati-i-pirati-somali-navi-state-484396",
-        "domain": "dagospia.com",
-        "language": "Italian",
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNelhXelJwV3N3MnJIekhRVW5LdHNCclpXNVNodUVLbDdHWDFweFlMWWVmalV0Y29qRFRDQWszNWF0bkpjb0huY0ZzWU1BXzdNclNSZ21mN3BTeDJwd0VzQnJXWnp5WVV1LTlqdDR5WW5RMXk0VmZjRXV2Yl9HVTR5dEhwQkZnTGZIdGNnZVlWTS1YbktBQXFKU1J5Zjd6ZEgzOW1XdVRGa1JaR0E2ZmlnX0NNX0lfT01tTEJ1T05QWFV4c1F1TlEyeEh3MXZhMWlPRnY4SXlnMnZpbTBKcm9pU3BVa1YxeWV0YU9QV3dYSkFyRW14eWc?oc=5",
+        "domain": "thecumberlandtimes-news",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T121500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "مساعد وزير الدفاع اليمني لـ « عكاظ »: الحوثي بدأ الحرب والشرعية من ستنهيها",
-        "url": "https://www.okaz.com.sa/local/na/2262384",
-        "domain": "okaz.com.sa",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T170000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Houthi Militia Arrests Senior Security Official Amid Internal Power Struggles",
-        "url": "https://www.khabaragency.net/news251874.html",
-        "domain": "khabaragency.net",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T053000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Verhalten erklärt : Warum Ihr Hund nicht zur Ruhe kommt",
-        "url": "https://www.bild.de/leben-wissen/haustiere/verhalten-erklaert-warum-ihr-hund-nicht-zur-ruhe-kommt-6a86ae03cbb4a8f2ce8fecd4",
-        "domain": "bild.de",
-        "language": "German",
-        "tone": 0,
-        "seendate": "20260822T134500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "美智庫質疑部署國民兵未降低犯罪 川普揚言提告 | 美國新聞 | 全球",
-        "url": "https://udn.com/news/story/6813/9707874",
-        "domain": "udn.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260822T101500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "美智庫質疑部署國民兵未降低犯罪 川普揚言提告 | 國際",
-        "url": "https://www.cna.com.tw/news/aopl/202608220149.aspx",
-        "domain": "cna.com.tw",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260822T100000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Flávio diz no Rio de Janeiro que pretende retomar territórios dominados pelo crime",
-        "url": "https://noticias.r7.com/prisma/blog-do-nolasco/flavio-diz-no-rio-de-janeiro-que-pretende-retomar-territorios-dominados-pelo-crime-21082026/",
-        "domain": "noticias.r7.com",
-        "language": "Portuguese",
-        "tone": 0,
-        "seendate": "20260821T213000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Naša influenserka podelila bolnu ispovest o gubitku bebe : Ovo je rasplakalo sve  Hvala ti što si bio deo nas  ",
-        "url": "https://www.telegraf.rs/jetset/vesti-jetset/4382598-nasa-influenserka-podelila-bolnu-ispovest-o-gubitku-bebe-ovo-je-rasplakalo-sve-hvala-ti-sto-si-bio-deo-nas",
-        "domain": "telegraf.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260821T211500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Thông báo , hướng dẫn gần 53 . 000 phương tiện tránh trú bão",
-        "url": "https://baomoi.com/thong-bao-huong-dan-gan-53-000-phuong-tien-tranh-tru-bao-c55891608.epi",
-        "domain": "baomoi.com",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260822T173000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الدينار الليبي يدفع ثمن الانقسام وفوضى الميليشيات",
-        "url": "https://www.libyaakhbar.com/libya-news/2860086.html",
-        "domain": "libyaakhbar.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
-        "url": "https://www.franceguyane.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
-        "domain": "franceguyane.fr",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260822T124500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
-        "url": "https://www.guadeloupe.franceantilles.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
-        "domain": "guadeloupe.franceantilles.fr",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260822T141500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
-        "url": "https://www.martinique.franceantilles.fr/actualite/international/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays-1090510.php",
-        "domain": "martinique.franceantilles.fr",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "ألغام الحوثيين تحصد المدنيين وتزرع الرعب في البيضاء",
-        "url": "https://www.almontasaf.net/news147344.html",
-        "domain": "almontasaf.net",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Ndume Seeks NEDC Annex Office , More Housing Projects In Borno South",
-        "url": "https://leadership.ng/ndume-seeks-nedc-annex-office-more-housing-projects-in-borno-south/",
-        "domain": "leadership.ng",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "مسؤولون إسرائيليون يكشفون تفاصيل تحركات مجهولة المصدر لعرقلة رحلة وزيرة إسرائيلية إلى المغرب",
-        "url": "https://www.akhbarona.com/world/431191.html",
-        "domain": "akhbarona.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260821T210000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Somalia faces another hunger crisis and the UN food agency head says it has far less funds to help",
-        "url": "https://www.twincities.com/2026/08/20/somalia-faces-another-hunger-crisis-and-the-un-food-agency-head-says-it-has-far-less-funds-to-help/",
-        "domain": "twincities.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T023000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Oron på världens börser trycker upp guldpriset",
-        "url": "https://www.svd.se/a/0pXO7B/oron-pa-varldens-borser-trycker-upp-guldpriset",
-        "domain": "svd.se",
-        "language": "Swedish",
-        "tone": 0,
-        "seendate": "20260822T163000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Pakistan military says security forces killed 49 militants in raids in northwest and southwest",
-        "url": "https://www.nbcnews.com/world/pakistan/pakistans-military-says-security-forces-killed-49-militants-raids-nort-rcna593822",
-        "domain": "nbcnews.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T001500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Why Does the Iranian Regime Cling to War When Its Own Officials Warn of Social Explosion ? ",
-        "url": "https://irannewsupdate.com/news/infightings/why-does-the-iranian-regime-cling-to-war-when-its-own-officials-warn-of-social-explosion/",
-        "domain": "irannewsupdate.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T131500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Oron på världens börser trycker upp guldpriset",
-        "url": "https://nyheter24.se/nyheter/ekonomi/naringsliv/1506969-oron-pa-varldens-borser-trycker-upp-guldpriset",
-        "domain": "nyheter24.se",
-        "language": "Swedish",
-        "tone": 0,
-        "seendate": "20260822T180000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "القوات الحكومية تستهدف موقعاً استراتيجياً للحوثيين في الجوف",
-        "url": "https://www.almontasaf.net/news147348.html",
-        "domain": "almontasaf.net",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T003000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Mưa lớn ở Lạng Sơn làm hơn 300 nhà dân bị ảnh hưởng",
-        "url": "http://vov.vn/xa-hoi/mua-lu-o-lang-son-lam-hon-300-nha-dan-bi-anh-huong-post1326454.vov",
-        "domain": "vov.vn",
-        "language": "Vietnamese",
-        "tone": 0,
-        "seendate": "20260822T114500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Jihadists slaughter and kidnap dozens of people for  not practicing the true teachings of Islam  during Friday prayers in Nigeria",
-        "url": "https://www.dailymail.com/news/article-16071761/Jihadists-slaughter-kidnap-dozens-people-not-practicing-true-teachings-Islam-Friday-prayers-Nigeria.html",
-        "domain": "dailymail.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260822T111500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "FN : Er snart tomme for penger i kampen mot ebola",
-        "url": "https://www.nrk.no/urix/fn_-er-snart-tomme-for-penger-i-kampen-mot-ebola-1.17997102",
-        "domain": "nrk.no",
-        "language": "Norwegian",
-        "tone": 0,
-        "seendate": "20260821T201500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Maó , port de pas per a lexpedició del capità Bayo a Mallorca el 1936",
-        "url": "https://www.menorca.info/menorca/cultura/2026/08/22/2693493/mao-port-pas-per-expedicio-del-capita-bayo-mallorca-1936.html",
-        "domain": "menorca.info",
-        "language": "Catalan",
-        "tone": 0,
-        "seendate": "20260822T031500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Pakistani military says security forces killed 49 militants in raids in northwest and southwest",
-        "url": "https://www.wboc.com/news/international/pakistanis-military-says-security-forces-killed-49-militants-in-raids-in-northwest-and-southwest/article_17191cf3-4f99-597f-9d5e-bade7a62658f.html",
-        "domain": "wboc.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260821T194500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "الجيش اليمني يعلن مقتل أحد قادته في مواجهات مع الحوثيين",
-        "url": "https://www.shorouknews.com/news/view.aspx?cdate=22082026&id=112d8a3c-9761-4f95-8a25-6a3b1ad7307d",
-        "domain": "shorouknews.com",
-        "language": "Arabic",
-        "tone": 0,
-        "seendate": "20260822T171500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Darko Lazić sprema zimnicu u Brestaču : Sa majkom i ćerkom čisti paprike",
-        "url": "https://www.blic.rs/zabava/darko-lazic-sprema-zimnicu-u-brestacu-sa-majkom-i-cerkom-cisti-paprike/gcc61cn",
-        "domain": "blic.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260822T091500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Linkse kandidaten boeken opvallend veel primary - zeges , binnen de Democraten groeit de onrust",
-        "url": "https://drimble.nl/buitenlands-nieuws/107773863/linkse-kandidaten-boeken-opvallend-veel-primary-zeges-binnen-de-democraten-groeit-de-onrust.html",
-        "domain": "drimble.nl",
-        "language": "Dutch",
-        "tone": 0,
-        "seendate": "20260822T143000Z",
-        "source": "GDELT"
+        "seendate": "20260822T145812Z",
+        "source": "GoogleNews"
       }
     ],
     "exchange_rates": [
@@ -496,15 +498,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 74.77
+        "rate": 64.54
       },
       {
         "currency": "ALL",
-        "rate": 87.5
+        "rate": 79.12
       },
       {
         "currency": "AMD",
-        "rate": 356.51
+        "rate": 361.76
       },
       {
         "currency": "ANG",
@@ -512,7 +514,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 934.92
+        "rate": 916.63
       },
       {
         "currency": "ARS",
@@ -528,7 +530,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.59
+        "rate": 1.69
       },
       {
         "currency": "BAM",
@@ -540,7 +542,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.86
+        "rate": 121.6
       },
       {
         "currency": "BGN",
@@ -552,7 +554,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2665.4
+        "rate": 2966.62
       },
       {
         "currency": "BMD",
@@ -564,146 +566,146 @@
       },
       {
         "currency": "BOB",
-        "rate": 7.01
+        "rate": 11.44
       }
     ]
   },
   "entities": [],
   "events": [
     {
-      "title": "Friday prayer massacre : Deadly clash between rival jihadist factions in central Nigeria",
-      "url": "https://www.sbs.com.au/news/article/nigeria-jihadist-attack-dikera-lakurawa-militants/cekwd0209",
-      "domain": "sbs.com.au",
-      "language": "English",
+      "title": "An Expert on Conflict Says Your Relationships Are Doomed Without It",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LTTRYaGkyc25GSERsdEtzMmdneGlIeUJOVnA4MFpaV2NqSlhrWnJUWWQ3M0dfbFc3dUo1U3RYZTU0VkNoLUxoNnZ3cF8wWE1BdzYycENCUGhRSVBhYldWYmRWLXo3ZEEtdnJ1dHh2NnFsYUFJVExHTUwxdw?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T114500Z",
-      "source": "GDELT"
+      "seendate": "20260822T091506Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Bangkok Post - Dozens more civilians killed , kidnapped in Nigeria",
-      "url": "https://www.bangkokpost.com/world/3306178/dozens-more-civilians-killed-kidnapped-in-nigeria",
-      "domain": "bangkokpost.com",
-      "language": "English",
+      "title": "Pope in San Marino: Respond to conflict by following Gospel",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVktDRzNSRGtYbDNFelBIbmJHUm5NNU5Ed28yYTFuX3pWSmlDbkVCMmpPSnlSTlpBMy1OQW8zNDZMR0NFZU5mQmZtRU15VWpIcVVEcUJsb3g4MUVmNnFTWThVdGE1VW02YklxQ1BBZW9YNU9QcDVvVnA2V3JHR05GQUZ5M0JwLWJ3dkdkRHhEek1Ob29JUE1iOUl2dHFLekZsZC0xRjNITUowdmFsRWtsQQ?oc=5",
+      "domain": "vaticannews",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T114500Z",
-      "source": "GDELT"
+      "seendate": "20260822T091333Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Balochistan Constitutional Peace : From Conflict to Settlem",
-      "url": "https://www.pakistantoday.com.pk/2026/08/22/from-conflict-to-constitutional-peace",
-      "domain": "pakistantoday.com.pk",
-      "language": "English",
+      "title": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NnpuajF4cU9fY3VHTEpIc2tTSzU4ZGdWSmp1bFg2VkhHUnFoNVU4SlpScFI5aUtVMndMT1dkNXdBNXNEMGVlR0tKYUZmLU1GM3VuQTJabWZtaF9jSkZJVW1hNldjYTBPRXBuNVo5STU?oc=5",
+      "domain": "financialtimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260821T203000Z",
-      "source": "GDELT"
+      "seendate": "20260822T181756Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Angola acolhe 21 . ª Cimeira Extraordinária da União Africana",
-      "url": "https://www.angonoticias.com/Artigos/item/82556/angola-acolhe-21-cimeira-extraordinaria-da-uniao-africana",
-      "domain": "angonoticias.com",
-      "language": "Portuguese",
+      "title": "Iran warns nearby nations against joining US ‘economic war’ efforts",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
+      "domain": "aljazeera",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T134500Z",
-      "source": "GDELT"
+      "seendate": "20260822T232736Z",
+      "source": "GoogleNews"
     },
     {
-      "title": " Ils ont massacré certains des nôtres  : au Nigeria , des dizaines de civils tués et enlevés par des djihadistes",
-      "url": "https://www.leparisien.fr/international/ils-ont-massacre-certains-des-notres-au-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-djihadistes-22-08-2026-OVTIZHL3RJFC7J6VDCWFV4E3LY.php",
-      "domain": "leparisien.fr",
-      "language": "French",
+      "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRGh3U3AyWTFxdE5ZN25iNjZCUWVUOW5zY2drY1NVWi1uajVJajBINkJjSElDakV6M29UWHJUQjhHNnZ5OTFNSjNCbUFiTl8xc09ZUkN5MDZjU1NhUFBKSHNfSTlhc1dxdU51WWFXbmNZTDIyOU1OeGlfQmtrWnMtWTYzd1lXek9RRlR1Tkt3bzdLeVdaWTVBNklORVV4NjhLTFJMWEFTWmxaNkNjY1NDYjdaS2E3aHlJRHd5V0ZIcXM0cUxBWFowdUZTdmZGQQ?oc=5",
+      "domain": "losangelestimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T141500Z",
-      "source": "GDELT"
+      "seendate": "20260822T230025Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Au Nigeria , des dizaines de civils tués et enlevés par des djihadistes dans le centre du pays",
-      "url": "https://www.letemps.ch/monde/afrique/au-nigeria-des-djihadistes-ont-tue-et-enleve-des-dizaines-de-personnes-dans-le-centre-du-pays-selon-des-survivants",
-      "domain": "letemps.ch",
-      "language": "French",
+      "title": "Renewed Conflict Derails Lebanon’s Fragile Economic Recovery",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY3RDcWpkS1NLV3oybnlOSFpuQVI4cXBpbGpWa0lQcnNiZ2M0Z3VqZ241ZTl2djNBRXd3Z3llX2laODMzX2RRNmRkZjFyekJmTFJnMjc5RU4xYjVIZ1NwZEpfUHN4UzJVeDhFMEg5dEVHOUs3Qzd3TGxmVGFlWlhscFdlalhJcnJpNHdxTWZlRXRtZU1MQW9zR3k1UHRkTGZYOFRLck9xZDNjTTFLV21YZmFwOVFuamhyRGxv?oc=5",
+      "domain": "worldbankgroup",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T114500Z",
-      "source": "GDELT"
+      "seendate": "20260821T191829Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Nigeria  : des dizaines de civils tués et enlevés par des jihadistes dans le centre du pays",
-      "url": "https://www.linternaute.com/actualite/depeches/11223594-nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-du-pays/",
-      "domain": "linternaute.com",
-      "language": "French",
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "domain": "encyclopediabritannica",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T161500Z",
-      "source": "GDELT"
+      "seendate": "20260821T050000Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Nigeria : des dizaines de civils tués et enlevés par des jihadistes dans le centre - ouest du pays",
-      "url": "http://seneweb.com/fr/news/Afrique/nigeria-des-dizaines-de-civils-tues-et-enleves-par-des-jihadistes-dans-le-centre-ouest-du-pays_n_502189.html",
-      "domain": "seneweb.com",
-      "language": "French",
+      "title": "NEWSLETTER: A conflict on autopilot?",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBVLU1hck1lTnZYbmRWSWFMTS10cFJTSl9DZWpLMEtydlFWT3FvUTBsckQyN0xhRTFwaG9lVWZfaTVNVldabGMyTXhGRU9zTUZlV1dJSGNLUElKS3plSVF5a0pQUEhjS1cydDcwWVZlOXZLVnFDWXdfRGs5Slc?oc=5",
+      "domain": "reuters",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T173000Z",
-      "source": "GDELT"
+      "seendate": "20260819T163200Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Civis encurralados entre a guerra e o ebola - 21 / 08 / 2026 - Opinião",
-      "url": "https://www1.folha.uol.com.br/opiniao/2026/08/civis-encurralados-entre-a-guerra-e-o-ebola.shtml",
-      "domain": "folha.uol.com.br",
-      "language": "Portuguese",
+      "title": "Editorial | Netanyahu is dragging Israel into another pointless confrontation – with Turkey",
+      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxQN0xFSlpGd3RVTnNZdUlhb053Rm5OdDAwX1UzaXRqQzV2YU90M3NEa2g0YnlIeTlmRmN0RTdROFdpZzh1WVhMUUJabldaamJZX0ZmTTcxRDE5RWpUV0E5LVZBb0hfS2N4QzNMeTgzVHhjS04taWNlcF9vM2t1V285NUhHRFctRXVHWmc5TzRoVE5nSmR1NGV3UkwzdXNfSkdDeDl3UGVVMVdvM2lYa2ZZa3YzUFQ2aURWZWF2U3hEM0VBTzYxQWFYZXRXZm1rS3A2b21rTTF5Q0lPSGxRM0t1a0lXcGxSMDZpM09CbERxOF95V25TWlR6Q09BQ0ZHYjFxQmkyMjl2WEYwdVJiSVpOVUJMcXg?oc=5",
+      "domain": "haaretz",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T020000Z",
-      "source": "GDELT"
+      "seendate": "20260823T000500Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "مليشيا الحوثي تعتقل أحد قيادييها الأمنيين بتهمة  الخيانة  ",
-      "url": "https://www.khabaragency.net/news251855.html",
-      "domain": "khabaragency.net",
-      "language": "Arabic",
+      "title": "East Jerusalem man killed in apparent family conflict; two others killed by cops dispatched to the scene",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY3FHZV9sMmMyT1NIM1owUTllQ3kzMUxxYnJqMThkdVBTVGJyU1hMVERjZFo2Q2hXNjFlTFhaLU03QWdHRWpnU0tnSjAxQ0VUQWxCU09sX0Ryblc3b0dGMVp5bThldS03eVlndm5UVWZKY2RGUl9pOElyZk9WQ0w2eUR5bFl3bUZNWTlkbll3SUFMOGVsZkM3U2xYdEhLZ2pkRDV2QUItQ3N6aGpYalNjNEZoZHlkRkxqREowWkQ1bmRyZnoyN2g1UTFvRnE3YjFOdWk4enpNM0Q5VlN4NWx3c0tZUQ?oc=5",
+      "domain": "thetimesofisrael",
+      "language": "",
       "tone": 0,
-      "seendate": "20260821T194500Z",
-      "source": "GDELT"
+      "seendate": "20260822T235630Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "مصرع مشرف حوثي في ذمار يكشف صراع الجبايات داخل المليشيا .. خلاف مالي ينتهي باشتباك ومصرع ثلاثة",
-      "url": "https://www.almontasaf.net/news147345.html",
-      "domain": "almontasaf.net",
-      "language": "Arabic",
+      "title": "US military casualties rise to over 770 as Iran conflict enters 6th month",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaW1ESzdZZXotTktVTURwLWxsR1Q4czF6T2UyTkJucmlVTFFLREZsN1NJMzI3RHRHMWJYNzFubFBtbDNlQmVjeHJFQ25vdEgtUzBwUUVYbi1GTk5CRDhtaUtiNDRTb1p3NHZ3d1Y1anRuNmtjSjlyZVNRQm1HbzNsc2tqR1dzU25FQzN1VDE0TE9vRm9QS3V0Vk5KX0wzdElfTndDVGhJb0Z3NjF3WDFOX2NRd3VJdGlt?oc=5",
+      "domain": "dailyfinland",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T003000Z",
-      "source": "GDELT"
+      "seendate": "20260822T195046Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Des dizaines de personnes tuées et enlevées par des djihadistes dans le centre du Nigeria",
-      "url": "https://www.dakaractu.com/Des-dizaines-de-personnes-tuees-et-enlevees-par-des-djihadistes-dans-le-centre-du-Nigeria_a275252.html",
-      "domain": "dakaractu.com",
-      "language": "French",
+      "title": "DW News. . The Sahel has quietly become the deadliest hotspot of terrorism in the world. How did this region turn into the frontline of jihadist insurgency? #dwgeopolitics #mappedout",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3loWXFva1ptb0JDTlhVS1dYVlh4MmFRZkxBMFRSenlGazktWGFCbkZtMHVPWkM5SzR4a1J3aEI1SlNCdzVvajlhYm8tM2dDWk5oYUt3amhpejVGRW81ai1ZTFk4OS1ELTl5blk2c3dtWFJKR0pVeUZuRU9QLWxhQUxlRG9ORXdYaElMU3VtM1IyVEM3U0NSUm9VWXVwMDdqaHExclFsR0RBbkxLNWNiR181Q2oxRGpmMjhKM3J3VXY2X3hsdWZRb1hUT0tzRm9EaVZyX1ZJZ2gxNDVGb01DbVV3?oc=5",
+      "domain": "facebook.com",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T151500Z",
-      "source": "GDELT"
+      "seendate": "20260822T131505Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Milica Vučković otkrila da je izgubila bebu : Sine moj , neka te anđeli čuvaju",
-      "url": "https://www.blic.rs/sudbine/milica-vuckovic-otkrila-da-je-izgubila-bebu-sine-moj-neka-te-andjeli-cuvaju/cm3nmjt",
-      "domain": "blic.rs",
-      "language": "Serbian",
+      "title": "Bolivia’s President Rodrigo Paz fires economy minister amid unrest",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXQ2UEtHMXU1dk9HS2VqaUxDaTVjZXFxTGQ0QVhFdDVUX1ZVeFBJektFM0xTVEEtQmRIOWtBeE5uUGZMSnVVTkY0bkRSVzc1MHJHTElXVHI0bm12UUFBWE94WVIwZVpZMjNPOER3OW82b2FzeEJSXzdnemhNOGViSUduck5UUnBGVl9jNmdQbWFoZlRkWVdwdmNleXVsM0dBY0dXZkJFeF9RZ9IBrwFBVV95cUxOdlhWamtRWV8zeUd5LW1HQW1ZZUNoc1BhWUswSHFPZ0JubHlhUzBXck5nV2tTamxaX2IzSVp0MnBIMUNzQTFIVzAtb09iUWNVQnlUcnJ0NmZRdS1ScDlKeVFCMkRNNkR2dmVYc1MwWXc2c1EyQVluNFBBYmw0c0dkYUdrMXpjVkFHN2lLOEtQT2psRDJQcVZmRURNUXg1Njh1YndJSENETmI3Nk9IeTdF?oc=5",
+      "domain": "aljazeera",
+      "language": "",
       "tone": 0,
-      "seendate": "20260821T213000Z",
-      "source": "GDELT"
+      "seendate": "20260821T201349Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Aceh peace anniversary turmoil : The gap between generations - Academia",
-      "url": "http://www.thejakartapost.com/opinion/2026/08/22/acehs-peace-anniversary-turmoil-the-gap-between-generations",
-      "domain": "thejakartapost.com",
-      "language": "English",
+      "title": "Gaza mediators say latest Israeli strikes undermine efforts to end conflict at critical stage",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUGViZ2w0cXVmUjBqbEFKeEFsdUY1YWNiWlBobmpkejVKWng5N3lINFFZOGdNQ2JzaV90bXBFQVpLaWVDRXZOMmQtOXA0d09XNEZmdExMbFFPZGNsaTc3QUVKQktwOU5DNnliZ0dDdVFNaGdsUVNyOWdHRkh1VFBjQkNfUklTZTRZMzhDb05xaHZUNGdURlZxSUJBZ3RCVHZtbThfaFRObk1SM0VYX3ZZS09jelpvOGMzSVktZDNocEpKOVU?oc=5",
+      "domain": "reuters",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T060000Z",
-      "source": "GDELT"
+      "seendate": "20260820T235338Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Milica Milša kod kozmetičarke saznala da ima rak kože :  Videla je promenu  ",
-      "url": "https://www.blic.rs/zabava/milica-milsa-kod-kozmeticarke-saznala-da-ima-rak-koze-videla-je-promenu/zywjdvv",
-      "domain": "blic.rs",
-      "language": "Serbian",
+      "title": "Video: An Expert on Conflict Says Your Relationships Are Doomed Without It",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWXBFam9zTEpwUWNfUWRBYXFTWGg0aWNJM3pCNXRDTVUtdTc2Y191RF80VVdJYUlwY0JGUkc0UHBiMWpjbE04TGNUX3NLYXFyWnBQeFJvbXdtSFp4VnRKZk1IeFNnMWVfQzVPRkppck1PbHFOTHpFRWJrOGVZdmpabm83UU9DQ01lN0lDMGtqajNTSVlJN1BWcW41cHdpaTBTNFlPTjA0TnM0bmxrN2ZZekROYTVWcGVoWXZaSzd5ckQ0N0RWV2c?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T173000Z",
-      "source": "GDELT"
+      "seendate": "20260822T085019Z",
+      "source": "GoogleNews"
     }
   ],
   "timeseries": [],
