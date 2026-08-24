@@ -1,14 +1,14 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-08-23T18:50:39.745747+00:00",
+    "generated": "2026-08-24T01:18:26.256943+00:00",
     "mode": "live",
     "sources": [
-      "gdelt_articles",
+      "news_articles",
       "exchange_rates"
     ],
     "source_notes": [],
-    "version": "1.1.0"
+    "version": "1.2.0"
   },
   "stats": [
     {
@@ -18,471 +18,471 @@
     },
     {
       "label": "News Domains",
-      "value": "46",
+      "value": "40",
       "delta": "deduplicated"
     },
     {
       "label": "Tone Index",
       "value": "50/100 (neutral)",
-      "delta": "GDELT scale"
+      "delta": "news scale"
     },
     {
-      "label": "Geo Points",
-      "value": "0",
-      "delta": "geolocated"
+      "label": "Live Feeds",
+      "value": "2",
+      "delta": "connected"
     }
   ],
   "live_data": {
-    "gdelt_articles": [
+    "news_articles": [
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.channelnewsasia.com/asia/thailand-narathiwat-attack-injuries-anutin-charnvirakul-6335736",
-        "domain": "channelnewsasia.com",
-        "language": "English",
+        "title": "An Expert on Conflict Says Your Relationships Are Doomed Without It",
+        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LTTRYaGkyc25GSERsdEtzMmdneGlIeUJOVnA4MFpaV2NqSlhrWnJUWWQ3M0dfbFc3dUo1U3RYZTU0VkNoLUxoNnZ3cF8wWE1BdzYycENCUGhRSVBhYldWYmRWLXo3ZEEtdnJ1dHh2NnFsYUFJVExHTUwxdw?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260822T091507Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Ajmat Kadírov - Wikipedia , la enciclopedia libre",
-        "url": "https://es.wikipedia.org/wiki/Ajmat_Kad%C3%ADrov",
-        "domain": "es.wikipedia.org",
-        "language": "Spanish",
+        "title": "Iran’s War With Israel and the United States | Global Conflict Tracker",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+        "domain": "councilonforeignrelations",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T033000Z",
-        "source": "GDELT"
+        "seendate": "20260819T000000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.hurriyetdailynews.com/dozens-of-attacks-in-thailands-restive-south-leave-2-injured-225941",
-        "domain": "hurriyetdailynews.com",
-        "language": "English",
+        "title": "Data centres and democratic decline could lead to more water conflict in the future",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFhac3ZtQ3ZLR1pkY21kYmpaZDh3ejVleUpRVXluT2todDRHbUtLLVc0bFhZTFNtUFJWRHVzclhrdnA3N3J6cEFyWGJLc0tPNTdubzJDZjdGaHhOcy1GNXE0bWlqMDdFWUlldldsN1A4UXFBSzZTQ0dxLVhqajRwWTJEaDN1MTZaX1pZMktJSngzN3NjY0UxbEYtbUp2ZWFicUl6eHFqcnZuTDMydm43anh4ODBYSXhnV3c?oc=5",
+        "domain": "theconversation",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T160000Z",
-        "source": "GDELT"
+        "seendate": "20260823T133107Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.manilatimes.net/2026/08/23/world/dozens-of-attacks-in-thailands-restive-south-leave-2-injured/2410483",
-        "domain": "manilatimes.net",
-        "language": "English",
+        "title": "Renewed Conflict Derails Lebanon’s Fragile Economic Recovery",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY3RDcWpkS1NLV3oybnlOSFpuQVI4cXBpbGpWa0lQcnNiZ2M0Z3VqZ241ZTl2djNBRXd3Z3llX2laODMzX2RRNmRkZjFyekJmTFJnMjc5RU4xYjVIZ1NwZEpfUHN4UzJVeDhFMEg5dEVHOUs3Qzd3TGxmVGFlWlhscFdlalhJcnJpNHdxTWZlRXRtZU1MQW9zR3k1UHRkTGZYOFRLck9xZDNjTTFLV21YZmFwOVFuamhyRGxv?oc=5",
+        "domain": "worldbankgroup",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T093000Z",
-        "source": "GDELT"
+        "seendate": "20260821T191829Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.thehindu.com/news/international/dozens-of-attacks-in-thailands-restive-south/article71380258.ece",
-        "domain": "thehindu.com",
-        "language": "English",
+        "title": "Pope in San Marino: Respond to conflict by following Gospel",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVktDRzNSRGtYbDNFelBIbmJHUm5NNU5Ed28yYTFuX3pWSmlDbkVCMmpPSnlSTlpBMy1OQW8zNDZMR0NFZU5mQmZtRU15VWpIcVVEcUJsb3g4MUVmNnFTWThVdGE1VW02YklxQ1BBZW9YNU9QcDVvVnA2V3JHR05GQUZ5M0JwLWJ3dkdkRHhEek1Ob29JUE1iOUl2dHFLekZsZC0xRjNITUowdmFsRWtsQQ?oc=5",
+        "domain": "vaticannews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T070000Z",
-        "source": "GDELT"
+        "seendate": "20260822T091333Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.thestar.com.my/aseanplus/2026/08/23/dozens-of-attacks-in-thailand039s-restive-south-leave-2-injured",
-        "domain": "thestar.com.my",
-        "language": "English",
+        "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+        "domain": "encyclopediabritannica",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T064500Z",
-        "source": "GDELT"
+        "seendate": "20260821T050000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-        "url": "https://www.straitstimes.com/asia/se-asia/dozens-of-attacks-in-thailands-restive-south-leave-2-injured",
-        "domain": "straitstimes.com",
-        "language": "English",
+        "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1h1OExMcjNUOXpOV2RNRVY5TUZzV19pdUwxQWZ0SWZCT05zdWc5QUEybnJtVnAxZUUzUWxtems3dEdpMGUyU2lranZaYmdwWXBaTHkwZVpfRzlXQ1RSUlJ2OV9OQ2JrUkNxelFfSEIwTnJxRGRLN0Y3SXB4V0FVYUZQbmo4aVJEd2JvUUswM0J0MlBHeEhTQndSODQwa0gta1c3X3Vjdmc5Sml6dUN1VA?oc=5",
+        "domain": "apnews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
+        "seendate": "20260823T031300Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in Thailand restive south leave 3 wounded",
-        "url": "https://www.bssnews.net/international/417357",
-        "domain": "bssnews.net",
-        "language": "English",
+        "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43RnUycllHOVZoSURXQUdKWm9SUVJ1ZnA4eVFhZDg2VXdTSzEzQm12eHhPVnkzbGtFU3I5UEVRb05YV0NiQ2w1X2pRd29yVjFYZkhIZ2FPVHdhZw?oc=5",
+        "domain": "bbc",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T140000Z",
-        "source": "GDELT"
+        "seendate": "20260823T125208Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Scores killed as jihads clash in Nigeria",
-        "url": "https://www.koreaherald.com/article/10849050",
-        "domain": "koreaherald.com",
-        "language": "English",
+        "title": "President authorization of selling advanced AI chips to UAE raises concerns about conflict of interest & national security",
+        "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTmxVNUlVd2FtNkZQVjM5OFliaTZjZFExU2VrMzJPYUd2SVpjeFlaN2gyYXRmMmZRUW5ud2R3TWlybHZpYW9yQzRWMl9QbjQ0aUZOdVFPWlRlMmhKa3M5Q3dxVVRuZUlkZXdNdV9DQy1oV29jelhmS0FRWGhkZXBiQjNBWUp5OGZBVUJpdjhUR0VVUmtxNWdzT3ZaOUVIYTZkVWswSHJSWnJkMHJ0QW1EcEh6ZUNCLUJFbmdFMUg3RkxIb2QxSzVUZlM5bUhkUEw3OUpyNUVuMmNyZ3pubEZxMHlnc2NFT2pDY2hXNUtvaXdmTFUzX3dvR2E3Zk9zQdIBgwJBVV95cUxPVlgzOFVXT1NHdE9HbmQ0Z2QzVUM0cE5DNllxcFU4bjkycy16S1NEYzZ0TFNoVlYtYjY0MXBnU2hKZnlvNUlsUkwtc3dRN2VnZEJoQlhXdFJlcXRoNHc3ZjFXRnVKM1pNMi04cHUyeXBIcEpubkxzQmdaMUptM3lhLS16LWlXYmlBQ2dRdTlLSXZ1N01VN3FwM2Y5eVZBZGlwa0ctbTh1UGFiV3VOc25XdThGR1loNXZuNUpMWkVVZDVTTkFSWTNabXp2Slk2bVpobDNrN2FhREh5UGJXM1FQaGxfUmZFbkIwSUdCSDJpbWYzRnlEaFV4cFp2S3lMUVRLaVFR?oc=5",
+        "domain": "ourquadcities",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260823T151700Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of co - ordinated arson attacks hit southern Thailand",
-        "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o",
-        "domain": "bbc.co.uk",
-        "language": "English",
+        "title": "New GALA show about WWII spy full of conflict, intrigue",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQemdCZWxsblp3clh5bWt0elFNZk1BOWdzc2IwS3dzZFpWMFlMWkJaRHVNaV9wSWl2THRmSlRRYTdFMjV6aDlDd0FxVlpRM3pXRFYydEdVa0pVSmU3YnJlWjkxOHc0YzlWRS1MMFk4eHk4VkVEdzliVE5kT1RjSkV5dzExQ3YyLVlldy1PU1BIa1B1czBjeWhOcmVna2VRS09RTlFn?oc=5",
+        "domain": "washingtonblade",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T114500Z",
-        "source": "GDELT"
+        "seendate": "20260823T183238Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Dozens of attacks in southern Thailand wound three people",
-        "url": "https://www.aljazeera.com/news/2026/8/23/dozens-of-attacks-in-southern-thailand-wound-three-people",
-        "domain": "aljazeera.com",
-        "language": "English",
+        "title": "Polis requests federal disaster declaration for Colorado wildfires amid growing conflict with White House",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUGNXVEJDVk1RQkJYSTZoOVV6czktU2MybkRWalptLXY4RnFqUHN1Sjd5M3k5UFk2cllmT0gyY2Y2SzRMSHIwaUM3TXdHak1lb3NxSVdjSlMxWlVKeW1SNnJRaE9XQ1g0Z3ZsMEtEek5JZTdEMjlEZHNsT2h3aHFqSnJMbzQxdGR0SHlRUGJCN3hjZXJ1YkpocS1R?oc=5",
+        "domain": "thedenverpost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T181500Z",
-        "source": "GDELT"
+        "seendate": "20260823T180028Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "伊朗陷戰爭僵局 「 雙重困境 」 利用伊拉克展現善意 - 國際",
-        "url": "https://www.chinatimes.com/realtimenews/20260823000044-260408",
-        "domain": "chinatimes.com",
-        "language": "Chinese",
+        "title": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NnpuajF4cU9fY3VHTEpIc2tTSzU4ZGdWSmp1bFg2VkhHUnFoNVU4SlpScFI5aUtVMndMT1dkNXdBNXNEMGVlR0tKYUZmLU1GM3VuQTJabWZtaF9jSkZJVW1hNldjYTBPRXBuNVo5STU?oc=5",
+        "domain": "financialtimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260822T181756Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "  Ils ont massacré certains des nôtres  : une attaque jihadiste fait des dizaines de victimes au Nigeria",
-        "url": "https://www.lalibre.be/international/afrique/2026/08/23/ils-ont-massacre-certains-des-notres-une-attaque-jihadiste-fait-des-dizaines-de-victimes-au-nigeria-TUUZ5WVU3VC6JBTG2L2V7RMMRU/",
-        "domain": "lalibre.be",
-        "language": "French",
+        "title": "Israeli politicians focus on foreign threats, ignoring spiralling debt",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUF3bHFGcGh4ZTBJaUpPaEZ5b2hIYXJreFF5ZTZZQ0s5U2tva3piTXh1SlFuWHdfcHdrWmhNU0NEeWxKclI1Vl9SV0lxVXRaSlRscFdlX1pOOU96amdWMFVkSXZPZTBDMlJVcmQ1bWdTdy1QQzVhRmhqc21zc2xMU3E5WnMyaXQtQXNEOURJN1NJbVp4QlJlUm1iX2dJZDFsQzNXQ3FUbWVpX2M1QTJZ0gG0AUFVX3lxTE9pYzlfaTJheThJRy1kdGVQV2ZQUVpXbGdiMmptTFBjNFBkVDE5T2xNZEs5UWN5RkJsNTZNMDRYemhLeTJTNUJhR2l4b3kxWGc4U3ZmcC1OSVZjWWdqV3REMnNwdFlLbnNqQU4xTjRMZDdtalZQZUpaUEdDOEpxUFdzUzN2eU54cmpXZXBSLTlzU3l6N1V5djF1RUFvcHh6S0dPUERkY3JsWkFjcTE2TjNHZGRtZQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T134500Z",
-        "source": "GDELT"
+        "seendate": "20260823T230645Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-        "url": "https://draguignan.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-        "domain": "draguignan.maville.com",
-        "language": "French",
+        "title": "‘A Blatant and Gargantuan Conflict of Interest’",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEpNQl9QYkJCMDQ4YWM1ZVYwenRYRExNWWVFRW1xUnRKMlM0SnpRZUVLRFpPY1RDQWdtM2VWWWNlTVlDdFJXSURwM3dFdHlPZldvYkQ1dmxwZVQ1SVdHYWVBakxzQ25JU2JNOTlnZDV6dUtkT3hzcURBT3ZCX1RreUdIWjZaN2FTR3lndDE0UlZvUQ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T061500Z",
-        "source": "GDELT"
+        "seendate": "20260818T090344Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-        "url": "https://hyeres.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-        "domain": "hyeres.maville.com",
-        "language": "French",
+        "title": "Iran warns of retaliation against countries joining US ‘economic war’",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T063000Z",
-        "source": "GDELT"
+        "seendate": "20260823T054403Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-        "url": "https://brignoles.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-        "domain": "brignoles.maville.com",
-        "language": "French",
+        "title": "Iran war: Top US lawmaker says Republicans can ‘absolutely’ win midterms",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMGtWdFJrYW5jZkhTT0FDNHNPT296YmNFWmZKS3lZd3h0djJjWU1DWGw0WEFvX2xweUxQVjZzYXRUWW1QMnNSMFdYSDg4Z2hYSThMOXFYZ2FlekxXa3dfYkVKSFhiR1FYdmF1aTNsRm91WUJ2ajB5LTJqWHAzT0l6bnA4STBHVVhRRzhkTGNRbnE1eU5fWGEyeVpjdlFwUU5OM2diQ2VieG4wWVVsU2dR0gG0AUFVX3lxTE00VTNla2wwcnVaLW9RZ1c1alZuUjI1LVcxZlF3VHZPU01rZmhEal9pVDhpa2xHZFRSUXhQRDZjVHloZTdpRkxhNEMxelZWUUJXRndRT2hrNVlCOXoybUlHN0x1dXQyODI3Vm9jbDEtNk1wcWZ1ckJDZ2xCNEo1YXFsbEJWZGRwYjA2RGtBVmNZN1hkQUVJckJvNWYzdlBkMzU0d1pSYkhLNXdxSkY0QjROb21ubA?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T044500Z",
-        "source": "GDELT"
+        "seendate": "20260823T180209Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-        "url": "https://toulon.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-        "domain": "toulon.maville.com",
-        "language": "French",
+        "title": "Bolivia’s President Rodrigo Paz fires economy minister amid unrest",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONXQ2UEtHMXU1dk9HS2VqaUxDaTVjZXFxTGQ0QVhFdDVUX1ZVeFBJektFM0xTVEEtQmRIOWtBeE5uUGZMSnVVTkY0bkRSVzc1MHJHTElXVHI0bm12UUFBWE94WVIwZVpZMjNPOER3OW82b2FzeEJSXzdnemhNOGViSUduck5UUnBGVl9jNmdQbWFoZlRkWVdwdmNleXVsM0dBY0dXZkJFeF9RZ9IBrwFBVV95cUxOdlhWamtRWV8zeUd5LW1HQW1ZZUNoc1BhWUswSHFPZ0JubHlhUzBXck5nV2tTamxaX2IzSVp0MnBIMUNzQTFIVzAtb09iUWNVQnlUcnJ0NmZRdS1ScDlKeVFCMkRNNkR2dmVYc1MwWXc2c1EyQVluNFBBYmw0c0dkYUdrMXpjVkFHN2lLOEtQT2psRDJQcVZmRURNUXg1Njh1YndJSENETmI3Nk9IeTdF?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T023000Z",
-        "source": "GDELT"
+        "seendate": "20260821T201349Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "مراقبون : توحيد القرار العسكري والسياسي الطريق الأقصر لاستعادة الدولة اليمنية",
-        "url": "https://www.khabaragency.net/news251906.html",
-        "domain": "khabaragency.net",
-        "language": "Arabic",
+        "title": "Video: Thousands of families flee fighting in Sudan’s North Kordofan State",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSFZTYkVnbDVRYjI0cmFKS1pfa0h2a3k5RkhVYVVBSUFXM0pObkc1ZnVkeEl2Z1JtT3dJRFBjRUpIVkIzQXczcm9DUGlYYzZ0cVh3UFJEaFYxZU9FcDlFZHV5Y0ZISEpTRFNSOVB3TDJ3dGpIZ1ZBOXNLalMxY1hJSVZXckZRdG9zU1FWRUliSkhLS3FOSlNXU1ZwZE9sMGlFM1J3ZmdwY2dVekNPc2N1d3FnXzZxQ25nbzN3d1IzTm3SAcYBQVVfeXFMUDZ3Zkh1UW4zSFhKM3hzbWIxZV9iNmJuZ0hLaEdmZUt4QlFhZFBwMDB5NjUzMzlEcXdEaHhXaWpXWUtySng5aHlJc3NfZjN4VXl0UUVYaGwydTlTR0FxR285VHNDQ0l4MU9rWU1fSm1MWGpiQTBaWjRHQzByWFhaVjRmdnZpTlJvMGVmSHRNY01HMjJ1WVQ3dmJTVVo3QXpvak1GRUo1bVdPcGVCSklXX3VCU0dkY1hWTUVIeEVDYklKVVpKbF9n?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T220000Z",
-        "source": "GDELT"
+        "seendate": "20260823T182746Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Lešinarko : Milica Nikolić žestoko odgovorila Mariniki Tepić zbog kritika vlasti o požaru u Delibla",
-        "url": "https://www.novosti.rs/vesti/politika/1640631/lesinarko-milica-nikolic-zestoko-odgovorila-mariniki-tepic-zbog-kritika-vlasti-pozaru-deliblatskoj-pescari",
-        "domain": "novosti.rs",
-        "language": "Serbian",
+        "title": "DR Congo, M23 rebels agree on roadmap for peace talks",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS3JiWGxKYU1JU3NraTlfM3FaVmJGTWVqM3BkM09pQWJIZjZSeEZsb0ZKMFZCdnZ5cUkweE1kOGQ5UEdlNlJuYUNObmlVc2psUDRaa1A4eEFEQ3NOQjg4QVFLN3l2U29vbk13ZVRrSF9WblNEQU5POHpFWjdOZllPWkZERWxxVi1HN1RxSGJVSjc2NFNYWUF0ONIBngFBVV95cUxOTlJiTHcyNy0yelJVZGxlbnpJYVYtMWYzOXJ1Uk9CRGhKSVNJdl8zMzBGRFEyOU9Id2hGLTFlZmVpUjQ3eWUxTU9maGZRVXVkOExMWEtGZXdPd0hWWXRiVmZfcTRqUnFrZDFLR2lXQ25tc2VrLUtDY1k0QlU2Tl93RnN2V1NXX1NvN1o5Z0VoME9EbjdlUjNTaHU4UzByQQ?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260823T081403Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Seniman Tanah Gayo Fikar W Eda , Menyulam Kisah Gayo lewat Syair",
-        "url": "https://rri.co.id/features/2672575/seniman-tanah-gayo-fikar-w-eda-menyulam-kisah-gayo-lewat-syair",
-        "domain": "rri.co.id",
-        "language": "Indonesian",
+        "title": "Israeli newspaper slams Netanyahu over Syria strikes, warns of ‘pointless conflict’ with Türkiye",
+        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVXlRcUFXZDdPb2FqWXpIOURSeElFVDhKc3NrZHBrM0NTcjUwODVlY3Jza2M3STV0VFZuSU5iNHNVSF81NTZ3bGlxZXd2ZFBXaGxnY01YRlItVldEVVVOUzlGRkNCSFFwaXlxVjBHa3NyVmJrSGhyVnpGeU1MQkZnZTdvZG03RFNuOGlYWkdXQ0ZIcjJaUV94SUg5bmJINHJhaHNqQmpjX2hpS0RZUTd6bFNEMWozWWI5aE5FUmZOYi1EOXNFa1Z5Y1ZENm8xT0ZVdDhuRQ?oc=5",
+        "domain": "anadoluajans",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T023000Z",
-        "source": "GDELT"
+        "seendate": "20260823T123458Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "جريدة الرياض | تعليقات « إكس » تفضح رواية ميليشيا الحوثي",
-        "url": "https://www.alriyadh.com/2203532",
-        "domain": "alriyadh.com",
-        "language": "Arabic",
+        "title": "Iran's president called a memorandum with the United States the best way out of the conflict",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMW1MMFBnNHJQUFN0b3VjdEl4UVBqVV8wdlllTnhmMnZVc0M0OUtrSUFzXzF5ZUc3eEZBYzZITTZQVEhUSVNIdHllZmlLT3huYjNRbVVsSlU5TDNxQ3JTNkFQb1pJYWdJMmZBcGdSdTVSemRWVWpCeW1XeXNOODU2LXMxVUJNOS11aXJFSkphWjZMd3RzODVMRUx3cVBnZW8zYXhQcW1hQmZZQ3ZVVWxLaGR5MzDSAbMBQVVfeXFMTm1uajRyUkhDWG1iMGNaNWRqdFNYSmhSbU9SbEZndUpuS3N5bGtWQlhtRmRrMUlIM1BSRkZCNTBhWmQ1THVDNU5aRlNRRUItYXhGY3dwVDZ3aldNclQzaEtNb1VOMlpPNGYzVzRSVWtpbnhRUXJMTnVTejJFdVo3b0V0SnpocHFYUXY3T0s3MmdyVjlyNkQ2VUQzaVhLNmlnemF2ZXVjd2tnczVVUFJGcE80S1E?oc=5",
+        "domain": "news.google.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "seendate": "20260824T005606Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Colloqui di pace tra DRC e M23 : la roadmap per porre fine al conflitto",
-        "url": "https://www.notizie.it/colloqui-di-pace-tra-drc-e-m23-la-roadmap-per-porre-fine-al-conflitto/",
-        "domain": "notizie.it",
-        "language": "Italian",
+        "title": "Sen Barrasso warns of escalating Iran conflict, impact of Trump’s economic sanctions",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1xRjJxZmdfVjFrakhkQlpXVUUxeU44MGV1SkUwVngybV94UmJPLVk3eF9NZkNrQVJNcS1nQVQxbVRZVHAyeEFSUDRKVmQxNFBTMnVfbEtn?oc=5",
+        "domain": "foxnews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260823T155852Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Razbila vrata i uletela ! Studentkinja Milica zatekla čoveka u stanu koji gori , onda uradila nešto NEVEROVATNO",
-        "url": "https://www.telegraf.rs/vesti/jugosfera/4383208-razbila-vrata-i-uletela-studentkinja-milica-zatekla-coveka-u-stanu-koji-gori-onda-uradila-nesto-neverovatno",
-        "domain": "telegraf.rs",
-        "language": "Serbian",
+        "title": "Israeli newspaper slams Netanyahu over Syria strikes, warns of ‘pointless conflict’ with Türkiye",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPWko5alRFaUhNUEdKNnB3MVpVRzBZLVVYQ0pVQ1hoUlV4LVVpcEVQc2FZR3hVNExFUmNoZUJyNUd5ZWpPY3A4T3dPX294aEpXSC1TekdyT1l1by1YdVp3YTV0QThuWVNtTUs1NU1GaE5qTjNOUFJNSXQ0blZHcGFEd29DUC13U0RpeEhkdzlqRTMxRVdJdEVnWjEwNmRVelFCWDcxd2cyN1EtLVpNZnNkeVY0R0lMbXNxT1lfUlBHOU9WWlpxVWhoNDdLSnRVcnJFMkc40gHYAUFVX3lxTFB3ekNhZHNCNFViTHdYQ0ZTNWtxVFpkeUNnTUc3MnVIVGoyeW9IS0pINkhXU0dPSURzNzg1bVhDdXpDQUpsTV9PXzdNdjZsZGU4eDBFTlMwS1VwbThLX29DVGtFdWZYWXpRdEw5SGk2dGNRbWZ2WXR4aDItc0p2bUxRMkhQRFY2QzBJd3lwWGRrNXBqWTFWMUE3QmtfRlBHdFFnSVJLVkNqWGhTT0RkNnhkMjFrRkxVLW1PMmlkdkFFd2d1aXlPYm9LZUtnazl2MzhkQjZxNDNHRw?oc=5",
+        "domain": "middleeastmonitor",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T144500Z",
-        "source": "GDELT"
+        "seendate": "20260823T124300Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "إصابة يمنييَن وصومالي في هجمات حوثية واسعة شمالي الضالع",
-        "url": "https://www.eremnews.com/news/arab-world/62bny7r",
-        "domain": "eremnews.com",
-        "language": "Arabic",
+        "title": "Insurgency And The Security Of China’s Mining Investments In Pakistan – Analysis",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOa0RvMDZlXzBHOXBMM2xQRkxhRHRTdHRkWXJMa2pMZ25PQWZZZ1o3YkItOU1IMjdKbW5YS2JucGh6RTBjZV9zWGdGVE1OOGV3WjNLOHJUVlNtMDlic19UNVU4ZXVfc1o0cU5RNXE5am4tMUF2UXZDaW13V2lPYnBfQWxlS0U5ZDhXeHpiUTlGbE5tbUFwaGJuaXhvUnkzUGE1MlQ4d2JuMVRBb3I0R19aeHA0UzItTjZw?oc=5",
+        "domain": "eurasiareview",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T164500Z",
-        "source": "GDELT"
+        "seendate": "20260824T002226Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "استقطابات المذهب والقومية .. والجغرافيا ! ",
-        "url": "https://www.aletihad.ae/opinion/4686825/%D8%A7%D8%B3%D8%AA%D9%82%D8%B7%D8%A7%D8%A8%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%B0%D9%87%D8%A8-%D9%88%D8%A7%D9%84%D9%82%D9%88%D9%85%D9%8A%D8%A9---%D9%88%D8%A7%D9%84%D8%AC%D8%BA%D8%B1%D8%A7%D9%81%D9%8A%D8%A7",
-        "domain": "aletihad.ae",
-        "language": "Arabic",
+        "title": "Pope challenges systems that fuel inequality and conflict",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTnh6bE02T2J3QkxEcS1HMFYtaTd6UG5KM1h3VFVmb0xsSGNudEVwUFlwSC1FckhkQkpMRDlSMFA4VnoyX3paaVNVZEVmcW9scWxVSlV3NmhUSUdKbUhYb1ZzbUcwek00Q3hVNlNkemk5SjFvMjFDVlJOc3Y3RVh5bXFGeDNRZ0pRX0ppTzI1R2ZReGFhUDlfNWNGcHhSSS1URnpNbmx3dnFqbEw3U3dKTFBNYktlUQ?oc=5",
+        "domain": "apnews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T204500Z",
-        "source": "GDELT"
+        "seendate": "20260823T031100Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "مؤسسة حقوقية يمنية : 4651 جريمة حوثية ضد المساجد والأئمة",
-        "url": "https://www.okaz.com.sa/politics/na/2262391",
-        "domain": "okaz.com.sa",
-        "language": "English",
+        "title": "South Korea ship to test alternative Arctic route as Mideast conflict disrupts shipping",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPajk5a01VOExwTzhvLUo3RVlMdDMxS0VOT3M3c0xMaFdkdzByUTJ6ZXQ5UXRCam92QURxRldRdXBhdVlfUUtNX0J0NjRob1UyZ19uOFU4MnlJTUhNRjZpcnNkTTlvMlN5RmdHYkFrRVVtSDJHc29tcFNkTkFSazU4bkljdEJtNkpUZjFEdjZycWRhajJ1ZmhINlIzd1BzTFIxU1lFWFhwZFkzSF92SG52X2paSUxjSm5IemtacFRUbUNwYmhKczd0dFc2QWg?oc=5",
+        "domain": "france24",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260822T024712Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "اليمن يحبط هجوماً بزورق مفخخ ويفكك لغماً حوثياً",
-        "url": "https://www.okaz.com.sa/politics/na/2262401",
-        "domain": "okaz.com.sa",
-        "language": "English",
+        "title": "Netanyahu risks dragging Israel into ‘pointless conflict’ with Türkiye: Israeli media",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYkVBTG8tejhaa2lyeFJfbDlRLXNuSFMtMzQ5Y2J3YVdXdTNHOVFhVVNuMkVUZi11V2FPRWhGMmpHcW9HbnJ3WmtlREplTnlvUjFGZzJMOE1oT3EyWVVIV1lSUmx4ZEItZzFXWkhUMnZyMHYxTmE4UDl3QWhKb21mMU5QTE1Md3psUHVLSU5PNUdSMGRDWXJPNjFzZVVDVUVGQ0QzTzNHemdYbzA2TXhVcU5pUHNvT1ZPYnF0MUNCSlgxWkE1?oc=5",
+        "domain": "trkiyetoday",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T213000Z",
-        "source": "GDELT"
+        "seendate": "20260823T131806Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Николићева Тепићевој : Кад ћеш ти у очи да погледаш ватрогасце",
-        "url": "https://www.politika.rs/scc/clanak/780295/nikoliceva-tepicevoj-kad-ces-ti-u-oci-da-pogledas-vatrogasce",
-        "domain": "politika.rs",
-        "language": "Serbian",
+        "title": "World Bank warns of Lebanon economic downslide due to Hezbollah war with Israel",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE55dlBCYzZYNHlydHhJUzRKekhOYW95NmdoZHZnWjR0UXZ4VVN3MW5KRHJIdjlocmFfczFpN2h0clFTYzQ3NFVrYVB6eU5vVlpBNTZsRjVFc013bjd1?oc=5",
+        "domain": "thejerusalempost",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T220000Z",
-        "source": "GDELT"
+        "seendate": "20260823T123926Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Corea del Sur prueba la ruta del Ártico como alternativa al Canal de Suez para el comercio con Europa",
-        "url": "https://www.elesquiu.com/internacionales/2026/8/23/corea-del-sur-prueba-la-ruta-del-artico-como-alternativa-al-canal-de-suez-para-el-comercio-con-europ-593823.html",
-        "domain": "elesquiu.com",
-        "language": "Spanish",
+        "title": "Xero chief Singh Cassidy eyes bumper bonus despite investor unrest",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObTZ1UWZIQTU2eFVtai10WV84Vmh3bmwtS3dnMFF0OUZPNUxDeDhOLTZmR1czaU41OXJtY2hfNDRza2MxcURVRnhYUkswbUxmRndNSHpER1JmQ0p1QXYtSUcxUWNScWh5Q3dfVTRFVjFHZlctUzU2TUFidU5XRnRNNXZtbUJvRFJrSm9BaU15bWc0dmRXN0xIdHFHX3g3TnJObzBmVy0xcnc1UmxvSFJ1TlpGaw?oc=5",
+        "domain": "afr",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T174500Z",
-        "source": "GDELT"
+        "seendate": "20260824T004500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Naš pevač o tajnama braka koji traje 44 godine :  Udao sam se  ",
-        "url": "https://www.blic.rs/zabava/nas-pevac-o-tajnama-braka-koji-traje-44-godine-udao-sam-se/wpxjm5n",
-        "domain": "blic.rs",
-        "language": "Serbian",
-        "tone": 0,
-        "seendate": "20260823T064500Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "泰國南部夜晚不平靜 多地同步遇襲致2傷 … 共計51起攻擊 | 國際焦點 | 全球",
-        "url": "https://udn.com/news/story/6809/9709077",
-        "domain": "udn.com",
-        "language": "Chinese",
-        "tone": 0,
-        "seendate": "20260823T093000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Iran Top Security Chief Escalates Rhetoric . Warning Aimed At US Allies . ",
-        "url": "https://www.ibtimes.com/irans-top-security-chief-escalates-rhetoric-warning-aimed-us-allies-3806690",
-        "domain": "ibtimes.com",
-        "language": "English",
-        "tone": 0,
-        "seendate": "20260823T113000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "En Syrie , limprobable intégration des milices kurdes à larmée « achevée » ",
-        "url": "https://www.lopinion.fr/international/en-syrie-limprobable-integration-des-milices-kurdes-a-larmee-achevee",
-        "domain": "lopinion.fr",
-        "language": "French",
-        "tone": 0,
-        "seendate": "20260823T110000Z",
-        "source": "GDELT"
-      },
-      {
-        "title": "Polemik Dugaan Asusila di Desa Bijaepunu TTS , Tokoh Masyarakat Serukan Jaga Keamanan",
-        "url": "https://kupang.tribunnews.com/regional-ntt/976853/polemik-dugaan-asusila-di-desa-bijaepunu-tts-tokoh-masyarakat-serukan-jaga-keamanan",
-        "domain": "kupang.tribunnews.com",
-        "language": "Indonesian",
+        "title": "How global conflict is reshaping daily life globally",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQcGJ4bkE0eThNYUJabFczdi1aX21GRkRwSW9BUWF0UEcycEgyaHp5UFhfZXJ0cVVveUtWaHc3LWE1Ykc0Ql80MkF2WW9UbXdWdDBmRHhuTDNZTmxLaE1rTDAtTzRaTHpabnh3LVlwVncyUEQ1VElDQXliX1MxYzFQMmV4elVLaFdndWxablV3?oc=5",
+        "domain": "yahoo",
+        "language": "",
         "tone": 0,
         "seendate": "20260823T120000Z",
-        "source": "GDELT"
+        "source": "GoogleNews"
       },
       {
-        "title": "Bangkok Post - Amnesty law takes effect Monday , excludes lese majeste offences",
-        "url": "https://www.bangkokpost.com/thailand/general/3306575/amnesty-law-takes-effect-monday-excludes-lese-majeste-offences",
-        "domain": "bangkokpost.com",
-        "language": "English",
+        "title": "Funding helps students build skills to navigate conflict and bullying",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY2prRXIwMkFqMFAzakw5c0U2eTYxMTBPbXhNWWd1YjlPbmZmS0w4M2JBam04eTBXZGlVUkVCNVhXZTFLdTh3QTA1cFhTTTJvbXl5TnNhblN2U1diUXN1eF9uUDRMYUt0Nll1ZWJGck1jWWZJX0xNcFA5ZTZRcnRZUElBSXJWY284Wk0xX01BUkRNZ1I2NnlablVrRzNMSWNtQWhkWXQ2dzJMQks5bTlMNEl3?oc=5",
+        "domain": "westcentralonline",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "seendate": "20260823T181511Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Chính trị viên phó Ban Chỉ huy quân sự cấp xã có phải là Bí thư Đoàn Thanh niên ? ",
-        "url": "https://danviet.vn/chinh-tri-vien-pho-ban-chi-huy-quan-su-cap-xa-co-phai-la-bi-thu-doan-thanh-nien-d1453601.html",
-        "domain": "danviet.vn",
-        "language": "Vietnamese",
+        "title": "Zelenskyy tells about conflict between Fedorov and Syrskyi: they stopped communicating,",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMEhsNDBaZlo5NUVFWHRLRm5pYW5lZTUzYUlsVXdQSU1FU0FZQW9oVTVIM19OblljNEFfY2pxS1FNZTktT3N6bU5uV0EwRkdueGlacURPUDNjVENuRTB0T1ZLdExlcWZLcVJpcW5oaHNoTU45Y1huT3BBMnFuTjFwZjBnQzVmTl84ZFV6MUNmRFVDcUw3UlBjX2pYdWx3MmQwRmZIZlpLdU8zTXRkdWlXYTNiRklKREhVN0JUZ3R2TdIBxAFBVV95cUxQcFVFc2o0T2dvcG1seEZPWnI1MzhBeVpxUm4zajBYMkxHb2RHdkRUcTFCd01qLUt4QVdxWlA5SDhDd1dEUEJCSWhRcTFjZWtfZlRZcnFuV0NwTWwtWDVoZGVidDVwcTdDb1dJWWRwLU9aRWxUMmdyWUNfSXRVOUJOUlVsMThYdVRZZGltdGtwLUVtMkZVcDdCbTJaX0ZLb3hwQ3o0WHNub3B6UThVek0yMU9lZXN0T25FUW4xdFpHSkpycmFw?oc=5",
+        "domain": "ukranews.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T084500Z",
-        "source": "GDELT"
+        "seendate": "20260823T203006Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "تراجع في الأداء والخطاب .. التصعيد الحوثي يدخل شهره الثاني دون نتائج",
-        "url": "https://www.newsyemen.net/news105768.html",
-        "domain": "newsyemen.net",
-        "language": "Arabic",
+        "title": "The Athletic, NFL may deepen their relationship (conflict of interest be damned)",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOQ19OazcxbFF4VGRpTFc1dWZfWXFBTHhzckNZemFJdnFlUWRaV1RXRDhFNVoxU1F0VkZ5S2tEUDRtY2gtMXlaclJOdTVRaVFxa2JrTDgzRGRqdmtRU1FJaWNPam9PdFBodDExeEQxbTRQU2xKZjg0WWx3THV0bEo5NmNxeXRsM0FyS0VkM0RiRkJVdEJiVUd3ZUMxZTZWVFYtOTYwX0JmVDh0NlZZMnpVcUhDZGY0SGZIR01LdmxpdzFyX1g2SzJhM0xKYnFuMWpaNHNQZFBR?oc=5",
+        "domain": "nbcsports",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260821T141549Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Obeleženo sećanje na zločin u Sisku 1991 . godine , Milica Đurđević Stamenkovski : Uredićemo spomenik u Kaluđerici",
-        "url": "https://www.tanjug.rs/srbija/drustvo/275501/obelezeno-secanje-na-zlocin-u-sisku-1991-godine-milica-durdevic-stamenkovski-uredicemo-spomenik-u-kaluderici/vest",
-        "domain": "tanjug.rs",
-        "language": "Serbian",
+        "title": "The impossibility of African Union conflict prevention",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQldfanBrR09BempPTUc2V2RaRE8tYjhrZmItSmFINlNOaDVkeERwMTVlLUJPbmtWTE5wUFIyQ3hHRk5ORFBSVy1jdUpsbDQwS0hTbVVTZEt6cW95T1dDRTdGdE5UYVhZNEpRWDZLand6cS13RDB3cGpvblhaZ1lJUUJTUTRpc2JTeTNuQkpoWQ?oc=5",
+        "domain": "diis",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T154500Z",
-        "source": "GDELT"
+        "seendate": "20260818T112450Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "جريدة الرياض | كازاخستان تنتخب أول برلمان من مجلس واحد بعد إقرار الدستور الجديد",
-        "url": "https://www.alriyadh.com/2203529",
-        "domain": "alriyadh.com",
-        "language": "Arabic",
+        "title": "Video: How Slack Has ‘Turbocharged Conflict’ at Work",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRS1IdUVsNWlyNmFmZ3lMaWJWVTZ6Y1NxZmtDc1RNeEt3eDRJRC1SNnhIRlZ6Smg3WTRiLUdHQm8weXVNQUpXenJISWRNVy1TU3VUdDdocjNoVHU0eDNXazg3NEtDcTNuNm9iaS1VbmlmS2dNWUlfMTNTOFRPb3FDc01xSzVnRUpfdzIxc0ttcV85Rm5GSERxLU9LYkktc3l0LUNGYkdn?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T090000Z",
-        "source": "GDELT"
+        "seendate": "20260822T090239Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "إقرار بجرائم حرب والعودة لأرشيف الحرب .. ذراع إيران وصدمة  المُسيّرات  ",
-        "url": "https://www.newsyemen.net/news105776.html",
-        "domain": "newsyemen.net",
-        "language": "Arabic",
+        "title": "Pope Leo calls for dialogue over conflict - World News",
+        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRUEySjFLWmFXNERLakhsRTJnWDBGTHRGRFU4b05wcVRLWnlTdWZvTnN3c2sxY2VfeEZEdnVOcFRmcW8wSFFBTEpYa3RxVXk0OFRsa0tzSjNrS2FnRGs4NC1zVEVabTAxNDdoVHRNRXM4Q1RmUkZjbS1YcG42Qkp4ZS1mTFM3bXRwSnc?oc=5",
+        "domain": "hrriyetdailynews",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T174500Z",
-        "source": "GDELT"
+        "seendate": "20260823T083241Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Jharkhand exam row : 3 FIRs filed against 28 named , 900 unnamed over clashes in Giridih , Hazaribag",
-        "url": "https://timesofindia.indiatimes.com/city/ranchi/jharkhand-exam-row-3-firs-filed-against-28-named-900-unnamed-over-clashes-in-giridih-hazaribag/articleshow/133438022.cms",
-        "domain": "timesofindia.indiatimes.com",
-        "language": "English",
+        "title": "Myanmar military bombing kills 14 at Buddhist monastery, opposition reports",
+        "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWmdSZ19OZkdoS2QwZ2VRZGlGejZ3VVd6UGlTYTltakxyeUQtRFdma2w3dzRwY2swdElxaWZvZ2pyVGttZ3lxeXRScTJ2anhoVU1NMjlGcjJGLVo0NTFpM0hyRjFqbTlVQjUyUElNd2FlVXBQd2NTZGhSeTJuUFlJRExEb3h1cTk0NUtCS2RfNW13aHd4bWFjWGFtRXpCanVfaExBcDFiZGxwb3p5dmdjaGVpX3dlZ9IBuwFBVV95cUxNemFQcG5TdldRUVFwWjZCOUVqT0hNeUw3WXhzWFQxZWl0LVpFSGZyUUdtcFA4TGFBQzY2dENWTnltZnRSMEs0UFlqeE05VHZEN0d3dDdZYjZTenhDTVl4OXVuSDk5WHhtSXA1cmlobTlkVmRmSGdLaHlyWEhZaDJVRlRET3JhaDAza3JHV2RWSWdVc2lCaUFPbkNFYjVwZVZNRHFVNWxFcHlyRUkzaktQRUJ3U0VZcEJRM2Y0?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T111500Z",
-        "source": "GDELT"
+        "seendate": "20260821T235653Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Puluhan Unggas Warga di Panton Reu Mati Mendadak , Wabah Aratan Resahkan Peternak",
-        "url": "https://aceh.tribunnews.com/nanggroe/1040165/puluhan-unggas-warga-di-panton-reu-mati-mendadak-wabah-aratan-resahkan-peternak",
-        "domain": "aceh.tribunnews.com",
-        "language": "Indonesian",
+        "title": "Zelensky Reveals Serious Conflict Between Former Defense Minister Fedorov and Ex-Army Chief Syrskyi",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1aHJCd1o4eXEydE1kSndpNEtFRDZoTGU2RUlZN3F4bDMxR2lxMkhRUmhpNmpLUnFZaDFmdWdaUkJtZjRNNjV2UlRtdGlPQVFXYTlTU2lndXJzcFVzMG9yNmx5R3lQdVdqbXZCSVNkYw?oc=5",
+        "domain": "..",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T070000Z",
-        "source": "GDELT"
+        "seendate": "20260823T155652Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Open Doors raises alarm over violence in Sudan",
-        "url": "https://www.christiantoday.com/news/open-doors-raises-alarm-over-violence-in-sudan",
-        "domain": "christiantoday.com",
-        "language": "English",
+        "title": "Deep South unrest totals 1,271 incidents since 2017",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ObUlMRGMyX1RkOUt5MFZDLTNyVnZxVFN0Z3EyV2RIZGQ4dV8wQWdFWW16dF9CMHVRNjNONm5EOXRoYXE2Qzg5R1hCa3YtdUdBNEt6bV82OXlWcldkdmJvN2x3?oc=5",
+        "domain": "nationthailand",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "seendate": "20260823T081400Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "5 Verletzte , 17 Festnahmen : Schwere Ausschreitungen in einer Migrantenunterkunft im Norden Griechenlands",
-        "url": "https://www.n-tv.de/ticker/Schwere-Ausschreitungen-in-einer-Migrantenunterkunft-im-Norden-Griechenlands-id31223876.html",
-        "domain": "n-tv.de",
-        "language": "German",
+        "title": "Libya’s brain drain, 15 years after Tripoli fell",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV2VabkhwcXd0RUx0Y0hENXlkbXZlYkZ1MHJ2eUNtWHhXV3NpU1FyQmJ0aUlZYWdrNHQ4NTBJcUNwaThTYjJqY1p4QV9wOEhSZkJ0RDh1Y2J6eEVxQTlHNmswT3RVVnNzaDV4RlFiSkpJWk5nTDRfTUx4bm9hOG9aUTJMcGZZdmktaTBQME9GM3JQa1ozVlFUcTBDcFlDUlZ0UDhQVTlPSEVSdkXSAbABQVVfeXFMUEktd2x0NjJPM3ZRT0IzaDJRUWlZemZnX1VJbzlZVkVGeXZGdEV5TlZSRjhMR21ERkFGOWtuV2xKM2pXVER3cDBJeFNUTWVWQVFzeDM4eEdLbVpDTDdsOFJ0MVRheDdDSllrZkN6M29mYVhYQ21PZ3dCOUN1VW5paS0ybVlpWndheTU2bWlRQ2l3M1hMWUpHMFd2eTRxSm5VV0tyd1p2Ukp3ZDhHVjh2bFY?oc=5",
+        "domain": "aljazeera",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T144500Z",
-        "source": "GDELT"
+        "seendate": "20260822T110101Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Персидский гамбит . Какие планы вынашивают участники конфликта на Ближнем Востоке",
-        "url": "https://www.sb.by/articles/persidskiy-gambit-kakie-plany-vynashivayut-uchastniki-konflikta-na-blizhnem-vostoke.html",
-        "domain": "sb.by",
-        "language": "Russian",
+        "title": "'NO MORE WAR BIBI!': IDF 'Rebels' Against Israeli PM Over New Conflict; Top Officers 'BACK OUT'",
+        "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOZTJlZVpveGpkSllYX2J1ZEtQd3dXVDdyc3VFcXI3M2ZRdWl2U2ZfTnFXSlE1T1Bfd1dmTHJKVXBvdWo0OUlGSHVUSWxUbUFWYVRPaUJjZWhDaWhSMmFETGtEUFlWSHRacjZGLXJnbWdaQmx1UERZeEJBMU51UlEwZXVaS1ZyczBBVWtoZnNjX0MzTkhUT0hvUXFaMmtCOFhuQlp0Tkd3UzFFQ0FxdEdMRGlXRFpyNzJvRFlTOC1jZlZBMU1fejh0azhUaTVRTWtydTZmS0lZYzRtLWczMDNpQ3U5VTd4Y0dDaEpOWjM3LWxUcTVGRk1SWnB4MNIBgAJBVV95cUxPZGc1U1owbTgxS0JwV1B0eTUxcG5US3JJdjV0QXBrZ0hIa3Q2NUE5MUxUdk16N0tLVm5xVXdsajZyVDZoNjVySmJBMlp4NnN6Zi1acGxzQXEySy05eDNmajFoeXNHTVd0Mk93R0tQenpfLWlET2picEduRS1lM3hqTWx6a201WGN6MFEtd2p6TTBBaVYxWkVYQWRQNkp2ZXhHWWtoX1padHRWWE55bWFDc21abzN1YTZNZF9uNlpxbUZmdVVDalVZT2VmVjV2OE9qbm9QX0d4ZWNuVk1ES2ltdVVaMkJuMGpnVjZlSUdiRW9nT3JWenVEejM2RjhsUzd6?oc=5",
+        "domain": "thetimesofindia",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T173000Z",
-        "source": "GDELT"
+        "seendate": "20260823T234352Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Pevačica ( 29 ) smršala 100 kilograma , postavila rekord na estradi",
-        "url": "https://www.blic.rs/zabava/pevacica-29-smrsala-100-kilograma-postavila-rekord-na-estradi/rvxe3fl",
-        "domain": "blic.rs",
-        "language": "Serbian",
+        "title": "U.S.-Iran conflict enters new phase as Saudi Arabia helps hit proxies and diplomacy stalls",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUWF6QXRGc2lYY1JwU2djeW0tcUQyYmwxMVRZWm91ZGtfYmtoUG15Qk9CY1gxRjdXT2YtYTV2QWltQlE2elVPSmxmdGQtYUJjVlBBMndwRVpXVXdwX3JXRW5PR2hoRnV2YmdUai1IVVlXUGxnWE11TXhtTWJPX1hKcVd1bnhCWXpuSC1PRmdRYzlqdXl6ZjdUZWdLMThIYVFzejZjZUhNUTNBeGdsbjlTX3VZdkRFdHpsNVk1UWpHVmRjd9IBxwFBVV95cUxNZHIxeUR2em5tZTRMOEphVWdVdlFYVWRNUUVicmE0bjhOVVB3NWlVcFppM0hfWHo5UnVmXzlZQTBJTm5SczBoQlJ3SXFwemJJc2wtLS1acGtKb2RjamhId1ZtVk9TWmNOTkRVcmJZc2dHd3ZGMEFEcmhXX1VISWxEcWNwdmNvX2VYd2hVNFVaWk1jMEJiSzhPZkpjbFZSNi1WdE1DbFRZTi1NS3lOMVVhWEFhaTRXeFEzYWRkcXpoRmJMNnZueGRn?oc=5",
+        "domain": "pbs",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T084500Z",
-        "source": "GDELT"
+        "seendate": "20260730T070000Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Lula e Flávio Bolsonaro realizam comícios simultâneos no Rio de Janeiro",
-        "url": "https://www.dnoticias.pt/2026/8/22/503179-lula-e-flavio-bolsonaro-realizam-comicios-simultaneos-no-rio-de-janeiro/",
-        "domain": "dnoticias.pt",
-        "language": "Portuguese",
+        "title": "After Bryson DeChambeau's Conflict With Reporter, LIV Golf Shows Not Allowed Sign to Other Media Members",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQLXNJcER0aTRxZEs1cjQ4eVFRQkVHeGd4ZlM0MUw4Y24weHdiSXRNVTlZbE1MbXFGczFialhJMC1CbGg2dTVXSG5iODNwSVd6SlQtZEZ2UWd6clRUS1JLUmVqQWRQZ3l2QjQzWEh2cVdHai1wVWJFZFhjX2tORjFVZXB6TjRzc0oyazl1aWNROVZRX28?oc=5",
+        "domain": "yahoosports",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T014500Z",
-        "source": "GDELT"
+        "seendate": "20260822T181156Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "  Zu langsam und überdimensioniert : Sparpläne sorgen bei Volkswagen für Unruhen",
-        "url": "https://www.salzburg24.at/news/welt/zu-langsam-und-ueberdimensioniert-sparplaene-sorgen-bei-volkswagen-fuer-unruhen-art-335751",
-        "domain": "salzburg24.at",
-        "language": "German",
+        "title": "Over 50 arson attacks reported across Thailand’s insurgency-hit south. What's happening",
+        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQY2JwYWxGTUVkS25lcVQ1U1lOUi1heU9wZlRmRTU3eEpHZWxjaVJnaU51dVlSOWkxWnNwRzJBc2Rzck1QT1QtWEx4aV9lM2YweWZ1R1o5S2gtcU5iTFNLb3BUeHBmT2F1cmZxcFBqUDNLREx1ZE5OYzY1Vm5ubk5rZ3BiQXhKWjJiSEtzTkJHUWxZTGY0X2ExWEtCU3M4dEFrVFRmSE9RYWhGYjhmTFA3VXE0R2Z6UkpabjFGWGdQQWtPNDhkNVpVblFn0gHPAUFVX3lxTE1YRW9TWmVucl8wRlFuYTd3eU5aVVJLX19vRjRrNnM4bVRSTTYyb0pZNHdaR19SX0VJcFBfcTEzSjFGY0cyMElkclU3dHczenZNWUJULVRWN0p1NHZRSENNNURFaGlJVG9uX2M5djJRUkxqeWVMbnZnQkRKRjVxbEtCbGdHZ2pLd0hzRzFLcXVLVUk5UnhSV3hKc05jdGN4SFUyZl9DZGVFUzRDLVhwd3U2djZFWUhhRGdWaU5KUDIxSkZCN3N1QU5pZWR6cXo3TQ?oc=5",
+        "domain": "wion",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T131500Z",
-        "source": "GDELT"
+        "seendate": "20260823T122500Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "New Orleans home and garden events for August 22 - 28 , 2026 | Home / Garden",
-        "url": "https://www.nola.com/entertainment_life/home_garden/garden-home-events-august-2026/article_ee857bb0-4c78-4ac5-be9f-00fab02018a4.html",
-        "domain": "nola.com",
-        "language": "English",
+        "title": "DW News. . The Sahel has quietly become the deadliest hotspot of terrorism in the world. How did this region turn into the frontline of jihadist insurgency? #dwgeopolitics #mappedout",
+        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3loWXFva1ptb0JDTlhVS1dYVlh4MmFRZkxBMFRSenlGazktWGFCbkZtMHVPWkM5SzR4a1J3aEI1SlNCdzVvajlhYm8tM2dDWk5oYUt3amhpejVGRW81ai1ZTFk4OS1ELTl5blk2c3dtWFJKR0pVeUZuRU9QLWxhQUxlRG9ORXdYaElMU3VtM1IyVEM3U0NSUm9VWXVwMDdqaHExclFsR0RBbkxLNWNiR181Q2oxRGpmMjhKM3J3VXY2X3hsdWZRb1hUT0tzRm9EaVZyX1ZJZ2gxNDVGb01DbVV3?oc=5",
+        "domain": "facebook.com",
+        "language": "",
         "tone": 0,
-        "seendate": "20260822T220000Z",
-        "source": "GDELT"
+        "seendate": "20260822T131505Z",
+        "source": "GoogleNews"
       },
       {
-        "title": "Милица Вучковић | Радио Београд 2",
-        "url": "https://www.rts.rs/radio/radio-beograd-2/6024834/-milica-vuckovic.html",
-        "domain": "rts.rs",
-        "language": "Serbian",
+        "title": "Chris Hansen and the Film About Chris Hansen Are Now Arguing",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNdktHQlhvekREWEZ3UGJ5ZjVHTjNWemF6dVFPM1hzNW5MUXZBN0xPOG9CNS1Mc3JTQUpiNlNCZlVYeWxBLW5QTXBsVkJ0aUNfNVdpeXJ6SlRYQzJRSWxLUGZ0M21seE5fZG9ucmNtNTd3VUlscWloV2p1ZDVZVWtCU25sN01EUFBZZEZGSTBkNjlwLU5icjV0REx1cjc3VWlyYmF1YURHdw?oc=5",
+        "domain": "rollingstone",
+        "language": "",
         "tone": 0,
-        "seendate": "20260823T083000Z",
-        "source": "GDELT"
+        "seendate": "20260821T183830Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Protection of Civilians in Armed Conflict — July 2026",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcUZWdldiUEdWWkFLSVRaRER1RFVkbnFJelotTmdEbXNqYTBBRzN6eXY1c21wS2N1dFBFcldYb0FHcWxrTGhocEtzOGJIUktwUFR4cFhaSy1mZVlGU1BvYTkxZzJ3Q0ZQV2xpcHk4VDZjTlY1WHZiZjhwU2I3M1BHczFwUWdsVVJXdTZrQ1A4WXBvQQ?oc=5",
+        "domain": "unitednationsinukraine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260813T180559Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Taboos ‘protect communities’ from risk of disease, losses, and social conflict",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQa0JwU2haQ1VETnBJdnpJQzNtalcxcEhrSVNLZHFUZmpsSGVwYVhjdHJUdGRqdl96MVNzNXFJZG5Bd292ZmlwSGNyT0NFamJaQWk5aVRlTUFKTUtNRUNCOHRZSmVvSzlyaEk3ZmdEZ3FNeXdycWYxNnQxSnhoWDYzZF9hdEF2aFRtWkptOG1aMEVyV0ItczBWbXFKZmh4ZnZ4bUtsTjJfeW5aV0hXVnNsaHpCelhHeGFJb2h3LVVIOA?oc=5",
+        "domain": "scienceinpoland",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T092633Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Attempt to Smuggle Fuel, Weapons, and Drugs to Militia in White Nile State Thwarted",
+        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUzdubXhqQW54RWpOaTlfUlhEVzNLR2JwdWJadnZENURPaTBmcUh5V19RN0k3dHBKMk1ORGpOcW15OHRNVk16TC1uX2puT0ZrM3JjY21EU3pQWFVrRmVFWDM4U2hQY05kQWdYVmhWS0hIYkNpd1ozV3JHdWIzODUtZV9rSUY0WHpRWk5SLVJXN2tKNWVLUFlzR1BmajV5WHVENlRFaXo0T09lMW8?oc=5",
+        "domain": "sudanhorizon",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T213620Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "A semiquincentennial historic conflict redux",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNV1dxTjZCd0RFQ0RjVmNqRkJSWEs3c2t2Q2VBRWVhVlhNMGNfOU90N3ZWLXliZVVqanZOZ2ljMUFtWW45T041WWZJRm96eU9SVHNNZjIyRk9IcFBPeUpuMmlwY0JBTThQSG90aWtGcjlyN05XYXgyNlM3NEh6RjQ1MTBvakh5R1ViYVpESkRXMkZUNHp0NFRNTWs2SnZkdTdLRVdF?oc=5",
+        "domain": "shawangunkjournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260823T150428Z",
+        "source": "GoogleNews"
       }
     ],
     "exchange_rates": [
@@ -496,15 +496,15 @@
       },
       {
         "currency": "AFN",
-        "rate": 64.54
+        "rate": 65.13
       },
       {
         "currency": "ALL",
-        "rate": 79.12
+        "rate": 79.13
       },
       {
         "currency": "AMD",
-        "rate": 361.76
+        "rate": 363.76
       },
       {
         "currency": "ANG",
@@ -512,7 +512,7 @@
       },
       {
         "currency": "AOA",
-        "rate": 916.63
+        "rate": 917.36
       },
       {
         "currency": "ARS",
@@ -528,7 +528,7 @@
       },
       {
         "currency": "AZN",
-        "rate": 1.69
+        "rate": 1.7
       },
       {
         "currency": "BAM",
@@ -540,7 +540,7 @@
       },
       {
         "currency": "BDT",
-        "rate": 121.6
+        "rate": 122.31
       },
       {
         "currency": "BGN",
@@ -552,7 +552,7 @@
       },
       {
         "currency": "BIF",
-        "rate": 2966.62
+        "rate": 2972.35
       },
       {
         "currency": "BMD",
@@ -564,148 +564,148 @@
       },
       {
         "currency": "BOB",
-        "rate": 11.44
+        "rate": 11.51
       }
     ]
   },
   "entities": [],
   "events": [
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.channelnewsasia.com/asia/thailand-narathiwat-attack-injuries-anutin-charnvirakul-6335736",
-      "domain": "channelnewsasia.com",
-      "language": "English",
+      "title": "An Expert on Conflict Says Your Relationships Are Doomed Without It",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LTTRYaGkyc25GSERsdEtzMmdneGlIeUJOVnA4MFpaV2NqSlhrWnJUWWQ3M0dfbFc3dUo1U3RYZTU0VkNoLUxoNnZ3cF8wWE1BdzYycENCUGhRSVBhYldWYmRWLXo3ZEEtdnJ1dHh2NnFsYUFJVExHTUwxdw?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T090000Z",
-      "source": "GDELT"
+      "seendate": "20260822T091507Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Ajmat Kadírov - Wikipedia , la enciclopedia libre",
-      "url": "https://es.wikipedia.org/wiki/Ajmat_Kad%C3%ADrov",
-      "domain": "es.wikipedia.org",
-      "language": "Spanish",
+      "title": "Iran’s War With Israel and the United States | Global Conflict Tracker",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+      "domain": "councilonforeignrelations",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T033000Z",
-      "source": "GDELT"
+      "seendate": "20260819T000000Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.hurriyetdailynews.com/dozens-of-attacks-in-thailands-restive-south-leave-2-injured-225941",
-      "domain": "hurriyetdailynews.com",
-      "language": "English",
+      "title": "Data centres and democratic decline could lead to more water conflict in the future",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQNFhac3ZtQ3ZLR1pkY21kYmpaZDh3ejVleUpRVXluT2todDRHbUtLLVc0bFhZTFNtUFJWRHVzclhrdnA3N3J6cEFyWGJLc0tPNTdubzJDZjdGaHhOcy1GNXE0bWlqMDdFWUlldldsN1A4UXFBSzZTQ0dxLVhqajRwWTJEaDN1MTZaX1pZMktJSngzN3NjY0UxbEYtbUp2ZWFicUl6eHFqcnZuTDMydm43anh4ODBYSXhnV3c?oc=5",
+      "domain": "theconversation",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T160000Z",
-      "source": "GDELT"
+      "seendate": "20260823T133107Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.manilatimes.net/2026/08/23/world/dozens-of-attacks-in-thailands-restive-south-leave-2-injured/2410483",
-      "domain": "manilatimes.net",
-      "language": "English",
+      "title": "Renewed Conflict Derails Lebanon’s Fragile Economic Recovery",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNY3RDcWpkS1NLV3oybnlOSFpuQVI4cXBpbGpWa0lQcnNiZ2M0Z3VqZ241ZTl2djNBRXd3Z3llX2laODMzX2RRNmRkZjFyekJmTFJnMjc5RU4xYjVIZ1NwZEpfUHN4UzJVeDhFMEg5dEVHOUs3Qzd3TGxmVGFlWlhscFdlalhJcnJpNHdxTWZlRXRtZU1MQW9zR3k1UHRkTGZYOFRLck9xZDNjTTFLV21YZmFwOVFuamhyRGxv?oc=5",
+      "domain": "worldbankgroup",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T093000Z",
-      "source": "GDELT"
+      "seendate": "20260821T191829Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.thehindu.com/news/international/dozens-of-attacks-in-thailands-restive-south/article71380258.ece",
-      "domain": "thehindu.com",
-      "language": "English",
+      "title": "Pope in San Marino: Respond to conflict by following Gospel",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVktDRzNSRGtYbDNFelBIbmJHUm5NNU5Ed28yYTFuX3pWSmlDbkVCMmpPSnlSTlpBMy1OQW8zNDZMR0NFZU5mQmZtRU15VWpIcVVEcUJsb3g4MUVmNnFTWThVdGE1VW02YklxQ1BBZW9YNU9QcDVvVnA2V3JHR05GQUZ5M0JwLWJ3dkdkRHhEek1Ob29JUE1iOUl2dHFLekZsZC0xRjNITUowdmFsRWtsQQ?oc=5",
+      "domain": "vaticannews",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T070000Z",
-      "source": "GDELT"
+      "seendate": "20260822T091333Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.thestar.com.my/aseanplus/2026/08/23/dozens-of-attacks-in-thailand039s-restive-south-leave-2-injured",
-      "domain": "thestar.com.my",
-      "language": "English",
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "domain": "encyclopediabritannica",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T064500Z",
-      "source": "GDELT"
+      "seendate": "20260821T050000Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 2 injured",
-      "url": "https://www.straitstimes.com/asia/se-asia/dozens-of-attacks-in-thailands-restive-south-leave-2-injured",
-      "domain": "straitstimes.com",
-      "language": "English",
+      "title": "Pope Leo calls for dialogue over conflict, says young Catholics are a sign of hope",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb1h1OExMcjNUOXpOV2RNRVY5TUZzV19pdUwxQWZ0SWZCT05zdWc5QUEybnJtVnAxZUUzUWxtems3dEdpMGUyU2lranZaYmdwWXBaTHkwZVpfRzlXQ1RSUlJ2OV9OQ2JrUkNxelFfSEIwTnJxRGRLN0Y3SXB4V0FVYUZQbmo4aVJEd2JvUUswM0J0MlBHeEhTQndSODQwa0gta1c3X3Vjdmc5Sml6dUN1VA?oc=5",
+      "domain": "apnews",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T083000Z",
-      "source": "GDELT"
+      "seendate": "20260823T031300Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in Thailand restive south leave 3 wounded",
-      "url": "https://www.bssnews.net/international/417357",
-      "domain": "bssnews.net",
-      "language": "English",
+      "title": "DR Congo and M23 rebels agree roadmap for peace talks",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43RnUycllHOVZoSURXQUdKWm9SUVJ1ZnA4eVFhZDg2VXdTSzEzQm12eHhPVnkzbGtFU3I5UEVRb05YV0NiQ2w1X2pRd29yVjFYZkhIZ2FPVHdhZw?oc=5",
+      "domain": "bbc",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T140000Z",
-      "source": "GDELT"
+      "seendate": "20260823T125208Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Scores killed as jihads clash in Nigeria",
-      "url": "https://www.koreaherald.com/article/10849050",
-      "domain": "koreaherald.com",
-      "language": "English",
+      "title": "President authorization of selling advanced AI chips to UAE raises concerns about conflict of interest & national security",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTmxVNUlVd2FtNkZQVjM5OFliaTZjZFExU2VrMzJPYUd2SVpjeFlaN2gyYXRmMmZRUW5ud2R3TWlybHZpYW9yQzRWMl9QbjQ0aUZOdVFPWlRlMmhKa3M5Q3dxVVRuZUlkZXdNdV9DQy1oV29jelhmS0FRWGhkZXBiQjNBWUp5OGZBVUJpdjhUR0VVUmtxNWdzT3ZaOUVIYTZkVWswSHJSWnJkMHJ0QW1EcEh6ZUNCLUJFbmdFMUg3RkxIb2QxSzVUZlM5bUhkUEw3OUpyNUVuMmNyZ3pubEZxMHlnc2NFT2pDY2hXNUtvaXdmTFUzX3dvR2E3Zk9zQdIBgwJBVV95cUxPVlgzOFVXT1NHdE9HbmQ0Z2QzVUM0cE5DNllxcFU4bjkycy16S1NEYzZ0TFNoVlYtYjY0MXBnU2hKZnlvNUlsUkwtc3dRN2VnZEJoQlhXdFJlcXRoNHc3ZjFXRnVKM1pNMi04cHUyeXBIcEpubkxzQmdaMUptM3lhLS16LWlXYmlBQ2dRdTlLSXZ1N01VN3FwM2Y5eVZBZGlwa0ctbTh1UGFiV3VOc25XdThGR1loNXZuNUpMWkVVZDVTTkFSWTNabXp2Slk2bVpobDNrN2FhREh5UGJXM1FQaGxfUmZFbkIwSUdCSDJpbWYzRnlEaFV4cFp2S3lMUVRLaVFR?oc=5",
+      "domain": "ourquadcities",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T044500Z",
-      "source": "GDELT"
+      "seendate": "20260823T151700Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of co - ordinated arson attacks hit southern Thailand",
-      "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o",
-      "domain": "bbc.co.uk",
-      "language": "English",
+      "title": "New GALA show about WWII spy full of conflict, intrigue",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQemdCZWxsblp3clh5bWt0elFNZk1BOWdzc2IwS3dzZFpWMFlMWkJaRHVNaV9wSWl2THRmSlRRYTdFMjV6aDlDd0FxVlpRM3pXRFYydEdVa0pVSmU3YnJlWjkxOHc0YzlWRS1MMFk4eHk4VkVEdzliVE5kT1RjSkV5dzExQ3YyLVlldy1PU1BIa1B1czBjeWhOcmVna2VRS09RTlFn?oc=5",
+      "domain": "washingtonblade",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T114500Z",
-      "source": "GDELT"
+      "seendate": "20260823T183238Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Dozens of attacks in southern Thailand wound three people",
-      "url": "https://www.aljazeera.com/news/2026/8/23/dozens-of-attacks-in-southern-thailand-wound-three-people",
-      "domain": "aljazeera.com",
-      "language": "English",
+      "title": "Polis requests federal disaster declaration for Colorado wildfires amid growing conflict with White House",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUGNXVEJDVk1RQkJYSTZoOVV6czktU2MybkRWalptLXY4RnFqUHN1Sjd5M3k5UFk2cllmT0gyY2Y2SzRMSHIwaUM3TXdHak1lb3NxSVdjSlMxWlVKeW1SNnJRaE9XQ1g0Z3ZsMEtEek5JZTdEMjlEZHNsT2h3aHFqSnJMbzQxdGR0SHlRUGJCN3hjZXJ1YkpocS1R?oc=5",
+      "domain": "thedenverpost",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T181500Z",
-      "source": "GDELT"
+      "seendate": "20260823T180028Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "伊朗陷戰爭僵局 「 雙重困境 」 利用伊拉克展現善意 - 國際",
-      "url": "https://www.chinatimes.com/realtimenews/20260823000044-260408",
-      "domain": "chinatimes.com",
-      "language": "Chinese",
+      "title": "Israel’s Syria strike may have been bid to provoke Turkey conflict, US envoy says",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE90NnpuajF4cU9fY3VHTEpIc2tTSzU4ZGdWSmp1bFg2VkhHUnFoNVU4SlpScFI5aUtVMndMT1dkNXdBNXNEMGVlR0tKYUZmLU1GM3VuQTJabWZtaF9jSkZJVW1hNldjYTBPRXBuNVo5STU?oc=5",
+      "domain": "financialtimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260822T213000Z",
-      "source": "GDELT"
+      "seendate": "20260822T181756Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "  Ils ont massacré certains des nôtres  : une attaque jihadiste fait des dizaines de victimes au Nigeria",
-      "url": "https://www.lalibre.be/international/afrique/2026/08/23/ils-ont-massacre-certains-des-notres-une-attaque-jihadiste-fait-des-dizaines-de-victimes-au-nigeria-TUUZ5WVU3VC6JBTG2L2V7RMMRU/",
-      "domain": "lalibre.be",
-      "language": "French",
+      "title": "Israeli politicians focus on foreign threats, ignoring spiralling debt",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQUF3bHFGcGh4ZTBJaUpPaEZ5b2hIYXJreFF5ZTZZQ0s5U2tva3piTXh1SlFuWHdfcHdrWmhNU0NEeWxKclI1Vl9SV0lxVXRaSlRscFdlX1pOOU96amdWMFVkSXZPZTBDMlJVcmQ1bWdTdy1QQzVhRmhqc21zc2xMU3E5WnMyaXQtQXNEOURJN1NJbVp4QlJlUm1iX2dJZDFsQzNXQ3FUbWVpX2M1QTJZ0gG0AUFVX3lxTE9pYzlfaTJheThJRy1kdGVQV2ZQUVpXbGdiMmptTFBjNFBkVDE5T2xNZEs5UWN5RkJsNTZNMDRYemhLeTJTNUJhR2l4b3kxWGc4U3ZmcC1OSVZjWWdqV3REMnNwdFlLbnNqQU4xTjRMZDdtalZQZUpaUEdDOEpxUFdzUzN2eU54cmpXZXBSLTlzU3l6N1V5djF1RUFvcHh6S0dPUERkY3JsWkFjcTE2TjNHZGRtZQ?oc=5",
+      "domain": "aljazeera",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T134500Z",
-      "source": "GDELT"
+      "seendate": "20260823T230645Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-      "url": "https://draguignan.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-      "domain": "draguignan.maville.com",
-      "language": "French",
+      "title": "‘A Blatant and Gargantuan Conflict of Interest’",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEpNQl9QYkJCMDQ4YWM1ZVYwenRYRExNWWVFRW1xUnRKMlM0SnpRZUVLRFpPY1RDQWdtM2VWWWNlTVlDdFJXSURwM3dFdHlPZldvYkQ1dmxwZVQ1SVdHYWVBakxzQ25JU2JNOTlnZDV6dUtkT3hzcURBT3ZCX1RreUdIWjZaN2FTR3lndDE0UlZvUQ?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T061500Z",
-      "source": "GDELT"
+      "seendate": "20260818T090344Z",
+      "source": "GoogleNews"
     },
     {
-      "title": "Des jihadistes tuent et enlèvent des dizaines de civils dans le centre - ouest du Nigeria",
-      "url": "https://hyeres.maville.com/actu/actudet_-des-jihadistes-tuent-et-enlevent-des-dizaines-de-civils-dans-le-centre-ouest-du-nigeria_fil-7448340_actu.Htm",
-      "domain": "hyeres.maville.com",
-      "language": "French",
+      "title": "Iran warns of retaliation against countries joining US ‘economic war’",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
+      "domain": "aljazeera",
+      "language": "",
       "tone": 0,
-      "seendate": "20260823T063000Z",
-      "source": "GDELT"
+      "seendate": "20260823T054403Z",
+      "source": "GoogleNews"
     }
   ],
   "timeseries": [],
-  "llm_summary": ""
+  "llm_summary": "The live snapshot tracks ≈ 50 articles from ≈ 40 distinct news domains, with an overall tone index of 50/100 (neutral) and two active feeds. Headlines in this sample are uniformly neutral‑toned and highlight a mix of geopolitical flashpoints (Iran‑Israel‑U.S. tensions), resource‑driven conflict risks (data centres and water scarcity), economic repercussions of renewed fighting in Lebanon, and a religious‑oriented call to address conflict. This indicates that the current news flow is emphasizing diplomatic, environmental, economic, and moral dimensions of conflict without strong positive or negative bias. Note that this analysis reflects only the sampled headlines and does not constitute a definitive assessment of ground‑truth conditions."
 }
