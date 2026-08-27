@@ -4,6 +4,7 @@ import json
 import os
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 
 import yaml
@@ -11,6 +12,7 @@ import yaml
 sys.path.insert(0, os.path.dirname(__file__))
 from data_fetcher import fetch_exchange_rates, fetch_google_news_rss, safe_fetch
 from openrouter_llm import analyze_with_llm
+from precursor_model import build_precursor_warning
 
 SNAPSHOT_SIZE = 50
 EVENT_LIMIT = 15
@@ -35,10 +37,21 @@ def extract_live_data(config):
     query = config.get("news_query") or "geopolitical risk"
     print(f"[LIVE] News query: {query}")
 
-    articles = safe_fetch(fetch_google_news_rss, query, SNAPSHOT_SIZE) or []
+    nato_query = (
+        'site:nato.int (deterrence OR readiness OR reinforcement OR mobilization '
+        'OR "collective defence" OR "Article 5" OR "force posture") when:90d'
+    )
+    with ThreadPoolExecutor(max_workers=2) as executor:
+        news_future = executor.submit(safe_fetch, fetch_google_news_rss, query, SNAPSHOT_SIZE)
+        nato_future = executor.submit(safe_fetch, fetch_google_news_rss, nato_query, 100)
+        articles = news_future.result() or []
+        nato_articles = nato_future.result() or []
     if articles:
         live["news_articles"] = articles[:SNAPSHOT_SIZE]
         print(f"  News RSS: {len(articles)} articles")
+    if nato_articles:
+        live["nato_articles"] = nato_articles[:100]
+        print(f"  NATO official-page monitor: {len(nato_articles)} articles")
 
     if config.get("include_forex"):
         rates = safe_fetch(fetch_exchange_rates, "USD")
@@ -52,12 +65,19 @@ def extract_live_data(config):
 def retain_previous(live, previous):
     notes = []
     previous_live = previous.get("live_data") or {}
-    for key in ("news_articles"):
-        if not live.get("news_articles") and previous_live.get(key):
-            live["news_articles"] = previous_live[key][:SNAPSHOT_SIZE]
-            notes.append("News feed unavailable; retained last validated snapshot.")
-            print(f"  {key}: retained {len(live['news_articles'])} items from previous run")
-            break
+    try:
+        generated = datetime.fromisoformat(str(previous.get("meta", {}).get("generated", "")).replace("Z", "+00:00"))
+        if generated.tzinfo is None:
+            generated = generated.replace(tzinfo=timezone.utc)
+        previous_fresh = 0 <= (datetime.now(timezone.utc) - generated).total_seconds() <= 72 * 3600
+    except ValueError:
+        previous_fresh = False
+    limits = {"news_articles": SNAPSHOT_SIZE, "nato_articles": 100}
+    for key, limit in limits.items():
+        if not live.get(key) and previous_fresh and previous_live.get(key):
+            live[key] = previous_live[key][:limit]
+            notes.append(f"{key} unavailable; retained a snapshot less than 72 hours old.")
+            print(f"  {key}: retained {len(live[key])} items from previous run")
     return notes
 
 
@@ -86,8 +106,13 @@ def main():
     notes = retain_previous(live, previous)
 
     articles = live.get("news_articles", [])
-    fresh_news = bool(articles) and not any("retained" in note for note in notes)
+    nato_articles = live.get("nato_articles", [])
+    fresh_news = bool(articles) and not any(note.startswith("news_articles") for note in notes)
     mode = "live" if fresh_news else ("partial" if articles else "unavailable")
+
+    if not articles:
+        print("[ERROR] No current or valid retained news snapshot; preserving last-good output")
+        return False
 
     llm_summary = ""
     api_key = os.environ.get("OPENROUTER_API_KEY")
@@ -112,7 +137,7 @@ def main():
             "mode": mode,
             "sources": [key for key, value in live.items() if value],
             "source_notes": notes,
-            "version": "1.2.0",
+            "version": "2.0.0",
         },
         "stats": build_stats(articles, len(live)),
         "live_data": live,
@@ -120,6 +145,11 @@ def main():
         "events": articles[:EVENT_LIMIT],
         "timeseries": [],
         "llm_summary": llm_summary,
+        "early_warning": build_precursor_warning(
+            articles,
+            nato_articles,
+            previous=previous.get("early_warning", {}),
+        ),
     }
 
     os.makedirs("data", exist_ok=True)
@@ -129,7 +159,8 @@ def main():
 
     size = os.path.getsize(out_path)
     print(f"Done. {out_path} ({size} bytes) mode={mode} articles={len(articles)}")
+    return True
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(0 if main() else 2)

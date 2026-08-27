@@ -24,6 +24,7 @@ const INTEL = {
     this.renderMode();
     this.renderStatus();
     this.renderStats();
+    this.renderEarlyWarning();
     this.renderSourceTable();
     this.renderEvents();
     this.renderSourceTags();
@@ -142,6 +143,100 @@ const INTEL = {
     }));
   },
 
+  renderEarlyWarning() {
+    const warning = this.data && this.data.early_warning;
+    const section = document.getElementById('early-warning');
+    if (!section || !warning) {
+      if (section) section.hidden = true;
+      return;
+    }
+    section.hidden = false;
+    const setText = (id, value) => {
+      const element = document.getElementById(id);
+      if (element) element.textContent = value;
+    };
+    setText('early-warning-score', Number(warning.score || 0).toFixed(1));
+    setText('early-warning-level', warning.level || 'ROUTINE');
+    setText('early-warning-confidence', `${warning.confidence || 'LOW'} · ${Math.round(Number(warning.confidence_score || 0))}% coverage`);
+    setText('early-warning-horizon', warning.horizon || '0–14 days');
+    setText('early-warning-issued', this.formatDate(warning.issued_at));
+
+    const components = document.getElementById('early-warning-components');
+    const details = component => {
+      if (component.id === 'narrative_pressure') {
+        return `${component.precursor_event_count || 0} precursor events · ${component.independent_sources || 0} sources`;
+      }
+      if (component.id === 'nato_posture_shift') {
+        return `${component.current_window_articles || 0} official-page items · z ${Number(component.anomaly_z || 0).toFixed(1)}`;
+      }
+      const indicators = (component.indicators || []).filter(row => row.available);
+      return indicators.length
+        ? indicators.map(row => `${row.label}: z ${Number(row.anomaly_z || 0).toFixed(1)}`).join(' · ')
+        : 'Component unavailable; excluded from aggregate';
+    };
+    if (components) {
+      components.replaceChildren(...(warning.components || []).map(component => {
+        const card = document.createElement('article');
+        card.className = `warning-component${component.available ? '' : ' unavailable'}`;
+        const head = document.createElement('div');
+        head.className = 'warning-component-head';
+        const label = document.createElement('span');
+        label.textContent = component.label || component.id;
+        const score = document.createElement('strong');
+        score.textContent = Number(component.score || 0).toFixed(1);
+        head.append(label, score);
+        const track = document.createElement('div');
+        track.className = 'warning-track';
+        const fill = document.createElement('span');
+        fill.style.width = `${Math.max(0, Math.min(100, Number(component.score || 0)))}%`;
+        track.append(fill);
+        const note = document.createElement('small');
+        note.textContent = details(component);
+        card.append(head, track, note);
+        return card;
+      }));
+    }
+
+    const alerts = document.getElementById('early-warning-alerts');
+    if (alerts) {
+      const rows = warning.alerts || [];
+      if (!rows.length) {
+        const routine = document.createElement('p');
+        routine.className = 'warning-routine';
+        routine.textContent = 'No component exceeds the published alert threshold.';
+        alerts.replaceChildren(routine);
+      } else {
+        alerts.replaceChildren(...rows.map(row => {
+          const item = document.createElement('article');
+          item.className = 'warning-alert';
+          const title = document.createElement('strong');
+          title.textContent = `${row.level} · ${row.title}`;
+          const why = document.createElement('p');
+          why.textContent = row.why || '';
+          item.append(title, why);
+          return item;
+        }));
+      }
+    }
+
+    const health = document.getElementById('early-warning-health');
+    if (health) {
+      const record = warning.data_health || {};
+      const values = [
+        `${record.events_considered || 0} events`,
+        `${record.independent_sources || 0} sources`,
+        `${record.nato_articles_considered || 0} NATO items`,
+        `${record.market_series_available || 0}/3 market series`,
+        `${record.available_components || 0}/3 components`,
+      ];
+      health.replaceChildren(...values.map(value => {
+        const chip = document.createElement('span');
+        chip.textContent = value;
+        return chip;
+      }));
+    }
+  },
+
   groupSources(articles) {
     const groups = new Map();
     articles.forEach(article => {
@@ -225,7 +320,7 @@ const INTEL = {
   renderSourceTags() {
     const container = document.getElementById('source-tags');
     if (!container) return;
-    const labels = { news_articles: 'News RSS', news_articles: 'Google News RSS', geo: 'Geolocated feed', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
+    const labels = { news_articles: 'Google News RSS', nato_articles: 'NATO official-page monitor', geo: 'Geolocated feed', economic_news: 'Economic News', crypto: 'CoinGecko', exchange_rates: 'Exchange Rates', energy_news: 'Energy News', forex: 'Exchange Rates' };
     const names = (this.data.meta && this.data.meta.sources) || Object.keys((this.data.live_data || {}));
     container.replaceChildren(...names.map(name => {
       const tag = document.createElement('span');
