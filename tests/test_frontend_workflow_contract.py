@@ -27,5 +27,6 @@ def test_workflow_fails_loudly_and_retries_pages():
     assert WORKFLOW.count("actions/upload-pages-artifact") == 1
     assert WORKFLOW.count("actions/deploy-pages@v5") == 2
     assert "git pull --rebase -X theirs origin main" in WORKFLOW
+    assert "~/.cache/conflict-early-warning" in WORKFLOW
     assert "|| true" not in WORKFLOW
     assert "|| echo" not in WORKFLOW

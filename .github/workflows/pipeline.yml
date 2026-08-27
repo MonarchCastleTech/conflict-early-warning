@@ -35,6 +35,15 @@ jobs:
       - name: Install pipeline dependencies
         run: python -m pip install --disable-pip-version-check -r requirements.txt pytest
 
+      - name: Restore precursor data cache
+        if: github.event_name != 'push'
+        uses: actions/cache@v6
+        with:
+          path: ~/.cache/conflict-early-warning
+          key: cew-precursor-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            cew-precursor-${{ runner.os }}-
+
       - name: Run quality gates
         run: python -m pytest -q
 

@@ -32,7 +32,7 @@ The 0–14 day early-warning desk is a separate triage ensemble, not a probabili
 - 30% NATO official-language shift: weighted terminology in the latest seven days versus up to twelve prior weeks.
 - 35% cross-market dislocation: five-session changes in WTI crude, VIX, and US high-yield spreads versus median/MAD baselines.
 
-Unavailable components are excluded and remaining weights are renormalized. Two independently elevated components add a disclosed five-point concurrence bonus. FRED cache entries expire after 72 hours; retained news snapshots also expire after 72 hours. `confidence` measures data coverage only. Component scores, evidence, health, weights, terms, source links, and rolling history are published in `data/output.json` for audit and reproduction.
+Unavailable components are excluded and remaining weights are renormalized. Two independently elevated components add a disclosed five-point concurrence bonus. FRED cache entries expire after 72 hours; a validated market component may also be retained for at most 72 hours when the live endpoint is unavailable and is explicitly marked `retained`. Retained inputs reduce confidence. News snapshots follow the same 72-hour ceiling. `confidence` measures data coverage only. Component scores, evidence, health, weights, terms, source links, and rolling history are published in `data/output.json` for audit and reproduction.
 
 ## Brand
 

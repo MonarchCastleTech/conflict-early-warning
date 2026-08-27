@@ -170,9 +170,10 @@ const INTEL = {
         return `${component.current_window_articles || 0} official-page items · z ${Number(component.anomaly_z || 0).toFixed(1)}`;
       }
       const indicators = (component.indicators || []).filter(row => row.available);
-      return indicators.length
+      const prefix = component.retained ? 'Retained <72h · ' : '';
+      return prefix + (indicators.length
         ? indicators.map(row => `${row.label}: z ${Number(row.anomaly_z || 0).toFixed(1)}`).join(' · ')
-        : 'Component unavailable; excluded from aggregate';
+        : 'Component unavailable; excluded from aggregate');
     };
     if (components) {
       components.replaceChildren(...(warning.components || []).map(component => {
@@ -228,6 +229,7 @@ const INTEL = {
         `${record.nato_articles_considered || 0} NATO items`,
         `${record.market_series_available || 0}/3 market series`,
         `${record.available_components || 0}/3 components`,
+        `${(record.retained_components || []).length} retained`,
       ];
       health.replaceChildren(...values.map(value => {
         const chip = document.createElement('span');

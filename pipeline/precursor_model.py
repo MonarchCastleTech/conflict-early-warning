@@ -324,6 +324,31 @@ def _market_component(now):
     }
 
 
+def _retain_recent_component(current, previous, now):
+    if current.get("available") or not previous:
+        return current
+    try:
+        issued = datetime.fromisoformat(str(previous.get("issued_at", "")).replace("Z", "+00:00"))
+        if issued.tzinfo is None:
+            issued = issued.replace(tzinfo=timezone.utc)
+        age = now - issued.astimezone(timezone.utc)
+    except ValueError:
+        return current
+    if not timedelta(0) <= age <= timedelta(hours=72):
+        return current
+    prior = next(
+        (row for row in previous.get("components", []) if row.get("id") == current.get("id") and row.get("available")),
+        None,
+    )
+    if not prior:
+        return current
+    retained = dict(prior)
+    retained["retained"] = True
+    retained["retained_from"] = issued.isoformat()
+    retained["retained_reason"] = "Live source unavailable; reused a validated component less than 72 hours old."
+    return retained
+
+
 def _level(score):
     if score >= 75:
         return "SEVERE"
@@ -340,11 +365,10 @@ def build_precursor_warning(events, nato_articles, previous=None, now=None):
     now = now or datetime.now(timezone.utc)
     if now.tzinfo is None:
         now = now.replace(tzinfo=timezone.utc)
-    components = [
-        _narrative_component(events),
-        _nato_component(nato_articles, now),
-        _market_component(now),
-    ]
+    narrative = _narrative_component(events)
+    nato = _nato_component(nato_articles, now)
+    market = _retain_recent_component(_market_component(now), previous or {}, now)
+    components = [narrative, nato, market]
     available = [component for component in components if component["available"]]
     denominator = sum(WEIGHTS[component["id"]] for component in available)
     base_score = (
@@ -355,11 +379,9 @@ def build_precursor_warning(events, nato_articles, previous=None, now=None):
     concurrence_bonus = 5.0 if len(elevated) >= 2 else 0.0
     score = _clamp(base_score + concurrence_bonus)
 
-    narrative = components[0]
-    nato = components[1]
-    market = components[2]
+    market_quality = 0.85 if market.get("retained") else 1.0
     confidence_score = 100 * (
-        0.35 * (market["series_available"] / len(FRED_SERIES))
+        0.35 * (market["series_available"] / len(FRED_SERIES)) * market_quality
         + 0.30 * min(1.0, len(events) / 30)
         + 0.15 * min(1.0, narrative["independent_sources"] / 10)
         + 0.20 * min(1.0, nato["articles_considered"] / 20)
@@ -408,6 +430,7 @@ def build_precursor_warning(events, nato_articles, previous=None, now=None):
             "nato_articles_considered": nato["articles_considered"],
             "market_series_available": market["series_available"],
             "available_components": len(available),
+            "retained_components": [component["id"] for component in components if component.get("retained")],
         },
         "method": {
             "name": "Conflict precursor concurrence model v1",

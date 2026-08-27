@@ -80,3 +80,31 @@ def test_fred_cache_older_than_72_hours_is_rejected(tmp_path, monkeypatch):
     )
     assert rows == []
     assert cached is False
+
+
+def test_recent_validated_market_component_can_be_retained(monkeypatch):
+    now = datetime(2026, 8, 27, tzinfo=timezone.utc)
+    unavailable = {
+        "id": "cross_market_dislocation", "label": "market", "available": False,
+        "score": 0.0, "series_available": 0, "indicators": [],
+    }
+    previous = {
+        "issued_at": (now - timedelta(hours=24)).isoformat(),
+        "components": [{
+            "id": "cross_market_dislocation", "label": "market", "available": True,
+            "score": 42.0, "series_available": 3, "indicators": [],
+        }],
+    }
+    retained = model._retain_recent_component(unavailable, previous, now)
+    assert retained["score"] == 42.0
+    assert retained["retained"] is True
+
+
+def test_expired_market_component_is_not_retained():
+    now = datetime(2026, 8, 27, tzinfo=timezone.utc)
+    unavailable = {"id": "cross_market_dislocation", "available": False}
+    previous = {
+        "issued_at": (now - timedelta(hours=73)).isoformat(),
+        "components": [{"id": "cross_market_dislocation", "available": True, "score": 80}],
+    }
+    assert model._retain_recent_component(unavailable, previous, now) == unavailable
