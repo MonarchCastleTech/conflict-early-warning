@@ -19,6 +19,10 @@ def test_warning_runtime_and_methodology_are_public():
     assert "median/MAD" in HTML
     assert "ACLED" not in HTML
     assert "CHIRPS" not in HTML
+    assert "Analyst Brief" in HTML
+    assert "AI Analysis" not in HTML
+    assert "not ground truth" not in JS
+    assert "illustrative coverage indicators" not in JS
 
 
 def test_workflow_fails_loudly_and_retries_pages():
@@ -30,3 +34,4 @@ def test_workflow_fails_loudly_and_retries_pages():
     assert "~/.cache/conflict-early-warning" in WORKFLOW
     assert "|| true" not in WORKFLOW
     assert "|| echo" not in WORKFLOW
+    assert WORKFLOW.index("python -m pytest -q") < WORKFLOW.index("Refresh public data")

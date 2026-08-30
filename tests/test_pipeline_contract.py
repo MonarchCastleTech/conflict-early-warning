@@ -34,3 +34,18 @@ def test_main_reports_no_valid_snapshot_as_failure(monkeypatch):
     monkeypatch.setattr(pipeline, "load_previous", lambda: {})
     monkeypatch.setattr(pipeline, "extract_live_data", lambda config: {})
     assert pipeline.main() is False
+
+
+def test_keyless_pipeline_writes_deterministic_snapshot(tmp_path, monkeypatch):
+    article = {"title": "Public signal", "url": "https://example.org/signal", "domain": "example.org", "tone": 0, "seendate": "20260830T120000Z"}
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv("OPENROUTER_API_KEY", raising=False)
+    monkeypatch.setattr(pipeline, "load_config", lambda: {"project": {"id": "conflict-early-warning", "name": "CEW"}})
+    monkeypatch.setattr(pipeline, "load_previous", lambda: {})
+    monkeypatch.setattr(pipeline, "extract_live_data", lambda config: {"news_articles": [article]})
+    monkeypatch.setattr(pipeline, "build_precursor_warning", lambda *args, **kwargs: {"score": 0})
+    monkeypatch.setattr(pipeline, "analyze_with_llm", lambda *args, **kwargs: (_ for _ in ()).throw(AssertionError("LLM must stay optional")))
+    assert pipeline.main() is True
+    payload = json.loads((tmp_path / "data" / "output.json").read_text(encoding="utf-8"))
+    assert payload["llm_summary"] == ""
+    assert payload["events"] == [article]
