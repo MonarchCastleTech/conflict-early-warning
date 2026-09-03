@@ -1,14 +1,17 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-09-03T16:27:40.788130+00:00",
-    "mode": "live",
+    "generated": "2026-09-03T21:04:43.144098+00:00",
+    "mode": "partial",
     "sources": [
+      "exchange_rates",
       "news_articles",
-      "nato_articles",
-      "exchange_rates"
+      "nato_articles"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "news_articles unavailable; retained a snapshot less than 72 hours old.",
+      "nato_articles unavailable; retained a snapshot less than 72 hours old."
+    ],
     "version": "2.0.0"
   },
   "stats": [
@@ -34,6 +37,88 @@
     }
   ],
   "live_data": {
+    "exchange_rates": [
+      {
+        "currency": "USD",
+        "rate": 1
+      },
+      {
+        "currency": "AED",
+        "rate": 3.67
+      },
+      {
+        "currency": "AFN",
+        "rate": 65.08
+      },
+      {
+        "currency": "ALL",
+        "rate": 79.6
+      },
+      {
+        "currency": "AMD",
+        "rate": 363.89
+      },
+      {
+        "currency": "ANG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AOA",
+        "rate": 924.74
+      },
+      {
+        "currency": "ARS",
+        "rate": 1511.63
+      },
+      {
+        "currency": "AUD",
+        "rate": 1.4
+      },
+      {
+        "currency": "AWG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AZN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BAM",
+        "rate": 1.69
+      },
+      {
+        "currency": "BBD",
+        "rate": 2
+      },
+      {
+        "currency": "BDT",
+        "rate": 122.63
+      },
+      {
+        "currency": "BGN",
+        "rate": 1.69
+      },
+      {
+        "currency": "BHD",
+        "rate": 0.376
+      },
+      {
+        "currency": "BIF",
+        "rate": 2993.17
+      },
+      {
+        "currency": "BMD",
+        "rate": 1
+      },
+      {
+        "currency": "BND",
+        "rate": 1.27
+      },
+      {
+        "currency": "BOB",
+        "rate": 12.06
+      }
+    ],
     "news_articles": [
       {
         "title": "Netherlands Moves Gold From New York to London, Citing Geopolitical Unrest",
@@ -1387,88 +1472,6 @@
         "seendate": "20260709T070000Z",
         "source": "GoogleNews"
       }
-    ],
-    "exchange_rates": [
-      {
-        "currency": "USD",
-        "rate": 1
-      },
-      {
-        "currency": "AED",
-        "rate": 3.67
-      },
-      {
-        "currency": "AFN",
-        "rate": 65.08
-      },
-      {
-        "currency": "ALL",
-        "rate": 79.6
-      },
-      {
-        "currency": "AMD",
-        "rate": 363.89
-      },
-      {
-        "currency": "ANG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AOA",
-        "rate": 924.74
-      },
-      {
-        "currency": "ARS",
-        "rate": 1511.63
-      },
-      {
-        "currency": "AUD",
-        "rate": 1.4
-      },
-      {
-        "currency": "AWG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AZN",
-        "rate": 1.7
-      },
-      {
-        "currency": "BAM",
-        "rate": 1.69
-      },
-      {
-        "currency": "BBD",
-        "rate": 2
-      },
-      {
-        "currency": "BDT",
-        "rate": 122.63
-      },
-      {
-        "currency": "BGN",
-        "rate": 1.69
-      },
-      {
-        "currency": "BHD",
-        "rate": 0.376
-      },
-      {
-        "currency": "BIF",
-        "rate": 2993.17
-      },
-      {
-        "currency": "BMD",
-        "rate": 1
-      },
-      {
-        "currency": "BND",
-        "rate": 1.27
-      },
-      {
-        "currency": "BOB",
-        "rate": 12.06
-      }
     ]
   },
   "entities": [],
@@ -1612,10 +1615,10 @@
   "timeseries": [],
   "llm_summary": "",
   "early_warning": {
-    "issued_at": "2026-09-03T16:27:40.788367+00:00",
+    "issued_at": "2026-09-03T21:04:43.144373+00:00",
     "horizon": "0-14 days",
     "classification": "precursor-anomaly-watch-not-event-probability",
-    "score": 3.0,
+    "score": 4.0,
     "level": "ROUTINE",
     "confidence": "HIGH",
     "confidence_score": 94.8,
@@ -1668,12 +1671,12 @@
         "id": "nato_posture_shift",
         "label": "NATO official-language shift",
         "available": true,
-        "score": 10.0,
+        "score": 13.3,
         "articles_considered": 100,
-        "current_window_articles": 6,
-        "current_weighted_term_rate": 0.333,
+        "current_window_articles": 5,
+        "current_weighted_term_rate": 0.4,
         "baseline_weeks": 11,
-        "anomaly_z": 0.67,
+        "anomaly_z": 0.94,
         "evidence": [
           {
             "title": "NSPA establishes the Innovation and Readiness Support Partnership",
@@ -1748,7 +1751,7 @@
           }
         ],
         "retained": true,
-        "retained_from": "2026-09-03T11:17:13.329166+00:00",
+        "retained_from": "2026-09-03T16:27:40.788367+00:00",
         "retained_reason": "Live source unavailable; reused a validated component less than 72 hours old."
       }
     ],
@@ -2036,6 +2039,16 @@
         "components": {
           "narrative_pressure": 0.0,
           "nato_posture_shift": 10.0,
+          "cross_market_dislocation": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-09-03T21:04:43.144373+00:00",
+        "score": 4.0,
+        "level": "ROUTINE",
+        "components": {
+          "narrative_pressure": 0.0,
+          "nato_posture_shift": 13.3,
           "cross_market_dislocation": 0.0
         }
       }
