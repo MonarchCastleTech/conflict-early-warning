@@ -1,14 +1,17 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-10-03T16:19:18.397978+00:00",
-    "mode": "live",
+    "generated": "2026-10-03T21:17:21.905787+00:00",
+    "mode": "partial",
     "sources": [
+      "exchange_rates",
       "news_articles",
-      "nato_articles",
-      "exchange_rates"
+      "nato_articles"
     ],
-    "source_notes": [],
+    "source_notes": [
+      "news_articles unavailable; retained a snapshot less than 72 hours old.",
+      "nato_articles unavailable; retained a snapshot less than 72 hours old."
+    ],
     "version": "2.0.0"
   },
   "stats": [
@@ -34,6 +37,88 @@
     }
   ],
   "live_data": {
+    "exchange_rates": [
+      {
+        "currency": "USD",
+        "rate": 1
+      },
+      {
+        "currency": "AED",
+        "rate": 3.67
+      },
+      {
+        "currency": "AFN",
+        "rate": 64.91
+      },
+      {
+        "currency": "ALL",
+        "rate": 81.33
+      },
+      {
+        "currency": "AMD",
+        "rate": 362.96
+      },
+      {
+        "currency": "ANG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AOA",
+        "rate": 927.38
+      },
+      {
+        "currency": "ARS",
+        "rate": 1523.09
+      },
+      {
+        "currency": "AUD",
+        "rate": 1.44
+      },
+      {
+        "currency": "AWG",
+        "rate": 1.79
+      },
+      {
+        "currency": "AZN",
+        "rate": 1.7
+      },
+      {
+        "currency": "BAM",
+        "rate": 1.74
+      },
+      {
+        "currency": "BBD",
+        "rate": 2
+      },
+      {
+        "currency": "BDT",
+        "rate": 122.95
+      },
+      {
+        "currency": "BGN",
+        "rate": 1.74
+      },
+      {
+        "currency": "BHD",
+        "rate": 0.376
+      },
+      {
+        "currency": "BIF",
+        "rate": 3002.6
+      },
+      {
+        "currency": "BMD",
+        "rate": 1
+      },
+      {
+        "currency": "BND",
+        "rate": 1.28
+      },
+      {
+        "currency": "BOB",
+        "rate": 12.03
+      }
+    ],
     "news_articles": [
       {
         "title": "African Union must convene emergency session on Ethiopia as new conflict expands.",
@@ -1387,88 +1472,6 @@
         "seendate": "20260930T214534Z",
         "source": "GoogleNews"
       }
-    ],
-    "exchange_rates": [
-      {
-        "currency": "USD",
-        "rate": 1
-      },
-      {
-        "currency": "AED",
-        "rate": 3.67
-      },
-      {
-        "currency": "AFN",
-        "rate": 64.91
-      },
-      {
-        "currency": "ALL",
-        "rate": 81.33
-      },
-      {
-        "currency": "AMD",
-        "rate": 362.96
-      },
-      {
-        "currency": "ANG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AOA",
-        "rate": 927.38
-      },
-      {
-        "currency": "ARS",
-        "rate": 1523.09
-      },
-      {
-        "currency": "AUD",
-        "rate": 1.44
-      },
-      {
-        "currency": "AWG",
-        "rate": 1.79
-      },
-      {
-        "currency": "AZN",
-        "rate": 1.7
-      },
-      {
-        "currency": "BAM",
-        "rate": 1.74
-      },
-      {
-        "currency": "BBD",
-        "rate": 2
-      },
-      {
-        "currency": "BDT",
-        "rate": 122.95
-      },
-      {
-        "currency": "BGN",
-        "rate": 1.74
-      },
-      {
-        "currency": "BHD",
-        "rate": 0.376
-      },
-      {
-        "currency": "BIF",
-        "rate": 3002.6
-      },
-      {
-        "currency": "BMD",
-        "rate": 1
-      },
-      {
-        "currency": "BND",
-        "rate": 1.28
-      },
-      {
-        "currency": "BOB",
-        "rate": 12.03
-      }
     ]
   },
   "entities": [],
@@ -1612,7 +1615,7 @@
   "timeseries": [],
   "llm_summary": "",
   "early_warning": {
-    "issued_at": "2026-10-03T16:19:18.398248+00:00",
+    "issued_at": "2026-10-03T21:17:21.906033+00:00",
     "horizon": "0-14 days",
     "classification": "precursor-anomaly-watch-not-event-probability",
     "score": 6.2,
@@ -1754,7 +1757,7 @@
           }
         ],
         "retained": true,
-        "retained_from": "2026-10-03T11:41:21.530144+00:00",
+        "retained_from": "2026-10-03T16:19:18.398248+00:00",
         "retained_reason": "Live source unavailable; reused a validated component less than 72 hours old."
       }
     ],
@@ -3157,6 +3160,16 @@
       },
       {
         "timestamp": "2026-10-03T16:19:18.398248+00:00",
+        "score": 6.2,
+        "level": "ROUTINE",
+        "components": {
+          "narrative_pressure": 17.6,
+          "nato_posture_shift": 0.0,
+          "cross_market_dislocation": 0.0
+        }
+      },
+      {
+        "timestamp": "2026-10-03T21:17:21.906033+00:00",
         "score": 6.2,
         "level": "ROUTINE",
         "components": {
