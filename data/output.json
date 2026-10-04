@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-10-04T12:23:51.728633+00:00",
+    "generated": "2026-10-04T21:27:22.583601+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -19,7 +19,7 @@
     },
     {
       "label": "News Domains",
-      "value": "37",
+      "value": "32",
       "delta": "deduplicated"
     },
     {
@@ -36,30 +36,48 @@
   "live_data": {
     "news_articles": [
       {
+        "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T191405Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "African Union must convene emergency session on Ethiopia as new conflict expands.",
         "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5",
-        "domain": "amnesty.org",
+        "domain": "amnestyinternational",
         "language": "",
         "tone": 0,
         "seendate": "20261002T121442Z",
         "source": "GoogleNews"
       },
       {
-        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY0RwX2VmWlJ6VjZhaGxkR2pVVWpOdEhqUl93TG56bFVPQ25lcHZQUXZtV1lvVGliQW9DbVhIWjA4ODFua0FQODRLUVVtdmdxZVg4MU9VeXRCMmVGZTI5V0pWSWljOXNzcmlQdUdqMGlJQkRXRFhDMDUxbXNwZkY2WHF6TQ?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T115735Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Ethiopian forces near Tigray capital, fears grow of wider conflict",
         "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQazJuWGtHMHMwR1AxYjFvenY0NHFFN2VsemM3QU9LSVRkdldKd3ZyUzNtWUVIR2QtQ1E3NG9ZYm80Z2JYTktIa044ekltWVpKQzJMS3Y3Z0o4eUpqUzFZRWNLa0pZM3JfQzFCbDhhM1NUUEVrSk9OVWJTOVpPTDJHNF9qb2JadUN1Ym1UZmkyMWJmQ0U5QTdQNlBDWlltRlREYk51WTNyTzU3aC02OWNpSg?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20261002T132446Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What to know as France school protests morph into unrest and the streets are seething",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaXE5c3pVdTVCSHM1VXdhUWdsUmZMMGVLZmIyXzVmQzlIMlh1X05tREhydFkzSmsxN1AwRGtETGNHMGVmU09fV1ZfY0daYkxIY3BaLXNaUUZaTkplQmJzbWxuS2d1ZVpjdFJRblNVaTh0RXBCRC14Q2dIMVF2QVd1cGstci0wcFBRZTJiOTBjU19TYzVVUEN1bkxIaWdKZGI2Y3dha1NueGtiS20yNHp5ZUg3RGNzWXJkNHc?oc=5",
+        "domain": "apnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T135900Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Air strike in Sudan kills UN aid truck driver: WFP",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGdJY0RKM21uSVQyekE0cDNYOXUwbWpobXlzU3dROTFUbFBIVmdTM3FpMHJWcWo0QU1yTkMzNGkyRFBTa2UtOHF6dmRxVDRSUjlyVlpfUWxLcmtXd2VCVUk4WnBuQzN2bXFQYUY0YXEtb1Y4NkNBR1dPZ0VzSVpQSUhIbEdCbmdrc1RuckdFMElPTUMt0gGaAUFVX3lxTE5IaTlGS3RpX2hELUt6SWlraEtLd2lEZUN6RTFidlNPS2k2bE9nVG5iTk1qOTdna1ZSZUtiZTYtU1lfWENhdXd2R3JkbjN5QndOUm5LNlEtcU1sNUo3NkUxRVZsLTVNM1hrbVpmcDNqNDRfOWY4bG15RkYtSUNvWWg3UlJYZjF3Uk5jTXliNDhRMWVjOGVLSjVneFE?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T191950Z",
         "source": "GoogleNews"
       },
       {
@@ -72,39 +90,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "What to know as France school protests morph into unrest and the streets are seething",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaXE5c3pVdTVCSHM1VXdhUWdsUmZMMGVLZmIyXzVmQzlIMlh1X05tREhydFkzSmsxN1AwRGtETGNHMGVmU09fV1ZfY0daYkxIY3BaLXNaUUZaTkplQmJzbWxuS2d1ZVpjdFJRblNVaTh0RXBCRC14Q2dIMVF2QVd1cGstci0wcFBRZTJiOTBjU19TYzVVUEN1bkxIaWdKZGI2Y3dha1NueGtiS20yNHp5ZUg3RGNzWXJkNHc?oc=5",
-        "domain": "apnews.com",
+        "title": "French schools burn as student unrest spreads",
+        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONkZuMU1TZ2tDdlRXQlVtc3lkNldSTHVvSVp6cGdwZnNRZUZLbHZka2ktQWJCcWQ2NzctbkJ3ZHFxcmVKZks2LTk3M0hLb0lPUU5yMklpaS1tWW56TUJ4RUdfRDhpLTNUenJvT1ZHNWQ4bVRpU2prUzk0LTRLWXU4eGhWMVU?oc=5",
+        "domain": "ft.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261002T135900Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWdXc3JjUk9rNUZENnZzMlZpR0RVZzZyVk5FLTNpRnhiUjR2Y0ZYekRHMDdsWnZBYXNLNjFyVGMzWkFZLWVFT2tuTTBjZkpFd1Rpc1JXSGNPVE05eGZrTndNNGt1alA0OUJPRmlmc1lNWXNBZ2RyNktpempaSGlTTlNicmtCU2pvWmFNcnpieDlUUlg5RGZrRVZYRzNLcHdVd1pyc3ZWVjNaYmxEb2NRRU1VNNIBuAFBVV95cUxNSkw3UnQ4cnA3WHo0MXRhd2hLTDNpcmxpWmEyTEdkTG5rSXhyRXBEYm94RTJCQUxvRXh6Y0llS2JNdFRXZEN3eXBleHFLUF82U2QtbU1fRVZROVd0T1Nfd3djc1FQUlV4Wm5yRGEtbG1fV09ldkt6UVl2T1N5eVQwNF9jbnpCVXVpWVVuYWF6QU1xMndSekh0WDJISUI4aFZhS19MVmFMaDhUZTdnaU5jeE5ZNkRRY1RM?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T135937Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Egypt to host Eritrea, Sudan, Somalia leaders as Ethiopia conflict fuels regional tensions",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0J0cV9hXzI2bFpjVVUxQUdJQUtwUGE0TldNNXZkZ01kMDZDZ2FJY0dEN1hNcjBUWWFRVmI5eE9Va3JfdGtHU3k1ZmtoZEtpS3N6dkpWNUlSQVJfQnFEWHhIRzVheEZaYWJleVhZZi0xN0N6VUttcTFlWi1wQXlkTzduWjQxNFE1MHFOY0RVM0dFMkotLUd0TXNtejFJTnZpNkhpWDNpYkVKYTlnYjNlX19XUlBkZFVyRmM1V3dlUUcwaDJkUHd1bnViS2dFQQ?oc=5",
-        "domain": "arabnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T092001Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ethiopia’s resurgent conflict, Rohingya repatriations, and Gaza’s devastation on Google Maps: The Cheat Sheet",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVm11Y3ZvTUNhWmwtV1l6eXl2bzRmQUZjTDY5bzVWZ19DanV1UlBzSXRfcy1FMG5HVDFaeVVnUzR4VlBudVZlNU91UW1ZeGRERHJ1NWtmdzNXa2k4M1RlclIzLVBzZ2tIeDJfZnlybTRROXJRR0ZfY3phaF8wOWlaRDlQT29Cc1ZtYmFXNm5TekRqdmVEQmJDYmxUbmdjZzZEOEhDb09YaUk5QmVsMjN3TUMzQUZXbXFsZFdnUEoyaU9EQnJHNWtGNXJn?oc=5",
-        "domain": "thenewhumanitarian",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T131313Z",
+        "seendate": "20261002T162149Z",
         "source": "GoogleNews"
       },
       {
@@ -117,21 +108,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "French schools burn as student unrest spreads",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONkZuMU1TZ2tDdlRXQlVtc3lkNldSTHVvSVp6cGdwZnNRZUZLbHZka2ktQWJCcWQ2NzctbkJ3ZHFxcmVKZks2LTk3M0hLb0lPUU5yMklpaS1tWW56TUJ4RUdfRDhpLTNUenJvT1ZHNWQ4bVRpU2prUzk0LTRLWXU4eGhWMVU?oc=5",
-        "domain": "financialtimes",
+        "title": "Why Are Students Protesting Across France?",
+        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNkJWLW1nQkZranRiekRnUjhWU01ObWFkZFplYzFEYVhKRV9iTnZ3WWdUblFXY3dYZEZQN3RiMldXenBNLTJfcmJZa1VBeFhRQ3VLVHJYa19maUxfX3hDTGpEekhSWmdhcnIxQ0R2d3NkN09tTnduNF9Nb3ZLN2FOMm1kcDI4MHp1RXdKRnlYNHN1MTNFTEN4Yw?oc=5",
+        "domain": "timemagazine",
         "language": "",
         "tone": 0,
-        "seendate": "20261002T040023Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Fighting in Ethiopia threatens to spill into conflicts in Horn of Africa and beyond",
-        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGpnRENjOF9BR2RnbDFySTd2YlVkWG54TlIySWdQM2ZuanJHdXlNbS1JZFZNRk54UTUzUnJMQ3RsME5uM2gxWmJwUXQxdzA5TXVLd2t0MEZZd3I4N1dOalVzSmlWMS1kZTItSEE1cjNqWDM0V3hoQlFSbzc1MnVWVjZkT3VGSGY2LWxwLXRENlBPVkhfdHY0MGhRX1VfNkVHLV83UVRmS1pRQ1JuMm5pd2h3MA?oc=5",
-        "domain": "thewashingtonpost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T001019Z",
+        "seendate": "20261002T202350Z",
         "source": "GoogleNews"
       },
       {
@@ -144,48 +126,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "AI, War and Civil Unrest: Why the Rich Are Getting Their Bunkers Ready",
-        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXZ0RVhqdWdhZk92OW9sLXNVVDFOcHNRQjBReUI5d1VFTjRyNnZjNDlDREtlYlBvY2ZWb1puRW5meERuZlRfS0p1U3ZWRy1PUW1taVdSMlAtUDc1Q3VDSDJqYm9paWlUcjU0R0RuVk5DZ1hmZmxid1dXWFAySGJoSEc4eHo3SWs1MWVCdnJBWFcxcmYxR2RUT0FNZVNSWlVjOGd0RQ?oc=5",
-        "domain": "newsweek",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T090000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Why Are Students Protesting Across France?",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNkJWLW1nQkZranRiekRnUjhWU01ObWFkZFplYzFEYVhKRV9iTnZ3WWdUblFXY3dYZEZQN3RiMldXenBNLTJfcmJZa1VBeFhRQ3VLVHJYa19maUxfX3hDTGpEekhSWmdhcnIxQ0R2d3NkN09tTnduNF9Nb3ZLN2FOMm1kcDI4MHp1RXdKRnlYNHN1MTNFTEN4Yw?oc=5",
-        "domain": "timemagazine",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T202350Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Making of the Democratic Insurgency",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWdTcUdIYUdJUHdCNFpibGlLejJOUGcxaDBfZmRZM2g1VkdRSW05ODVXdE8tOGNYZ2p2bVk3MDl4eF9RX0xmZTc1SlZVM1FuQTllMlZ5M3hFTUJCNjh2Q1Vyc2JWS0tSby0zNFFkYVVKRTdWMUZDMFZMcWVZT0xVUk01TmdrZUR5cThHbzJIdDVkUDdJaGl4TkViRQ?oc=5",
-        "domain": "cityjournal",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T204642Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran FM: There is no military solution to conflict with US",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnQxcldLUkhSeDdjRjBneUFaZjlwbkxvYWNnT3docVloRmVSMnlLMTA3Vy1TZUI1Y0VkM0E3TnlEYmtKWExkRl9SeWViNlU5WTI0WVl6RloydEdfVVJOcmZQWlNMOE9sT28tTHBQOFNXVmFoREhkMTdadmNKd1NJeTJpSWVtcjNTZ3Uwcl9ocXpadEtqQ2NnV1lEN2VxMlZkcmlBeHJ3?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T100246Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Houthis Claim Attack on Oil Site in Saudi Capital as Yemen Conflict Escalates",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5",
+        "title": "Video: Houthis Claim Attack on Saudi Oil Site as Yemen Conflict Grows",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUVlMG9WRll2UEktWEpZWG16enBSa0xacFV6eHlOTk91cXgwV0VGbDZzUjVvc2pJWDJfWVFXSGtHdXBMQ0xzWHNNcUhnSklCMTlhOFBmSEpSbWUwc2V0WjZQaDBIV1hxQjBTVmcyTDFTOERrMTVmWnR4N1hSWXlJTWQ3bTIwVi1QZ3E2ZVhhUXlNazdtUUh6OHJOcmVYZjQyazUtRFBaVHlHNUptZXMxSnJ6UjV5eWZBUDZDcg?oc=5",
         "domain": "thenewyorktimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261004T104550Z",
+        "seendate": "20261004T201704Z",
         "source": "GoogleNews"
       },
       {
@@ -198,30 +144,129 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Government forces seize capital of Ethiopia's Tigray region from rebels",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVXVqai1NbFo5LVhWcnM3RElRUWVwa21sQ3p6dVhFXzBwQVBtN3BGR09DOGZhaXV5Z09BQ0RXN0JfODgtS2VoeUVqV3I0OFd3cVFjMzNLSGV3QnBidDY4eTVIUzc4YThTalE0b3JNRndHbHhQdW43S3MxN25NOWRnckZKUDU2MGl3V1YtZUVaRG5IMF9PUTVWMVM3NUptZGdkaUlYSDdLcTQxMlVxMWlkcg?oc=5",
+        "domain": "reuters.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T163034Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lZnJpVTV6SGZsTVlPOXZPdHpmdGhReGpQa1RneHB5TUR5LXJVcHl3ajI3OHM5ei1IaWc5dmFUWWpmTldsSTVURklnZ0ZBdC1tQXYwYk91ZmNFdkU?oc=5",
+        "domain": "bbc",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T133305Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY0RwX2VmWlJ6VjZhaGxkR2pVVWpOdEhqUl93TG56bFVPQ25lcHZQUXZtV1lvVGliQW9DbVhIWjA4ODFua0FQODRLUVVtdmdxZVg4MU9VeXRCMmVGZTI5V0pWSWljOXNzcmlQdUdqMGlJQkRXRFhDMDUxbXNwZkY2WHF6TQ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T115735Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWdXc3JjUk9rNUZENnZzMlZpR0RVZzZyVk5FLTNpRnhiUjR2Y0ZYekRHMDdsWnZBYXNLNjFyVGMzWkFZLWVFT2tuTTBjZkpFd1Rpc1JXSGNPVE05eGZrTndNNGt1alA0OUJPRmlmc1lNWXNBZ2RyNktpempaSGlTTlNicmtCU2pvWmFNcnpieDlUUlg5RGZrRVZYRzNLcHdVd1pyc3ZWVjNaYmxEb2NRRU1VNNIBuAFBVV95cUxNSkw3UnQ4cnA3WHo0MXRhd2hLTDNpcmxpWmEyTEdkTG5rSXhyRXBEYm94RTJCQUxvRXh6Y0llS2JNdFRXZEN3eXBleHFLUF82U2QtbU1fRVZROVd0T1Nfd3djc1FQUlV4Wm5yRGEtbG1fV09ldkt6UVl2T1N5eVQwNF9jbnpCVXVpWVVuYWF6QU1xMndSekh0WDJISUI4aFZhS19MVmFMaDhUZTdnaU5jeE5ZNkRRY1RM?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T135937Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Why renewed fighting in Ethiopia's Tigray risks a regional war",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa1Vib2ZuYTBsRWNFRnR5SE16MDh0Q1RYUnRtbHBYVnA5blZ1VURmcXNuVkZkUUVnb1JMbjdpcmVaQ0E1NlYxdzczb3c4akIwV2JHcl81UGM3VHk1dHdTUFFOUVhKbzVYWDc3TzNRNEYzbnlkdHlVUEZlaXJsOGt4NzN6TXh4UXRCd0ZBQkpoRlhhbnh0MHNLZ3RYZnBiWmhVblNmbTNIYks?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20261002T080233Z",
         "source": "GoogleNews"
       },
       {
-        "title": "French students protest school conditions as unrest spreads",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbE0yUFF4emJ6OE4wckwyd3ROak9UQW9iUXpHNnhKNkU3VFYwMm9oTWNGaHNmTURaZ04zdi1iTWVfZHlfRl9XS2ZqZEZaakljYjFGMkxGT0ZuZzdOZ1hIRGJjZnZLcEMxR1RPNUhqN216Zk1OVllsa0NxQWpQbEhWdHNqbmVrdw?oc=5",
-        "domain": "straightarrow",
+        "title": "Why does the US want to deport Salah Sarsour?",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSTctUTEza0dtNUZPRVRYWGxmZ0V6VFhfS0dTbU9LSHNTbjhVVGFWZl95MEtreHBaV2cxWnBvUFFVejljSENEam1hVFJhV2F2WlRweEE5R0NMaEl4ZWRpVzcyZ3NBeWsxYk9LdlIxT19SYnpyZWpWRVo2ci12QXZYbmVFMGVxamo1ZEVhR1FZN2xxa3Ffc09IVF9RQdIBoAFBVV95cUxOUnZ0RWJObXc2azhMWVd2SXBuV0ZOSFZLLWh1U1JwNzBFUk5UWXNZeXZJWVBTdFV2ZTV0U3U4aktid1BfcEFaUGQ5N2djcHNjRnhwZG9mck93YS1sNEVaUXU5WFVqR09kQjhpOHJsZm83dTNQQjczNTNwYVdWMkdDV2hMWWhTcUlrNFlKaUh1MGVHbWFNUENFQ0lyWEN5S1Jt?oc=5",
+        "domain": "aljazeera",
         "language": "",
         "tone": 0,
-        "seendate": "20261003T223000Z",
+        "seendate": "20261004T164405Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Why is fighting intensifying in Yemen’s Taiz governorate?",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMnczemg4eTVoNU1yVFI4UFdYbkRyTFVVSVNsVUNCa2ZVUXVKSmczSklWRG9qd3JpWXVTMW1VSnFrb3N0X284TGFWS3lXVWx2bVpHMGFrYzR5SEM1aldtSUdyZzltM3pHRVRhdWRabUp3ckNhcjluMzZQZGZPb0NaUVpNSlY0MzR2cHpZVjZmTExqa2RfSTdkUk9XdzbSAaIBQVVfeXFMTUJhRmZyc1FtdEFmVk45LUlORmdwRFZRTUUwbkNmT0Rzck1SemxZdEtnTkhsa3h4ZDdfRHNBcUdFMU1mbk1jVUcyVENDX2dJQkVhWmdBZTBxMFFRZGRBTFpwdU5DTWZoMXVQM3M1VHF0Wnd1LVJYT2gwTEdDWEQxdS0wb0hMdVZyOUhWalotUmU1dFhVX2h1M3J6T3F2Wl93TlRR?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T195627Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "OPEC+ holds output targets steady as Middle East conflict tightens supply",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPb1dNRTNmdkl1eTFwTzFCc0RCajhVVnA3VzZBS0k1ZW84ZDdGQkxZWlZvRkw3NVhsOUFLU1NPUGd4OHlZVm5kUjFWdzNCVDZpVGhPM0JoaVhtcEJ1ZTBfbFI4ZVJUVWhNbEVoQ21fOWQ2VTdabzlyNHRlZWZER0h6UTk1RUI4MnV4MkZSczVsQzl2am1ZbTQ1S242UzhtQ3ZjMmU1V1NLT3l0Q192eV94cl9iLTgxalY5cWRmbGZyUk85WmZaSDBRUTRzc00yRzhF?oc=5",
+        "domain": "investing.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T182340Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Making of the Democratic Insurgency",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWdTcUdIYUdJUHdCNFpibGlLejJOUGcxaDBfZmRZM2g1VkdRSW05ODVXdE8tOGNYZ2p2bVk3MDl4eF9RX0xmZTc1SlZVM1FuQTllMlZ5M3hFTUJCNjh2Q1Vyc2JWS0tSby0zNFFkYVVKRTdWMUZDMFZMcWVZT0xVUk01TmdrZUR5cThHbzJIdDVkUDdJaGl4TkViRQ?oc=5",
+        "domain": "cityjournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T204642Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Draft-dodging road trip during the Vietnam conflict",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPaV9LS0lLc3BwQnlqTVMxTU4yM0I4b2J5VzFZbEhJSE9VaUZkMTZDb2RzbUF5c05fMnV3dXpzZi03TUJteXZ3TnVxb1R1ak9XdUNRX3NvX0d6clBWaUxQTC0wN2xkSTFMTmh3dFNhZWtwUUpxcHhFVFF0M2J2T3JyUW90cURjSjRlYzg0YTF4eGwtN1NsZXhDZFItNDg5Y0hvdHBCU3JqRVdlUXlGbDRMbHI0dHIzV19nWVFFX3ZYOFUybmV1WWowRnZlSXExaF81Rm9sVVEzM0FBd2FOczY3Mm0wamFNZndJT2hJTHZNS3E?oc=5",
+        "domain": "theannistonstar",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T130000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Israel’s religious turn risks transforming the conflict into a religious war",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xT3RoRUpyQ3dqc0g0YVdrdHFNTThXT3c2T3NFNENPSkZaSE4zS0FMT21oYkZ4cy1kUVBPQ1poQXRLVjloODk5OG5DN1FzQlliemxFZUlSN3VpQ0h5VDlWejN1LXB2TVo2Y2UxdHln?oc=5",
+        "domain": "ynetnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T141344Z",
         "source": "GoogleNews"
       },
       {
         "title": "McMaster on Iran using proxies out of desperation, says conflict will persist if regime remains",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcFJudS1DaF81TUlwWUZRQ1ZrQ2ZrN0EwNFlRQ1pvVHpLQ1hsWklRei1weGFWTnViek53MjJOSUZfYW9aUGV3N3Ewc2dzQVVxS3dQU2tqckcyQUJsbThSUWlWZFY1OVg1NUxXSkptSEJ1VS16WVlBM3I3U1BveDJCc3hoUWVhYk5INXJvdi10cGNtbVh5LTRuZ3QtQ2VVSWZYQjJCd3dOeG1BU01HN3BySG5iT3liZk9yOW5UMlRTQ0ZNU00?oc=5",
-        "domain": "cbsnews",
+        "domain": "cbsnews.com",
         "language": "",
         "tone": 0,
         "seendate": "20261002T141200Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Egypt to host Eritrea, Sudan, Somalia leaders as Ethiopia conflict fuels regional tensions",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0J0cV9hXzI2bFpjVVUxQUdJQUtwUGE0TldNNXZkZ01kMDZDZ2FJY0dEN1hNcjBUWWFRVmI5eE9Va3JfdGtHU3k1ZmtoZEtpS3N6dkpWNUlSQVJfQnFEWHhIRzVheEZaYWJleVhZZi0xN0N6VUttcTFlWi1wQXlkTzduWjQxNFE1MHFOY0RVM0dFMkotLUd0TXNtejFJTnZpNkhpWDNpYkVKYTlnYjNlX19XUlBkZFVyRmM1V3dlUUcwaDJkUHd1bnViS2dFQQ?oc=5",
+        "domain": "arabnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T092001Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "France faces record debt as €54B cuts fuel protests and school unrest",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE50SHotcm1PNGFCZTlrUS1HY09wRjkxdkI4dTYyUFRhNVNHTkdxX3hLX1BzQzF2Mm1mbU5kVXZudWpSQTgtOEw1aUUyQU93ajQ2TERseGR3?oc=5",
+        "domain": "ynetnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T162027Z",
         "source": "GoogleNews"
       },
       {
@@ -234,21 +279,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iran says no military solution to conflict as talks stall",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGk4dU9RSHZhV2p6V1NzOUplQk53Z0d6cnI5cDZxTGx6Ym1nbjZrem5rUmlaTmRZRThhZmpqWXpzQThIaHRJNTByT01qLUNxazhwOU9nSzdHVGtUS2lteE1Dd0d0R1hQYnlUYXF1T3A5LTdadmpTaXhsdGNPaWh5SFp6Wk1IdVdQdUJyOUtveUJKUFlESmNJSDFROUZ6R0JMb1Y0?oc=5",
-        "domain": "trkiyetoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T083514Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Why new war in Ethiopia’s Tigray threatens to trigger wider conflict",
         "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdUNJbGRWamoxZS10VnNEUkNHeHk3N08zWVlJdWFLUWpHNVBjYnBJbjlaTGw3bzVjOVZTYl82TWxDR2h6by1PSEdHTmZLeHdyY2ZtMkp4V0lDQXoxN2lZeTJqdHVhVThRSTdueWJlX3dtWUY1Wm55M2N1R2RvTFdWUTdCU1Q0a19XSU1qQ19SQnFpeGdWOWcxVE1TalkyU0FVS2NGX1l6WURMNHFnWjdZ?oc=5",
-        "domain": "reuters",
+        "domain": "reuters.com",
         "language": "",
         "tone": 0,
         "seendate": "20260923T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran says no military solution to conflict with US as talks remain at dead end",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd0U3dWJMYzFfd3pYNHU3UWpIZjBZT21lVGk1V0VCazEwcTRoQ0w4MWpnZC01VHNSMXkwMWw4X05RRFdmd2ZzcmRpVlBvX2s3Q05TMnUtVGs5YnhrdDdaTHpvRGxIVWhsOXhtNVlXMEp5U29aUTVSOW1WdU1WU193c3dYYkViZkJ2SVNWT0dWQ1NhTHBnYjF2OEoxdHIyYlZGS1kwa3pIa0RwanVMZXfSAbMBQVVfeXFMTjRhTEFRc3FncGx4bGdXeEk4bmhRZ1JEc0FZbURDMEEwOUQydlBIaEJLTHZhOEN0NlZpeW1nR0xGc19xWTVidnB6LUE4NTFJaU9OUGtQQ0phNEp6M1p1aF9FMXgzUS1jTXg0QUtRTXE4THI2UHNIUXlYV3lSbEppQUF5VFQyeGpQdnpmVHlMWE96cFc1UXpFMU9KdWU2SEQ4eDRyMlhuQU1GNkFHQVpVZWxqNTQ?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T180754Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Al-Alimi announces launch of military operations against Houthi militia",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQckNxTC1EdVZra0xES0tsU1BzZkNEWXdoSDRLZjZDT2hSWUlZU2FORFVsd0EwNk1BUWFUOHJGSU43QmIySHFTbWh1LWkzeDFSUll3WFdaNmhGLVdhWWt5OGwyZHNNZktOWmttOEMzbk5IOUd1amEydFJDRmp5RU5lX21uNXhPS3dBT0dhUjJCUUk3THNIQkxUTWp0dzdmS1l3NFBWU0QyQmtsc2xHcjhmVnV2ZzM4RjA?oc=5",
+        "domain": "arabnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T123234Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran FM: There is no military solution to conflict with US",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWnQxcldLUkhSeDdjRjBneUFaZjlwbkxvYWNnT3docVloRmVSMnlLMTA3Vy1TZUI1Y0VkM0E3TnlEYmtKWExkRl9SeWViNlU5WTI0WVl6RloydEdfVVJOcmZQWlNMOE9sT28tTHBQOFNXVmFoREhkMTdadmNKd1NJeTJpSWVtcjNTZ3Uwcl9ocXpadEtqQ2NnV1lEN2VxMlZkcmlBeHJ3?oc=5",
+        "domain": "thetimesofisrael",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T151212Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZTZ5aXZwRWxZYk5TREwyb2UxbGpTeXczSzRLSmM3NktIT1FtbVc2Qy1xX2ZGZnNMTFQ1UFNZM09NNDY5bFRJaDlnSEZHRDlPTWRtNmp5WWN4RU1Sdkl2a0J6YnRiN2NwLU9raHJkM1IxdjZ1cGFzNndyV2tVdUM3TG5maFJVbF9pRWpBUWdMdmJ1RVZ6aGRyVWdyVGtXQm9KSFVLOUlVM0Z1Y2FI0gGyAUFVX3lxTE42OGpqUVNlNjFaVFhCZ21QRmp4RzlRNjhzNGdnZlFVSU80MTlka0o3NWRLdXRERFBzWUNONUdaNjM3OEdtZ3c5TkN5bF9iR2dlZHMtRmxYaFE4Y3gzTEFnUG5kbzRjLUNWcl9zXzZ3ZU4tZUxmaG90OU5uZG9JVFJIZ3FSNDlUYmVBQVVleW5WcGFLNWdMV2pVRnJPX1NfV3BhdmYtSEZKN2RkYXFCT3pQT1E?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T191950Z",
         "source": "GoogleNews"
       },
       {
@@ -261,192 +333,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Ethiopian pro-government militia claims Tigray airport as regional tensions spike",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa0wxdkVNbjR0c2FONWdWdkpCaVlLREUweS0xYUx4andTMzl3UjNDNEY4VzRMcUNzN29Yc09PRmxrNjBGTm9MZUM0c0tvd0xEM1h6ekdDNWZvTmNZYlNsRjFrMVJKWS0zNFNfRFIwYkxOTTR0eGxGejdnSXhVTmRZNHhaalBnMzRMTy1GblFLc3JMQzVPVzNDZ1dBYXVHTkFfdTRZN3Z0OTRUdlA1?oc=5",
-        "domain": "france24",
+        "title": "Fighting in Ethiopia raises fears of wider war, from Horn of Africa to Red Sea",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGpnRENjOF9BR2RnbDFySTd2YlVkWG54TlIySWdQM2ZuanJHdXlNbS1JZFZNRk54UTUzUnJMQ3RsME5uM2gxWmJwUXQxdzA5TXVLd2t0MEZZd3I4N1dOalVzSmlWMS1kZTItSEE1cjNqWDM0V3hoQlFSbzc1MnVWVjZkT3VGSGY2LWxwLXRENlBPVkhfdHY0MGhRX1VfNkVHLV83UVRmS1pRQ1JuMm5pd2h3MA?oc=5",
+        "domain": "washingtonpost.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261002T140446Z",
+        "seendate": "20261004T001019Z",
         "source": "GoogleNews"
       },
       {
         "title": "Yemen’s hunger crisis deepens quickly as conflict escalates",
         "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMXMwYkFLamFHWjhFbjdUVW1VOEl1NVpfMTNYVXp3WXdiekdhM081Vm11SkhXNUtveHlwMnVsUkZhVFQ3OVREZTFCV3hOVC1RRVROMF9IWEJxWWdFUDJ1VzV6ZmoyVzhHYUgybGdSTmdnN3M5eWtVZUV4OGVNRTAyY0lTSjVVZU9CLVA4?oc=5",
-        "domain": "unworldfoodprogrammewfp",
+        "domain": "wfp.org",
         "language": "",
         "tone": 0,
         "seendate": "20261002T120000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Yemen conducts strikes against Houthi stronghold, capital city of Sanaa as conflict deepens",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zZ3JBc0RJMmJveXVHSVptMV9hdmxUakJiOFVNVjltYmkwX1VHVmhYY3hGbTNlSHp5SEVYOUkxREVTX1dUcDFtcng4b1RCNUZNZE4wUy1Tc3VVdm1T?oc=5",
-        "domain": "thejerusalempost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T230221Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iranian FM tells US there is no military solution to their conflict",
-        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5lTldHNHpiRzhmd1NjZVYtdzZ4bEltZnhsWGRkXzZKekp5bmQtTWNWVkJnUThSMFVLVkpnMG12bkVUSDRzNk1iWXI0TXc4VzI0UUxRak0yUHJwdjI2b2ZaY3JVMnIxcmFOdXVaWmpB?oc=5",
-        "domain": "news.cgtn.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T071447Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US-Iran conflict: Trump fires back at Iranian official",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15dndpakdfajFUTG41cDhKNTRLck5XRlcxTzZ3RjdMdFN6d2pxMEFTRHZhZFBwMzF6YkMyazludzRSTVlnV0xFLTlhem14UnQ1VGUwanZ4WVhHbzFtWmZQN0RMY9IBaEFVX3lxTFBLUExTQ3NDYmZaVDdjTERUdWgtdFcxcnppYndjUnpwUm5KdW9kbzVyRTREU3RzZmZPQ2JkdWpRenpaRDF2MWdpeDFFOGxEU05Kc1ZSU2gtbXN1VTJfRTJSQ05UNVdHY2RX?oc=5",
-        "domain": "livenowfromfox",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T192947Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "‘Trauma still there’: A decades-old standoff returns to Northern Ireland",
-        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWE9yM0hkcUtqNGY5ZFNZb2lmZzFuZHNjTVoxZWp4QTlha0VwQzhWMDNEd0Z2d2h6V2x1UTBJZUtLRFFRZXJ6WDZDTjZXOEZ3QnVLakdibElMZjh5RV9BbnpHN2xSYVp3WFVQTG11VWNZdnhlZWlXeTdIcFdES1ZzeGhFYmh5UUt1VjlfZ3dxR2Y2MFd6RUUwZHlUUDF1a3RHdVpRTUlrX2JTRk9nZHRB0gG0AUFVX3lxTFBuZGdCMm01eUxtZkVTWWN4aVE5OHhGcEc1a1puWW9XYmZ3V3h6NjU5RnItdXhLNWVYTzlidFUwek1GWkIyVEpESHkxamRoclJrS3dsbkVKZWFBQmxNeG9xN1RSVlFmRkRlOGI4UUs5Z05iVFdpR2xqOVFvTWlLeDFhV3VlTmJMVXhFcWdVTG5xRHZxa3JWbXhsVzcyMVJqd1pIc2kyWmJwX3RkUVY5bndmV3lybA?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T065907Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "U.S. Exit Leaves Iraq With a Militia Problem",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTRuSTFEbEtGMkZmRDBaUGxlc25nTFVidnRfZVFLbmdHMXcwM0hjRDFMYjB0ZUl4THB1eVZISFJvTVdWaGJBVDBXc29YY1o2ZGhjeTI0VEJNa2QwUWZZc21HSmgwX1p5WDJobDBYd0N3LWZrcW05bW1walhyckVoQm9iZGRwcDU1eTAtRmpxSHpweE5C0gGaAUFVX3lxTE5wemJoVGJlUjkyT1dKcnBLWk84T2M2V29DSjRoTmlLblhFQlJnWlozZ3hnYnYyMU5tRHpmMXlrc2VocEdlQnQ1ZnRSVlI5Wktvbm5yQmFucjR4VVl4OG1fMDVUZ2lFQXdmUlJUQmdGTUJKd2cyQnJQQXBnTExrVzNaMEZuaEZtOUthZEhhSlM2M29ha1U4R0E2Umc?oc=5",
-        "domain": "crudeoilpricestodayoilprice.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T144500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "French high school protests spread, hundreds of arrests amid unrest",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONjFtYWJ1QThmNWRDVWxfVWVEcEtPbjlXdUxSd1IycDJDWDRSUS1KX0RfWld4elpPXzFzSGF1ek5uR29jdlEwRGZUUGxXZWNrWmo0MlRZX0w1NU1KNVdyOEQtM1lTZ2ttTGlUMS1PLWEyRFFXQmNfQlZKUjZoT0NIaUFJS1dpakRkazBzSjc5VGhTaWlwNHpuNVRlNEo4NHp5RjlaaENueElaRzRkUDdDTmwySldCVGJfQ3p0U2FBRmdjcUtTdHNXeDg2bnZiQQ?oc=5",
-        "domain": "lemonde.fr",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T035616Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Oregon Housing Director Failed to Report Husband’s Related Business Interests",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLV9KZ3pUc3dackNDR1JDaEYtRFZ5VUl2cy1fbW15T0NBdEdTUWQ5WVhXeHV6TU1Kb0l0M0xYb1JZVWQ1aUYwXzJFVDZtN3A3YlpLekVscTdRY2FCUjZjcFhyNVFTOTBTUFlPVUZLSm5nUzM4SERid0dOZDFHSDFYdQ?oc=5",
-        "domain": "propublica",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T090000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Christians condemn sexual violence following UN report on Russia-Ukraine conflict",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUTlrbnY4MTZzeHFkMXF3SVg0ZGxWUFJjVnZkNnA5YmRvNFl2SnBIY2UxX3NKd1ZDUVFEYXJlZWE3OWtOTFM3YjVTdlR1WktBY281Vk5EM3Q4blc5UG83dWppS1BYTHBiLWRlZmFEeE1ISGFVemJmQXFoQjU4dEpaWTBmWXFPMGxreGpnSWRiaWNab1JXN0N1MUtzSVBZYXJSXy1Bc3VjRy1yV2pNYjJnSnB0WERKNVBO?oc=5",
-        "domain": "www.christiantoday.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T012528Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnpqaFQ0Rm9TeUhTVXRsX1dUbGFyeUFZUmw1dTE5Wm5nTEw2MzllZFpvTktOdjN4QkpKS2FwY2s0UHh5Znd3S2hTaTl0QTh5Tk1wM2xvYzNqQmYxLWM4Q0tsV2pISzlHVW82bDE4MGFpcmxvRmJpVlR6MzNQSDg5eXAxR1dnMXVnclpj?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T142242Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ethiopia Conflict - Expert Insights",
-        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rSkhDN1N3UFVCTkdhcVZSelEtb0t2VkwwR3J3QURjSGM5elJTY1ZlX2tTenQzd1FOTnJMVF9IdFlvcFEtdzJzdV9weldWdHBNajN6UU03WnF5Wld4YW9PUVJqQS03ckpZZFlfemk4VklyZ21iTDFRRVlR?oc=5",
-        "domain": "acled",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260925T131536Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Could conflict in Ethiopia expand across the region?",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOHNzaVUzQ0JJUDJxZDlVR2ctbE52QWFqdWtuNVR0SlNDWUdFQnYwb1VwMWRLb1dBOGlfZUM0ZEVwODkzVEZNcHZIWk12LVRTRTZ6WkcwazBiTGs3N2FFLU9jVmdjazRXRk80cDRtMlRJc3U4MHAyVl9aUUZPYmhUbWtWR1N4V2l3RWJCbV9YYjY3b09jV1dKRWNJSFFvWFBLSktjSW1zTEdQdw?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T201813Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Yemeni forces say 260 Houthi militia members killed in 97 operations",
-        "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE11QkNiLVNkU2RqNlQzWFkzSDVla2d4WTlscFJDbnZnNmZVNWphYnFZU1RiX1J1NlZsaGxwOUNhWkFLWER2S0tEUHowOGlyNTJu?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T095330Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran’s Strategy After the War: Hormuz, Gulf Tensions and the Risk of Another Conflict",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRll6ZTlLd2EyWVdSRkdiNDk3QzVtQVhVaUtkX0JBQ2MzTDQxcHplU0gyLXBDQlVfUjRlR3QwSlBuY1dORzFiNlRaQkFmVGJrNk5rQjBFdlEyeHhpbzBUY0xibC05TXlHTENpUXlsYkh2S0VsaUduSGlGRDJQSVlUbGR4MkN1YlMzR2luQVgyZjQtcFZPUkt6UnRZZjdVeWUyT0ZKTzNzSzVMNlVTOUpVazRmRjV2THFIZGEwMkVn?oc=5",
-        "domain": "moderndiplomacy",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T020008Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Students from UND, NDSU learn about the ongoing conflict between invasive species and prairies",
-        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOYVI5NXpPVHBlTTlPLUNOTnZPQWV6dTBzQUNRWVY2WUoyS0R2eFVsTG9CaTYwSlhqR3llVTlFZVFabjdOYVFPWjhDX2syU2EyRHlqLURfeGg0OWNWanlGdk54V3FsdmJXZ0Jnb1pUT0dMUTh5Wm9GOEJ1ODFsYlVEcTE4V3c0bEhnNnIzM1REQkhQNTc2THdDbW5tZ1FGMVc0RWpZRTluekFaYmc3ck55dHJHZHB1NDdqeF9OZ1FGUjFuVHBEZlZ4bXhTTXpGMU9mcWZ3THJRbGVPOFB0TmRvR0tDR01WMlU?oc=5",
-        "domain": "grandforksherald",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261003T132434Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNalh0ZERBbWh0M29GTGtBSnpIR3Z1Rk1qRFVVbGJjdFlyQzFBQmEyVG1GUnhLaDBkWEtCczA5cmUtSnJ3QVNDU1RpLU1pX0J3WkFLOFdJWVRKTHh5UlBjakdoYXRfbDdXSnFWT0ZWb05yX0JZR2dEZ0htbFVpM1BrZ2RzVEVoZm5wUkNIRGVkOG9KdUJzUFRSeVhCbWtjWTZRUFlIUjRkVVQxYVJ6WlHSAbMBQVVfeXFMT1UwX2I4T2dIRXV6UGNvQXZHNmNqUHFNRnpyMHB2a1RSOEg5UEVxaE9Obm43NmlLX0hyZHNzZHZUbjdrbzltQmpXWDJfM3ZUSnowVFEtUDdfQkZ5MVlxQzJnZm5iQlNhNjFSMEFrMXFOd0g4UTBPLWhIR2hqRV9nVzVvajB5RnU3STdBOGVWdXFBUndpaTRWOGtuanI3NnpGYm1xR1FpUkw0SDVZUEVGWGdUNVU?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T071932Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran's Foreign Minister tells U.S. there is no military solution to their conflict",
-        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQYjl5ejFBTHJZUDM3NGtoSzRfelhxaXI3SXZwOEdrRHlhUXhCUjU4ekdVWkRpNDZNZFQ2eHdOeFhBRldYclVaR3dGLXRueGdjSWszekE1RENKaVN3eUtldDQwb0xVSHFMVWJYNWtNQzhXYlh2bU4zQ0FTaU4zOWtweVlGYXF6elVKM0N4NnJ6THVqemxjczFqc01VeXpDeUh5TEJzY2k1NDRCWWNtSjBXdllkbXBYOEVYYjFZMGtZM1V5dXNaeGpwZ2pIM0hHLUFqTkZoRG9qLUtDb2fSAeIBQVVfeXFMT042bVk2b2Ewa2F2UWM5R3NESGJyU2dKTHp2Y3VIX2RpRnVnanRTTW50dm93cHdKNUowMFZnZEV1clNEVWozMUE3WmljR0dvVjg4bnR2cnJudzdTOFR4N0Y0SDVYQUdBQ3dOYVhjQTJFOFpua1kwN0R4WklacEtDUnFGMjNoVmQxdEhoUGNZbDh1MFBNWjV4dDV3Uy1IUjN2bEVGYnJWQTAwdDYzeWNoVDVOanFJMHBUOEN1Y1JtOFlyQ2lqVkd4RlAwMG5zandKMlF3cmpZUWRSclM3RTJUejZQdw?oc=5",
-        "domain": "thehindu",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T092817Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "US data center unrest is causing political and commercial risks – and it shows no signs of stopping",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSjh3R196ejFxVnU5R1NIYUYzM0YzaEtmNHI0cmNxQm5DckxINlhDYUlobjBaajd1bWpoMDAtdHNIbUhoM3JqNWVscW9UazFocktERGFoOHhxVVVBTU53QVMxcG85UjJoa0VfUkpjYlRaNkJoSlhRYWRESWlqSWF4aVZhNlJWS1NqV2FwZnQwTlJpc2NMRG1qZWViRzlKY1g4eER6RXZsZmx0djYyQVQ5NDdkX29wcWVGVUhEOQ?oc=5",
-        "domain": "acled",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260928T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iran says no military solution to conflict with US as talks remain at dead end",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOd0U3dWJMYzFfd3pYNHU3UWpIZjBZT21lVGk1V0VCazEwcTRoQ0w4MWpnZC01VHNSMXkwMWw4X05RRFdmd2ZzcmRpVlBvX2s3Q05TMnUtVGs5YnhrdDdaTHpvRGxIVWhsOXhtNVlXMEp5U29aUTVSOW1WdU1WU193c3dYYkViZkJ2SVNWT0dWQ1NhTHBnYjF2OEoxdHIyYlZGS1kwa3pIa0RwanVMZXfSAbMBQVVfeXFMTjRhTEFRc3FncGx4bGdXeEk4bmhRZ1JEc0FZbURDMEEwOUQydlBIaEJLTHZhOEN0NlZpeW1nR0xGc19xWTVidnB6LUE4NTFJaU9OUGtQQ0phNEp6M1p1aF9FMXgzUS1jTXg0QUtRTXE4THI2UHNIUXlYV3lSbEppQUF5VFQyeGpQdnpmVHlMWE96cFc1UXpFMU9KdWU2SEQ4eDRyMlhuQU1GNkFHQVpVZWxqNTQ?oc=5",
-        "domain": "thetimesofisrael",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T114725Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ethiopian government troops seize Tigray’s capital Mekelle",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNZTZ5aXZwRWxZYk5TREwyb2UxbGpTeXczSzRLSmM3NktIT1FtbVc2Qy1xX2ZGZnNMTFQ1UFNZM09NNDY5bFRJaDlnSEZHRDlPTWRtNmp5WWN4RU1Sdkl2a0J6YnRiN2NwLU9raHJkM1IxdjZ1cGFzNndyV2tVdUM3TG5maFJVbF9pRWpBUWdMdmJ1RVZ6aGRyVWdyVGtXQm9KSFVLOUlVM0Z1Y2FI0gGyAUFVX3lxTE42OGpqUVNlNjFaVFhCZ21QRmp4RzlRNjhzNGdnZlFVSU80MTlka0o3NWRLdXRERFBzWUNONUdaNjM3OEdtZ3c5TkN5bF9iR2dlZHMtRmxYaFE4Y3gzTEFnUG5kbzRjLUNWcl9zXzZ3ZU4tZUxmaG90OU5uZG9JVFJIZ3FSNDlUYmVBQVVleW5WcGFLNWdMV2pVRnJPX1NfV3BhdmYtSEZKN2RkYXFCT3pQT1E?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261004T112207Z",
         "source": "GoogleNews"
       },
       {
@@ -459,21 +360,120 @@
         "source": "GoogleNews"
       },
       {
-        "title": "J.D. Vance Chairs Secret Camp David Meeting on Iran War and Yemen Conflict: 30 outlets compared",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaXZiR2VDNERFX080Umc1UUtYaGR2MTNmMWpQbDdfOTFNTDltS25DUmhRZjc3cXlzWlJiTWlFUHdCZDNTVDYxV3ZMVEhLZ1JjSG84UFpMRk05SzAxbWwtaU5pbHR1NVQ2cW9obDUzUWhRT1ZSWl9UeHpOVkVsNWo3QmlmY1RDY0xIdUgtV21KRFdIMTZtenQ3WWxSTGk1cWU5WFFFRl9wZy1kYU1sUEtabmwwMTk1S2VuY3FKYXZBb2stZTdhWkwtUFhCZmd0by1DbGZWSE0wdEhELXJEUExkQUVnelFkMlpIaXc?oc=5",
-        "domain": "newscord",
+        "title": "Blockades, Fireworks and Tear Gas: Young Protesters Are Rattling France",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnpqaFQ0Rm9TeUhTVXRsX1dUbGFyeUFZUmw1dTE5Wm5nTEw2MzllZFpvTktOdjN4QkpKS2FwY2s0UHh5Znd3S2hTaTl0QTh5Tk1wM2xvYzNqQmYxLWM4Q0tsV2pISzlHVW82bDE4MGFpcmxvRmJpVlR6MzNQSDg5eXAxR1dnMXVnclpj?oc=5",
+        "domain": "thenewyorktimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261003T153034Z",
+        "seendate": "20261002T142242Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Live Updates: Latest from Israel, Iran, and the Middle East",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nMi1hbDF1SG9RT0h0M2hPX0lZbnJrdmtzS3czdmVDeVRHYjhsMXpINWlES3pndmxtMUZqZ285M3dJRU9FUXI3VlhrbVFtTjBmNk4wMW1neWhQaWhzdHhrVlZTZGxMZDFDUTBtcThGUV9wZThGZXBCVWllVmVDZFU?oc=5",
-        "domain": "thejerusalempost",
+        "title": "U.S. Exit Leaves Iraq With a Militia Problem",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcTRuSTFEbEtGMkZmRDBaUGxlc25nTFVidnRfZVFLbmdHMXcwM0hjRDFMYjB0ZUl4THB1eVZISFJvTVdWaGJBVDBXc29YY1o2ZGhjeTI0VEJNa2QwUWZZc21HSmgwX1p5WDJobDBYd0N3LWZrcW05bW1walhyckVoQm9iZGRwcDU1eTAtRmpxSHpweE5C0gGaAUFVX3lxTE5wemJoVGJlUjkyT1dKcnBLWk84T2M2V29DSjRoTmlLblhFQlJnWlozZ3hnYnYyMU5tRHpmMXlrc2VocEdlQnQ1ZnRSVlI5Wktvbm5yQmFucjR4VVl4OG1fMDVUZ2lFQXdmUlJUQmdGTUJKd2cyQnJQQXBnTExrVzNaMEZuaEZtOUthZEhhSlM2M29ha1U4R0E2Umc?oc=5",
+        "domain": "crudeoilpricestodayoilprice.com",
         "language": "",
         "tone": 0,
-        "seendate": "20261004T110005Z",
+        "seendate": "20261002T144500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How the fighting in Ethiopia spread beyond Tigray, in maps and charts",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNalh0ZERBbWh0M29GTGtBSnpIR3Z1Rk1qRFVVbGJjdFlyQzFBQmEyVG1GUnhLaDBkWEtCczA5cmUtSnJ3QVNDU1RpLU1pX0J3WkFLOFdJWVRKTHh5UlBjakdoYXRfbDdXSnFWT0ZWb05yX0JZR2dEZ0htbFVpM1BrZ2RzVEVoZm5wUkNIRGVkOG9KdUJzUFRSeVhCbWtjWTZRUFlIUjRkVVQxYVJ6WlHSAbMBQVVfeXFMT1UwX2I4T2dIRXV6UGNvQXZHNmNqUHFNRnpyMHB2a1RSOEg5UEVxaE9Obm43NmlLX0hyZHNzZHZUbjdrbzltQmpXWDJfM3ZUSnowVFEtUDdfQkZ5MVlxQzJnZm5iQlNhNjFSMEFrMXFOd0g4UTBPLWhIR2hqRV9nVzVvajB5RnU3STdBOGVWdXFBUndpaTRWOGtuanI3NnpGYm1xR1FpUkw0SDVZUEVGWGdUNVU?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T071932Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "‘Trauma still there’: A decades-old standoff returns to Northern Ireland",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWE9yM0hkcUtqNGY5ZFNZb2lmZzFuZHNjTVoxZWp4QTlha0VwQzhWMDNEd0Z2d2h6V2x1UTBJZUtLRFFRZXJ6WDZDTjZXOEZ3QnVLakdibElMZjh5RV9BbnpHN2xSYVp3WFVQTG11VWNZdnhlZWlXeTdIcFdES1ZzeGhFYmh5UUt1VjlfZ3dxR2Y2MFd6RUUwZHlUUDF1a3RHdVpRTUlrX2JTRk9nZHRB0gG0AUFVX3lxTFBuZGdCMm01eUxtZkVTWWN4aVE5OHhGcEc1a1puWW9XYmZ3V3h6NjU5RnItdXhLNWVYTzlidFUwek1GWkIyVEpESHkxamRoclJrS3dsbkVKZWFBQmxNeG9xN1RSVlFmRkRlOGI4UUs5Z05iVFdpR2xqOVFvTWlLeDFhV3VlTmJMVXhFcWdVTG5xRHZxa3JWbXhsVzcyMVJqd1pIc2kyWmJwX3RkUVY5bndmV3lybA?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T065907Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "French high school protests spread, hundreds of arrests amid unrest",
+        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONjFtYWJ1QThmNWRDVWxfVWVEcEtPbjlXdUxSd1IycDJDWDRSUS1KX0RfWld4elpPXzFzSGF1ek5uR29jdlEwRGZUUGxXZWNrWmo0MlRZX0w1NU1KNVdyOEQtM1lTZ2ttTGlUMS1PLWEyRFFXQmNfQlZKUjZoT0NIaUFJS1dpakRkazBzSjc5VGhTaWlwNHpuNVRlNEo4NHp5RjlaaENueElaRzRkUDdDTmwySldCVGJfQ3p0U2FBRmdjcUtTdHNXeDg2bnZiQQ?oc=5",
+        "domain": "lemonde.fr",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T035616Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ethiopia Conflict - Expert Insights",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1rSkhDN1N3UFVCTkdhcVZSelEtb0t2VkwwR3J3QURjSGM5elJTY1ZlX2tTenQzd1FOTnJMVF9IdFlvcFEtdzJzdV9weldWdHBNajN6UU03WnF5Wld4YW9PUVJqQS03ckpZZFlfemk4VklyZ21iTDFRRVlR?oc=5",
+        "domain": "acled",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T131536Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "AI, War and Civil Unrest: Why the Rich Are Getting Their Bunkers Ready",
+        "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXZ0RVhqdWdhZk92OW9sLXNVVDFOcHNRQjBReUI5d1VFTjRyNnZjNDlDREtlYlBvY2ZWb1puRW5meERuZlRfS0p1U3ZWRy1PUW1taVdSMlAtUDc1Q3VDSDJqYm9paWlUcjU0R0RuVk5DZ1hmZmxid1dXWFAySGJoSEc4eHo3SWs1MWVCdnJBWFcxcmYxR2RUT0FNZVNSWlVjOGd0RQ?oc=5",
+        "domain": "newsweek",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T090000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Could conflict in Ethiopia expand across the region?",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNOHNzaVUzQ0JJUDJxZDlVR2ctbE52QWFqdWtuNVR0SlNDWUdFQnYwb1VwMWRLb1dBOGlfZUM0ZEVwODkzVEZNcHZIWk12LVRTRTZ6WkcwazBiTGs3N2FFLU9jVmdjazRXRk80cDRtMlRJc3U4MHAyVl9aUUZPYmhUbWtWR1N4V2l3RWJCbV9YYjY3b09jV1dKRWNJSFFvWFBLSktjSW1zTEdQd9IBrwFBVV95cUxOaUtucklZTXZuMHpVMGM5Ml9lRjVIYUFYaU45Vk80blFzYjFmTURmRG5RdVJuanVLUHJ2NDZJaUdRZ29PUEplQXRxMEpmNWlha3JMVndIbE4zOUtoc2NibkpGYkRReFFOdmxDOVpVVkNPX0M0bmZiMDFhVFpXbUF0aDk3andSSS01em9oWTMyYldFM3pPSDdHd2NjUHRGSVpHd3lnbTVXcnl2djdZYmw0?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T201813Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Oregon Housing Director Failed to Report Husband’s Related Business Interests",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLV9KZ3pUc3dackNDR1JDaEYtRFZ5VUl2cy1fbW15T0NBdEdTUWQ5WVhXeHV6TU1Kb0l0M0xYb1JZVWQ1aUYwXzJFVDZtN3A3YlpLekVscTdRY2FCUjZjcFhyNVFTOTBTUFlPVUZLSm5nUzM4SERid0dOZDFHSDFYdQ?oc=5",
+        "domain": "propublica",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T090000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Student unions call for nationwide demonstrations across France on October 6; localized disruption and unrest possible.",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSVpHcHdteXphblhSaWtua0VyOFdZc1VlTThLS2ZkQnVwRnM1VHFQeFA4WkQ3eVhvRW5mcmEtRGVzV3MyTFJ1VVlnWUFYZ0dULU03enV3ZHpCSTFiNU9BVmQtdUxieXN3ekRvZUlwZTR6NE9YaGxaWksySk1haDEtUlhnYm1NV0pINVdlMVlQRzYyMWV6Mk55TlJjZ1g5dUhjcjJGenRRalJJUUFpa2FTSUt4LUZVdFhHR2p6cEpXd252NWQ2c3hRRFoyVnVEbFhPcU1pNjQ0dVluMmNwTzdSRURKa2xvVmM?oc=5",
+        "domain": "safeabroad",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T211918Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iran says no military solution to conflict as talks stall",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTGk4dU9RSHZhV2p6V1NzOUplQk53Z0d6cnI5cDZxTGx6Ym1nbjZrem5rUmlaTmRZRThhZmpqWXpzQThIaHRJNTByT01qLUNxazhwOU9nSzdHVGtUS2lteE1Dd0d0R1hQYnlUYXF1T3A5LTdadmpTaXhsdGNPaWh5SFp6Wk1IdVdQdUJyOUtveUJKUFlESmNJSDFROUZ6R0JMb1Y0?oc=5",
+        "domain": "trkiyetoday",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261004T083514Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "S.F. nonprofit HomeRise ignored conflict of interest as it issued hundreds of thousands in payments",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNVnBmSWU2TDRZcHl6QlpDLWtxbW93WnZYVFVnLUt2RW1HZmYwZFdLYWFTTUhOOGEwc3hrelFkQ3ctTEd2emVCVHNzeUFwRDNnZmxQOElPamRqSXR5SW5xU0NYMl90T29zV0tRVEpPNFU5S2c2bGtIY1JZRjNMV3h1c0x5dW9XdTFHRmRBQ0hxaTdialhvUUcxVW03dkpoZw?oc=5",
+        "domain": "sanfranciscochronicle",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261003T134952Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Does Jared Kushner Know What a Conflict of Interest Is?",
+        "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPYWphRGNHa3k4b1RfSnlETEM1NHdQSS1JdHlLTmo4R2RqVkd2TmZQSkRVUDgzMmx2RmEtWkl1Zlc4NWpKaXl1Smc4OGE0SUNaY3pDWWY3MXNFOVlxUmlUZjZ6QVJMYnVmTnl4SS1DcVNQcThha1VHc043WjZZM0ZFTmVqTkhlQWNZWi1mdXY3dTYzWWtxLTlfSDI4Qzd1MVY3eUFQVC1yaGx1QkRxUWpZY2owbWFEWFdZV3BFTHVKeVVqYTM1Yjh3VHZISzJYdHJQTVZCVjlnUHNsd2l6X19sVUdpdDRHblE?oc=5",
+        "domain": "motherjones",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -497,21 +497,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO Secretary General in Münster: Keep calm, carry on, and support Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVTVmbzY2cTNCcFg2VkFLWkJzVTBLMEJtb3MyS2lNaTAzbTBOaF8tU2dWTEpZdDc3YjBRc3VYaW00UFFKR0lmbWRpQjRCQkt0aUItblVFVlU2X3hnSEIxSVRiLWZpZGtvbmpta2t1QTBEU19lXzRNYWhtSkRtbmNiblVHRzZBRzB2eENzRlVVNVRWSjNpclVBR3d5a0h4TnVWam5mOHlxdXhaaDZVbE5KYkR5YkQzR2dNalhQTnpjaEUxTUp1MWpJX3dnT0k1TEhBZE9nbkNpdTJiaEFUbE5LdFhWeTI?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261002T022923Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "NATO releases Quantum Technology roadmap",
         "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUlmX2hnUUlsdl9mR2N0Y0JZMGFWV2szQ3A4UGpudXJVU0JXTTdLb05tU1NFVHNDY1lqUTlxaHlKdkV3b2w4OTZ4a2dyeVFSbExtVndDVGNOSjhGNk5xVDNOSDdOUVhmcGZkWVg0aEg4SFNWM1MyOG1wTEg4ZWpGSmFZbUl2anpOX29tQm9OMGFqWkFyOU1FekpVbjJudHE5X05XaHBmTHM?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
         "seendate": "20260929T160544Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Secretary General in Münster: Keep calm, carry on, and support Ukraine",
+        "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVTVmbzY2cTNCcFg2VkFLWkJzVTBLMEJtb3MyS2lNaTAzbTBOaF8tU2dWTEpZdDc3YjBRc3VYaW00UFFKR0lmbWRpQjRCQkt0aUItblVFVlU2X3hnSEIxSVRiLWZpZGtvbmpta2t1QTBEU19lXzRNYWhtSkRtbmNiblVHRzZBRzB2eENzRlVVNVRWSjNpclVBR3d5a0h4TnVWam5mOHlxdXhaaDZVbE5KYkR5YkQzR2dNalhQTnpjaEUxTUp1MWpJX3dnT0k1TEhBZE9nbkNpdTJiaEFUbE5LdFhWeTI?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T022923Z",
         "source": "GoogleNews"
       },
       {
@@ -587,12 +587,30 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Allies strengthen Arctic readiness during Operation Atlantic City under Arctic Sentry",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPU0ZKQ0kxUE5jamFkR3VSUENCU25QOEc3RDluM1oxTnNrNnd2ZGNNWVo5MUJ3WU1QRThLNkZFQXpManVpVWhlUDFRM1VJdmNMaXktRGJhcjRmUUxTSHR1dXlnWk9qUm96SGFna3VLcUswcE1ZWXdnZ3h4NC04OHdYbEZLbl9BNWFZOTlYZG5RNHRzdkxhRGs0Y0hvMC0zSnNOTkUyeHlSdWRCdHpNQm1JajNGcnY4anVPRUJ6ancybFQ5VTExNnc?oc=5",
+        "domain": "natojfcnorfolk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260820T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "NATO ships strengthen Allied maritime readiness during Exercise Northern Viking",
         "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPSjVYZ0NKcUVuRjQ1TGt4RHpVTktpNjlSakZoX0F0eTlSQXRIMjBMZ214ZTY5LUVQRzZKY2praEUtb0hzVTJpQktQeDJnYUJPOWstY2IzbjJDYVlRdG5mZ01scFRMaVgxTDZsRXVxcmNERThDbG9JSTUycGpxWF9KS21jZ0xDdGpjSkp1Q1NncVh2dm1iU2lheGdhX0IxTjJVLWtZXzVfbUhCNEh6SjQ2bVl3RTFCRy0zWV9qb1N2QWljVFk?oc=5",
         "domain": "shape.nato.int",
         "language": "",
         "tone": 0,
         "seendate": "20260821T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO’s approach to space",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVMyOEhfYWV4RkdyTzJDdERtckN6NGxQQ2xYUEtITmhTdVhaanJYNFNZY3hGRmlpZnN6R0M4b2t3MENQdk9iSUpjV3BaYjBGcUtmVEJYOXcyVFR4U3pwRmp2X3g3WWc3Q24tNXhxMzA0XzBSTGE4eUl3aVRSZURBM1NmRzFaM3Vy?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260708T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -607,7 +625,7 @@
       {
         "title": "Russia’s Approach to Conflict – Implications for NATO’s Deterrence and Defence",
         "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSVFOY3lOSTF0dE1xUVJLS1VGaDZZbGxaeTBSRUFKaUNrNjF3ZDAxeHRkYWRraTVGQlJoNHI2T2k0SVFqc05ocWlnOVdPajJZVnhIZlVDTGhaeVRZdTFDejZIa2RtcFR1OC1mMkVCZHpYQTNQeGhEOC1udDFHaFhOXzF0a19JTFE1c1I3bXByNDVBU3dUSDdIaTRneDgwMEFmdnZIdVVDQnJPOTdMVGc?oc=5",
-        "domain": "ndc.nato.int",
+        "domain": "natodefensecollege",
         "language": "",
         "tone": 0,
         "seendate": "20250707T222107Z",
@@ -677,15 +695,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Strengthening NATO’s eastern flank",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0lJaHFFWmtoOVNvV3NULWl6SG03alRxX2xrUlAxNkRCMUlQU1NkWEdpQjFhSWRFQ1hpckdfLWN6ci1waU1iVVQ5UVdXb1NwRHdCT0dpTTZaallpcFR3SVJudmluSjdkcXZobUpYTTlhSUtJXzZjSmppV2FkZHJBTnE0UmFaRGhOZ05xX0Z6TWxqLWdndXc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260929T070000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "NATO Integrated Air and Missile Defence",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1hJRVRjNzB1bmlUVGdVNURFNG8wdnI1emlWd2hhaEhRVlFoOTh2aE5uYzlDS24wSVVvNFhTdHVac1VPdXRsNVM5c3BqWm1GcnZ1N3FrSnRMMWV3TzdOTWxZQk14UUlSb2NxTEhfbkdKX2x0dDhLUjZWVWNLN1BoREdfQnRjV1FvTDdfOUEzaDZhT2xzeENheWxNMHVLZw?oc=5",
         "domain": "northatlantictreatyorganizationnato",
@@ -697,7 +706,7 @@
       {
         "title": "Principles of Nuclear Deterrence and Strategy",
         "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPT0VrS3lTUlZIbVZBSFNwakVsVjhzUUNFX3d4bml6dERyUjNnb3hNMUtkMTI1TEJNNVU1eVd3NU1FakNvU3JfZUxqb3p0MGdGS1BTRTdDSEJUX3djNzdmMmROTGtocEwxTVZpYm5pbGZ4aGtzM2k5YkVnbVJWbEtVMGVwd2hGcE0?oc=5",
-        "domain": "ndc.nato.int",
+        "domain": "natodefensecollege",
         "language": "",
         "tone": 0,
         "seendate": "20250707T203525Z",
@@ -731,12 +740,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO’s approach to space",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVMyOEhfYWV4RkdyTzJDdERtckN6NGxQQ2xYUEtITmhTdVhaanJYNFNZY3hGRmlpZnN6R0M4b2t3MENQdk9iSUpjV3BaYjBGcUtmVEJYOXcyVFR4U3pwRmp2X3g3WWc3Q24tNXhxMzA0XzBSTGE4eUl3aVRSZURBM1NmRzFaM3Vy?oc=5",
+        "title": "Strengthening NATO’s eastern flank",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0lJaHFFWmtoOVNvV3NULWl6SG03alRxX2xrUlAxNkRCMUlQU1NkWEdpQjFhSWRFQ1hpckdfLWN6ci1waU1iVVQ5UVdXb1NwRHdCT0dpTTZaallpcFR3SVJudmluSjdkcXZobUpYTTlhSUtJXzZjSmppV2FkZHJBTnE0UmFaRGhOZ05xX0Z6TWxqLWdndXc?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20260708T070000Z",
+        "seendate": "20260929T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -994,7 +1003,7 @@
       {
         "title": "TOWN HALL HIGHLIGHTS PROGRESS IN NATO’S CYBERSPACE PRIORITIES",
         "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdDF2Xy1UYmdmLVVvVXNDUllxQ0VYUk45Vy1pU2VwcHFzaWNSYTZMMnRselRRVW5oS25EaUcxNE9QQkx0ZXZOY0JBVEo1NHVOc1piOVBLS292bDJvNVllYnBrZUdaTHhNaHAwV2ZsTExLOS1lVFI5VTVuWXJ2a21EbDUzVTEzQ1dNNmRKSGpTYjhVVEFCejFKakpqbVRrUQ?oc=5",
-        "domain": "ncisg",
+        "domain": "ncisg.nato.int",
         "language": "",
         "tone": 0,
         "seendate": "20260724T070000Z",
@@ -1129,7 +1138,7 @@
       {
         "title": "Alexander Sorg",
         "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDdHpvbTNVOTdHV1NJbHdzalZOU0xQTWNFMlFzZ01RYnd4VFRSU0RvS25LMjJIOGhIMXcyT0hRLTVYeU1tZEs5Z0Vya1dlUXd5U2JiWlBDWWMtRHcwX2dSV201VlQ2LW02SmZlNmFn?oc=5",
-        "domain": "ndc.nato.int",
+        "domain": "natodefensecollege",
         "language": "",
         "tone": 0,
         "seendate": "20250923T055436Z",
@@ -1142,6 +1151,15 @@
         "language": "",
         "tone": 0,
         "seendate": "20260709T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "How NATO-accredited Centres of Excellence Are Adapting Air and Space Power",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE40TGF4dUwtdEJ3UlhleFRpb0VHQzBfRExBOG1HU1Q1dnhIakNyQ1ljS2Q1SFY5WDJYMUdYZlB3TzB3UzZwMjRta0JtVFltZG9ITmtqNWx3ZEw3SXhjNS05NVRB?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260809T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -1223,15 +1241,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260716T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "KFOR Soldiers Take Part in Hungarian Statehood Day Half-Marathon",
-        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVFZxWVQ0ektoeDZJVzNSZTFFSWZoV1FrempUc2NGRGxqalFUQkRTa2M2VV8wNmtuRU93T1dRa3h5U2lGVklWaEE3YS1LY0N0ZHpicTl1R0hMbldtb0dFal9PS0xqWEctUGg4MTFMSjdOZTNPa0RyMmQzYWRHN1NkbVlCQUVSb3BRcWNZWXlua1IwNUVNMEE0TTFneE9Gb1hqZVFvaWJUckNoaVBhWENxUUd3SHVSU2pweVN6Q3B4YTFJX0hCeHZYLU1TYw?oc=5",
-        "domain": "jfcnaples.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260821T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -1336,7 +1345,7 @@
       {
         "title": "Trust (in) NATO – The future of intelligence sharing within the Alliance",
         "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMFlfZVM4eFlRYUJfaHVQeGFGd1FUY3ZPRjhJSlV1alFHVlgyVjh3STJBUnNja1oxbkt6akVNdFVISmlIOWU4a0JhS2xDRzJhMHNPcU16NzZ1aDZNYWg1V09tZlIzaXVfSXk4XzRieGs3akpWd21NN1FnejZIQ0FNNkpzMTZHaUVfV0w4SUFqUmMwYXpwYUFxcjB4N1czaEtGRkdHYUV3?oc=5",
-        "domain": "ndc.nato.int",
+        "domain": "natodefensecollege",
         "language": "",
         "tone": 0,
         "seendate": "20250708T002928Z",
@@ -1376,15 +1385,6 @@
         "language": "",
         "tone": 0,
         "seendate": "20260814T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Tens of billions in new procurements revealed at the NATO Summit Defence Industry Forum in Ankara",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOX1dncEJFMVc2amR0VVlOdUFrRFJ4b2xIZUNZQmZlaGdsd3hTQ2p6cmZoWmwwckF5ZDcyR3RCVHJxM0ZNM1B6SS1faFg3UGYwVFRsZENIRzRhTW5SV0dPXzVJNHNRM2xHbklfNjgyelJJQnlveHQ3YVpvSzk2QmlGa2t3c1pBX0pObTJ5c3d3TVJta2VSTkpldUVXcGVqVE5LMU5OQmw2LVVPc3pKU0dGVFVLUDhjQ19vMEQtV0hKaUZDYnptR2tHNWxmeGZJQjUxY3U0LVhNNHlHQQ?oc=5",
-        "domain": "ncia.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260707T070000Z",
         "source": "GoogleNews"
       }
     ],
@@ -1474,30 +1474,48 @@
   "entities": [],
   "events": [
     {
+      "title": "Houthis Claim Attack on Aramco as Yemen Conflict Escalates",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdC1jenhXS0RLMXFaaTNaUTVsTVJrcDNLdDZKLVR6SWVYOEdRNWdqRjktRktWSEFRTG1DbEhYd3ZvSGpGd1ZtTEVNNDdMd09SQ3pXdHJMMXlodWVQRjlySVBpNXVlTlRZUDVDdlpjTk12TEw4WVhUaU9rODlnV3RRVUR1OE1UVlJVUjlKa0NNV2MzN2dQUldvUzFn?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261004T191405Z",
+      "source": "GoogleNews"
+    },
+    {
       "title": "African Union must convene emergency session on Ethiopia as new conflict expands.",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOUGRza2d2cXROY3c2cURfcDRaNEVfVENnWWtMTklNMWIwR2l1OGZQWWdRS0ZYeXlMQkNHbmJZdWctamhsaTVQRzFwS1RFVUpsTEZMX0V1b2lWZzd2dzlEZ09BbDR3YTEtNWwxdExTZ2FuWHhqOEdnampnR2czcEcyY24yTEh1NS1RQmt2cFcxN2o0REtOTWxSQVpXanhHS2RRTVBBUFRwTmtRTGdyTERlcm1CTHdBcnpGNjhGcU5zM3RVeDFvSURmWEhHdUtLdUx1dmZF?oc=5",
-      "domain": "amnesty.org",
+      "domain": "amnestyinternational",
       "language": "",
       "tone": 0,
       "seendate": "20261002T121442Z",
       "source": "GoogleNews"
     },
     {
-      "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY0RwX2VmWlJ6VjZhaGxkR2pVVWpOdEhqUl93TG56bFVPQ25lcHZQUXZtV1lvVGliQW9DbVhIWjA4ODFua0FQODRLUVVtdmdxZVg4MU9VeXRCMmVGZTI5V0pWSWljOXNzcmlQdUdqMGlJQkRXRFhDMDUxbXNwZkY2WHF6TQ?oc=5",
-      "domain": "thenewyorktimes",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261004T115735Z",
-      "source": "GoogleNews"
-    },
-    {
       "title": "Ethiopian forces near Tigray capital, fears grow of wider conflict",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQazJuWGtHMHMwR1AxYjFvenY0NHFFN2VsemM3QU9LSVRkdldKd3ZyUzNtWUVIR2QtQ1E3NG9ZYm80Z2JYTktIa044ekltWVpKQzJMS3Y3Z0o4eUpqUzFZRWNLa0pZM3JfQzFCbDhhM1NUUEVrSk9OVWJTOVpPTDJHNF9qb2JadUN1Ym1UZmkyMWJmQ0U5QTdQNlBDWlltRlREYk51WTNyTzU3aC02OWNpSg?oc=5",
-      "domain": "reuters",
+      "domain": "reuters.com",
       "language": "",
       "tone": 0,
       "seendate": "20261002T132446Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "What to know as France school protests morph into unrest and the streets are seething",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaXE5c3pVdTVCSHM1VXdhUWdsUmZMMGVLZmIyXzVmQzlIMlh1X05tREhydFkzSmsxN1AwRGtETGNHMGVmU09fV1ZfY0daYkxIY3BaLXNaUUZaTkplQmJzbWxuS2d1ZVpjdFJRblNVaTh0RXBCRC14Q2dIMVF2QVd1cGstci0wcFBRZTJiOTBjU19TYzVVUEN1bkxIaWdKZGI2Y3dha1NueGtiS20yNHp5ZUg3RGNzWXJkNHc?oc=5",
+      "domain": "apnews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261002T135900Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Air strike in Sudan kills UN aid truck driver: WFP",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcGdJY0RKM21uSVQyekE0cDNYOXUwbWpobXlzU3dROTFUbFBIVmdTM3FpMHJWcWo0QU1yTkMzNGkyRFBTa2UtOHF6dmRxVDRSUjlyVlpfUWxLcmtXd2VCVUk4WnBuQzN2bXFQYUY0YXEtb1Y4NkNBR1dPZ0VzSVpQSUhIbEdCbmdrc1RuckdFMElPTUMt0gGaAUFVX3lxTE5IaTlGS3RpX2hELUt6SWlraEtLd2lEZUN6RTFidlNPS2k2bE9nVG5iTk1qOTdna1ZSZUtiZTYtU1lfWENhdXd2R3JkbjN5QndOUm5LNlEtcU1sNUo3NkUxRVZsLTVNM1hrbVpmcDNqNDRfOWY4bG15RkYtSUNvWWg3UlJYZjF3Uk5jTXliNDhRMWVjOGVLSjVneFE?oc=5",
+      "domain": "aljazeera",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261004T191950Z",
       "source": "GoogleNews"
     },
     {
@@ -1510,39 +1528,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "What to know as France school protests morph into unrest and the streets are seething",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaXE5c3pVdTVCSHM1VXdhUWdsUmZMMGVLZmIyXzVmQzlIMlh1X05tREhydFkzSmsxN1AwRGtETGNHMGVmU09fV1ZfY0daYkxIY3BaLXNaUUZaTkplQmJzbWxuS2d1ZVpjdFJRblNVaTh0RXBCRC14Q2dIMVF2QVd1cGstci0wcFBRZTJiOTBjU19TYzVVUEN1bkxIaWdKZGI2Y3dha1NueGtiS20yNHp5ZUg3RGNzWXJkNHc?oc=5",
-      "domain": "apnews.com",
+      "title": "French schools burn as student unrest spreads",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONkZuMU1TZ2tDdlRXQlVtc3lkNldSTHVvSVp6cGdwZnNRZUZLbHZka2ktQWJCcWQ2NzctbkJ3ZHFxcmVKZks2LTk3M0hLb0lPUU5yMklpaS1tWW56TUJ4RUdfRDhpLTNUenJvT1ZHNWQ4bVRpU2prUzk0LTRLWXU4eGhWMVU?oc=5",
+      "domain": "ft.com",
       "language": "",
       "tone": 0,
-      "seendate": "20261002T135900Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Ethiopia, Eritrea break ties: Does the conflict risk becoming regional war?",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONWdXc3JjUk9rNUZENnZzMlZpR0RVZzZyVk5FLTNpRnhiUjR2Y0ZYekRHMDdsWnZBYXNLNjFyVGMzWkFZLWVFT2tuTTBjZkpFd1Rpc1JXSGNPVE05eGZrTndNNGt1alA0OUJPRmlmc1lNWXNBZ2RyNktpempaSGlTTlNicmtCU2pvWmFNcnpieDlUUlg5RGZrRVZYRzNLcHdVd1pyc3ZWVjNaYmxEb2NRRU1VNNIBuAFBVV95cUxNSkw3UnQ4cnA3WHo0MXRhd2hLTDNpcmxpWmEyTEdkTG5rSXhyRXBEYm94RTJCQUxvRXh6Y0llS2JNdFRXZEN3eXBleHFLUF82U2QtbU1fRVZROVd0T1Nfd3djc1FQUlV4Wm5yRGEtbG1fV09ldkt6UVl2T1N5eVQwNF9jbnpCVXVpWVVuYWF6QU1xMndSekh0WDJISUI4aFZhS19MVmFMaDhUZTdnaU5jeE5ZNkRRY1RM?oc=5",
-      "domain": "aljazeera",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261002T135937Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Egypt to host Eritrea, Sudan, Somalia leaders as Ethiopia conflict fuels regional tensions",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPR0J0cV9hXzI2bFpjVVUxQUdJQUtwUGE0TldNNXZkZ01kMDZDZ2FJY0dEN1hNcjBUWWFRVmI5eE9Va3JfdGtHU3k1ZmtoZEtpS3N6dkpWNUlSQVJfQnFEWHhIRzVheEZaYWJleVhZZi0xN0N6VUttcTFlWi1wQXlkTzduWjQxNFE1MHFOY0RVM0dFMkotLUd0TXNtejFJTnZpNkhpWDNpYkVKYTlnYjNlX19XUlBkZFVyRmM1V3dlUUcwaDJkUHd1bnViS2dFQQ?oc=5",
-      "domain": "arabnews",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261004T092001Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Ethiopia’s resurgent conflict, Rohingya repatriations, and Gaza’s devastation on Google Maps: The Cheat Sheet",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVm11Y3ZvTUNhWmwtV1l6eXl2bzRmQUZjTDY5bzVWZ19DanV1UlBzSXRfcy1FMG5HVDFaeVVnUzR4VlBudVZlNU91UW1ZeGRERHJ1NWtmdzNXa2k4M1RlclIzLVBzZ2tIeDJfZnlybTRROXJRR0ZfY3phaF8wOWlaRDlQT29Cc1ZtYmFXNm5TekRqdmVEQmJDYmxUbmdjZzZEOEhDb09YaUk5QmVsMjN3TUMzQUZXbXFsZFdnUEoyaU9EQnJHNWtGNXJn?oc=5",
-      "domain": "thenewhumanitarian",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261002T131313Z",
+      "seendate": "20261002T162149Z",
       "source": "GoogleNews"
     },
     {
@@ -1555,21 +1546,12 @@
       "source": "GoogleNews"
     },
     {
-      "title": "French schools burn as student unrest spreads",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxONkZuMU1TZ2tDdlRXQlVtc3lkNldSTHVvSVp6cGdwZnNRZUZLbHZka2ktQWJCcWQ2NzctbkJ3ZHFxcmVKZks2LTk3M0hLb0lPUU5yMklpaS1tWW56TUJ4RUdfRDhpLTNUenJvT1ZHNWQ4bVRpU2prUzk0LTRLWXU4eGhWMVU?oc=5",
-      "domain": "financialtimes",
+      "title": "Why Are Students Protesting Across France?",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNkJWLW1nQkZranRiekRnUjhWU01ObWFkZFplYzFEYVhKRV9iTnZ3WWdUblFXY3dYZEZQN3RiMldXenBNLTJfcmJZa1VBeFhRQ3VLVHJYa19maUxfX3hDTGpEekhSWmdhcnIxQ0R2d3NkN09tTnduNF9Nb3ZLN2FOMm1kcDI4MHp1RXdKRnlYNHN1MTNFTEN4Yw?oc=5",
+      "domain": "timemagazine",
       "language": "",
       "tone": 0,
-      "seendate": "20261002T040023Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Fighting in Ethiopia threatens to spill into conflicts in Horn of Africa and beyond",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOWGpnRENjOF9BR2RnbDFySTd2YlVkWG54TlIySWdQM2ZuanJHdXlNbS1JZFZNRk54UTUzUnJMQ3RsME5uM2gxWmJwUXQxdzA5TXVLd2t0MEZZd3I4N1dOalVzSmlWMS1kZTItSEE1cjNqWDM0V3hoQlFSbzc1MnVWVjZkT3VGSGY2LWxwLXRENlBPVkhfdHY0MGhRX1VfNkVHLV83UVRmS1pRQ1JuMm5pd2h3MA?oc=5",
-      "domain": "thewashingtonpost",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261004T001019Z",
+      "seendate": "20261002T202350Z",
       "source": "GoogleNews"
     },
     {
@@ -1582,37 +1564,55 @@
       "source": "GoogleNews"
     },
     {
-      "title": "AI, War and Civil Unrest: Why the Rich Are Getting Their Bunkers Ready",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQXZ0RVhqdWdhZk92OW9sLXNVVDFOcHNRQjBReUI5d1VFTjRyNnZjNDlDREtlYlBvY2ZWb1puRW5meERuZlRfS0p1U3ZWRy1PUW1taVdSMlAtUDc1Q3VDSDJqYm9paWlUcjU0R0RuVk5DZ1hmZmxid1dXWFAySGJoSEc4eHo3SWs1MWVCdnJBWFcxcmYxR2RUT0FNZVNSWlVjOGd0RQ?oc=5",
-      "domain": "newsweek",
+      "title": "Video: Houthis Claim Attack on Saudi Oil Site as Yemen Conflict Grows",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQLUVlMG9WRll2UEktWEpZWG16enBSa0xacFV6eHlOTk91cXgwV0VGbDZzUjVvc2pJWDJfWVFXSGtHdXBMQ0xzWHNNcUhnSklCMTlhOFBmSEpSbWUwc2V0WjZQaDBIV1hxQjBTVmcyTDFTOERrMTVmWnR4N1hSWXlJTWQ3bTIwVi1QZ3E2ZVhhUXlNazdtUUh6OHJOcmVYZjQyazUtRFBaVHlHNUptZXMxSnJ6UjV5eWZBUDZDcg?oc=5",
+      "domain": "thenewyorktimes",
       "language": "",
       "tone": 0,
-      "seendate": "20261004T090000Z",
+      "seendate": "20261004T201704Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Why Are Students Protesting Across France?",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNkJWLW1nQkZranRiekRnUjhWU01ObWFkZFplYzFEYVhKRV9iTnZ3WWdUblFXY3dYZEZQN3RiMldXenBNLTJfcmJZa1VBeFhRQ3VLVHJYa19maUxfX3hDTGpEekhSWmdhcnIxQ0R2d3NkN09tTnduNF9Nb3ZLN2FOMm1kcDI4MHp1RXdKRnlYNHN1MTNFTEN4Yw?oc=5",
-      "domain": "timemagazine",
+      "title": "School protests spread as fires, blockades deepen unrest in France",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOXhRelBoQmZBVVpQSXAwdkZHQkRLWlJGdGpIVTg2b2xEZFA0VXNTcEM2cllqcGFRRHA4SFZ1LUg4MGQwd3lWRTlOMFdnT3ExTU5mSXFCcEEweXNIQ0JIOGJTWXZTVmlOaHRfQUx1QXp2bmliSzBKWjZERW0tZWhrbGxjWllPVUU5UjlSd0dnZTZFR0UyQlpHMFhYRng0ZXF2dzM2OGZ2NGdxUdIBrwFBVV95cUxNY0szcFFoOTI0bTJNVWEwUENDODFqaTlOY0dBZXdBejNnNFNLamUyTXBnYXVlaUJ4WVlxQ0ZzM1ZZX0dGM18wa1o4OHJqbHVObG9adl9qV0pGWjRLMTQ3ekNSMGg0TVE5dV82NzNYLWE0LTktSG1VWjBUTDI2ekt4c3NSUnFObzV2ekNYaWQzb0FScUJlaG91WnYyLWhHOHNCcGlsUXMxMmcxZEVsV2lJ?oc=5",
+      "domain": "aljazeera",
       "language": "",
       "tone": 0,
-      "seendate": "20261002T202350Z",
+      "seendate": "20261001T182111Z",
       "source": "GoogleNews"
     },
     {
-      "title": "The Making of the Democratic Insurgency",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPRWdTcUdIYUdJUHdCNFpibGlLejJOUGcxaDBfZmRZM2g1VkdRSW05ODVXdE8tOGNYZ2p2bVk3MDl4eF9RX0xmZTc1SlZVM1FuQTllMlZ5M3hFTUJCNjh2Q1Vyc2JWS0tSby0zNFFkYVVKRTdWMUZDMFZMcWVZT0xVUk01TmdrZUR5cThHbzJIdDVkUDdJaGl4TkViRQ?oc=5",
-      "domain": "cityjournal",
+      "title": "Government forces seize capital of Ethiopia's Tigray region from rebels",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVXVqai1NbFo5LVhWcnM3RElRUWVwa21sQ3p6dVhFXzBwQVBtN3BGR09DOGZhaXV5Z09BQ0RXN0JfODgtS2VoeUVqV3I0OFd3cVFjMzNLSGV3QnBidDY4eTVIUzc4YThTalE0b3JNRndHbHhQdW43S3MxN25NOWRnckZKUDU2MGl3V1YtZUVaRG5IMF9PUTVWMVM3NUptZGdkaUlYSDdLcTQxMlVxMWlkcg?oc=5",
+      "domain": "reuters.com",
       "language": "",
       "tone": 0,
-      "seendate": "20261002T204642Z",
+      "seendate": "20261004T163034Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Ethiopian rebel forces withdraw from Tigray regional capital",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lZnJpVTV6SGZsTVlPOXZPdHpmdGhReGpQa1RneHB5TUR5LXJVcHl3ajI3OHM5ei1IaWc5dmFUWWpmTldsSTVURklnZ0ZBdC1tQXYwYk91ZmNFdkU?oc=5",
+      "domain": "bbc",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261004T133305Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "What to Know About Fighting Between Ethiopia and Rebels in Tigray",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQY0RwX2VmWlJ6VjZhaGxkR2pVVWpOdEhqUl93TG56bFVPQ25lcHZQUXZtV1lvVGliQW9DbVhIWjA4ODFua0FQODRLUVVtdmdxZVg4MU9VeXRCMmVGZTI5V0pWSWljOXNzcmlQdUdqMGlJQkRXRFhDMDUxbXNwZkY2WHF6TQ?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261004T115735Z",
       "source": "GoogleNews"
     }
   ],
   "timeseries": [],
   "llm_summary": "",
   "early_warning": {
-    "issued_at": "2026-10-04T12:23:51.728822+00:00",
+    "issued_at": "2026-10-04T21:27:22.583819+00:00",
     "horizon": "0-14 days",
     "classification": "precursor-anomaly-watch-not-event-probability",
     "score": 6.2,
@@ -1628,7 +1628,7 @@
         "events_considered": 50,
         "precursor_event_count": 2,
         "precursor_share": 0.04,
-        "independent_sources": 37,
+        "independent_sources": 32,
         "signals": [
           {
             "id": "force_posture",
@@ -1665,7 +1665,7 @@
                 ]
               },
               {
-                "title": "Student Protests Rattle France as Police Clashes Bring Blockades and Tear Gas",
+                "title": "Blockades, Fireworks and Tear Gas: Young Protesters Are Rattling France",
                 "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbnpqaFQ0Rm9TeUhTVXRsX1dUbGFyeUFZUmw1dTE5Wm5nTEw2MzllZFpvTktOdjN4QkpKS2FwY2s0UHh5Znd3S2hTaTl0QTh5Tk1wM2xvYzNqQmYxLWM4Q0tsV2pISzlHVW82bDE4MGFpcmxvRmJpVlR6MzNQSDg5eXAxR1dnMXVnclpj?oc=5",
                 "source": "thenewyorktimes",
                 "terms": [
@@ -1754,7 +1754,7 @@
           }
         ],
         "retained": true,
-        "retained_from": "2026-10-04T05:55:21.300307+00:00",
+        "retained_from": "2026-10-04T12:23:51.728822+00:00",
         "retained_reason": "Live source unavailable; reused a validated component less than 72 hours old."
       }
     ],
@@ -3194,11 +3194,21 @@
           "nato_posture_shift": 0.0,
           "cross_market_dislocation": 0.0
         }
+      },
+      {
+        "timestamp": "2026-10-04T21:27:22.583819+00:00",
+        "score": 6.2,
+        "level": "ROUTINE",
+        "components": {
+          "narrative_pressure": 17.6,
+          "nato_posture_shift": 0.0,
+          "cross_market_dislocation": 0.0
+        }
       }
     ],
     "data_health": {
       "events_considered": 50,
-      "independent_sources": 37,
+      "independent_sources": 32,
       "nato_articles_considered": 100,
       "market_series_available": 3,
       "available_components": 3,
