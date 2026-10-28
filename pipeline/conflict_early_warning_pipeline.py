@@ -65,15 +65,18 @@ def extract_live_data(config):
 def retain_previous(live, previous):
     notes = []
     previous_live = previous.get("live_data") or {}
-    try:
-        generated = datetime.fromisoformat(str(previous.get("meta", {}).get("generated", "")).replace("Z", "+00:00"))
-        if generated.tzinfo is None:
-            generated = generated.replace(tzinfo=timezone.utc)
-        previous_fresh = 0 <= (datetime.now(timezone.utc) - generated).total_seconds() <= 72 * 3600
-    except ValueError:
-        previous_fresh = False
     limits = {"news_articles": SNAPSHOT_SIZE, "nato_articles": 100}
     for key, limit in limits.items():
+        meta = previous.get("meta") or {}
+        timestamp = (meta.get("source_collected_at") or {}).get(key)
+        if not timestamp and not any(note.startswith(key) for note in meta.get("source_notes", [])):
+            timestamp = meta.get("generated")
+        try:
+            generated = datetime.fromisoformat(str(timestamp or "").replace("Z", "+00:00"))
+            if generated.tzinfo is None: generated = generated.replace(tzinfo=timezone.utc)
+            previous_fresh = 0 <= (datetime.now(timezone.utc) - generated).total_seconds() <= 72 * 3600
+        except ValueError:
+            previous_fresh = False
         if not live.get(key) and previous_fresh and previous_live.get(key):
             live[key] = previous_live[key][:limit]
             notes.append(f"{key} unavailable; retained a snapshot less than 72 hours old.")
@@ -103,7 +106,16 @@ def main():
 
     previous = load_previous()
     live = extract_live_data(config)
+    fresh_sources = {key for key, value in live.items() if value}
     notes = retain_previous(live, previous)
+    collected = {}
+    for key, value in live.items():
+        if not value: continue
+        if key in fresh_sources:
+            collected[key] = datetime.now(timezone.utc).isoformat()
+        else:
+            meta = previous.get("meta") or {}
+            collected[key] = (meta.get("source_collected_at") or {}).get(key) or meta.get("generated")
 
     articles = live.get("news_articles", [])
     nato_articles = live.get("nato_articles", [])
@@ -137,6 +149,7 @@ def main():
             "mode": mode,
             "sources": [key for key, value in live.items() if value],
             "source_notes": notes,
+            "source_collected_at": collected,
             "version": "2.0.0",
         },
         "stats": build_stats(articles, len(live)),

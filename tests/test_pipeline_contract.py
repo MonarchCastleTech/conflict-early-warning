@@ -20,6 +20,14 @@ def test_retained_news_snapshot_expires_after_72_hours():
     assert live == {}
 
 
+def test_retained_news_uses_original_collection_time():
+    now = datetime.now(timezone.utc)
+    previous = {"meta": {"generated": now.isoformat(), "source_collected_at": {"news_articles": (now - timedelta(hours=73)).isoformat()}, "source_notes": ["news_articles unavailable; retained"]}, "live_data": {"news_articles": [{"title": "stale"}]}}
+    live = {}
+    assert pipeline.retain_previous(live, previous) == []
+    assert live == {}
+
+
 def test_generated_snapshot_contains_warning_contract():
     data = json.loads((ROOT / "data" / "output.json").read_text(encoding="utf-8"))
     assert "early_warning" in data

@@ -327,20 +327,21 @@ def _market_component(now):
 def _retain_recent_component(current, previous, now):
     if current.get("available") or not previous:
         return current
+    prior = next(
+        (row for row in previous.get("components", []) if row.get("id") == current.get("id") and row.get("available")),
+        None,
+    )
+    if not prior:
+        return current
+    stamp = prior.get("retained_from") if prior.get("retained") else previous.get("issued_at")
     try:
-        issued = datetime.fromisoformat(str(previous.get("issued_at", "")).replace("Z", "+00:00"))
+        issued = datetime.fromisoformat(str(stamp or "").replace("Z", "+00:00"))
         if issued.tzinfo is None:
             issued = issued.replace(tzinfo=timezone.utc)
         age = now - issued.astimezone(timezone.utc)
     except ValueError:
         return current
     if not timedelta(0) <= age <= timedelta(hours=72):
-        return current
-    prior = next(
-        (row for row in previous.get("components", []) if row.get("id") == current.get("id") and row.get("available")),
-        None,
-    )
-    if not prior:
         return current
     retained = dict(prior)
     retained["retained"] = True

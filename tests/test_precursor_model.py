@@ -108,3 +108,12 @@ def test_expired_market_component_is_not_retained():
         "components": [{"id": "cross_market_dislocation", "available": True, "score": 80}],
     }
     assert model._retain_recent_component(unavailable, previous, now) == unavailable
+
+
+def test_retained_market_age_does_not_reset_on_each_refresh():
+    now = datetime(2026, 8, 27, tzinfo=timezone.utc)
+    unavailable = {"id": "cross_market_dislocation", "available": False}
+    previous = {"issued_at": (now - timedelta(hours=71)).isoformat(), "components": [{"id": "cross_market_dislocation", "available": True, "score": 42}]}
+    first = model._retain_recent_component(unavailable, previous, now)
+    refreshed = {"issued_at": now.isoformat(), "components": [first]}
+    assert model._retain_recent_component(unavailable, refreshed, now + timedelta(hours=2)) == unavailable
