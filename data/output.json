@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "conflict-early-warning",
-    "generated": "2026-11-23T07:40:43.058830+00:00",
+    "generated": "2026-11-23T23:54:34.658856+00:00",
     "mode": "live",
     "sources": [
       "news_articles",
@@ -10,9 +10,9 @@
     ],
     "source_notes": [],
     "source_collected_at": {
-      "news_articles": "2026-11-23T07:40:42.770971+00:00",
-      "nato_articles": "2026-11-23T07:40:42.770980+00:00",
-      "exchange_rates": "2026-11-23T07:40:42.770983+00:00"
+      "news_articles": "2026-11-23T23:54:34.239031+00:00",
+      "nato_articles": "2026-11-23T23:54:34.239042+00:00",
+      "exchange_rates": "2026-11-23T23:54:34.239044+00:00"
     },
     "version": "2.0.0"
   },
@@ -24,7 +24,7 @@
     },
     {
       "label": "News Domains",
-      "value": "38",
+      "value": "44",
       "delta": "deduplicated"
     },
     {
@@ -41,30 +41,93 @@
   "live_data": {
     "news_articles": [
       {
-        "title": "Colombia: Ten years after peace deal, civilians see rising violence",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmZhZ3U1TEJpbl9vZVZadGNoZ1EtSnhRNGhRbkpBRF9wTzBYanIwM3VnUEFZbHluVEVydm83U0hsV2NZSUFkYjhzdTVUdC1mZU1TekczbFFNRzR1MTZfTXFCX2FCT0Z2cGgzT3RBb21fdGRMUU9PNXFFVmIweFdScU1Xc0oxNWlpOFdqbjRrVlRHZWZkcU1lX09R?oc=5",
-        "domain": "www.nrc.no",
+        "title": "Environmental War Crimes",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PRG1jbXY2TF9kUy1jeGw0Z1czQTM4dHo3ZTIxOW1zeEFHQ1ZmT2ZNbmxGZ2FWM3YxMGdtWmRnUWU4SWF0bmJQeDZ1LXV5akNsbTdRUDZ4NkI3UzlKMU1Fb0FJQ2FjeWs4MHc?oc=5",
+        "domain": "oxfam",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T070105Z",
+        "seendate": "20261123T133712Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
-        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXpOdWlXckdpLXNuT053QVpxMFlxNkVKbjRtY29vam5PSEgtdWw5VkI3T19HWkg0eGE2MUxrTUdkSlg0WGN1Z19NOHhQSDh2YVlmMHZoOTQ1UmFFQ2tqYkVrU0p2aGsxNkdydlVYOVJzTUFkVm5xcEJGMUt2ZGEwaDFzLXoxMkVibnZMcUx1MUhIZUJtS2MzTnNBbTl0Z0tfSkdoUWVaZ0V5VktzMU9OZEcweEZ2Y00xeFJDNmh2Yzg0QndsUm9NRklNWDVLSkJuU0thMnFCZmdPV2x4S0ZLdmtybVBRM3FGOHc?oc=5",
+        "title": "Gaza conflict has undone 77 years of human development, UN warns",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42di1XS05IQklCbFVUR01VeFI1a0tTQTktVmp1ZGZZUzJmVm1CdlhwMmVPcFFHMXN3UGxteDVWTjhxTTRQdHUzTEliVGpuTlBsUWtpWDhlQQ?oc=5",
+        "domain": "unnews",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T205619Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Haiti: Women and girls bear the brunt of conflict and displacement as basic services slip further out of reach",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTnluM0tDSjg1aUpXanExZ1ljWFk4MENOeFp2THJ5QzZpOUdEMVFNcldPenJHRDMzVW5TdEZRX2xpOGJYd25XZ2N4Ti1uY0NEUERMZkxzYzZYclRjU3hIOUZEcXJlZUwwR2NhT05mSlBDOFZSNFZQZDRWZHdqaHBRYjA5TS1BckZWaThuNHJFZVM0R1A3ajB6ajNrQQ?oc=5",
+        "domain": "internationalrescuecommittee",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T183959Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcHEzaFFZSHUwdzN0LS1RbTVLRlF1MFpWblFUV2l1eUtybk9fOHJzNmQzeW8zSi13TEdMWGtYTE9UTFNHbGx4UUZ6Z2UyRlJQUU1kY3hKNmtsV3V1ZkVsWWR3UmxvdDlud0NQa2VRRldnWFQwdV85R0RNZTVKaTJKbko0UV9Qa3FLR0J1S1FNSkZxM01k?oc=5",
         "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T041800Z",
+        "seendate": "20261123T230800Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Workshops set for reducing wolf-livestock conflict",
-        "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVzVMVlBJajhTT2JtcVVfbzZNSVNHR0l0d0ZScFFIaTVIOEJTR1ZRYU5rLVpEVnNRQi1ZQnJvQkZhWW9MY0JPOF9MYTgyNE1nUC0tVlR5RE1EUGFSbkZxYWEtRFRJT0hZMzhVSE0wLVB1Y1JGYkh3dXhpejNzYkhaUUNDRklUMVZoOEE?oc=5",
-        "domain": "alamosacitizen",
+        "title": "Yemen Conflict: The Land International Cooperation Forgot",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbzFxX0RFSFFBd1hNSG0zTEhqNlgxdnlwMktvNS1UXzFkMmE5amdNbDFPVGZfYkI3LUZIM09aX2R4akZpZFRVQm9fWUgxaTJMV3h2QmtaUmxneDBpS1BTLTAyNm54WWhIUnlHZk1IUFI4ejBJa0JNS0w1U2lNNlhkcy1UNjE3R3RvSG5uVE16cno4Y3V2LWlvMGVkN2FST3RKYkp3VnlB?oc=5",
+        "domain": "worldeconomicforum",
         "language": "",
         "tone": 0,
-        "seendate": "20261122T191400Z",
+        "seendate": "20261123T213313Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX3RKNmswZ0hZN0VZTXhBd1Q2bTg4clBBaWZhSXA4N1pHNEZrd3hLNlNRTGR1RnV3MUQ3dXIwYVZ0SXNwZVFkZGFsMmdSR3ZKSi1oUmZhenE2ZS11X2RENzZXWnEtbHU3ckc0NlNCR2Vrc0JqczlSYXdjUHBTSmV1dmliNThwSlZ4SEtJ?oc=5",
+        "domain": "thenewyorktimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T180531Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "SEC Commissioner Takes a Swipe at the US Conflict Minerals Rule – A Foreshadowing of Things to Come?",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS184WmJQSUtQS3JZMWllbXVBMXFRTkFHRURWLVpEUHR3cUtsOWFYSlpTanZmY2QxaklVUXg5TFFPcVBWYlc3TmkwLThxRDZJXzJaajg1R01Ec3dLVUZtZ29YMGRoTFV2RzNrVDRVOFpwa1JvRW5UYXk2R3doZURWZURQcWhZeDY3WTduelFXUk0taG9ZSUM0Sk44bkdMUWtXbU55Qk9xc1pKbS1SVzFjMkMzNXMtMnlMU3dsZ3J0Zk14OXVOSEdDQVN4d1hkQWNUX2o3Y05xT01yS2Ey?oc=5",
+        "domain": "ropesgray",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T131024Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "EU and UNDP Expand Partnership to Strengthen Local Conflict Prevention and Peacebuilding",
+        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUTBnS2NKZEtBV2hVTFFoUGNZZFFpS0JSRXg4emJFYXE2VGYzeENoanJXYVRzT3Y3bkk1SV9FMzlWUTRyMXlVdzVGajN1REFDMVZIRk5KNDVXVjloTkE1X3ZGX0VYdG9ZR2pBRmx6d2VqN2VsRE5HRjlFa2ZYQk93Q1V2UTF4SGdFRDVhVzNjU2NxY3JMRmR4djI1eUlVTmY4NFZzWWdPbXEzbG1QSWJvQ3pOQVN5Mmd2bEJoNk9mSGQxOFZ3dVczR2NPNFY0eXZ6c2c?oc=5",
+        "domain": "unitednationsdevelopmentprogramme",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T140702Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Drone attack on Colombia police base injures civilians, including infant",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFJBT2p5WEt2OXdzaHZHck0tYUxPMXZwNklRYjZMV2ZYcTNzUG5EQjUySGp4X1o2bElObWVtNmdyb3FYak9CUlZ1bEFIbWRfWG9iLTlRYko3cWZpQUJkM3hZMFRqWFljRmljeXkwVDd2Yzh4NURCRlg1VGJ3YWxaS2ctQnVROTNnQ1NvOUpCUVM3dU5XWDY4Qjh4ZmswOXVkcG0xS2NUd3R6VEwxZ21KTTZVRdIBuAFBVV95cUxORTczNXU3SHBrQ1ZvZkk1TUxqNWJiTThkVWpUbjdBUnpCdWJtV193X25sMTNCZVVRdEF6Q2Y5OWVzaVltX0NSMFpSLUprMzhqakl4eUN3NUNOMUZPeE9mY2V2dXp4TmlPcC1yWDBNWmNQNDlod2wxd3hXM1NwNGlkU3NrNU9rMllLaXFCRUtBRmdsdU9PemQ5Sy1MS0hxUGhmWWdUZFUwckNqVzY2emUzRW1Ud0xvV2xp?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T235325Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "There are 5 Conflict Languages—Learn Yours to Survive the Holidays",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BVDlSd05fcVZOX2NldTRmN1hHOG5HTFdWWHh1S056dHlhNnVzcHpudzJUamtaZUNKMUl6UTNqVEhmOTQyb1FBOFZ4NU1tNllqdGF1TU5OTTNGbUlCQ0xTNW9fRXJMVGsxWkRV?oc=5",
+        "domain": "purewow",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T130000Z",
         "source": "GoogleNews"
       },
       {
@@ -77,12 +140,84 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+        "domain": "reuters",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T075300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Iraqi forces enter Jurf al Sakhar militia stronghold as PM seeks to consolidate power",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXR0aG5yLU9pT1p3MmxNREJhMTFGUW5ra21KX2ROLWJWbG5ZRC1tMEszMzRwajA1bzM0a3Z4bUl3YjM5ajQzR21VbGhTWFNMb2FGMHhPaDRqNG5ldVRUaDYya2dMMHdEUlNGVDBWYnAwYXdVTmc2OWRycUtPOXVIZlJNOXlkd2FnREJOa2xWSjJJc196QmxaejZRdTY1WEpzOElQcDZuc293dUd3dWNWd0lfT2oxUXVZcGZHb3d1M3BJZWFUMHJ2c0d3M3dFTWlHdS1r?oc=5",
+        "domain": "fddslongwarjournal",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T211303Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "First Shift: Garment unrest, port labor relief and AI capacity",
+        "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZXVmWi14N0xLd3RRZVN6QlBuUDVpN21XM0lQVDRDNjZzMlY5ZXJTTHgtcXI4N0E4bTB2bXZPTUZwU3VYd1E3VmIyTGplLXhSOUNZY0diYzNFemEwaGprYkNONkl1eDZtQ1FFMEVXNWtONXZpQXk1SDdyZlVjQ0xBT1hlVHlHS21pRktHZURpMVF4Q0k?oc=5",
+        "domain": "supplychainmanagementreview",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T142500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Russia-Ukraine conflict escalates after Trump’s meeting with Putin and Xi",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUExRa21JdG9IYzFGd0FRNW52RWdrYmtyQ20zTzVybm9iWjVZb2dDZWk1SDhiVTYtYUJMM1NIRnlMRFNPbWotU3VFNFFWRHJZeVY4cFVyTVZrOXBkNFNGUGdzMDgtMUtCV1RYeEtEQTNmaFI3WEVhZXdGOXo3SWZzcXhldnR2bnhCb0ZjTjFrQmtYM0FXVWNEY2htNXlxVW84X00tblVUQ1YyNUhlaVZreHpCX2RRbU82WUl3NGF5YlQ0UHRVTVFMOVJMaWxXS3ExRGtZazRuQ2oxQjg1b2p4Mw?oc=5",
+        "domain": "11alive.com",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T202500Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Protection of Civilians in Armed Conflict — October 2026",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPd0U0bTZlVWxESjJmLS10cVJxNTdCVEVOaXVLS203N2NxZUdOSjlEMmRvSVUyYTBIRVVHbGFycEYzUHhmczdJOFNrTVBOdFFtWGpVaExQUHNOb2Y3ckM0cDlKOFpVbXVjcS1hNkxwbTg1WnhTUE9HZ3BIYndRWUJUbndtV1pkN1RCWkFQUGRjRUlqNUNvY1E?oc=5",
+        "domain": "unitednationsinukraine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T113904Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
         "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSmhZODNjd292clh2TlJBYWJNV0NuQV93UWxVTmxiMmNJaHJnNHI5WFF2bVJwOHgwcmdRS21DU3lYbGQ5aXdCVW1HbjNoaVRnSlFPRThCOFdsbTd3Y0hDUlJPci04QzdVM0d0SDhqMzVEU0VQYTUzWFNSd29FeklxbTlKWk8yQnZCV3ktZlZaOFpncHhzU3c?oc=5",
         "domain": "thenewyorktimes",
         "language": "",
         "tone": 0,
         "seendate": "20261120T154352Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Myanmar: UN Leading Advocate for the Protection of Children from Conflict Welcomes Landmark ICJ Decision, Stresses Important Step Towards Justice for Rohingya Children",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNQ3hHeTRnTVVhend1QkpYc3BxRlNSM0QzZFNtaVdiT1YyT2FiLUlCX0ltb1J4eEU0Y190cldMeDFGUExyRnRTWUxqU0xKZXJZbkJJWWh4bUJsaHlMbzFIWV9TTTlrQWFyX2NheXBrdllCTk96TzJjeTBCQnRvWW5XMDhaRm5sUVp3UTFMVjBPOHAyaDdvTlZrN0pIdFh5ZnM5QWFXdTBKTDRJcE4yNzQ3UzgtZHB3WVk3U0FJS3JkVC1jclRzdEJNWmZ1bUN1ckZ0?oc=5",
+        "domain": "welcometotheunitednations",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T155745Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "What Wage Unrest Has Cost Bangladesh’s Garment Industry",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORF93ZmVqdFdzZlFtMnhLdlF4X1FaLW40OHZNSzhwVEYzb0V2cGhIMlNOamNmbFNEMmV5MGtpcmFkUDdnaVo5dGJpZWQ0NG9EaHFnTExxMFctTkVoR3FhYlZVWW1ZMVBxQnBYb0tiRDV2d2R5LURocUdjSm5raVRsRFBHWXNLcloxWUdVQ1M5aE9NWGVjS0V2bXhJMkczSTFEbldDanhYWQ?oc=5",
+        "domain": "wwd",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T214103Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Israel’s southern Syria incursion triggers fear and destruction",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODVlMGRnc2pLdTVaUXlKcUFhYlRMZ2piR3E2aTE1UGprb3NOc1g3NWRtek45R1hYbXpfcTRXQ04yVU12UXROb0phTjNzNmJhWVQ2dm1WWUMtOHJlYjVlN05QZmhFR3VuZ0xvbVZFNE11bVo5TkIwNlRRcW8xM3JhUG5ILWdTRGZxNVM0VFJEZ2YtZ1R6UG5wWmM4cGljdnFtS2xwcTJ5enhUODJyOVoxOG9WZFHSAboBQVVfeXFMTV9DZVpsOFgtYWpHT3VJdE5ZdnBWUElyUkFhbF9taUNzOE9lTDJLdWQ2NGhwd2Z4TEIxV3FURUJqa1RKY0pJdTZBekYxR2R5NkVjUnNqUkZLRUVjNlcweXJnanFnYmFpY2tZMDg2TVJ2TkQ3UUJuZkd2cXhERlFhdEpMenBVMkV2UUNaXzMxWms5SV9GV1BjdWhwRjJmbEpiMTYyYVExOHBMQnpBbkRiRnZjOWk3RUhicFlR?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T211940Z",
         "source": "GoogleNews"
       },
       {
@@ -95,15 +230,6 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
-        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YeVVuSzlMa1Vza0JNYXpXbGw2emp5RndTVHplTzB1QllobEw0SW5Dc3VyTFhwMFJnMkpRSEJEZnhPOFFZYWZhckZXaUlKdTZPRzNyOGNzLWp0YUZDOHM4N0xZQWZHVm9zOHRPbXp1a040YUHSAXhBVV95cUxNcG02RV9VeGk3SG90SjhQdWEyTGd3RVdNRmw4YkZreEZmY2JHUU5nVGNBQklaSmFES0ppelA3UmZFVFVUdVF0RzlzdVBtWWF1emF1U3o1N0x4T25VRDVTMS1Od3BWZnhTVERFN0hJd1Bud1hHdkk3MnA?oc=5",
-        "domain": "cnbc",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T034000Z",
-        "source": "GoogleNews"
-      },
-      {
         "title": "Iraqi security forces deploy in Iran-backed militia stronghold",
         "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2RLdGYxc2lXdVVnQmx3bnBCbGtQRy1vOTZxeVROMGRIVHBkNnhtUFVaZTlScG93YzA5QUdkRlhld3dlUE0yNnNBTzRhTVA0S0ZRMzhUVTFhTHVUWEdscXA2NV9rVmhrWmtTS19FTFVidTBrX21hcGpPb3NkXzZqclMyYWlqU25vOXJvdFZ5YTFBX2xGd1RuWEx2VWczRnFaSTNyRHNDelpEZHVFSG9MSFl3?oc=5",
         "domain": "nbcnews",
@@ -113,12 +239,39 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Local believers in Sudan reach families facing hunger amid conflict",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWpxZUI2UDRaQkFLYWVjRUJEYjZweVNrNGlzTnlHOWRJWDc4WXdjQzMxSWl5cUpzMU9LSDdLemRfMjF3YVh0ZklXWFNxSElDTW1lR3ZCek5nNmw5dWI4SmIwVUtzUE8ySUhsRzhTT29YS19Cal96TWc4dHp6S3U3QmJHa1c0QlBNOUp4VWVjZHEyMXF0SFZ4YmExbG5CUXRBeUJsUFlLcFVFRi1jWHc?oc=5",
-        "domain": "thechristianindex",
+        "title": "Josh Hokit sheds light on the origins of his conflict with Jon Jones",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWnUyejVfRHJTMlNrMjk5RzBMSENYRi1nZk8zRWk3RUJrZ1RuNTBJQnJlRjM4Z3E3WWRoeVdobF8tUTN0ZkVKemJleEtMa1Z4RmpnZENPMnZhVENsRE1QRklGS3NxeWUzSGJtYklyODJlRGFERkhqNXlXaE1FeGhfZEVaYm0zc2R0bE5TLXNfdUwydGFJREp0bDJXWlFjcnRFMXBzaVAtYzllSzkyci1FdzhzTGU?oc=5",
+        "domain": "yahoosports",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T014500Z",
+        "seendate": "20261123T233558Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Kentucky to delay Medicaid work requirements. State law may conflict",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSHgwbEpEMFlrSGQ2aHdUMEQ0WXl1ZWVUcnJ1ckpQWnZkUEE0NUlvTS1kVlhicHRLTkJMS2FXWGQxZGYtS0VkYW1WWS04Sy1pSXE1SzJIUFoweUNWeXN6MkdFTm5vQUlkY0JoRFpHSEQxUXZyMDlaQ2JoX0p0TjBzeFd5d1FSTnJ5ZlJYbmZ0UXhHZjVLYlpUeXVXYUlhaUJ3Z3VXMkF3?oc=5",
+        "domain": "louisvillepublicmedia",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T212300Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVGF2ZkJUQWJpNnU3UVFrR015RWl0UTcyNGxrWWxUOXAtOXJSdlA0UzVhYWFjQVE0Ni1qd2tZa2dST1hqWVN4UmV6bFZGVnlFTmJRRHZub0lhUG5FOFN3RUl6WXVQQTJidG5sdmtLbU1MaHBvdGtMTUhnZnBTS1JMSHdXS0d3eDJjeDRkVjhGRXVxMG5iTVE?oc=5",
+        "domain": "thejapantimes",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T192023Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Colombia: Ten years after peace deal, civilians see rising violence",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmZhZ3U1TEJpbl9vZVZadGNoZ1EtSnhRNGhRbkpBRF9wTzBYanIwM3VnUEFZbHluVEVydm83U0hsV2NZSUFkYjhzdTVUdC1mZU1TekczbFFNRzR1MTZfTXFCX2FCT0Z2cGgzT3RBb21fdGRMUU9PNXFFVmIweFdScU1Xc0oxNWlpOFdqbjRrVlRHZWZkcU1lX09R?oc=5",
+        "domain": "norwegianrefugeecouncil",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T071538Z",
         "source": "GoogleNews"
       },
       {
@@ -131,12 +284,57 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
-        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazIzNmZVck5Udmx0UjFsVV9LQjJsSDhlUm95QjhZalplRUNIa1QyNXh0Z0lPYXVEblBmOWpWN3p3b0pXWXhyZko4cmlzSl92b19UbjNqS3NZUHJwWFZiZnZiRWJHSTVKMjBkNGFmdWJWcGpBcEJfSzROU0VjZHEyVXdOWWFkb2gxN1FaZ0N3?oc=5",
-        "domain": "cnn",
+        "title": "20 Affiliates React to a Semester of Labor Unrest at Harvard",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1zRXczSzB6eVZ4cDQtUGVYT3Ixd0pFcnczZ29pMDNfVDhQNmlMQnVSTWlNR2o5aVpUTXAycEdWNUx2d3ZVN1BOeEZDeGZKVC1KbnhGRWFjVXhDS0hE?oc=5",
+        "domain": "theharvardcrimson",
         "language": "",
         "tone": 0,
-        "seendate": "20261122T151328Z",
+        "seendate": "20261123T053331Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV1RnSFBRaGNTTWk4WUdpekprQ2pUSEViLXEyaUtneWxOSjZFZmxIWVJQZVUyd3hSMV9zdmtERk81UHZkUXZ5VDhFWFdQUi1obEhCbmdMQzg2WWR3Nld2Ni1WNGhHSjRtRWRhV2ZjOXRfMnpfVmVIYno4a3pFOUxHaXZVc2xrUEpZNTVj?oc=5",
+        "domain": "theguardian",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T003100Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Is the Baloch Insurgency’s Landscape Fracturing Again?",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTFOTDhmNUhhQWhsb3Vxc1dFM3lRY2VpVURXSENJdDhXRkNHendsdUQ1T3kwY19yUFh1SUtBVjVncVRLRDg3VkU2cFMzNEgxYjh0UzNUWUNBaTJJSHdwcklRS0Z1d1doOVVKRnd4MlZlMmpIalNqaHdwT3ZMUlE1Q2RUZjhobnpfT04xbjBB?oc=5",
+        "domain": "thediplomatasia-pacificcurrentaffairsmagazine",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T131929Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Israeli soldiers assault Palestinian after raiding his home",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUEVmeEpnUkc2WG9rbkZ4ZzF5SVhrUzRCcURSOWtHYWpXZGZ1Y1NQdkk2VUNYaDE3U2IteVFnZkxvOGUwRllQRlZ5SDJxX1JUMmNHOGFORTBhRVlWMlN0U0ZEUmNibXhfUlcyaFRubnZmZ09XUFdqNW1LM2RuR2l2aV9UR2ZUYVVrdFN3ZGZPMjVGQjROX01QX0tNeHg4LXdlTTZVb2ViQ2NZTjZfT1Ayc9IBtgFBVV95cUxQV083WnV6UXZRbUpHTzVrN2w3elppU0lQVTBnWnVwdzBPTDE4VUE5d3hyd3NjWGZPUW9hLXZBNzJkUXlNa1VaMjVXU1VTOElaRlJ2R2szN3R2MlhZZnpISHdVNThyUlpRTVlGUDd5TVFNZFNyUTR6b1pKNHhIWE1QVUFxRllVUTQtdXgtaWFER0gxXzA0bUh1ZWY5eVhORnBuTTVJRV9CVlpmM04tSUFid2ExQ0R2dw?oc=5",
+        "domain": "aljazeera",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T154529Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ukraine Sinks Russian Warship in Libya as Conflict Spreads Beyond Europe",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWTF3RTlwWGk5RVFvSUFITWdmcXM1SUpQYVIza0xzWUF0bUo3czNCQ2FIc0pqVVdIaWhLX1BxMTROX0tkZXNsM1FtVllycVJRNjJuTkhaTVBIQkpBWWlaQ1ZmcXc0dDNBOWUyUl9LUGttdnhEdzVuemRWSEltWHUxN1hOUm5GTldZaVE5dVdTSm9vRmdrb3NzRXZ3?oc=5",
+        "domain": "gcaptain",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T122952Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Winter of labor-management conflict descends on German auto industry; VW to begin cutback talks with IG Metall on the 24th",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBvZWZmMUtJdGh4SThaZGFHV3d3YXhqcXBUVjJfRVlhX1pKY2RFUjU5VTd6QU1KYjF3SWwxU0dQSTdUdGZEZC1Odlp3T2RmY1NleEowOGlXbjNQOWRSRkxUUlVHVG9EU3RxVEVaS3l1TXo2V2NxVEE?oc=5",
+        "domain": "biggofinance",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T230500Z",
         "source": "GoogleNews"
       },
       {
@@ -149,30 +347,48 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbU5RYWZTOVk4X2JQU3l0YnZrRWJxRUxISmtsWTQ3M25qMUtaOF9QbkNRX3Zoc0w3czhBUGduM0JwR05hNS1pUkctZE1GdGR0eEI1UmNtak1RQlgySUt3WG5aR0tHMkR6RWdac1lTSUR0VkpRUWFYdVFqM3BpX0YtZ3VoNEJIdw?oc=5",
-        "domain": "politico.eu",
+        "title": "Generation in Crisis: The Future of Arab Youth Between Migration and Conflict",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE92Nl9BM2FFc2dBQ1FlRHRHOUM1NEZrUmwyVGh6Q3M1R2xVdTZROER4XzBCMTlJcml2bTBoMzkyZm0tc2lwUkotVFM3VlVRcjRPdHhHQ2VVcGVqenJHWjZEdFdlSQ?oc=5",
+        "domain": "middleeastcouncilonglobalaffairs",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T030000Z",
+        "seendate": "20261123T105748Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Police force haredi protest to disperse following widespread unrest in city",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uOXVPYVJGS0d5NGZ4dVB5Q3JIV19wZFBLTUpGZjEtU3M2NHZ1REQ3bmxYN201ay1TdmFZV2tLc1NpNjlRdzRET3dlRXUyUEdHVGFCUDFqUGxEeG5Z?oc=5",
-        "domain": "thejerusalempost",
+        "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YeVVuSzlMa1Vza0JNYXpXbGw2emp5RndTVHplTzB1QllobEw0SW5Dc3VyTFhwMFJnMkpRSEJEZnhPOFFZYWZhckZXaUlKdTZPRzNyOGNzLWp0YUZDOHM4N0xZQWZHVm9zOHRPbXp1a040YUHSAXhBVV95cUxNcG02RV9VeGk3SG90SjhQdWEyTGd3RVdNRmw4YkZreEZmY2JHUU5nVGNBQklaSmFES0ppelA3UmZFVFVUdVF0RzlzdVBtWWF1emF1U3o1N0x4T25VRDVTMS1Od3BWZnhTVERFN0hJd1Bud1hHdkk3MnA?oc=5",
+        "domain": "cnbc",
         "language": "",
         "tone": 0,
-        "seendate": "20261122T205113Z",
+        "seendate": "20261123T034000Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Iranian attacks in the Strait of Hormuz reach highest levels since the conflict began",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORGtPWmxKTElPRDA5aDRCcWttd2NxY2MxNXdLaVRqZTRUR0tLQ3lsNDVFVy1MQk9GU1NhMmIzcm9OU2RIbGxlcGRMa1JDcm5Sa0kzTEhxeUNVWG1fekI4OEVQZW4zc3BEcnBmMmJmVXA3YllNTVNsNmZWSGg5bThfMlpCNlM1NWdvWjBaSXdSV1NPOGp1NDhyTzJkVE0xSXVCcHNORVNIWGZXdVRPNW1CX1ZMZUp5WlBkUVE2RDJMblRWV1NEbXJiUWt0d1hWZkF5Z21wZC1Wb0VwTEx2d2Q1NHg2cHcxM3dRRTRzZzFVOG81RHZQVkN6TEI1YWd2LV9jQjdF?oc=5",
-        "domain": "komu8",
+        "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXpOdWlXckdpLXNuT053QVpxMFlxNkVKbjRtY29vam5PSEgtdWw5VkI3T19HWkg0eGE2MUxrTUdkSlg0WGN1Z19NOHhQSDh2YVlmMHZoOTQ1UmFFQ2tqYkVrU0p2aGsxNkdydlVYOVJzTUFkVm5xcEJGMUt2ZGEwaDFzLXoxMkVibnZMcUx1MUhIZUJtS2MzTnNBbTl0Z0tfSkdoUWVaZ0V5VktzMU9OZEcweEZ2Y00xeFJDNmh2Yzg0QndsUm9NRklNWDVLSkJuU0thMnFCZmdPV2x4S0ZLdmtybVBRM3FGOHc?oc=5",
+        "domain": "theguardian",
         "language": "",
         "tone": 0,
-        "seendate": "20261122T154700Z",
+        "seendate": "20261123T041800Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Pope Leo prays with families of the disappeared from Northern Ireland conflict",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOQTFEeVZid0FGQ1hDT3plWHlnYnRfTFVGX01xNW1fcmZuZlE4ZlFkTnl0TzJJT3pQY1RxUEhBbDU0YnItOWdoSjZmcW1oUEtSRllZNHVwM0szOWNNSFBjYzFaYTB2T1AzRXAyT2NseWlHZzdaT1VxUFlYVUJLWWx6cGl4SXNfSzdXQ2RuOF9xQTlvcDQ5RWhjNER2VzdJWUExMk4tWHhfSnZaYTROSGdXNQ?oc=5",
+        "domain": "ewtnvatican",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T085426Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Armenian premier says new constitution to reverse 1990 Declaration of Independence's 'path of conflict'",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLTNWNTkyV1BBRXNoMWhORDJWcGEyWEkxUEhmV3ZnNnV4TjZRbkY1TUhORUpLVWtQZkpfX281QmZvLURGQW84OUdTanM4YmlCa0ZsS1Bwb3d3Z0x6aWs2bVRrOV9VeXBUSWotb0ZKMDdTSjlWdFVPY0dybnRiUTFqcVlyZnBRVHVLNWNBajZvcjJJUy1RLTR5QlFtTVdMM2E5UzVidXdBR2NkelU1TE5LYlVVTzAtdnVERVJlWG5TTUpWc2ZzMXAzUE43N2dnMXRCQ1diZm5qcS0?oc=5",
+        "domain": "anadoluajans",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T104805Z",
         "source": "GoogleNews"
       },
       {
@@ -185,39 +401,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Trump hosts third crypto gala for meme coin amid conflict of interest outcry",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPV1RnSFBRaGNTTWk4WUdpekprQ2pUSEViLXEyaUtneWxOSjZFZmxIWVJQZVUyd3hSMV9zdmtERk81UHZkUXZ5VDhFWFdQUi1obEhCbmdMQzg2WWR3Nld2Ni1WNGhHSjRtRWRhV2ZjOXRfMnpfVmVIYno4a3pFOUxHaXZVc2xrUEpZNTVj?oc=5",
-        "domain": "theguardian",
+        "title": "Saudi-Houthi Conflict Escalates With Claimed Refinery Strike",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9jaTNLM1RaLUNFR1dVTkEwSjNrZXhGMTVmTHRhVDVtQy1QR18wNnpadmRWNkE2QU1sV3IwWWp2Y21kQkVxSjBoVU1SRWdnZi13cjJ6V3U4OHRXcGZFU2FRQm9uaEh0aEZ5aHFHdHVsX2pFdw?oc=5",
+        "domain": "energyintelligence",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T003200Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Deadly Protests Erupt in Bangladesh Over Exiled Former Leader. What to Know.",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2pvTVZfVWU1eXJOWDZFRkRZbk1IMmlwcTZ4cmhlYkJqS0twVE1yNWRsTTVSU0NHWHpMUTFxbXZ3MUFXRzRKQmVNSTJCOHJVT0FHNVVRdDc4eXFCdm9ESFdKMWlhcUdfME1kV0wwSFlHSUpVeE5FVkhWdnBwa1kxaTlic2ZNMmxxR19hNWk4a1I5YzRYVVp1dTh0czQ2Zw?oc=5",
-        "domain": "thenewyorktimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T143400Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Geographical: New report reveals risk of links between Sudanese conflict gold and major companies",
-        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTzROaVE5ZEswQmdTbnVPa0ZTZkZlZTZCbmFGWFZsSjNNdTl5VDZ5dVRjS2M5ME1aTXdhemc0TFlqaHozWjk4b0diX2lNVnpHX0ozMGlCa3VibnBRdkw3U2FaRnUxRkJTVVJQdDdZRjQ5aVhnejFwclMwSG1Dd1lhek1HQ3phUVpMVzlEUjYxMGczdmp2eTRqWFVLZ2NRWVBZZURJNXVaRnpjM2ZFUUE?oc=5",
-        "domain": "httpsthesentry.org",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T130531Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLV9HMkljSnNmOWZWZGFRQWEzUTRpMEg3bXpXSllFdERYS0VNLVV3bnEzN1ZZeG85b3VWb2gzaXFLMldWejVlNGhfWlNqazFtUDQ1cDdJeVVGWTlac0xvVWlwRnZIU0NnNURrX2s1XzRXQmZtWGlxcUxRQUY3QTVKOWVfNDQ5dW5FOENXUV80Z0dSNTB1TTV6dE5TT09PYWs4X0E?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T194947Z",
+        "seendate": "20261123T190005Z",
         "source": "GoogleNews"
       },
       {
@@ -230,102 +419,57 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Iraqi forces strike compromise with powerful pro-Iran militia, security officials say",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOWXV1R2t2TmlobmIxRDFQUkU2X0pScmtnTHRuNTZfRnFoU1J4ZGk4aTJGY1FneUFXODRIWU1tZUlKVV9lLUtMdE12OXpKcmlvZklUNHZKTFpIM2J4VTB3QXNkR2p3dVJLSUd4NWE5U2dzUnFqNllIVWVGdTFJNjhrZlYyWmluZzZpcHNTOEh6ZFdGX2RuRUw3dUhaSXRHUUpvemYyQlV2ZXI1MzI1SXhKNjlVN1lBZHUxOWxXN2g4VEI?oc=5",
-        "domain": "nbcnews",
+        "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazIzNmZVck5Udmx0UjFsVV9LQjJsSDhlUm95QjhZalplRUNIa1QyNXh0Z0lPYXVEblBmOWpWN3p3b0pXWXhyZko4cmlzSl92b19UbjNqS3NZUHJwWFZiZnZiRWJHSTVKMjBkNGFmdWJWcGpBcEJfSzROU0VjZHEyVXdOWWFkb2gxN1FaZ0N3?oc=5",
+        "domain": "cnn",
         "language": "",
         "tone": 0,
-        "seendate": "20261119T225541Z",
+        "seendate": "20261122T151328Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Growing up displaced in Cameroon after ten years of conflict",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOSmVyMGhvN3cwbTBNMTB0T1FsaXJDeVd4VF9QYXkyOHZiSVE1NlUyN3NlaFRLSGN0UFFEWkxQeEFEVFp6WHdYWlhKYV8tLW5wUzQ5YkJSelU1S1RUS2czN1VmZVExMWdzcVpGQnNNYXN1YkNiWTVzQ1dUTWtPb2FNN0pnMElYdTlMUHJmLU5sYTF5SUZ1VW9kVWpoM2tvUQ?oc=5",
-        "domain": "globalvoices",
+        "title": "Multiple vessels targeted off Libya as maritime conflict spreads",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPazQydkx5S3cwazI0Y3o2NUExbEk3LUxkalFEY1hnc2xoRUt1djVFNVdqQ21GdDVyTUQyY1NDX3hHVEpoT1VpS041Z3l0ekVZOGU3OGQyWDREMk05SVZ4d0JvYjl5aVE0aUZoQXZweERJS2x1dzk2NDM1MzI2VmdkaE9vcnRWRlJWLU43SXZ1SUhIQVpjSzRFejJhR01ET3VpMkFBQW5R?oc=5",
+        "domain": "lloydslist",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T180411Z",
+        "seendate": "20261123T161312Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Is the Iran Conflict a Stalemate?",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rVFZvLVMxRW9KVVFjdHJuS2RTNUlydHZFOEdSLXVGdVRUZGlFaFZzRzNVSmtUTy1OLWljOV9tN0RxYXFvaWl4UXJnR3JzQ3l0X2lvOUF1d3ZDUWpQc3FhdTVyV19mYlpBeEVTQ3M2aG1STTRjUzh3MmdZV09rZw?oc=5",
-        "domain": "middleeastforum",
+        "title": "UK spy chief sees European miscalculation as likeliest cause of conflict",
+        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTXdDVm9zemNCZUtULTFDSmJHaEQ5SlhFSTkyUndjUHRtVnZFQnVyUGRGV2xWODEtWXg1RlpyVUF5N3lXZlJkSlhtUnl0TTI0SnlGbTN4UlZDY08zVVkxbDVtOVpYVkEwTjFYZlZGZTZaLXhEY1ZWaFpYSnduTVRINnNGeDhGbzYtTjlJWFBxNGVzT0JuYzFleFBRUDZ3SUdEVEpBRmUzc0FUVURWb0ctbHpXNzRic2JKZUUzd1I0VHVFR21iZDZn?oc=5",
+        "domain": "thenational",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T161124Z",
+        "seendate": "20261123T135316Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Israeli Military Intelligence Warns Netanyahu of Wider Regional Conflict if Israel Strikes Iran Alone",
-        "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTENVUDdncDAtc1hVdHg1MjRUVzg2NXVMOXZGWkR2bF9JTXBTQ2lFaHA1NEhwYjRKSnQ2c1l5REVwbFkwYXE1RWtmWk1wVjR5TUhWMGQzbEtudGtIRjdURFJoUEJwaDRITlFLTlpuOExUTHdTa2dhQ1RMU1U1ekdoWU9rZm1hR2hMa05JM2txZDEwTXlQTW14Q2VzV25Vem93VnliSERlNFpJZ25PYzBZLUFqeUFCOGdWenFOUE1MUDhNS25QT0UxdFNR?oc=5",
-        "domain": "caspianpost",
+        "title": "Environmental War Crimes: How Israel’s military assault has turned Gaza into a toxic wasteland, threatening human survival (November 2026)",
+        "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOeUZWQzM5M0JvVGdRRW9QaFRRWGRRenplR1ZYdWNhcTA5am5DNEE5aU5BVXN5UnRlS3Nnd3Zub1VkcTFuaEk0dm5jR3EzUDVERG5WU1I3N09OM3d1N2VTalF3NElqY25FZE5UWnh0T0xQVTJYMVFmY3pkdi05S2czVDBQU2hwMXB2SlIyNXU1cXVERkNUODJtLUNMdFFhdkRyX2JsVkp6ZThGbWlxYkVYbWdFRHFHOXdQS2pFWlB5XzAtb0RxVi1WbS1sejl2OXJOTjgxN3A1YWNxTDZfbkNkcVRsTW1kQmk4UlozQy11c1lnb2ZFcE9pSHItMlhpN2xYbjJPc3BjV0JnOEtVV3FMR0oxbXA?oc=5",
+        "domain": "reliefweb",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T070508Z",
+        "seendate": "20261123T010305Z",
         "source": "GoogleNews"
       },
       {
-        "title": "What’s behind Iraq’s standoff with Kataib Hezbollah militia?",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSTdDT3lHT0pxVGkxbjluekRkUFRkLTQ0V3VWQ3VRREtfNERpN0YweWlMaDEwR1NCZWpOeDBqTkpPal93bkNremRYWGxuTXNJUlRzVmdlN3gtaXlhLXgtRk5wRjg2OXlrYUg3TGhmUm55TUZUbmVSNlIzVDhKRHUySUEtZGFVUUctcEN2Q3dURzVxUzlDWjkwcm1PamFtdw?oc=5",
-        "domain": "al-monitor",
+        "title": "Local believers in Sudan reach families facing hunger amid conflict",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWpxZUI2UDRaQkFLYWVjRUJEYjZweVNrNGlzTnlHOWRJWDc4WXdjQzMxSWl5cUpzMU9LSDdLemRfMjF3YVh0ZklXWFNxSElDTW1lR3ZCek5nNmw5dWI4SmIwVUtzUE8ySUhsRzhTT29YS19Cal96TWc4dHp6S3U3QmJHa1c0QlBNOUp4VWVjZHEyMXF0SFZ4YmExbG5CUXRBeUJsUFlLcFVFRi1jWHc?oc=5",
+        "domain": "thechristianindex",
         "language": "",
         "tone": 0,
-        "seendate": "20261119T213205Z",
+        "seendate": "20261123T014500Z",
         "source": "GoogleNews"
       },
       {
-        "title": "US-Iran Conflict: New US campaign expands pressure on Iran's trade routes",
-        "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96ck5LNHZOQVpiMC1pdW82a2w4M0ZpTGdhQ0tOejJKMlZDQUVWbFhzNDhKTm1NUi1fcHF1amVoaXRyVDBSYmVXWnFVWnEwY0pNZ2w3cEh4bmJ1YWJNcFo4ZEx4cXhaOVhhamVpWXVCeVBlMkZHZXhlWg?oc=5",
-        "domain": "cgtn",
+        "title": "Deadly Protests Erupt in Bangladesh Over Exiled Former Leader. What to Know.",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2pvTVZfVWU1eXJOWDZFRkRZbk1IMmlwcTZ4cmhlYkJqS0twVE1yNWRsTTVSU0NHWHpMUTFxbXZ3MUFXRzRKQmVNSTJCOHJVT0FHNVVRdDc4eXFCdm9ESFdKMWlhcUdfME1kV0wwSFlHSUpVeE5FVkhWdnBwa1kxaTlic2ZNMmxxR19hNWk4a1I5YzRYVVp1dTh0czQ2Zw?oc=5",
+        "domain": "thenewyorktimes",
         "language": "",
         "tone": 0,
-        "seendate": "20261123T014115Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Why Somalia’s president turned against his former ally, the UAE",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWkhBSVN4a3R3Y01DNnpYUTYxNW5iUmNrZlNMdk9oWm1pVEQxNzlpUkt0TXB2RVFrbkYwUi1VekZOM2RrRDJhTUhfR2d4ZXViREFYcEl4dXcwSmpqZWw1Q3lDUEN1NkJ5UThIVkh1b09jZDUzZXNpTVd5bmh1SVFiVXppeVRTWjMxcUMySGh4RTkxVGYtblhWV0hVelFSUkx2Qm01RFR30gGrAUFVX3lxTE5ucE1RdjFfVWd4c0pZRS1SZUtCdzdlVjRCMGZPRXp3bXplSlUtZ09JQkg2UlhLcF84VDVHNVZYMzVCV0o4ZDBoWXRHZlo1MkFPRnFkTFFsek5kb3FybjVyV1pkdWp5eVhPWW9EcUYzUnNZR1o2SFRGTW9WWnd3Tk1mcTFwVEU1Z21HNTYta2taS19iZTNNeDRKSmxKY0xQRDlFUnYyWEJiWU9HMA?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T153242Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPblM2clVmaG81aEN2bVhjOTlqMXdXN1p0SjVzN0VmY01UU21tNVNDR3BXd0hjcUZac2VXTW05VFdoXzlXbklXVTFTRy1NcWhkNnZ6VzlSV1Jmb1cyUVBlXzdHNFVXQzdNc0Jyczl1TS04TWg1T3NRbVNPNkVUOUtFME1WYVZVYUVndXlWak1PNDBkbGN3M0U2RFJySEx0bzMxdFFsUHk1ZFM5Y1N6MTY4X3dPd25LbUtFWlcyVVB3WWtDSFk4?oc=5",
-        "domain": "militarytimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T205705Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The conflict between the safe space and duty of candour in healthcare investigations",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZnFlMjBoTkZRTEh2NVR1b29kb1RDUGpOSTNUNkJ0YWJISDZZM0ZQUFZIaHRIMEdvZjB3dDBwdS10NDRuU2NJVHBwaTgwZlJzZ0NxTVM2WVBJSDVHeG10akJzSDEzLWtrM1BpWVR2amVwaHEyaUVTLU5EWEFSTFR1Njd1YUU5ekt5WVBUM0hFSzFMVnRyMWFCUmtRajM1VmJBNW5aTWVrSlhGNXRlM1Qzanl4cG53azYtSWJyYw?oc=5",
-        "domain": "healthcaretoday",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T060452Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Israeli settlers attack multiple Palestinian villages as pogroms surge",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNX1FMZ2l3al9XLWJuam5iakc4TG12Y1pfbHplU3NOT3daQUp1OThRYkxEc3RQb1FfbGFadVdIeGQxZ2pTaE1qR29IY2U5Y29pbHladkUwLVlFOWp4Ry1JNjM0US1FbGpDTVMwbUpMbG96VmFldnlTNHNrNzhoZHJCdEhTUDF5c3FOT1dtYkZ4MzV6YzhWQzBqUXljcTlBLWFfdjRiSnJQQVl2YkN5cHd1QWJmQWV0TVNubV9ncGs5TdIBxAFBVV95cUxOYUZMQTdmQm51dTM4dGI2WnE3a3VJby1WZ0pqMDY5cXo2OG41a0xteC1LNFlTTkF4WGdkbWhNc2g4U1RCTmpvUzNySEU3Y0VfaE5fbHE5eTBvdm1kX1hWM1hDWnIyYzRKc1lqdkhLajIzQTdaS05yMEVYQVFYYlBsLVNERGFYaDN0VW01dEtaZWhFY28zU1RvV0gzc0tVMkRpUWt6Z2ZiUFFsYzlTS1FEVFZteHRkX3lMVF9MRzRwbzhvUWh1?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T165516Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "What We Don’t Know About the Iran War",
-        "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa0RCaVNESHIyME5LaU1tX3F0NjNKdDhKX2xmNVhXRWxWOF80U3J0Wm1YNmNSdmFlNEh4YlJ2NFVfaEJVVHEwWnBveFdyekJHVDI5N0VHWGZTaGtxdFA5OUJ0WFFmMVV3ajltU01OamstbFNhMHNFSm5jWGQ2MTlQa3FsM0pFdGZLaEJ5NnJRNXZXU0FkS251WnF2NkRwb2s?oc=5",
-        "domain": "theatlantic",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T120000Z",
+        "seendate": "20261122T034420Z",
         "source": "GoogleNews"
       },
       {
@@ -338,156 +482,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Zelensky speaks with CNN's Jim Sciutto on Trump, Ukraine's conflict with Russia and Starlink",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRElkSEo3dmVmaGEzZl8xQVcyS19aSDVhd2h3eG8zMHVaNmZLMmVBeU42Z3k3U040TWMweExMcDZhMVJ3RW9HQnNJQ2pPX0k1bk1QMWo2cEN2THpSem5uY0lGZTZseEQ1RS1oSFNTcnRyYXdZVzhiajlPaVhwREREWF8wRms3RnV3SE5SdHphNU1hSTE3WE9hdy1QcE51WHU3VEpr?oc=5",
-        "domain": "cnn",
+        "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
+        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbU5RYWZTOVk4X2JQU3l0YnZrRWJxRUxISmtsWTQ3M25qMUtaOF9QbkNRX3Zoc0w3czhBUGduM0JwR05hNS1pUkctZE1GdGR0eEI1UmNtak1RQlgySUt3WG5aR0tHMkR6RWdac1lTSUR0VkpRUWFYdVFqM3BpX0YtZ3VoNEJIdw?oc=5",
+        "domain": "politico.eu",
         "language": "",
         "tone": 0,
-        "seendate": "20261121T140206Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Washington Spirit CEO Address the Stadium Conflict, Trinity Rodman, Michele Kang & More",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQTRCQWhtdDZpQlc3ZFhuUnAzNm5lUXJPc2xwY0dmenRvNUpyT2xwdDJ2TDV2N2tQd2drc21XMWFyaXJZNXBnU0FZYlI5MWs3Q25zdnE1d1g4eERUamxzR05CRmNlSTh1X2RaQTJrUV9qT1ZYd09pME5Ta3gzaDJUZWVGbDBRSjdZdHJ6bGdNak1ZTHNUT05IVk1Uc3pBQmxIancxREtvUDh5YTFJeUZHOF81OFJZdTRvUnVVY3Vn?oc=5",
-        "domain": "frontofficesports",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T173531Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Exclusive: Nuclear Experts Withdraw Over 2050 Scope Conflict",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONHBSV0pmaFFFZUpKOU9hMEMwck9oLWo2TmJCTkIzdFpJNloyWnd3SjYxQ2ZscWpGTV9NZGtjZFZzNDBqZklpRmxwTHpBcHhBeEFmaDhlN3NGaXpkT0VWanJ4ZGpfWUp3Wi1UcFJfVFBPWmRiMGxmOTRaakVYVFpvcXZOY3FjbnVF?oc=5",
-        "domain": "news.google.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T045503Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Militia founder tied to Jan. 6 says he’s ‘done with Trump’",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcjhZR0ZRRlc1OHhFWVZmaG00WXBhVmg0M01HZmZ2TWdIRFVhckZKN201YVNWckwtNnF3TC1sdE9wMGpLdkQ4Ul9mVkNXZkpuMk40ZlB4RUpkdVJwMXZxNVUwOWQ3SHV0OVdfVF9FdDVmVUtfczR1MEtBS1dUcmc4Qm9jcldzYVo3R3BvMVVjM25fLTR0ME1PNUV5dldmZw?oc=5",
-        "domain": "thearkansasdemocrat-gazette",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T100000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Bahrain says Iran strikes industrial facility as air defences intercept attacks",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTzltZHhpNzJyRTg4dE5kYUJSOUJ4azFWY2txckEtQUlGQVVfTEtIUUpWN3dHZWlocXlZWGFidVRIMjN3ZDM4d2xQWVZ0UFAxRm81TGFfbFNZRzMxTXJOemdzOHRNeWJOLXhEWF83a3N0a1hiR0FjbUE1eGZVX002eVpMNHJyX2JoVXp5bFdjcDJBYkhOWFE4a1AzN0hSRE1wTDFmNGxvaFR6TkR6bkd4a3FSSUU1anZp?oc=5",
-        "domain": "reuters",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T191500Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Three Dead in Gaza Strike on Vehicle Bearing World Central Kitchen Logo",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOekVDcU1IVy1GdW9GN1Jpb2RKVlRxREliYTN2NTVSMlpyVmJLMlJ5WWFOWlZGcExyZVItNUF6U0dKbURkak5IbGFTcl9feEkyMkU5ejdXU09nT3hQcVV6LXlTQ2QyYTB0Q3Z0MGdOMXphZ0RYejcyRkJJN3hjRWtTZFAwMS1PWktHM1hmSWZFTQ?oc=5",
-        "domain": "latintimes",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T041604Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Step toward coordination, not confrontation, conflict",
-        "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5ZZHM4ZHBYZDVVbmV3RXRjNTFvQkRfNEUzUmhObC1ra2xPRUo4T054elhucHpfaTFYN2ZuekZ2aGxkdlBBZ0FGS253NjR5bjRULUVkZ3ZCb1E1TExQdFRRVzRXSVJNMWdBM3R4STNFRi1qYjVSdlo5eUEyQWJSUQ?oc=5",
-        "domain": "chinadaily",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T022854Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Suspected Ukrainian Drones Hit Russian Military Cargo Ship Off Finland",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjdqRE05ZVFqbzVqN0hiSnM5cDQ1MzNBMFJOTXdOcDlpNEo3d1VNWWhUX0NZRlNRTEdFZW9IWXBPQVM3eFdhNXRkdE9uUTNDR3l3RUd1bGlnTVEwQWt5NExVdEg4dzNhYk82TGxUTzZrTmw3b2l6RnVZY3JLTGZxMXdFY1F1SFF6cHpDeEgwTzFaTGJpN24w?oc=5",
-        "domain": "thesofxreport",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T042518Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "EU and UNDP Expand Partnership to Strengthen Local Conflict Prevention and Peacebuilding",
-        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZWFZMHV5c0xBYkFlUmdYTWZQaFB3MHppdUhwc0pMVEktdkhSR2RlakxHcnlyb0J1alBzLUlJbWtHWDBHRTBnUG9BWTlHN1A2eEVrSlBzVnNZbUZMQi1RRW4weTk4dmxYMUotN1N2UF9HcmpsdlFsYnlLZHQ5emFGcUpSNmhxUVduem01bnJTbV9yNktFVjA1SG5BdzU0VkMwYk5rWFZWak54SE45cXRGaw?oc=5",
-        "domain": "unitednationsdevelopmentprogramme",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Iraq PM targets militia stronghold in bid to assert state control",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaWx5cHh3TFN1MUJaRVV4dkN5TXRsX2RCQ3Z2RTF3Rmw5RnRFbDNzeURRenpJblgxTUlvZzA1Vm5wMFV1YkVSWFRpWXlESzlLX2hPQ19YTjhTMmhPVjVQczFXT3huYXJzZUUyaWZCWGU4ZWVWbnVwUjZMTk5GMXVReW9nb0lOX0V3c0g4cTNBclplN0R2dnI0Y1FRajJEdTRTY3RHaDNKQmFZcHJodnpSNG5wUk93dmdCaVU00gHAAUFVX3lxTE1hZEJwMVhqdEVzZVdSQTAzMmdUN0RjdG85SjRydTAydUFxZWEyVFJtMTRweklZcWV4bE5yQmp2Q05yNHJzMWlCSFpIaWFwcXViTGJpRzBteXFfbTlrYkVBMDlRaDcxdTZhQjkzYjlKeTFlYkNWZjlJc212ZDl0ZWxQaURHaE5nNEVwcDJPajk1dUpSeFJ1MHc5ZnBFUHFXQWJrNmxFdmpweUluYzJ4UFNNQTdrSDZ5VUk5QmpZdTRWTg?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T213437Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Beyond the Headlines: The Middle East’s Future in an Era of Conflict and Uncertainty",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVEF1cl9EdGU0a3Q0LWJTNDNPWThLTUxJcXQzVmJvejEzYnNubXNXaGF2LUlnc0g0R3psaWFDRENvRjZmRTdSckV0akJRUjBQRlptQkFtWUZCME13UlpXWnNCZk5INlo3aEVzTDd0dnlOc0hfQW1hRGc5eXhvdkZiYlBNWGlDUVBmbW5jZFFGenVzU3QtMWJtcUNsLTBwNXY3c1hKY2NndHJxZkVka3ZWZXVUWFlWNGxpZTBz?oc=5",
-        "domain": "globalatlanta",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261121T011752Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "At COP31, disinformation and disagreements over climate facts slow action",
-        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd0pRN3NqRGRoelB3WDlXVzFGUTBlUDRxN1FPLXZNYm9EZWZPQ1RodWR0M3EwMzRnYUh1dGxMWm9uMHRkWUQySFdzUS1pVzQzOGlPRmxtWmRYNTlON3NaZVlzYU1ickRsb2Nsb19tTlRScG93eWktcUZqcGxJWl9qWnNzMmtFeVR3MFpNRjhxWVZtT0FDdVNiXzFWUdIBmwFBVV95cUxOSzFDbUU3bHhKMTg3d0pUZVBzVk5UZVFGaGZpUkVNaXRzVVpPWjh6ajVva2FtX2o1dXFXc0ZMUkVUQUY0SkxEb0dRYmZpd1N2MXIzQ0JXSXNnSWVRX2tlRUk3UVJLdUJWemJ3ZXhGUm15WU1tbTVYR1BkcEZVREtMZEdPdEdJbVlMQXYzeHB6SHhjdXZ3VlZsUUFfVQ?oc=5",
-        "domain": "dw.com",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T175738Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ukrainian Sea Drones Capsize Russian Corvette Merkury at Benghazi Base, Source Says",
-        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmdXd1cxd2hCQXRVeS1YbHozN2VSWjBoNFFVTTY2ODRpSU1IM0pQM2RwZlh5c21yZkVnVEliVlV4dUVUenM5N05kZ0NGeFNwQzJNeWstTGNLVFV6LWx5QXVrMll3V1MtUE9KMURoWFc0Y3c2REZONEdkZ2twaFFKSzBqMHdxbFFHWjNSSDdZY0s0ZWlVbjMzQjRFaU5hN3RrbEJzRnhXMA?oc=5",
-        "domain": "thesofxreport",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261123T043518Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Knesset legal adviser bars Kariv from chairing attorney-general bill discussions",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1nR0pQNUJHNDBQQzV0Vi1YaU9TdWdhMW42Y19fbFI3UTdiZFVWc3lsSjM1R01KbG43amtJLVJGMzZNN2lkODRvaTlWVlpJQzB1V3dENzVYdHFCNzBNS01hVklZZFk4bEFwTWNFclJmSTVxLTNxZkJXdV9KQQ?oc=5",
-        "domain": "thejerusalempost",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T194812Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Israeli drone attacks kill seven Palestinians in central Gaza",
-        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVFA3dkJJZnNuNHdEZm1PeEkzZ3FNTjZSR3V4LTRaQjlwbTBTTXdydFFrQ09DcHZtSm5CN3U0anYyY1NaX1laaFB2XzlyMzQwSlo0d2RUaklhLVJYQTlfbEJ5SkxjZ0UtRGlLZmdVM2JjLUFXbHQ5cGFrNnI1bTJMYklObXUtN3plZzlHdEtCUDA4aGFhLWhaYWxEUVBBYlRkUk1DaS1B0gGrAUFVX3lxTE1KMDIzOVBua0Exd29SQVpZc0ZWUjlEaVhQZTZ2Szg2VFZvSnFyS2d0a3FDSlN0ZDFkb1ZzaHdOUmFUbWM1a1Y0YjFRQTdkd0xScEcwaGV3eVhZN3FHVjVtbmlXbDYxSHllRkh6SkFIQkdsczYtanpubkVkZXdZeG9NeXpLLURZVmc4VGNvMm1FN0VqVERPaVhUQ0lBLVlJcHR1eTQ2cmNIdjBnbw?oc=5",
-        "domain": "aljazeera",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T201858Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "DR Congo Ebola outbreak: Unrest fuelled by armed groups holds back response",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBqQ01qb3lwNWhSR0VzZy1pZ2Rxa0VKNllXa0FOaGVJeWg5bnROUm9VaGZhODYwbnQ0Rl9VbXd3THBCMU5LR2tyQkVUWVl1cmFDZV8xckVvaw?oc=5",
-        "domain": "unnews",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Israel, US develop joint military plans for possible renewed conflict with Iran: report",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9WWnhkNkxyeXR5S0NPcDNSX2g5eEhZS3diSExZV25ERVF1YS1QVy1JZU5id044SXhUM1Rad3dkcHQ2QmVrMWdNUXNISkoyUEhiajhLMDZYZTc?oc=5",
-        "domain": "trtworld",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261122T102017Z",
+        "seendate": "20261123T030000Z",
         "source": "GoogleNews"
       }
     ],
@@ -529,6 +529,24 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Back to basics: Polish Special Forces go low-tech to survive the modern battlefield",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNSl9hVGVQX0M5UGxQdENweExpU1padnMtY1lNR1hzdVFBQ1Y3RnhnMjdOYVMtNm1LLWZyRVhrR29pYS1DbGlnamp4RVdWcVNEQWFVd3c5SEhhQUlwRl9ZUk0ydnd3bnY1TFNvaUt6VDl6dTVDb0VvTWtIV0FMSU1GTncwalYyS1R5QmdBVUg1ZXN4WDc1Um5STkZkUnQ2cU1DX2g4Um1HUkswM2FrWmV3R1NqSTlleEs0SWFKME91R25uQTJzR3g3WTJ0aktoeVhJUkZ5UDFidHBuZmNoRjdxSE1KSHhkdEYwc3VqWV9PS18?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261106T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Address",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORml6NmVZeUVWeFhVNjlIdFNBSkppbWNFXzZFY2JkWlowbENmNjFQWjF4YzNYV29ubTU3M1Itb29EWFZjMVZrZk9hM3dRQVFNNVRjXy1DQzlZMXdFX2xtZDJad0FvZUZVWC1qRlJuc092RTMtZkk4OHBzREotQWVBWURnSjJqRVVlYzQzZTA3X205SVllalRuenAzTnZYQnFRMWZmRkctYW1qQ2EwZFVyYVhOSQ?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261123T163620Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "NATO Secretary General attends meeting of the Coalition of the Willing in Berlin",
         "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOR1RRWmVUUlpPV1dIdjRTV24tOG9RejFPRndybUJMNnZISG9UT3pPVVlnaFMtdXVhekJXNFVtQWU4dTZVSDQ0UFM2cXlueG1PQWZkVnF5Q1hlQ0IwZkY1RHpEMXIxcEVCMDBGUzcxVGg1WVY2cjFydkxnUVh1RkE1U19FbUZFYVdIZjdpekJfZ2VwOTRPekpEaThEa2hSMzBCclg5QWJYNGlZdzNRV2hXTmFtRkNPdnJCRno2bGlfbjFVdUo3blFfejlRUmdCWjVuRmVTTElPMjB3RkY3dWc?oc=5",
         "domain": "northatlantictreatyorganizationnato",
@@ -547,12 +565,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO Secretary General welcomes strong Allied support at Ukraine Defence Contact Group meeting",
-        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUV9GTnFGTXZWNTd6c09QQ0plYjMxTUpQdm9aamhmVjBPeWljVVVWM1VrSGo1M0QzZzdVUzBaeDdLWkpERVpqYWpUS3dldGM0WV9JNnJ2SndLd1RoaXM4SDVub2hRN0ZmS0t3SG9ndlhQRDdwOGFGSTRsZzgwYVNQN01FWVlRY0hvYno2cVQ4akNFdTJJU3RhbzlTblJWRGJzbnRFbEVDaXlKc3FHSHVlYnRGUEdlQVRjbUh5MGY0dEtNLUY5SmVVYi1FSzdmbnhuREhrOWdqcThIQng0NnRTZnJKeFNIdUZqY1NBZDBoamw?oc=5",
+        "title": "Next Generation Communication Networks Strategy",
+        "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPemxwUDBDRWFWYWlHWjBsUFd4LUY3M2VreUpvR0FkMWVjb0R6NlhHMG5KM25vSnVCVUdMM3RYUm9ULTc1WExhUzE2aEdsQjNPZnhtNTNocUdpWUNPdHZiaGdBUkZyTHBFcS1zeWR5U1lTN0pGS0dtRURNOS1hTFlNcVVWSDd5RWZsOWk5LXh0S3pBZUozZEZJdTVRZE82Q1U1WV91Vm54SlRMY0I4UXJCek0zMm0yVVRSU29LSWFFWHE4dmZ1V0JqbTBlQUlnRU5K?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20261118T095118Z",
+        "seendate": "20261008T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -565,6 +583,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "NATO Secretary General welcomes strong Allied support at Ukraine Defence Contact Group meeting",
+        "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPUV9GTnFGTXZWNTd6c09QQ0plYjMxTUpQdm9aamhmVjBPeWljVVVWM1VrSGo1M0QzZzdVUzBaeDdLWkpERVpqYWpUS3dldGM0WV9JNnJ2SndLd1RoaXM4SDVub2hRN0ZmS0t3SG9ndlhQRDdwOGFGSTRsZzgwYVNQN01FWVlRY0hvYno2cVQ4akNFdTJJU3RhbzlTblJWRGJzbnRFbEVDaXlKc3FHSHVlYnRGUEdlQVRjbUh5MGY0dEtNLUY5SmVVYi1FSzdmbnhuREhrOWdqcThIQng0NnRTZnJKeFNIdUZqY1NBZDBoamw?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261118T095118Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Joint press conference",
         "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT01rN2kwZjB1dmZjREU3LVVXRFN4MXlFZmhqSEpFTlFvdDdFSHd6ZFlvcllOeTdUZF9OQXk0bFBzblROTDZfMHZjZlRlWG8ydzk1ZDRoSWhnV04xYktqN2xkdUgxZEZxWEFFTTVGRVRvTFZCWUpvdkdBblplTURodktNMHRpb1lGZ1QzT0hZU1AwU25kelB0eGVhRTZBd1Jlb1R5Qm5KNA?oc=5",
         "domain": "northatlantictreatyorganizationnato",
@@ -574,192 +601,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Strengthening NATO’s eastern flank",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0lJaHFFWmtoOVNvV3NULWl6SG03alRxX2xrUlAxNkRCMUlQU1NkWEdpQjFhSWRFQ1hpckdfLWN6ci1waU1iVVQ5UVdXb1NwRHdCT0dpTTZaallpcFR3SVJudmluSjdkcXZobUpYTTlhSUtJXzZjSmppV2FkZHJBTnE0UmFaRGhOZ05xX0Z6TWxqLWdndXc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260929T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Resilience, civil preparedness and Article 3",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUE3TDRKYm9ndE1KTnNkN2ZCZ3l4XzA2MGJueWhka3I2N2JVNGlJV3VjSDRZRmhPeWVjdGlCbVBfQUE1U3NkcFZSSjlveExWVDQyRUZBUHlPaFROMnlkZ3ptU05UVWxEX2hVckpJYzlRUVJBZ2ZBSFd1STdTUk85YmZkTFFyOUs1U0JUTzgtcUdNQmZCbktXRkJ3TXlHbnEwQU5V?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260918T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO’s approach to space",
-        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVMyOEhfYWV4RkdyTzJDdERtckN6NGxQQ2xYUEtITmhTdVhaanJYNFNZY3hGRmlpZnN6R0M4b2t3MENQdk9iSUpjV3BaYjBGcUtmVEJYOXcyVFR4U3pwRmp2X3g3WWc3Q24tNXhxMzA0XzBSTGE4eUl3aVRSZURBM1NmRzFaM3Vy?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261105T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO discusses deep precision strike capabilities for deterrence and defence",
-        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkY3d3JHSkdOdVFDclczRjl5UWxuZ0twaHV5VU4yazIxYjgxdDNURDVOREVud2cyNnhWWGxGTnMwSk1zcDY1cTJ1Tm5rOXNkTXZiMlE2RC1wTl85ckpwYTd0QU9tVkctWW5XdlJyWUtkOVdycURFd2YzLXEtcUMxb3dFNDRXNjZueUdSWE9mNXlFcVhBekdKcGc2eEVqaXJpT25MMnZ2ZUFmRlp1T19KSGJQNzVnQWREMDVNbG9zTkpyeFF1YlV6RDM3T2ZEamhjM2xPY0lFY2w?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261110T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Allies take readiness to new heights demonstrating unity in action",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUEJsTVNUN2xZSDZYU25lOXZJeHgyQzJOYm14UUxXUmcxX2Z5UEczajlyVlp1Uzl4LTdzV3MtSDVuUnBoZ2VJSW9EbTJHbUNjdVY4VzJwVFQ4TDJFR0IxTXV0UUNsRnlFU0E2R2p0dmthQ1JMUHp2U2ttdmlpdEc5T091cmpHMk9FNkhYMEpSMTlKbVp5TWdlaUNzV1JHLVNXQ1o4WWs2RGRteEZSbnU4cXpudVJzdEZV?oc=5",
-        "domain": "jfcbs.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260919T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO-accredited Centres of Excellence Sharpen Support to Alliance Readiness at Directors Conference",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQc29sbG51Q3FIckNidnhSdFVaenVtc0RxVmdGeHJDUUFCLWltalI1VW02X2d3ZmNzbTgxSWlVMHZxODEyS1VxSDhmenF1OGdDOTlNSzVxSDRKYjd2MEswZVhSZ2x4ZUJ2VzcxSHpwdnhDdw?oc=5",
-        "domain": "natosact",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260904T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Innovation and technology adoption",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkZkMDQtaW5oWVJfdmNaVnlndXgtMTdrWFRyZ0I4bG0zOG1QY0xiX21RcmFQemF6b2RLekM0NDMwS3NjbTViYXl4M2VzUkNKd2RqZ1MtVEdOeTZPckFKOEQtU1VOWFBQc3E1a2RzRVZURDZZQXNmZlJ6a1VxMDhuNlJnWjQ4WTNoRFZMSVV6WnBXMk9yWGhGMEtB?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261109T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Increasing defence industrial production",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM212amVuVG9KU0tNM3FfN0tZWkw0QlJlMEtaVnExejBkYTM3SFVCdVhWR3VoM2ROUGpaYl9XSVFuei16UXhZMnVuXzROeVJ5eVRjN1U1ckpnTVltX2FtUXNpcHdBLTliWlhWMlVMWlZyVFgxUnRtS18ycXBkLTdaZ19JcFM3c3Y5MzltUXZPTWdQWWhpaG5wT3dSb1Z0VVpK?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO land commanders emphasize readiness, warfighting, and alliance unity at Izmir conference",
-        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTXVGUnBfYkNyU3VCQjdrQ0U3d1N5bWp3MFV4RWstUk9XN2s4bVFxSWxjVmQ2eE9NYno1MWllMjIxZjJQQU5vVkZ4RjZXTmNBbUNxWkxtN1dkSnluaVc5V0JyTnhaVlhhQjNFYlRiaHBhOUh6UkVBQktWd1JQN1N3dVNJVm5pLWJIR1h4ZXh3Q3l1RjRlUzRqeDBPMHA3VG5SMmdqazh3UXpaS0NQR2dtTmNzQ3FiNXY4ZDB4QTEwVzI2VVJMa2lWalpBNXlFbGdtc1hsUnZjelUxUQ?oc=5",
-        "domain": "lc.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260910T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO highlights space’s role in collective defence at Marshall Center",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGlyam5LYWJZam1lSDlPQzFlNkFObWZzZjA0RGJTNVpqdGQ0bXZSTWgwdUk4dWNnOGJiTl9fbGJKOXBwcmRUVnRrM0RZX3pUYlJQdXhEeXFwUFQycExqQU9ZbG14czhfTEJTbHNCTk9fdUEtSEhRS1owVjF6NDFxRXVOVzdXQnUtMVVxdVFfZlRCNk9zTHNvZkZB?oc=5",
-        "domain": "ac.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261104T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "JFC NAPLES | From Ship to Shore: Allied Forces Demonstrate Maritime Readiness off the coast of Albania",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMEdSSE4wMFJMN3ZjVU1Uam1kRFJ4NFNweWZVMi10MHlJMlBfNTFaOFhjbVpLMlFTcDdib3ZCVVZtTHN3Tk9pMGNpLW5pMVF3STFBSGpFTUl5SGlkaFgxS3dJQ1J4NEZvZkt5ZG1xU1NyRVJBN2RFeDExNUo3VnpERUZGZUFtWGZnNWJIZHpHd1NpY2JyZmU1Sk8yaTZNVm5JMldnMFZsNEFES0htc2NTTGRsSldNbndkc0htX0xKd09qeTVsSllNYUdPWDB4TlE?oc=5",
-        "domain": "shape.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261020T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO’s role in capability development",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlFINERnU2wtMDJuQTJqSk11aVQ0QlZMUlBaSUo1cFByaFF4alpYcmJ3U2JXTkVaYVY0OGZ5dG9IT241dERqcUljei1tV3VTc0xkc1FMdHp4cE9BbFFzQTMxTDFaT2pCcnRCdDdaTVBhVnpnSFJxYVR5bXZJOGY4OWZmRm10ZEExUWFOVzE4NW15Mk9hQWhFQmJR?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NSPA establishes the Innovation and Readiness Support Partnership",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVJCcEthWUtqZXBJRWQxWE8xTnl6b1dsODJLNjV5TUs0MEh1ZFRSalpBSEdSZGZibENKUm93Uk9yU0x4aEtqQ1NMd1k4WmZidk5KUHlONmFKdFJFR0FoMkdnVWF2ZVAzaG93R3VuSkt0TjB4T2NwSUNTSGtMVl9EZjM2THJ4Ni1pczdDZHg3cWxMQktjUGNuTlZOOVY2R3BjaWM4?oc=5",
-        "domain": "nspanatosupportandprocurementagency",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260903T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Strengthens Collective Readiness with Allies, Partners and Non-NATO Entities",
-        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJOazQzdndiSDU0d1gxdVd5QzdwM2xCc1pSa0VPZFI3ZDR2MzF2eFZ3QkQ1UlpCT3B6LUprS3l2bVVNcWpXWkgyWFJRYXVzQUxJOGNCakRZNWZKaEVfYmhlTGtmSkx3VzhFcFZSTHpFRjQxbnFWUVVueDlucmZyX2RPWDJFNmdFS1RQeTJVNlZLUmJVaXAwU1dfMTBKZGR5Ukxmc2YzaUR4VEpMX1F6NHlwM3paWHRmaFBnOExXSXJsU2hk?oc=5",
-        "domain": "shape.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261016T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Integrated Air and Missile Defence",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1hJRVRjNzB1bmlUVGdVNURFNG8wdnI1emlWd2hhaEhRVlFoOTh2aE5uYzlDS24wSVVvNFhTdHVac1VPdXRsNVM5c3BqWm1GcnZ1N3FrSnRMMWV3TzdOTWxZQk14UUlSb2NxTEhfbkdKX2x0dDhLUjZWVWNLN1BoREdfQnRjV1FvTDdfOUEzaDZhT2xzeENheWxNMHVLZw?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NSPA's Innovation and Readiness Support Partnerships holds first committee meeting",
-        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMFBKZ20xVWNjNFVscFRNSEVSREZJTWk2MGRxX0RoRlE1RGJ2UFdsTW11Y2pYeUJsWkVJQjRFM1hHU2VYSXJXYTFHNnFfekJqTDk0dWJ3X0l1TVJJQlVHM2cyTUV5TEExVVc5enRsREtZUkhqdjhWYkpMWkFYRjlkYUJVUmxvOTBEZEwyN0h5ZVRpY1FXM1IwTjBoUnlIZXA1cUs3Qmg3cUw1elBMcFFwc2c2MG14NHZUWWtKRUpwdw?oc=5",
-        "domain": "nspanatosupportandprocurementagency",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261111T110221Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "The Changing Character of Defence and Deterrence: The Power of Analysis – Introduction",
-        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2todzVDTUxnc05RUHBhV0E2LVR4S3RPUGk2bHE4VjYxeFdIMGtRNTVqdzAycFFrWkEtSHJUbjI0WjI2VlZIb25KaXZ0TzBzaUZVM19xNFQ2dmQ1X0pFWnJDemtjR2pOdTdsbzdpTUYtTWh5aDFqYTV0cHRkUzNaV1pPNGdha3ZrWjJmQXNiUF8waENWSXpKc1dBQnE1ZnpNNUo4MmxKMEl0Q1piQWM4dFk5cG54OE51ZEE?oc=5",
+        "title": "Home | NATO Science and Technology Organization",
+        "url": "https://news.google.com/rss/articles/CBMiPkFVX3lxTFBRNmNIdy15b0ExaC0tMzZRdUZtQ3JGbzBqVE9JV0Vza25JNEpWci1kTjctSWpLaG5XTnJVaEt3?oc=5",
         "domain": "natoscienceandtechnologyorganization",
         "language": "",
         "tone": 0,
-        "seendate": "20260915T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Belgian Air Defence detachment strengthens readiness during Northern Viking 2026",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYTUtTU5UbnBhVkQ2WXJrZ252TmthN3VYTjRkZDZuYzUxbUl6M1p6eklnUnFndm5ZTWlhdWRoTjJ2QmVlclF6MUFKTVZnMllfdzgteVpjUGFfMjN3TE9ZOVlNbnBfNHNPWmZBZEJHV0NLWjduSUsxb1I1TkhsLXJGUVhqUkEtc3JtbFp3b2l4Rm5hVExRblFaNEhSOVd4WWE0Rm5zdmRpQkl5QjFkcDVXRUFlU1RQUkllZG1z?oc=5",
-        "domain": "ac.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260902T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Allies strengthen medical support for NATO’s collective defence",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUlPNnBsb0FWZENvekMtWjUzbjF4WXNteDNpVVhNdG5MNkxlTXZ6LTFUY2JCSjdTNkpSaWxmTVRZSVVyTVNLTk9IbXZRYVdDcEZHcHhwNnF1Z0R0NV9oYjdKY0IxUmdRNlNVbjNPeG8tSWIwMlZWVm03QmtGSGVrUkhWaHdxTkplU2FUTERXd2xQcmZfMXFpQkZPamwtb2JzSXNaVFc0NlFVZURJcThTVldWVkJnWTViRzZQNTVjNXNCdWJIV3c?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T163944Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "STEADFAST DUEL 2026 Concludes, Advancing NATO's Readiness and Future Warfighting Capabilities",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ORUFUTWFNY1BrRVZ3M1ZfOEk5eHBLX0pRTXg2OWFJZ2ZRNnBEekltWlAwZ2VHcS1nQ0Nzd01HYldWdFZ4X0taNVBfQnZGMDJRb2VLb0doX1BSeEJQSnllUA?oc=5",
-        "domain": "natosact",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261019T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Ballistic missile defence",
-        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTjNjbGVORldmLTMyQ0Q4TmxWbE51Wm5FZkh4QjY2QVRHdm1uaXZ1LUJ6LV81U3otWi14cUhQTk5YdnBLU1BfUHJ2MlRGWUtmY3JSUm5pWHlWcjE2ZThYR1pMdkxqUjRhTW9ON19zSzFNcE1Pc1Jabk04Rm4zdW5KUGpzSnEtdmNqcjlv?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T070000Z",
+        "seendate": "20160611T215305Z",
         "source": "GoogleNews"
       },
       {
@@ -772,12 +619,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Multinational capability delivery",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnJwVWJwa3g1dUZvX0w3cE54ZUgtY3JnaGlVUVJ1RzJsbTFTeldPOWpzWko3SmgwRWdMcTN0UnJtYUFWcVgwM1lFZnFMdmNTVnZfcGdPbGZjR1dfS0VYbTFWMS1ZbTVXdWFoUkFoUUZFV1V5RjhETTUwbDd5WTJvTTZvQ2NZa2l1LXBRajkxNkNNcWhhS2dyay1R?oc=5",
+        "title": "NATO discusses deep precision strike capabilities for deterrence and defence",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYkY3d3JHSkdOdVFDclczRjl5UWxuZ0twaHV5VU4yazIxYjgxdDNURDVOREVud2cyNnhWWGxGTnMwSk1zcDY1cTJ1Tm5rOXNkTXZiMlE2RC1wTl85ckpwYTd0QU9tVkctWW5XdlJyWUtkOVdycURFd2YzLXEtcUMxb3dFNDRXNjZueUdSWE9mNXlFcVhBekdKcGc2eEVqaXJpT25MMnZ2ZUFmRlp1T19KSGJQNzVnQWREMDVNbG9zTkpyeFF1YlV6RDM3T2ZEamhjM2xPY0lFY2w?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20261029T070000Z",
+        "seendate": "20261110T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -790,57 +637,30 @@
         "source": "GoogleNews"
       },
       {
-        "title": "32 Nations, One Shield: NATO Sparks 'Steadfast Duel 26' to Test Euro-Atlantic Readiness",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLTJVeWRnR05hcl85VnF3d3hsRkZ2MXZuT2hiSVRHVy1YdHFjdjAzc1NIYmR4OElfVm15emtZS3pIcmRRMDhCSktNd2ZYQ0JXMzRHMVVUX2Jtd2trRUFweFpNbndPZVVuM0p2dElibEZmeE95V19oaE05NXlyZWNRUkpWajFndGlUeGtGaFQ2a29lUGxGa0dkelF2cUlob0xuMmdVSFFQQlAtWE9SWlJxd25xWVJMdU4tdjZKQzJNMG5VUjdBRG5tTw?oc=5",
-        "domain": "jfcbs.nato.int",
+        "title": "NSPA's Innovation and Readiness Support Partnerships holds first committee meeting",
+        "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMFBKZ20xVWNjNFVscFRNSEVSREZJTWk2MGRxX0RoRlE1RGJ2UFdsTW11Y2pYeUJsWkVJQjRFM1hHU2VYSXJXYTFHNnFfekJqTDk0dWJ3X0l1TVJJQlVHM2cyTUV5TEExVVc5enRsREtZUkhqdjhWYkpMWkFYRjlkYUJVUmxvOTBEZEwyN0h5ZVRpY1FXM1IwTjBoUnlIZXA1cUs3Qmg3cUw1elBMcFFwc2c2MG14NHZUWWtKRUpwdw?oc=5",
+        "domain": "nspanatosupportandprocurementagency",
         "language": "",
         "tone": 0,
-        "seendate": "20261005T070000Z",
+        "seendate": "20261111T110221Z",
         "source": "GoogleNews"
       },
       {
-        "title": "JFC Naples commander stresses southern flank readiness, alliance cohesion at NATO Defence College",
-        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTV9IVzE5bERZM0RsZWlXWlZIVXRRSmVJRWVkMEpNTl93OS05ZWtRS1owM1Z3eml5UUZXWjV1ZFJidkdzRTRGSXY3X3ZsTDk2NUNDa05raVZNN0p3MDh4TnRmRFNSSUpSSXJycWRLdTU1bTl0a2lMQUpxYU9Ddjk4NDhXZHd5QWNzMGxXY0xjUG1HRzNRQXVHa1FVVENTR0xjdjVoelZ4dm5EWDhDMmRrdVVmdlRRVXpERTQxalo1R0FxbUZUcmtGSkxoMUozSWU1SmJwRWNjbmtHUkZkc0ZBQzRQQ3dMZW1xTjRmeVRFU0Z1dDg?oc=5",
-        "domain": "jfcnaples.nato.int",
+        "title": "NATO highlights space’s role in collective defence at Marshall Center",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGlyam5LYWJZam1lSDlPQzFlNkFObWZzZjA0RGJTNVpqdGQ0bXZSTWgwdUk4dWNnOGJiTl9fbGJKOXBwcmRUVnRrM0RZX3pUYlJQdXhEeXFwUFQycExqQU9ZbG14czhfTEJTbHNCTk9fdUEtSEhRS1owVjF6NDFxRXVOVzdXQnUtMVVxdVFfZlRCNk9zTHNvZkZB?oc=5",
+        "domain": "ac.nato.int",
         "language": "",
         "tone": 0,
-        "seendate": "20260901T070000Z",
+        "seendate": "20261104T080000Z",
         "source": "GoogleNews"
       },
       {
-        "title": "Sarajevo Cyber Shield 2026 strengthens practical cyber defence readiness in Bosnia and Herzegovina",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVHhnMDU0LWM4dWc2Q2FWWDl5eE1CeFNZdUhyckZGVG5nY3Jib055Y0tseG55X0k2Y3RiWGFHWUtVYllaS1RfSXRMZV93ZHM2N3NhODc0OVhNOWZTUTI3V0hvZ0NMdFFPNzA0RVJHbVBXdE1vbFR6bDRLbF9wS05nazAtVHRjOGtRZGhBaDl4QWtrRUtXcVh0QTduVS1JR25OSWhtWmwwWXpSSkdRdnA4Yk1LeTNueFBOdU5PWkQ2cHkweUdMSDRqeFg2c0JOMW5tOE4zRkgzdFpkbjlRbTRrZmcySGVPbTdBcjRrRjRlNA?oc=5",
-        "domain": "jfcnaples.nato.int",
+        "title": "Allies strengthen medical support for NATO’s collective defence",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUlPNnBsb0FWZENvekMtWjUzbjF4WXNteDNpVVhNdG5MNkxlTXZ6LTFUY2JCSjdTNkpSaWxmTVRZSVVyTVNLTk9IbXZRYVdDcEZHcHhwNnF1Z0R0NV9oYjdKY0IxUmdRNlNVbjNPeG8tSWIwMlZWVm03QmtGSGVrUkhWaHdxTkplU2FUTERXd2xQcmZfMXFpQkZPamwtb2JzSXNaVFc0NlFVZURJcThTVldWVkJnWTViRzZQNTVjNXNCdWJIV3c?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20260903T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "JFC Naples commander meets Turkish military leaders to strengthen Allied readiness",
-        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWE5jelhqWDgtVzBfdlo2MVVhUm9yUzl1T3ZfSVQxOU0wSDJwd2Nkd0h2dWZvLTVUd3h0OURGbFRPNWNRN2lLY0V4RGRaN1o4dXFhZEpWZVJxb1dZYWY0SUdOQVlvNVp2NDFFTmFKejdGYVVNcEduaHBucWFjdXBLcERza0ZMNEQ3T1dMMVY5UDdCclpfYURPRjVWVlVxUjllN2pLNTdXX1doUlBJc2M4ZXU1MXROYlJjVmk5MU90MG44bmI1Mncwbm9sUlg5SHdDUGRLVW0yREQ2NVgzNFJB?oc=5",
-        "domain": "jfcnaples.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260924T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NRDC Italy | Home",
-        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB0aGxGYkRsOWxsLXdaZDVWcTdfcFd5MDlRc2h0bEtLRFpYcmk5SjlCYVd4V1pGdUJiaVp3YWdZSQ?oc=5",
-        "domain": "nrdc-ita.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20200306T173738Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Explaining Strategic Decisions in Multi-Agent Reinforcement Learning",
-        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYzBVWG1iY2tnVmZJN0VGTnczV3ppbE00d2xwTHlZOWNhSWViV1V5WThuVkdMdXk2M0JGYWg4YjdGaW5GOUM1WmdBQXo2MkxLQ25FVHRrcG8tcm5XVkxKZXlKclVWQUNwOXRtbFd0RERUNkdudjNualZWN0dlTHZqaXlB?oc=5",
-        "domain": "natoscienceandtechnologyorganization",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261106T072452Z",
+        "seendate": "20261119T163944Z",
         "source": "GoogleNews"
       },
       {
@@ -862,39 +682,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO Deputy Secretary General visits ACT in the United States for discussions about transformation and readiness",
-        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbU9mMDc2YS1KODFXendXaGFYdjFuRU9nVW1PVVNHUHp1N1E4MXktLXBsSElCU3BPMUIxb3VIRWtOWVVfU0tQa2tJQ0hEN1RJeEZ2djB4WjNVLXNhYUpRUDlpS3czTmljNWpPYlJMNUdWOWFQckVoeGRFRjBCdjFSa0FzOU5seEV3QUNWS0JwS0Q0YjFTN1N0bVNoX09UTWp1TmNubUtDVHJaZ0RpbnV2NXFTaV9hS21qbnV1bHFvQ2RYRHZFRkRvbDctY21kOS12TUZaekJtYm5EWFdGVS1wSUlUOVA2NzEyVDgtblFrRWlNRFBQWlhWRXRnUXZsdGJ3enlxMXlLQ1A?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
+        "title": "Explaining Strategic Decisions in Multi-Agent Reinforcement Learning",
+        "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQYzBVWG1iY2tnVmZJN0VGTnczV3ppbE00d2xwTHlZOWNhSWViV1V5WThuVkdMdXk2M0JGYWg4YjdGaW5GOUM1WmdBQXo2MkxLQ25FVHRrcG8tcm5XVkxKZXlKclVWQUNwOXRtbFd0RERUNkdudjNualZWN0dlTHZqaXlB?oc=5",
+        "domain": "natoscienceandtechnologyorganization",
         "language": "",
         "tone": 0,
-        "seendate": "20261113T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "JFC Naples Commander concludes five-nation tour reinforcing regional defence plans",
-        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUYwNHhxUzI2a2xOc3FoZVJ2TWdRYldLa3VjUDhXeGlSMUJKTU9uUEFwd3h2anp5bjJNeWNLZGtoYkpFemFqMVRlQklJSnVFaWhTMnhuREJhMDJSMjlUR2V1eHBJNFhrLU5STnk0ZFhPSjNFSVllRHpBakVqelZ6VEIxamR2dHV5M2k5aDMxajdmQ1JXS2MycWpkMTIxYnluVTJkdTVoMUlFWlU4a3hCRzJsU24yZkppSkJTZHdkZHk?oc=5",
-        "domain": "shape.nato.int",
-        "language": "",
-        "tone": 0,
-        "seendate": "20260914T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NCIA strengthens NATO interoperability during largest computer-assisted command post exercise",
-        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTzc5Z3FfbUxzWXhfVjg0NEJGeUxoVnVYdFAyWTUzdF83RWR6ZDlHNVdTMVlsV0QwYlZWLS1aNXBRZFhrVlRLUV9Gd1dIc2VReF96dllkNFgwdzM1V2haZ2RnV2FuT1N5UHJXM01HSjFoSUNWMW5jZ2hPVHN4Z2tDSHhsNVFXeWFmSFU4Q3Z5Q1BuREdkNU0wMEw5bXBLTzdYYlVtTGNhTVF1RnV5MThPR3dwS09KUmJMWF9EZU1nOERXeVA4SUNOOVpfWWdlYnBOYjg0?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261015T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO holds annual nuclear exercise Steadfast Noon",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQczdMdldOS3lsUkZrYXJBSWQ4ZXU1cHBPRzJOLUYyekJWRWcyTVV6QWhpNk53dzZOQ3pzYnJKUWhpUldwRVJGRVhKemFhTGFpZ2dGQjJVS25oUlllM0QxSFZqSGlndlhrY1NQQUpZRFVrb0U2RUtVMGpjNzFFV2p6N1lMdkZwbmZiSTN1LVlNYkZhaEIxdVJYeGVWNVA5RlZ6a3hVV2FJc0lEQUR3RXBBU1VFOEo?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261008T070000Z",
+        "seendate": "20261106T072452Z",
         "source": "GoogleNews"
       },
       {
@@ -907,12 +700,12 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO Air Chiefs reinforce commitment to integrated Air Defence",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVl6aF9XQWhkTkFILVlkLVhud0F4aFBTRWZmcEREWUttWXZjaEZiRlJ3TkxkTm9sRjZpdzdpa1VKT0tMU1kyc2FIT0dTRUtNZWFYNWthM0d2OHNTZ0xrZjVnLXBNd1E4MTYzQnptalExZk5pR29yU1c1eEg1TDU3WUk2TVFtOUNnVmZiX3ppcXFCa2IzQVl1NWJBREtVbFdOV2c?oc=5",
-        "domain": "ac.nato.int",
+        "title": "NATO Deputy Secretary General visits ACT in the United States for discussions about transformation and readiness",
+        "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPbU9mMDc2YS1KODFXendXaGFYdjFuRU9nVW1PVVNHUHp1N1E4MXktLXBsSElCU3BPMUIxb3VIRWtOWVVfU0tQa2tJQ0hEN1RJeEZ2djB4WjNVLXNhYUpRUDlpS3czTmljNWpPYlJMNUdWOWFQckVoeGRFRjBCdjFSa0FzOU5seEV3QUNWS0JwS0Q0YjFTN1N0bVNoX09UTWp1TmNubUtDVHJaZ0RpbnV2NXFTaV9hS21qbnV1bHFvQ2RYRHZFRkRvbDctY21kOS12TUZaekJtYm5EWFdGVS1wSUlUOVA2NzEyVDgtblFrRWlNRFBQWlhWRXRnUXZsdGJ3enlxMXlLQ1A?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20261104T080000Z",
+        "seendate": "20261113T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -925,12 +718,111 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO Air Defence",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BZXNGVG8yWlJyYWFMUHdQeUM1WXZlR0ROYjB2VGZZZmo5QVoweWJoQ2tHazh6LTcxOXI3S0UyM0VuNUZwMXlqMlQzZ1hVT3BHdkdpZ0tHY0l6eGRSdGI4OWRiQXBoRV9RbDFFMGhZa3RRX0ZqdjhzdXQzZDduYjA?oc=5",
+        "title": "STEADFAST DUEL 2026 Concludes, Advancing NATO's Readiness and Future Warfighting Capabilities",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ORUFUTWFNY1BrRVZ3M1ZfOEk5eHBLX0pRTXg2OWFJZ2ZRNnBEekltWlAwZ2VHcS1nQ0Nzd01HYldWdFZ4X0taNVBfQnZGMDJRb2VLb0doX1BSeEJQSnllUA?oc=5",
+        "domain": "natosact",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO-accredited Centres of Excellence Sharpen Support to Alliance Readiness at Directors Conference",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBQc29sbG51Q3FIckNidnhSdFVaenVtc0RxVmdGeHJDUUFCLWltalI1VW02X2d3ZmNzbTgxSWlVMHZxODEyS1VxSDhmenF1OGdDOTlNSzVxSDRKYjd2MEswZVhSZ2x4ZUJ2VzcxSHpwdnhDdw?oc=5",
+        "domain": "natosact",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260904T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO’s approach to space",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVMyOEhfYWV4RkdyTzJDdERtckN6NGxQQ2xYUEtITmhTdVhaanJYNFNZY3hGRmlpZnN6R0M4b2t3MENQdk9iSUpjV3BaYjBGcUtmVEJYOXcyVFR4U3pwRmp2X3g3WWc3Q24tNXhxMzA0XzBSTGE4eUl3aVRSZURBM1NmRzFaM3Vy?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20261008T070000Z",
+        "seendate": "20261105T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Naples commander stresses southern flank readiness, alliance cohesion at NATO Defence College",
+        "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNTV9IVzE5bERZM0RsZWlXWlZIVXRRSmVJRWVkMEpNTl93OS05ZWtRS1owM1Z3eml5UUZXWjV1ZFJidkdzRTRGSXY3X3ZsTDk2NUNDa05raVZNN0p3MDh4TnRmRFNSSUpSSXJycWRLdTU1bTl0a2lMQUpxYU9Ddjk4NDhXZHd5QWNzMGxXY0xjUG1HRzNRQXVHa1FVVENTR0xjdjVoelZ4dm5EWDhDMmRrdVVmdlRRVXpERTQxalo1R0FxbUZUcmtGSkxoMUozSWU1SmJwRWNjbmtHUkZkc0ZBQzRQQ3dMZW1xTjRmeVRFU0Z1dDg?oc=5",
+        "domain": "jfcnaples.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Arctic Strike 26",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQcUZpY3QxSXdNdGhxcFF4SnNrcDlnYlNSNTBWczVZRU42U1V2eTNRaE11X2FtN3M1MmNxd0ZFZ1dVTHN2NFJ6UDJmcmtVci12MTVfdmIzUzJQclo3MkNyOHJyMWduWm1hREpZV0xaTGxGcUhnc25OUlVQemltSGtDYThUUGxpeEszNWEzX0VMSlVRZ3BqckhLLU9MS2Z3QV9Cb2ozVkc3YmxKSWV2Y0pKRC1ubVM3VEdJbEgyRGZRdlhIcVl4S0NnTWIyMkc?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Strengthens Collective Readiness with Allies, Partners and Non-NATO Entities",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHJOazQzdndiSDU0d1gxdVd5QzdwM2xCc1pSa0VPZFI3ZDR2MzF2eFZ3QkQ1UlpCT3B6LUprS3l2bVVNcWpXWkgyWFJRYXVzQUxJOGNCakRZNWZKaEVfYmhlTGtmSkx3VzhFcFZSTHpFRjQxbnFWUVVueDlucmZyX2RPWDJFNmdFS1RQeTJVNlZLUmJVaXAwU1dfMTBKZGR5Ukxmc2YzaUR4VEpMX1F6NHlwM3paWHRmaFBnOExXSXJsU2hk?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Air Chiefs reinforce commitment to integrated Air Defence",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQUVl6aF9XQWhkTkFILVlkLVhud0F4aFBTRWZmcEREWUttWXZjaEZiRlJ3TkxkTm9sRjZpdzdpa1VKT0tMU1kyc2FIT0dTRUtNZWFYNWthM0d2OHNTZ0xrZjVnLXBNd1E4MTYzQnptalExZk5pR29yU1c1eEg1TDU3WUk2TVFtOUNnVmZiX3ppcXFCa2IzQVl1NWJBREtVbFdOV2c?oc=5",
+        "domain": "ac.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261104T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "32 Nations, One Shield: NATO Sparks 'Steadfast Duel 26' to Test Euro-Atlantic Readiness",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQLTJVeWRnR05hcl85VnF3d3hsRkZ2MXZuT2hiSVRHVy1YdHFjdjAzc1NIYmR4OElfVm15emtZS3pIcmRRMDhCSktNd2ZYQ0JXMzRHMVVUX2Jtd2trRUFweFpNbndPZVVuM0p2dElibEZmeE95V19oaE05NXlyZWNRUkpWajFndGlUeGtGaFQ2a29lUGxGa0dkelF2cUlob0xuMmdVSFFQQlAtWE9SWlJxd25xWVJMdU4tdjZKQzJNMG5VUjdBRG5tTw?oc=5",
+        "domain": "jfcbs.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261005T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Innovation and technology adoption",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUkZkMDQtaW5oWVJfdmNaVnlndXgtMTdrWFRyZ0I4bG0zOG1QY0xiX21RcmFQemF6b2RLekM0NDMwS3NjbTViYXl4M2VzUkNKd2RqZ1MtVEdOeTZPckFKOEQtU1VOWFBQc3E1a2RzRVZURDZZQXNmZlJ6a1VxMDhuNlJnWjQ4WTNoRFZMSVV6WnBXMk9yWGhGMEtB?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261109T080000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO’s role in capability development",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMlFINERnU2wtMDJuQTJqSk11aVQ0QlZMUlBaSUo1cFByaFF4alpYcmJ3U2JXTkVaYVY0OGZ5dG9IT241dERqcUljei1tV3VTc0xkc1FMdHp4cE9BbFFzQTMxTDFaT2pCcnRCdDdaTVBhVnpnSFJxYVR5bXZJOGY4OWZmRm10ZEExUWFOVzE4NW15Mk9hQWhFQmJR?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Multinational capability delivery",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVnJwVWJwa3g1dUZvX0w3cE54ZUgtY3JnaGlVUVJ1RzJsbTFTeldPOWpzWko3SmgwRWdMcTN0UnJtYUFWcVgwM1lFZnFMdmNTVnZfcGdPbGZjR1dfS0VYbTFWMS1ZbTVXdWFoUkFoUUZFV1V5RjhETTUwbDd5WTJvTTZvQ2NZa2l1LXBRajkxNkNNcWhhS2dyay1R?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Strengthening NATO’s eastern flank",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOb0lJaHFFWmtoOVNvV3NULWl6SG03alRxX2xrUlAxNkRCMUlQU1NkWEdpQjFhSWRFQ1hpckdfLWN6ci1waU1iVVQ5UVdXb1NwRHdCT0dpTTZaallpcFR3SVJudmluSjdkcXZobUpYTTlhSUtJXzZjSmppV2FkZHJBTnE0UmFaRGhOZ05xX0Z6TWxqLWdndXc?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260929T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -943,12 +835,165 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Eight Military Mobility Areas - One Connected Network",
-        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVJ0RGxYUElLTGVXYVNPVzNzYTIwaFc0aVprSXNBdVRzUXlpWGpDYkxEdGI5RGlVUktDYV9ocWRwc01PNlp6dzVOZkM5RW9sdl83TWprdzNNUWZlcWJPMXhHSXhNLTBLZFo4dS01VF8wanM2YkctVVdNRXBvem8xVUc3ZXBwZnBoaXU5SHN4Q0xtbTR3cC1EQ2tMVXBoejYwd3dr?oc=5",
-        "domain": "jsec.nato.int",
+        "title": "NATO Integrated Air and Missile Defence",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1hJRVRjNzB1bmlUVGdVNURFNG8wdnI1emlWd2hhaEhRVlFoOTh2aE5uYzlDS24wSVVvNFhTdHVac1VPdXRsNVM5c3BqWm1GcnZ1N3FrSnRMMWV3TzdOTWxZQk14UUlSb2NxTEhfbkdKX2x0dDhLUjZWVWNLN1BoREdfQnRjV1FvTDdfOUEzaDZhT2xzeENheWxNMHVLZw?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20260922T070000Z",
+        "seendate": "20261029T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Naples commander meets Turkish military leaders to strengthen Allied readiness",
+        "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOWE5jelhqWDgtVzBfdlo2MVVhUm9yUzl1T3ZfSVQxOU0wSDJwd2Nkd0h2dWZvLTVUd3h0OURGbFRPNWNRN2lLY0V4RGRaN1o4dXFhZEpWZVJxb1dZYWY0SUdOQVlvNVp2NDFFTmFKejdGYVVNcEduaHBucWFjdXBLcERza0ZMNEQ3T1dMMVY5UDdCclpfYURPRjVWVlVxUjllN2pLNTdXX1doUlBJc2M4ZXU1MXROYlJjVmk5MU90MG44bmI1Mncwbm9sUlg5SHdDUGRLVW0yREQ2NVgzNFJB?oc=5",
+        "domain": "jfcnaples.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Sarajevo Cyber Shield 2026 strengthens practical cyber defence readiness in Bosnia and Herzegovina",
+        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNVHhnMDU0LWM4dWc2Q2FWWDl5eE1CeFNZdUhyckZGVG5nY3Jib055Y0tseG55X0k2Y3RiWGFHWUtVYllaS1RfSXRMZV93ZHM2N3NhODc0OVhNOWZTUTI3V0hvZ0NMdFFPNzA0RVJHbVBXdE1vbFR6bDRLbF9wS05nazAtVHRjOGtRZGhBaDl4QWtrRUtXcVh0QTduVS1JR25OSWhtWmwwWXpSSkdRdnA4Yk1LeTNueFBOdU5PWkQ2cHkweUdMSDRqeFg2c0JOMW5tOE4zRkgzdFpkbjlRbTRrZmcySGVPbTdBcjRrRjRlNA?oc=5",
+        "domain": "jfcnaples.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Ballistic missile defence",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTjNjbGVORldmLTMyQ0Q4TmxWbE51Wm5FZkh4QjY2QVRHdm1uaXZ1LUJ6LV81U3otWi14cUhQTk5YdnBLU1BfUHJ2MlRGWUtmY3JSUm5pWHlWcjE2ZThYR1pMdkxqUjRhTW9ON19zSzFNcE1Pc1Jabk04Rm4zdW5KUGpzSnEtdmNqcjlv?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Increasing defence industrial production",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNM212amVuVG9KU0tNM3FfN0tZWkw0QlJlMEtaVnExejBkYTM3SFVCdVhWR3VoM2ROUGpaYl9XSVFuei16UXhZMnVuXzROeVJ5eVRjN1U1ckpnTVltX2FtUXNpcHdBLTliWlhWMlVMWlZyVFgxUnRtS18ycXBkLTdaZ19JcFM3c3Y5MzltUXZPTWdQWWhpaG5wT3dSb1Z0VVpK?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261029T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Norfolk strengthens Allied interoperability during Steadfast Duel 2026",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaW9jU2lmbFYtNlVWamszSkdmTGJYMHRTaWQwbU9qMmVLMkpMeTJCNVlSUDk0QVRHOTk2ZmFYdGlyR3BtRl9yTC1sekFuUkF2T2JIVW02UVV1dHBsWVNJeWUtVFZOTTZacS12dTdrOUVqMnctSDB6cFZNWGVJdlBSenh5bHlMdTZMVkEtV1IwNkVZTFFRb2RpQTFub1lJdElvVHdmMTZGTnZKWlk4cjNDMWpkemp2QW1rVl9WQm9R?oc=5",
+        "domain": "natojfcnorfolk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Resilience, civil preparedness and Article 3",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdUE3TDRKYm9ndE1KTnNkN2ZCZ3l4XzA2MGJueWhka3I2N2JVNGlJV3VjSDRZRmhPeWVjdGlCbVBfQUE1U3NkcFZSSjlveExWVDQyRUZBUHlPaFROMnlkZ3ptU05UVWxEX2hVckpJYzlRUVJBZ2ZBSFd1STdTUk85YmZkTFFyOUs1U0JUTzgtcUdNQmZCbktXRkJ3TXlHbnEwQU5V?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO land commanders emphasize readiness, warfighting, and alliance unity at Izmir conference",
+        "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNTXVGUnBfYkNyU3VCQjdrQ0U3d1N5bWp3MFV4RWstUk9XN2s4bVFxSWxjVmQ2eE9NYno1MWllMjIxZjJQQU5vVkZ4RjZXTmNBbUNxWkxtN1dkSnluaVc5V0JyTnhaVlhhQjNFYlRiaHBhOUh6UkVBQktWd1JQN1N3dVNJVm5pLWJIR1h4ZXh3Q3l1RjRlUzRqeDBPMHA3VG5SMmdqazh3UXpaS0NQR2dtTmNzQ3FiNXY4ZDB4QTEwVzI2VVJMa2lWalpBNXlFbGdtc1hsUnZjelUxUQ?oc=5",
+        "domain": "lc.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260910T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "The Changing Character of Defence and Deterrence: The Power of Analysis – Introduction",
+        "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT2todzVDTUxnc05RUHBhV0E2LVR4S3RPUGk2bHE4VjYxeFdIMGtRNTVqdzAycFFrWkEtSHJUbjI0WjI2VlZIb25KaXZ0TzBzaUZVM19xNFQ2dmQ1X0pFWnJDemtjR2pOdTdsbzdpTUYtTWh5aDFqYTV0cHRkUzNaV1pPNGdha3ZrWjJmQXNiUF8waENWSXpKc1dBQnE1ZnpNNUo4MmxKMEl0Q1piQWM4dFk5cG54OE51ZEE?oc=5",
+        "domain": "natoscienceandtechnologyorganization",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260915T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NSPA establishes the Innovation and Readiness Support Partnership",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYVJCcEthWUtqZXBJRWQxWE8xTnl6b1dsODJLNjV5TUs0MEh1ZFRSalpBSEdSZGZibENKUm93Uk9yU0x4aEtqQ1NMd1k4WmZidk5KUHlONmFKdFJFR0FoMkdnVWF2ZVAzaG93R3VuSkt0TjB4T2NwSUNTSGtMVl9EZjM2THJ4Ni1pczdDZHg3cWxMQktjUGNuTlZOOVY2R3BjaWM4?oc=5",
+        "domain": "nspanatosupportandprocurementagency",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260903T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC NAPLES | From Ship to Shore: Allied Forces Demonstrate Maritime Readiness off the coast of Albania",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMEdSSE4wMFJMN3ZjVU1Uam1kRFJ4NFNweWZVMi10MHlJMlBfNTFaOFhjbVpLMlFTcDdib3ZCVVZtTHN3Tk9pMGNpLW5pMVF3STFBSGpFTUl5SGlkaFgxS3dJQ1J4NEZvZkt5ZG1xU1NyRVJBN2RFeDExNUo3VnpERUZGZUFtWGZnNWJIZHpHd1NpY2JyZmU1Sk8yaTZNVm5JMldnMFZsNEFES0htc2NTTGRsSldNbndkc0htX0xKd09qeTVsSllNYUdPWDB4TlE?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261020T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NRDC Italy | Home",
+        "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFB0aGxGYkRsOWxsLXdaZDVWcTdfcFd5MDlRc2h0bEtLRFpYcmk5SjlCYVd4V1pGdUJiaVp3YWdZSQ?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20200306T173738Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Belgian Air Defence detachment strengthens readiness during Northern Viking 2026",
+        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYTUtTU5UbnBhVkQ2WXJrZ252TmthN3VYTjRkZDZuYzUxbUl6M1p6eklnUnFndm5ZTWlhdWRoTjJ2QmVlclF6MUFKTVZnMllfdzgteVpjUGFfMjN3TE9ZOVlNbnBfNHNPWmZBZEJHV0NLWjduSUsxb1I1TkhsLXJGUVhqUkEtc3JtbFp3b2l4Rm5hVExRblFaNEhSOVd4WWE0Rm5zdmRpQkl5QjFkcDVXRUFlU1RQUkllZG1z?oc=5",
+        "domain": "ac.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260902T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Allies take readiness to new heights demonstrating unity in action",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUEJsTVNUN2xZSDZYU25lOXZJeHgyQzJOYm14UUxXUmcxX2Z5UEczajlyVlp1Uzl4LTdzV3MtSDVuUnBoZ2VJSW9EbTJHbUNjdVY4VzJwVFQ4TDJFR0IxTXV0UUNsRnlFU0E2R2p0dmthQ1JMUHp2U2ttdmlpdEc5T091cmpHMk9FNkhYMEpSMTlKbVp5TWdlaUNzV1JHLVNXQ1o4WWs2RGRteEZSbnU4cXpudVJzdEZV?oc=5",
+        "domain": "jfcbs.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260919T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NRDC Italy | ARF Commander Visits NATO's Joint Warfare Centre: Enhance operational scenarios and mission rehearsal to the modern threat and security challenges",
+        "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOcXFpc1p6WWt1VDc2ZURBNkVDZHZfUHdNLWthcGVaM3MxaGNUemdtY2dnbjdHTXFUS2h2aHdHdWtSMldzMUdwVW8ycE82d1dBb0VQTWN2bm1PT3oyRFI0eEkyaDJPNllFbDNOOGlJZmhlWlJ0b3RxT2l2R0w2UXBJUEpaeVdrdUFmTzBYVTNHaXYxOXlXTXMyWDF0NnFzQkItUmxUTTFMUDhfVzR4MDk0TVcxWnVaNXgxN1lOeWhJMFp6WUVVSFJ2QjlNZE9rN2E2emNKeEJsZmtlRUlGYUpMaU9iRmlGdmt1cFZHRkRabGtoTTU2c2IyNTFkMzJfeThPMFlKRGJ2ODR1SHZrY01fNy1rZEV1amFSenhZWFllT1VtUGc?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261111T132453Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NCIA strengthens NATO interoperability during largest computer-assisted command post exercise",
+        "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTzc5Z3FfbUxzWXhfVjg0NEJGeUxoVnVYdFAyWTUzdF83RWR6ZDlHNVdTMVlsV0QwYlZWLS1aNXBRZFhrVlRLUV9Gd1dIc2VReF96dllkNFgwdzM1V2haZ2RnV2FuT1N5UHJXM01HSjFoSUNWMW5jZ2hPVHN4Z2tDSHhsNVFXeWFmSFU4Q3Z5Q1BuREdkNU0wMEw5bXBLTzdYYlVtTGNhTVF1RnV5MThPR3dwS09KUmJMWF9EZU1nOERXeVA4SUNOOVpfWWdlYnBOYjg0?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Naples Commander concludes five-nation tour reinforcing regional defence plans",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMUYwNHhxUzI2a2xOc3FoZVJ2TWdRYldLa3VjUDhXeGlSMUJKTU9uUEFwd3h2anp5bjJNeWNLZGtoYkpFemFqMVRlQklJSnVFaWhTMnhuREJhMDJSMjlUR2V1eHBJNFhrLU5STnk0ZFhPSjNFSVllRHpBakVqelZ6VEIxamR2dHV5M2k5aDMxajdmQ1JXS2MycWpkMTIxYnluVTJkdTVoMUlFWlU4a3hCRzJsU24yZkppSkJTZHdkZHk?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260914T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO holds annual nuclear exercise Steadfast Noon",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQczdMdldOS3lsUkZrYXJBSWQ4ZXU1cHBPRzJOLUYyekJWRWcyTVV6QWhpNk53dzZOQ3pzYnJKUWhpUldwRVJGRVhKemFhTGFpZ2dGQjJVS25oUlllM0QxSFZqSGlndlhrY1NQQUpZRFVrb0U2RUtVMGpjNzFFV2p6N1lMdkZwbmZiSTN1LVlNYkZhaEIxdVJYeGVWNVA5RlZ6a3hVV2FJc0lEQUR3RXBBU1VFOEo?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -961,6 +1006,15 @@
         "source": "GoogleNews"
       },
       {
+        "title": "Spanish detachment marks 30 days of NATO Quick Reaction Alert in Romania",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQU2Z5Nm5XOUs5RWFTVHlZTlJQQlFEZmx3RWdnZGtiQ0R4VUF5SHdXcy1MbWN6NWxxUlJpdi1vU1loWF9jXzhjVjI4VHQ1TV9BTm9zMHFKM0pBQVM3R2s0T0M4cjRRdTZQTF9SdmxHSnk1ZmxQNmozTUtkWTd5Y011LVBJYUFPU2UzNDM4VVhNbDlQY3Y3QTdSaVFxZ2taRXFMWlkza2I1Ykx2ZlRTeWRjT19hdw?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260908T070000Z",
+        "source": "GoogleNews"
+      },
+      {
         "title": "Neptune Strike 26-4 demonstrates NATO multi-domain capabilities across the Alliance",
         "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX093NmMtdkZZeE9OTHozNVN1cG5fZ2p5NDBTQXI3TUxVRllrUGNfa2dBSUZiZ0lHclphUUpUZnR4VVEtbUxVdlU3ZDZPNUZ4cmtPZGJ0bFkzcF96Vy1waGFHRlFKaTZLTXBwb2RpUGNKYnEwdjlXQnpyRDkxdnZ4YWdHaFEwZ29IdEZWM05CUUNIR25GRzFnRUxHbllwUUJzekJkbW1WRDFSbzNpQXI0RHc0UVVvLWJDZl9pOXVsb2JodXlMdXlZ?oc=5",
         "domain": "natojfcnorfolk",
@@ -970,21 +1024,129 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Academic Conference Challenges Assumptions, Contributing to NATO’s Strategic Thinking",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT052eWtxdERhLUxleWtHWkNrZFhtX3A2c3hBTFdCTE9qSmVkbUZwbWdQVW03RzJtMHV2MWUzRXJuRG9PYlVldXZ6UGhqalk3WkptWENBam9KRUdEUk5nel8teFRucmxkU050TnQwLUJBYUUtamtvNlFMMXlLcGFSRVBlQk01RE1Iem0xZw?oc=5",
-        "domain": "natosact",
+        "title": "STRIKFORNATO welcomes Rear Adm. Thomas T. Bodine as Chief of Staff",
+        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZUdwcXR6N0RON0dYMmJlYVliQWVrSTRZeXViVEZNNjcyOVNSSjZSV1FRSFdDNm92UnpYcGQ1Unp1UGZ1cEZZSDYxQ2JFQXNpZUJHeHB6dVNkNGRMX3hyOFpkamVqYW1SZTFZZUs4TFVmcktzU2h1RUxWbXhjS3doYXcxOUhLcFYtTEdZdThjblBrLXRScVVaUDRUYjVkaFgxVUNxbzRjcm50cmlZTk0wV3RlMDZyQUFQ?oc=5",
+        "domain": "sfn.nato.int",
         "language": "",
         "tone": 0,
-        "seendate": "20260930T070000Z",
+        "seendate": "20261009T070000Z",
         "source": "GoogleNews"
       },
       {
-        "title": "NATO’s Seven Baseline Requirements for Resilience",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSGJlamFCTXlwa0NqZ1k0RGU1S2F5bV9XNUxPT0t6VUp2dUxpNzRGR3M3XzRtck9XNVRxZmNyUVpleTUwNTVjbDZHUktPZjhrTVZTOGF3bzByR2tFUlE1Z2dRT1dZRUZyODNfTzQ5Y1k1dWVJU0ZybmRZaTdJWk9KakxIN1NBZFJqb19QUkpLYldyWDJEMENUMDhvZTROWnU5cTNCdVdaLXB6TmFpMDhLMGRqLWFCWkszdmJQNE1CTC1YU1o3NUVjTm5kMXhPSjQ?oc=5",
+        "title": "Innovation Continuum 2026 brings innovation into the operational environment",
+        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2JrWEZsOWxXZ1FXOFFoTmRYMVZzUkxaZDRqajVsTkFSVC1fZTJCc1ptMHlqQ05pdzBxU2YwLVUxeG5ZMmJLNjlySzZtY2UxX0VibENCMS1BRjROREEzcy1sTWlTczZXQThKOU1KdXBUUnBYTzNjTmN0alJJVmdQOUdUZDVOMkU2NVFkZEpKM0ZIX0l4elpxTXVuU2hYN3ROUG9TVFh5SkQ5M3lValFnMWZkc0p6bFk?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20260918T070000Z",
+        "seendate": "20261013T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Résilience, préparation du secteur civil et article 3 | OTAN Sujet",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVDZTYjkxOVRfbGd1dEJBamN6cHI1dmxlY3Jyd2NpUVd5cTJ3N1RNckRjN1lhbjdsSXBINmpIUWZnNV9HTFVPbllrTmhRelhKX1VRbUh3MDNiemItUDNUX1ZDNnpLWDBWcURpdEk3b0ppQ2N0bUxFRl9HeU5SMWkyRm1RTFg3Y05jeGRVRzNabmFEMndaTVMycVhsQWp0X21lNzVN?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Chair of the NATO Military Committee Visits STRIKFORNATO During the Fourth Iteration of Neptune Strike 2026",
+        "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQYVdGdHlFUHJfTmNkTnJYX0ktNmRjWWx0WHI4QXVyUXBXMFE1aUNlNVFOWkFqVHFFY0d2UFF5aEEtUGlCN0Utbk0ycjFsbUxUaVNwQkhLbDNpb1ZzYU5NR0VUYW9wMHFBTF9OS3Y3ZkNrOTFtem5CXzRqejdSUkJta3RlSlJUeldBREkwWDM5SVZCTlNwVTJ3OUhuWWdxNm9uMmtvX1BSM0owc1BJVUxjYV9JNGgzbDNwTmh3UW54eW5tM0tPNHNwUVp3WXNrcHg0ME5NR3dYRzM0U3JHN1RZbEtUZzZjNHJfbXdVNmFCOUlQZw?oc=5",
+        "domain": "sfn.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261023T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Air Defence",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1BZXNGVG8yWlJyYWFMUHdQeUM1WXZlR0ROYjB2VGZZZmo5QVoweWJoQ2tHazh6LTcxOXI3S0UyM0VuNUZwMXlqMlQzZ1hVT3BHdkdpZ0tHY0l6eGRSdGI4OWRiQXBoRV9RbDFFMGhZa3RRX0ZqdjhzdXQzZDduYjA?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261008T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Norfolk briefs 149th NATO Defense College Senior Course Delegation during visit to Norfolk",
+        "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcDRiNS1FTFJYdG9sLVgwX0dRUGxYSktRY3VTTzZLeEdPcktianB0S2o2djg5dVUxN3MwT1piMFp2OWlyUDU4YTJ3RmpxY01tcXJYUk5WZkdwTXh2bm8xbjFOUVdwVk5HcXg1R3B5MUw2MVVMWTFGYmU0ZkdXQTBRZC1oU2YzQzcxQ0pON2RLSk4xR1Q5NklrV1dhUnpaY3gxZUpwVUlvUGo3R1BVWnZrcFA3NHpEUVVBTXA1NkFmYXVFMkhySjUtY2ZvWXc4R1JNNk9wNTJpWHQ?oc=5",
+        "domain": "natojfcnorfolk",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261113T152026Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Eight Military Mobility Areas - One Connected Network",
+        "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSVJ0RGxYUElLTGVXYVNPVzNzYTIwaFc0aVprSXNBdVRzUXlpWGpDYkxEdGI5RGlVUktDYV9ocWRwc01PNlp6dzVOZkM5RW9sdl83TWprdzNNUWZlcWJPMXhHSXhNLTBLZFo4dS01VF8wanM2YkctVVdNRXBvem8xVUc3ZXBwZnBoaXU5SHN4Q0xtbTR3cC1EQ2tMVXBoejYwd3dr?oc=5",
+        "domain": "jsec.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260922T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JFC Naples commander meets Greek leaders to advance Allied defence planning",
+        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUFZ0Z2l5a015RExOZE0yNEM1cFpjX1RlcjNDdWhoUjhTRHluNmRySkg2UFdyOXJid2ViSVAzOENueGxRTGttZXNNb3dudWRLTXdHWExGSENsYTJXTS1BUnZqdDk1R2s5U183dnJwbFB2S3BaYjc2QnA0LXl4b00xWldNVTBsN0N4eGtSWDFEOExxLS1Zd1NEYWYwZmZRMVl6TDV3QVFOeVlVSXVhY0dxR3pIcEs0anhpbXpLcEsyMm9iTE1FbmpUcF9Fd3l4QURRTGRrSHlR?oc=5",
+        "domain": "jfcnaples.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260925T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "French 3rd Division Commander Visits ARF Headquarters",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPcHJMcWlXSVRJRkpqY09PTXBxZVAxUk50YllWX1R5RmtmMzNMRWYySDJsTlltZ2lTMFd5Y0F2V0JuRGpJQzI2SW1zRjA0NXJOSnNJMFcwTy05MGxZUVRBMTNPeFZ1WFp1UVROcm9hR3l0bFFtZ1NGamxtdnpYM1RQdWEyVmU2YVFmYS04aW83STNpYzRLdHZSY0pzNmUydlZ0ZjRqVVBBRm1RZw?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "ARF COMMANDER BRIEFS NATO MILITARY AND POLITICAL AUTHORITIES",
+        "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQelNWYWJqZjE4cjR0SjI2UXh0c0lUWkVMdHdDdnhPcjRjZlRDNmFKX0FIMTRfb1p0TEJZeTlURXZlNEFhajRYZlFxZHB1bDI3OU9DU3BXdDY0MFhYemc0VzhlQ3NRaGN4R3pjeVdVN0I2bVRINU1saFZCOXV2NjUzX2RPbHB4V2g2eXVRaHJGSTQzVmRpaWdTcGdaZDRZdGJMU21qOW51XzdlcGVsbGhhZW5RQQ?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261006T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO-Ukraine CBRN Enhancement System",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nMnpFUWR5dDRZUVZRQ25tTEc2TVBid2pDRkJDTHhsSUhMaWdCb2plTFFCM3FMcEQ2c2VZSWNMNFZhaFJWSUVuM0Q3dHhLNGVEOFpWRDZ3cVNudTh1LTREcUo1Sk9GUzZOM2lr?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NLLC26 Reinforces NATO’s Ability to Learn Faster and Adapt Better",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fU0IyZUdxTVhmdGszUWVqaVVWb1FLZjhnZEFoRGV3SWdmMTJOa3V4WXVZbU5NaHNOMVJiYzJ1Nl9Hcld1SmFwbVFWZDRDVFVRc1E?oc=5",
+        "domain": "natosact",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Edge 26: Are we ready to fight tonight?",
+        "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcFcwckJadXlGSEJuNWw2VXF4MXYzSTQ4OWdkQkxCUjg1ZnZpbFRReFppR2t1cHpTVFFRZlNfTXUzMGdOZ3FlREdsQlcwYnk0VTZVRS04cXhzMjJiUk9acXp5R1ZmN0VUeVlBM29hYzRiR1d3TzNVVjk3Mjh5M2ZmWEpJSlkwSVVHYldYT1ItdUE?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261120T004329Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Mise à disposition de capacités multinationales | OTAN Sujet",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLURLQ2FXVXdraVN6dVJHRThmMURxTGJITG11NnhTSTdnTTZWbW5SUkJWeDJMOTVsdVBYMEw4Wm91OXR2SlMyZV9BSHI3aXU2OWJFaENVWVlnRnRqdnZVanpGVGU2WTkxOTYxNnFrRHB6dk9vbGVsTTVjM2g2Vkp3V2k5ZkRwOHVtejJuSG1sb2d4QUNzZ1k0SEVn?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261110T080000Z",
         "source": "GoogleNews"
       },
       {
@@ -997,12 +1159,21 @@
         "source": "GoogleNews"
       },
       {
-        "title": "Major General Jens Arlt Assumes Command of NATO’s Joint Warfare Centre",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ldmFtLThUUUNJTHlwRXdEdmFnX0Vsc1hGWFdIOWpkMjJhOUVka1hnNG1tczh1V2tULW1nWlBXS0N0bk1VVU95WEVnd2FxU3hSNXdhN0hkRHI5VzdfQjFIMHgtLWlHY3ExcHhvbg?oc=5",
-        "domain": "natosact",
+        "title": "NATO commences final wave of Neptune Strike 2026",
+        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTVRDV0REWFlOLUFfMll2LS1TbmNqOVRtLVk3YmdRMzB5NHBFTDI1Rk9TODBRWTJ2VXdOYnN2VTNpUFFhMWhZaGdROV9mVVgyc3BVbUxESHJaTVl3SWNiWGZ0bDJwLXh1WjFsaWNUaE5hZkxnNGZia0Y0anZMNlhKQkdGNmdjQVNZcHVCME91WmNsQmVNZjZ0MWpMRllZa0V4Nkk0R3Q3VTIyNmx5bDF5T2xB?oc=5",
+        "domain": "jfcnaples.nato.int",
         "language": "",
         "tone": 0,
-        "seendate": "20261016T070000Z",
+        "seendate": "20261018T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Edge 26: Deepening innovation, cooperation and trust between industry and NATO",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNemRvc05sekp5WHUySkdoQzlCQUV0V2hBbFpReEFUVFhScElfMkNqZGtPdHVHSi10SHpMZm01TXZieUx4M016aXlsa1Jkb1BDSW9xVDlYWGV2anZGeWxJalFIdV83bnBoOTg4dVZyQWZnazVpSWxHUVZDYkNEanlWTFRQMElBSEFreTNOaHhqcHpXek1GREY3N3lQc0xwY2FnVUVPalZrQW9EbFlvY1lVZ3Q2UUZ5eWV6ay1HdUZSWGNqTFp3?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260930T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -1015,12 +1186,111 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO COMEDS 66th Plenary: Health is security",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDhnMm9jaXhsblNiY25ZMnMxTWVUS3piNFlSNTd2bEstNlJKYlNqa0xXYlpFc1pnWjdiVDZOZkFNREVIaTZNa3g4X2o1VnljLUFwZ2hFLVBZWE4tRy1rR1NfS1RZTl9QVWJWTzExUEV5TU03R2R5LVhtWWdrYkpfYXZCY1UyWGtMVzJzX0tjdllTa0dkRjZ0bkNnY1ZHblJybHNPUVh2YXYzSll4?oc=5",
+        "title": "Steadfast Duel 2026 tests NATO’s coordination of Airpower",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tdTJrLVE1emN3dnVySjdXSWpzdnFkd2pFWGQwdzEwSkJMMnVOMG5JeHJsYzI1SktjUnZnOXl1WThYWnJza3FqS0tlZEs1OHFPZklSOG93eDNLZTRlYzI1Ty1yS3BIcHRCZFlVODlHczVfbVM0?oc=5",
+        "domain": "ac.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261019T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Major General Jens Arlt Assumes Command of NATO’s Joint Warfare Centre",
+        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ldmFtLThUUUNJTHlwRXdEdmFnX0Vsc1hGWFdIOWpkMjJhOUVka1hnNG1tczh1V2tULW1nWlBXS0N0bk1VVU95WEVnd2FxU3hSNXdhN0hkRHI5VzdfQjFIMHgtLWlHY3ExcHhvbg?oc=5",
+        "domain": "natosact",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO’s Seven Baseline Requirements for Resilience",
+        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOSGJlamFCTXlwa0NqZ1k0RGU1S2F5bV9XNUxPT0t6VUp2dUxpNzRGR3M3XzRtck9XNVRxZmNyUVpleTUwNTVjbDZHUktPZjhrTVZTOGF3bzByR2tFUlE1Z2dRT1dZRUZyODNfTzQ5Y1k1dWVJU0ZybmRZaTdJWk9KakxIN1NBZFJqb19QUkpLYldyWDJEMENUMDhvZTROWnU5cTNCdVdaLXB6TmFpMDhLMGRqLWFCWkszdmJQNE1CTC1YU1o3NUVjTm5kMXhPSjQ?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
-        "seendate": "20261120T110113Z",
+        "seendate": "20260918T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Where Sustainment Meets Strategy: Building Ukraine's Future Force",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNR3dBU0N1V19FcmlnV0x6ckJFYzdZQTRzc2tSd0NmYXo1cVRhbnp6a2IzTFV5bFdwbXdCWTQtVGxsNTlZMzVyRWJOTWY3ZWRLbUxSTW9lVDlNSWUzaUJmaUNVTlVBekpReUNTRTRSRTRsLWM5c3hDTVh2ci1Rb2p4MENCbmp2VFpXbHU4anF1QThHQldtYlZhb1JtYmdDaWpRMi1KYVFmTUNhUQ?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260930T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Academic Conference Challenges Assumptions, Contributing to NATO’s Strategic Thinking",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT052eWtxdERhLUxleWtHWkNrZFhtX3A2c3hBTFdCTE9qSmVkbUZwbWdQVW03RzJtMHV2MWUzRXJuRG9PYlVldXZ6UGhqalk3WkptWENBam9KRUdEUk5nel8teFRucmxkU050TnQwLUJBYUUtamtvNlFMMXlLcGFSRVBlQk01RE1Iem0xZw?oc=5",
+        "domain": "natosact",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260930T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Secretary General to attend the 72nd Annual Session of the NATO Parliamentary Assembly in Berlin",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQUt4QXo0a3ZIdTNibDNDWVk1Z0ZBTnFGYTFuM1IzN1NCa3cyNE0wMldtelJhRUVWZlMzVUVpVUFuWURQanhGN0NBb0pDU3VHam5HYzVCTmZLSzVsOHRHeEEwcVJmenJMVTV1Q0NmUUJudUlnZkFScks4QWZON2Z3Sk9wcVc5N2No?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20251114T154708Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Germany receives first F-35 fighter jet",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaWhiamctMEw3NlJhaGRXUk9Ia01ZUVJqYVBqcGZweHFURXFCaVIwMUk4aHBJOTVVM2JTZXBPQlNZX21Za3NRWDFTeDlNSDU3R0JpQ0pUSFpoZHFKd0lsVDJoM1F5RGRzeGlmVFJEWER1MXFmTUhvUG15ZlRiZGt4T0g0aw?oc=5",
+        "domain": "ac.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260924T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "AIRCOM and LANDCOM advance air-land integration, support NATO Air Defence framework",
+        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNUp4V1REMUZzSktONlpYZzgwRnF1V1poOGYtT1NJeWUtOHhITEZSTjdVeDUwZGN2bS03QVdqR0NBMHBKb0M5TnlrV294TUh1MFRVd01lQ0w4bFFWYTVfdVpvRjRrMkp3TmQwS244alNrNXoxVlFtSmhmWi00SEFiYzh1M2IxNS1hYl9Vd1BIUnVqSDFBUkdWZWxQSnV6Nk9NajZGRkVfV0dwS1hKNkNQb0dlbkVYeE9XTVAxWk1iUjBZbGdqaWdkT0I0RVc?oc=5",
+        "domain": "lc.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260923T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Comprehensive Operations Planning Course held at ARF Headquarters",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQU5kOURSa3NPcHNqNGMtYjBEQW9NUXEybFNZMy03T1I1clhpNUo1SksxeEF0Z1BrbW5USkhUUk5pY2FxX3hxV0stLU8ybm9qQWVZaThNVmhDVnRqek5mNWVXaXduZldVTG5tcHRLYlpsT09UV2ZrOE9EU2JQSEhzSnVoYzJoT3BHci1xN3ZSWEVsNFFzLTNWbHk2akpPLUFaNlRmVUF2Yzhib2tXOHVnUG1ieTdHMkdQY0JKNjhtNEY?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261002T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Nordic Air Forces strengthen cooperation at CAOC Bodø",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZEtqVGRfb0hjRkdFOUltcXZ2M0F4Q09kSlZMLWNXalNNOTZQLXYzWk1SUkFmUWJwWV85YmpmYzdGZ25wa3pFMEMwWjZudHBBdm9oMEJGR3FNdjRCNmthY3loZER3SjE1QzljOTlhUTUzQWhKTW5ib1d4ZVBUczdyN1FuanZWVFFUVUF0eDR4NGxmakdEdEJR?oc=5",
+        "domain": "ac.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Major General Jens Arlt Takes Command of NATO’s Joint Warfare Centre",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBibHROQnpQSnk0M0hkV1lEb3JnMmpMYXZmbk5pYXJkVVljREdoV1h3aDNKblRJQi15bm1xbW5kVVJZeEs5TmhTOThsbXl4SzUzV2hHWFhpWGVmd0p5R1pYSDBSRGRsVUk?oc=5",
+        "domain": "jointwarfarecentre",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO upgrades Air Command and Control Training Facility in Italy",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ2cwdzB2QmRLZkt3TlFfdGJsSXR1WE1pRnR3LXNyY0JRR1paeUo2UXFFSUtPUlJFeUpkaGpJcGFMWXlFc19oTDdMMXZuR1REQUM2WGk4RzlkLWFVdkRqVk5PX21JMVp4bkdMQ0FpZExnWUE0MkFsaURUS0w4WkdfSnZ3UThUU3VYNl9PUzBzdVZjLVdBdW9iNGxfMFVncVdzNmR1SW56NGd6a2xXWGFB?oc=5",
+        "domain": "shape.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070000Z",
         "source": "GoogleNews"
       },
       {
@@ -1033,228 +1303,93 @@
         "source": "GoogleNews"
       },
       {
-        "title": "NATO's role in Kosovo",
-        "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV3FIVnlISVZadHBXd2tHb2R4MndoeXJOLU5scUlZYUhCV24tQTRGZXFxQWdITTBjWUIzZWZOR3R3cDNWNThlU1c5VzVjbXBsWDZCV2NqT1NVOHVPbmhaNnpaTloyOTFfcmhwM2FWRGpmaDcyM2RzM3hQbW1kNWR0Z0Y4alNYUQ?oc=5",
+        "title": "Understanding NATO 3.0: First Field Study for Senior Course 149",
+        "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9WZHgzUFhfSkZJUmZnTlhIS19TMDJ6NkFTSFlYVEtZa0NiVlp0UTllSnd5N1FqaTJJMmFTLXdGZEk5VHpCQVBZMDM4bw?oc=5",
+        "domain": "natodefensecollege",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261015T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO COMEDS 66th Plenary: Health is security",
+        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaDhnMm9jaXhsblNiY25ZMnMxTWVUS3piNFlSNTd2bEstNlJKYlNqa0xXYlpFc1pnWjdiVDZOZkFNREVIaTZNa3g4X2o1VnljLUFwZ2hFLVBZWE4tRy1rR1NfS1RZTl9QVWJWTzExUEV5TU03R2R5LVhtWWdrYkpfYXZCY1UyWGtMVzJzX0tjdllTa0dkRjZ0bkNnY1ZHblJybHNPUVh2YXYzSll4?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261120T110113Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NRDC Italy | NRDC-ITA MOVES FORWARD MULTI-DOMAIN INTEGRATION THROUGH THE DEVELOPMENT OF JAGIC CAPABILITY",
+        "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNbU9kaGZoRG5Rc0VaTXExWC16V2FDRG9lZkFrUjllRlh0d3c0dEVHLUhFX2haTG11eHJTWFFSdmpNOWdYSHRJZXZCeHU4WjlJcXJESVpXZFBYNWFVMFNjLTdocG1HRlkwYmJSWThnSEowcDhMWDdTd2syLXhEMHpZTldnWW5Qc19XNWN3ODRCS3pKRHdaTV9zRDJla3hqb2JTM3d2UmU0bVBoSU9odUFqZ3VaZnoyRF9TaEY4bk04TGFPdDJqWHhtbVZadFpCN2oxenpMV2FiRDhnMUU?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO Journal of Science and Technology seeks submissions on High North",
+        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYXpiOXRwUHFsOHNTdGRCeEpRS1VBRnA2dnFZenpUakE1T181aVRUVlJReWIyT1E3WHRPdWxULTRyNE1naXhmVS1xaU9tYlVrcHVLRUdGX29TLXd0UkdLNGRkRlg4MEZocHNEb2h6SGVwczd1d1p2SEJqRmU1dGo3djF5cEN1ZW8xN2NUWkhpVnB5SV82Tnc?oc=5",
+        "domain": "natoscienceandtechnologyorganization",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261014T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NRDC-ITA: Change of Command of the Support Brigade Commander",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSUJMWTVIb2hyUVlKYlRjV1QzNEQxN0JfVDR6U2NiLWtfRlFzZV9LaVJEQ2JnZmV6WlF6UDR2OE9lb0tPSkZNRVg4ZHJnV2RWNnF5QUZHbU1IdUJrbHR4dy02ay1qdDRSV0FXbEVJNUEyNTlMcUZxZW5zcVJtazVQME1zU042V3doaTFkN29ha0lJRmtVaTBfV3pVLUh0eUpMYWoySjFrVnJYeHN1eFFscw?oc=5",
+        "domain": "nrdc-ita.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261016T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NCIA supports Mission Network expansion during Steadfast Cobalt 26 Bravo",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNmtTOWZmTS0tQ0J5Nnk1MGx1VzdJMHZseEwwSVVxdGhBVVVDNXczRDBjUEw1NU5VeWpzUGJEVHJmNmN1bEtLVjN6VkNjeFdSYjk1TFVNS1RpV2VuNDNHd0hIX0RteDN4d3dvSUY3ZnJaN25vRGRJRl9HODRKU2hrS1daMGZNY3EwclN1ZmtJMld4VzU1RUpaR1plNlNMd0kxNHZSZFpjakZBdk1maTlaWUZwQzA?oc=5",
+        "domain": "northatlantictreatyorganizationnato",
+        "language": "",
+        "tone": 0,
+        "seendate": "20261005T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "JWC Advances AI-Enabled Exercise Development During STEADFAST DAGGER 2026 Scripting Event",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LNWRxY2VhaEtTcUp3QXNoNksyMmk1eDVkbkJacTlDVVJMaUswdjNDMTRGVVNuY3NxdXhJeGZnQThuQk1VcjRYVVNtaFdzaXlFYnotRnhGOGhtOERLSG5tVkJJOHlIVUE?oc=5",
+        "domain": "jointwarfarecentre",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260918T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "NATO staying ahead in the electromagnetic battlespace during Exercise Dynamic Guard",
+        "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPbEFJT005SnNYcUxhQzFxQmtmQU85UWQwYm1IcTJQWGVkaHRxYno1RXUxVVZIWElOeEtCQ0dVRDdlZllUb1BNRGJEUVpOeTB3U3VwVU0zUnVJOXNhSGlVTE8zeHJTdnFLbjgxRm9pWlVCSjdSanNlVG5vVW1WbzljTUtTcWI5eGVEV3VmVkVtTXBWcEpsUi13UUxRSlRLRFA2TUpOZVJCMkZsU3pmbmE1Y3VWelFPOHhZeHpfUlZGNVdIREM5azQ5MTQtVQ?oc=5",
+        "domain": "mc.nato.int",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260928T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "Paula Folkes begins tenure as General Manager of NSPA",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMUdPYmFWYmlFT3I4NVZTem1wV29xa1hrNWdvODBfd3ZQMUJFS1hVT2ZTV2phdGhmeVFOXzN3aHY3ZHIzSnFzSzRjZlpwMlhZQjNIcXloRzVZcmgxMW1XaVJXYTNkazBDb3dhc3phTHM3TW9zdXBjSzBoRWQ1WXl0bFVPLURIMHl4aUV4UkVCUWR4LUstYng0OHJ3?oc=5",
+        "domain": "nspanatosupportandprocurementagency",
+        "language": "",
+        "tone": 0,
+        "seendate": "20260901T070000Z",
+        "source": "GoogleNews"
+      },
+      {
+        "title": "La défense antimissile balistique | OTAN Sujet",
+        "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQa0JtTXd6a0lNVWprRWJtT0lJME1HZzVDZG1uMWlYRFhIRExwVEZmcHIwWFlUN19qbHFqY1Zyel8tOWxsLV9JYTZtaUhLZF9PSzF4UDk2QWoyN2VBRjV1d1dTTmtkVGtCMEY1WVl2VjA2eVVyNmhneU5BUEV4Q2FxQUlYMDBhZ2YyUWI4?oc=5",
         "domain": "northatlantictreatyorganizationnato",
         "language": "",
         "tone": 0,
         "seendate": "20261110T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO and cyber industry leaders discuss enhanced cooperation for cyberspace defence",
-        "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNTE9zWnl4RTRsYlB3ZVRwUkk2MFRqZkNsTmtpbUZ4N0VJUjRnMTNGcFd5ek9nYktKZjJ6dzEtZXVvbHpZRkU1M1pLTDZWSHlGcnF1UURkZjhlQ2lTcFgwQi12Sm9nRVljdHpLRWpxT2dISUU0aHBFSGRzUnEzMHNhaThBbldURXY1V3FEWFRvMHNjSEJhZjdoOGY4T2pDUE5TdVlfOHI1eWRWMHc1RG43eEpJdlFvdlp3U1hsbmFQeVBZcVAxX0phQ2wtVVFPMC1JVHhpaTBUbW9CdjY1VEl3dmhn?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T090205Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General participates in the European Political Community Summit in Dublin",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPNFJrd2NSa3Q0OFpheERKMEVpcXdSY1NaT3M4RTN0Qk1NdTZJN3k1WmJlQWlzWFlPRHVDMkZiM1pvYVZ1VzluZGpxQ04yemhKOVptRF9GY0pVME5pSGNNSHFIRVRYTVNYOUhzNVVUNXdTT1Q1WkdqZjd4YlhCVFBJczhsaU1sTW1zOGxBZ2c3S2RKVU5hRVo1ZkxsRWQxN2t0eDhKbDkyeU5wUy16V3EwYnQ0R0Y0Ql9wVldaOTRNdlBXSWtwTU92V3BCb0xCeHFFaDIwTTRxQkY1TzZkcFFrcEota01oVmJ5?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T110134Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Relations with the European Union",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjRvYTNzLVhNQ2tvamxjQUdFUkxFR2xKWUloNUNabEdqREI2UFlIdWx0akcwSkRkWkNZMU5xeFItMmQ4cVBjWXhROXdlbnYzU0s5NVpTVHMzXzJLVlJ0amRXMW9pVnZ5RDdQZHNaLTJDUTIwY0hlRWQ4eEFlN1ZIY3J1MWY2ZXBvel8wYVBxdW9VaDV0enJQQzJvYVVQUQ?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261029T070000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Deputy Secretary General calls for innovation and cooperation with industry at NATO Edge",
-        "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRlFBTDJ6UE1aOEhXNExpZFU5RnFRLWRyVWxwejdNYldjal9KaHNlTDF4aUVBWTlSU0UwWDB0bkl2aG1QVGMyYnpCNWpYZWVfV2NlTVpFNW9rUDdDdGYyZWxiVkF2M1VKZ2ozdXlXRHhZNWlLbW5ZeW1tWUM1QzZZTV9vSl9qN0YzZjhEUkxnc3FEVXhnVlVXbGJ0UVd5QUplRWM1anhVdGUxdGhTNG9PNjNWeUpjVUNvZUpuRU5qNXlxcXAzcHYwMWZLQ3FHYkVqN2J0WkJfZHJvX0IwVG1jcEJXMFRpdGExaW11aEdxUQ?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T152128Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General meets intelligence leaders in Brussels",
-        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNC1OZ2V5ZnEtZjE0dFZCZ2g4SHozZk1vd3NfUDNvWWNfVmlNb2k4NHhCeGVTM3NqaE4zNGlsbVREQ3JtbmFpNmpmTVlnUWdYekpiM0hZTDVkNjhuRmpsN0F2anVaNUZkTmZHYTFON0JTb1BPbFJ5N19zRXo0UVZrRmNpczBLczBDc21mLU41QQ?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T175944Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Joint press conference following the Ukraine Defence Contact Group meeting",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUVJxdmszdHRXZWI0OEhTSVc0OXVSQ2tSaXZIZy1XcG8yX0FJbUhqRnRNRVdUSmp6QmVrRWNCemdNWjJnMEltNzJ3QmZTT0licDRwOV94RXltUjlaY19YS2JUX0x6cjdPYmlnbUxIZW4xNlVfcU54NmluUTFCX1l1UTViUU1mWFBzb3R6RXVZTHVfaThjYXRKVnltMFhxeFdKNU1oeERPVHEyajFxdlZQemRkUmhoZlVsM3N5QXNNUzR4OEtxSHI3M1NNWHFTc1FQcHZwZg?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T032649Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General meets with senior Ukrainian delegation",
-        "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOY2h3WFpJXy1jd3NTUm5nNXRWUmM0bzZ2YjlnaEpmODlxOTVjODhZQ21aMUw0MnNWaTRBdENtYWVNLWU2alVzeFpzYzlxYUdlbnpHSVVfZFJSOXVPNUFrT2NzZUFuUTVRTGpENWgxTi1SZFBuRmI3NjVpMk9tcVJnY3ZpTFhCbDV5S0ZQU2l4WHVUNWgxRFM4QWlQcGRqVHJiV0VBVTJhX2RQV0tWeXUwUkFCbUlhZHdibUJuS1VtejgzaHM?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261116T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Deputy Secretary General attends NATO EDGE 26",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOUxZWHNRUEJxNGZDcENySDl0TC11TDZ4ZUxQYzFaa2d5Mm10d1VSRTdRSjVaUllfaFpUd09RNHhpNDZ0OUdNSnZfYkhIVHVJbF9sMjJpbUJMaWFLY0dhekxmUXRlZVlnRkJSNWtjUjVQVE1ZNlZqcXFqRjVTMEY5QUd5UlRWLXBoY0hrbldRc0ptTlRPYmRxeHNFaXM5MUJqZ0FFQ3FZc1g2ZDRUd0stOGxoLUY?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Meeting of the Ukraine Defence Contact Group",
-        "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNU2VseUdpZjV5eWdCX1lGcy1JLUdBX3RtN3paVVQyb3R5OENJUEpMVFh0MHpfSG5wcTJqaVZrRlJLa1BobjJuU2FTTzgzejJQdGNBbUhiWnoyTmgzYVVWLVE1ZWRsNy1ibXp6bExYX05kYXBfTmowUURsY2ZnVXU3a1lRNTA0N25id2VFZ0h4emd6bjlZek82ck1FZEhIb0NmbHN0TGZVMktST0RZ?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T032651Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Meeting of the Ukraine Defence Contact Group",
-        "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNzNZWXJoVGc4WVgybnZDMG9ueDlWd3pEaGxLSEQzOVdLT0dNNmxGb3RYQ1dHQjBMbHhCUkZXUDc5b1RSZUM4ZDU2QjBUbE5rT3JNWE55QldZQjVXY3pTeGdXZllYVTBIeDduMGpUVmtLUlJIZVVTVGI1aWtZR2RYUzltZWplYkRIaE43UUEyWjY0TjVoMi1FT2lOWEpIZllrUTk5U1VqRUc4RExka3BGTTVrS0VxbU0?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Opening remarks",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdkJJalFhNXFGNk1QMkdpeUI1M3dnY1ZjSUJOVFpHWmJ2YzJmNXV3RG4xbE5fbkhIT0wtcDJaaEktT1VKMzhBV1ltZm9KTXhnTEJmNUwzQXR2Unc5c0NMZ3haelkyanBYWmF3ZmZLTkNTSVJfVzJNUVhXbUc4dXllQWZjQklnckFmSXhISVhrUjZkMVUzZ0NEU0d2dHN1NDNIYm9EMFBFMWpWRXhpVHQ5MzhONFBhX1dFbENJaTNQTGVVd0hINHc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T185549Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO and Moldova establish framework on exchange of classified information",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNXzIteHhLZHpnZ09hX01oTnplTWQ3T1VyTk9IanY1Mk9qa2wwZS1uUVdtM2ZfMG1zbGpJUWxoS1V4clNITzY3dldUNTg0WG1zUTVGbnRMWU9Ma2RteE5ETGU0N21vdXhBZk5VQ210eDQxLUJucGt0N1NQalgxQ2ZaX0t0cXU4U19qQVVZdHpGandmTWZQZl8wOHdNNWFOMXktbG9rVXhKUlQtalJRUGU5Rng0dWstcXFiaU1YOVVEV0lEMm5ud2xhaExNcFp2QnQyMFBBbUJR?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261119T162444Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Views worth fighting for: Swedish Gripens get a taste of the Norwegian Arctic during Ramstein Flag 26",
-        "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNaGNFNG9BTE1uQjFwcVRudUdBaEtPQVFpU3BSRFF5eU0wa3E2VXY4a1E0R3JCWHdvMzRybHZPclcwekNmMU5rYTdBNHVCeVB4c05RdUh3U3Vwb0oyZnJTMTMxeFIzNjF5Q1VIZXRmYWRsamg1cUl3aGFPeS1hckswOW15MG1VRVJ3MVUydTFERzItck1CR3htOTdKWnRBZDJKcVQxVTBpak54MFY0SXhjN0NQbTJwRXJVS2hlMnFlT25hVVFVcDYzcjBwbkx0ejVkcmkyMi1NUUROdzhob2IwZEd2bFlodjlmcTZrV1dFOUhmZ1VyNkRjU1lKanpJY0hoQWw4?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Doorstep statement by the NATO Secretary General",
-        "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRmk4LTNBSk9JUmk2UlZjbVRmTGtiYTdfR2s4Z2E0MV9nOU9ZdHBzOEFIdjZEMW1iaHh5ZFJKMjFkRkRoTHVzVVNvTEkydzBOLVhkYmVjVTlvQU9TWWltdXdGRVRscEZBOEdFelE3YWNwWERzaTVDWU44WnQzekZhREZmenFNay1JbWNhVXhOZTVDQVpPVXdqNW1OT1lyX1B0RWIwWEI0YURyZXRqMndQam93?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T164934Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK flagship leads Allied carrier strike group in the High North",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMXVHTHYydlVSbjhsODRyemV3LUI1djNHLUlIUTlzUkc5UG56NmhPZlZDNG9sNktZblMxZHc2bkpmNkYwT0NoUEdQb0JqM25tX041UHFSWEVMOTd6ai1ubVlYbmVxSDM1ZGRYS2FMUy1rQXdFUTBLX0VBMVNpY2dpTHpSclNuNlVwRVdrdmliRTQ0cjlwT2Z2X1czYWNpLS1pd3QyaE11RkxHaktTQm1xWnNqRl9EdkoyS2djQnM2R0lYQzZsN3c?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General to attend the 72nd Annual Session of the NATO Parliamentary Assembly in Berlin",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObjYzbE0wM2NyUG94SDZPNzlwOFpmSE90X3lkY09vYWFvdVp1NWtDSTJfNVhpcks1aHE2UVRmU0RmSFZ3OHpKQVZFTGVFY05fcVg1TW1xeTRmcXB6Um9MRXR4eHVoRzUxYXlrMUdaTnB6elQtWldoZzBxMmhzU3NvTXdJYXhhYWR6ejhOaGhqNVlaOEpvMERTRzl3OVRxSzlncmt4WXN3UnhUUWJEaFRXQmNHYnlPZEp4bDRFMmFR?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261120T163359Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Doorstep statement",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVEh0Z0RycW1QRkhYZGpmN0JWRmdSSFJ0NGR4QTNJN3dLeHpoNmNhV1JVOGEyNTh6MjY0Y1paNUhNNk1sNHlKa0xfXzJRVmtyV1VFUWlGLS1pLXlBS0hTRG1YMmJOZklvdktCSlNuSENYZVBwc3llTGp0MU5ZS3FSX3ozQlFkRUdNYVdoeFFpWTFfQ3owVXpBRy1leFdkbTItUU9tbXNuMER0bi1CQTdHcFdGcnB5clhiUHNtWEtNbHUxWkt6WWJnbWRWVk9hM0dORnc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T162548Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Participation by the NATO Secretary General in a meeting of leaders on Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQMGQ0VGx6NzliRkVLQXM1UklsVEFIbXB0QXhJaWotZFlQVkpzT0hmc0lEdXVNLTB1Q3lUcFFIdE42cm5HTlJtOUkxOTRYZ0hlaHF3Y0lPSG93WVlmZDdyajNNVDR4akM1WjlnaG0zRHA3VHRVLTZxbmhQTHhiOEJyaVoybEdfbE1vMHhoenE3djhYLTZ1SFVZZzVZVkNNTElEZDZWU3dQODl3amI4N0hYcHZYaU1qUFBfd0haYk5xS2MydkdLWS02YVlfVzQtNHRWXzdnSTY5WlRfbk5rRTRDWnExTFBHd3Iz?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261118T162039Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General meets with the Minister of Defence of Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZEFTTC1lOXFqUU04WFJCeXR2RWU5RU9WVVZQRGduMDBoNGRhTno4MjBJb2NJa256ckJYWXVsWnRsQkNQSTZzYzdCZWdxX3dpUzQwV0N1c1FtRHZmTTItRHl5cDJVVkc1NnVIZ0dpRGVUUHRkenN2NWEwcGt5V2FBUUNBVjQtdkdhSlUyYk0tcnpoZTc4ZDFRbnh5a1ZPQkFDMWV6TkxrRHdpM0ZLcEJSSkdLLWI5V09JUGpVQkVGcVc3T1lhZ0xnQ3dkcTA?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T164934Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "UK flagship leads Allied carrier strike group in the High North",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbmJSNHYzZmJpNVZBbHA5ekFIVklPd241VnEyNXRqTXVaQVlvTEpHU3FCdGoxbTJKWERiYXhFVE5rT2psbWZVQkVCdDh4ZFdEMTZ0YkFySkVJYTVZQkxwc2xXLWxIVWxFdHpHcWlNOUFRRHBfSXNCZzZOc0oxTTFCQzZDUmZwZFhTQUNzWjRBVjR0U2t4VTJYbE13Q2NOMFFuNVFxUmllQzdVSDlnNmlsMVhwaG9ZZG1hbTUtaVdCVkNKLUJyTnc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261112T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Meeting of NATO Ministers of Foreign Affairs",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeHJDWjhKemMybWtpRkl2OTl3TzBaODVhbE1kTXhZenh0QkcyN056eWl2SHlfRUJuSVpVU0lBSS1RUjR5V0lzaEJMOVpXQzhXNDdSX1RobzBjcTNzRDJpMTdvVG1YNU94eTNVNWw4S2YtTXNTRF9ycXJKR3EwM1FFa3VUQ2RDcTNFYmZxQ0p6ckg2RzZOcmtyMWJ6ekFKb3FreVBTbzBSREd2ZWNLdWhmcllqcHhhZzlDdkl3?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261113T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "NATO Secretary General meets with Germany, the United Kingdom and Ukraine",
-        "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNM1dCR3ZCa19VZS0yMG5wY3dKNFZPRTQ5LXJmZnFXNHhCa1Eta0ZTaGNQVkRVdnQtQXNjd3ZIZUNLSjk4RkZwMXM0Z2RmMWY2NlZmUE85czFSdWFXRjE0RWpiLVVYUmVPcm5XNHdXbExWMmtIMGoxenJaZWQxOG5JcGgtNGlZZ1l6c25DVGlMUm1zWENoOGFQbERMMU8zMGxLckkwd284RXI3WUs2NXItbVRRR1dhbEdKSlE5LWFxRkQyQXBoRnJqay1iU1NUT0lxVHc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T164933Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Keynote speech",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRkNpWlhfeVVnMHFKQzJpX055ME0zOHcwbzFIek41WGI0WGx5Z3FjYkUtTnNRMDczS3R1cks0b0VFeThkNldGenVHQ3FkX2hfbUtCYnVHVk9lUS1nLVR4U21hUGJJcm9TUEE5REhvcm01cXdCeWNfUEllX2ZTSUY3UVBTY3IzcmVTSWF3eWF4WVdPTW9xY1lSY2ZjSExoVmp1N21KS0FCa3Z3RVZFUGxlOVlDVDNfMElLamF3aXZneUszWmVLSDNTM1FyaHYwcm1qTEEzRjJQUkFCcUwzM3hLcTdQRkNGTC1x?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20261117T080000Z",
-        "source": "GoogleNews"
-      },
-      {
-        "title": "Vacancies",
-        "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11NTN5N2JYcjZWSkpzQUlWZFJVR1Z4dC1NdU9nNlloLVkyWnozT0dIRjlfczRNNHlOaXJ6WW1ta3lMVWdfaVZWdkc3OWJmamlIR2k4SzNMcExvUE1IRV9YRlN4Vkc?oc=5",
-        "domain": "northatlantictreatyorganizationnato",
-        "language": "",
-        "tone": 0,
-        "seendate": "20251113T214732Z",
         "source": "GoogleNews"
       }
     ],
@@ -1344,30 +1479,93 @@
   "entities": [],
   "events": [
     {
-      "title": "Colombia: Ten years after peace deal, civilians see rising violence",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPMmZhZ3U1TEJpbl9vZVZadGNoZ1EtSnhRNGhRbkpBRF9wTzBYanIwM3VnUEFZbHluVEVydm83U0hsV2NZSUFkYjhzdTVUdC1mZU1TekczbFFNRzR1MTZfTXFCX2FCT0Z2cGgzT3RBb21fdGRMUU9PNXFFVmIweFdScU1Xc0oxNWlpOFdqbjRrVlRHZWZkcU1lX09R?oc=5",
-      "domain": "www.nrc.no",
+      "title": "Environmental War Crimes",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5PRG1jbXY2TF9kUy1jeGw0Z1czQTM4dHo3ZTIxOW1zeEFHQ1ZmT2ZNbmxGZ2FWM3YxMGdtWmRnUWU4SWF0bmJQeDZ1LXV5akNsbTdRUDZ4NkI3UzlKMU1Fb0FJQ2FjeWs4MHc?oc=5",
+      "domain": "oxfam",
       "language": "",
       "tone": 0,
-      "seendate": "20261123T070105Z",
+      "seendate": "20261123T133712Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finland PM says conflict ‘spilling over’",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNLXpOdWlXckdpLXNuT053QVpxMFlxNkVKbjRtY29vam5PSEgtdWw5VkI3T19HWkg0eGE2MUxrTUdkSlg0WGN1Z19NOHhQSDh2YVlmMHZoOTQ1UmFFQ2tqYkVrU0p2aGsxNkdydlVYOVJzTUFkVm5xcEJGMUt2ZGEwaDFzLXoxMkVibnZMcUx1MUhIZUJtS2MzTnNBbTl0Z0tfSkdoUWVaZ0V5VktzMU9OZEcweEZ2Y00xeFJDNmh2Yzg0QndsUm9NRklNWDVLSkJuU0thMnFCZmdPV2x4S0ZLdmtybVBRM3FGOHc?oc=5",
+      "title": "Gaza conflict has undone 77 years of human development, UN warns",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE42di1XS05IQklCbFVUR01VeFI1a0tTQTktVmp1ZGZZUzJmVm1CdlhwMmVPcFFHMXN3UGxteDVWTjhxTTRQdHUzTEliVGpuTlBsUWtpWDhlQQ?oc=5",
+      "domain": "unnews",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T205619Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Haiti: Women and girls bear the brunt of conflict and displacement as basic services slip further out of reach",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTnluM0tDSjg1aUpXanExZ1ljWFk4MENOeFp2THJ5QzZpOUdEMVFNcldPenJHRDMzVW5TdEZRX2xpOGJYd25XZ2N4Ti1uY0NEUERMZkxzYzZYclRjU3hIOUZEcXJlZUwwR2NhT05mSlBDOFZSNFZQZDRWZHdqaHBRYjA5TS1BckZWaThuNHJFZVM0R1A3ajB6ajNrQQ?oc=5",
+      "domain": "internationalrescuecommittee",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T183959Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Russia’s war dead: the hidden toll of the Ukraine conflict",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcHEzaFFZSHUwdzN0LS1RbTVLRlF1MFpWblFUV2l1eUtybk9fOHJzNmQzeW8zSi13TEdMWGtYTE9UTFNHbGx4UUZ6Z2UyRlJQUU1kY3hKNmtsV3V1ZkVsWWR3UmxvdDlud0NQa2VRRldnWFQwdV85R0RNZTVKaTJKbko0UV9Qa3FLR0J1S1FNSkZxM01k?oc=5",
       "domain": "theguardian",
       "language": "",
       "tone": 0,
-      "seendate": "20261123T041800Z",
+      "seendate": "20261123T230800Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Workshops set for reducing wolf-livestock conflict",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVzVMVlBJajhTT2JtcVVfbzZNSVNHR0l0d0ZScFFIaTVIOEJTR1ZRYU5rLVpEVnNRQi1ZQnJvQkZhWW9MY0JPOF9MYTgyNE1nUC0tVlR5RE1EUGFSbkZxYWEtRFRJT0hZMzhVSE0wLVB1Y1JGYkh3dXhpejNzYkhaUUNDRklUMVZoOEE?oc=5",
-      "domain": "alamosacitizen",
+      "title": "Yemen Conflict: The Land International Cooperation Forgot",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbzFxX0RFSFFBd1hNSG0zTEhqNlgxdnlwMktvNS1UXzFkMmE5amdNbDFPVGZfYkI3LUZIM09aX2R4akZpZFRVQm9fWUgxaTJMV3h2QmtaUmxneDBpS1BTLTAyNm54WWhIUnlHZk1IUFI4ejBJa0JNS0w1U2lNNlhkcy1UNjE3R3RvSG5uVE16cno4Y3V2LWlvMGVkN2FST3RKYkp3VnlB?oc=5",
+      "domain": "worldeconomicforum",
       "language": "",
       "tone": 0,
-      "seendate": "20261122T191400Z",
+      "seendate": "20261123T213313Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPX3RKNmswZ0hZN0VZTXhBd1Q2bTg4clBBaWZhSXA4N1pHNEZrd3hLNlNRTGR1RnV3MUQ3dXIwYVZ0SXNwZVFkZGFsMmdSR3ZKSi1oUmZhenE2ZS11X2RENzZXWnEtbHU3ckc0NlNCR2Vrc0JqczlSYXdjUHBTSmV1dmliNThwSlZ4SEtJ?oc=5",
+      "domain": "thenewyorktimes",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T180531Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "SEC Commissioner Takes a Swipe at the US Conflict Minerals Rule – A Foreshadowing of Things to Come?",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPS184WmJQSUtQS3JZMWllbXVBMXFRTkFHRURWLVpEUHR3cUtsOWFYSlpTanZmY2QxaklVUXg5TFFPcVBWYlc3TmkwLThxRDZJXzJaajg1R01Ec3dLVUZtZ29YMGRoTFV2RzNrVDRVOFpwa1JvRW5UYXk2R3doZURWZURQcWhZeDY3WTduelFXUk0taG9ZSUM0Sk44bkdMUWtXbU55Qk9xc1pKbS1SVzFjMkMzNXMtMnlMU3dsZ3J0Zk14OXVOSEdDQVN4d1hkQWNUX2o3Y05xT01yS2Ey?oc=5",
+      "domain": "ropesgray",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T131024Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "EU and UNDP Expand Partnership to Strengthen Local Conflict Prevention and Peacebuilding",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUTBnS2NKZEtBV2hVTFFoUGNZZFFpS0JSRXg4emJFYXE2VGYzeENoanJXYVRzT3Y3bkk1SV9FMzlWUTRyMXlVdzVGajN1REFDMVZIRk5KNDVXVjloTkE1X3ZGX0VYdG9ZR2pBRmx6d2VqN2VsRE5HRjlFa2ZYQk93Q1V2UTF4SGdFRDVhVzNjU2NxY3JMRmR4djI1eUlVTmY4NFZzWWdPbXEzbG1QSWJvQ3pOQVN5Mmd2bEJoNk9mSGQxOFZ3dVczR2NPNFY0eXZ6c2c?oc=5",
+      "domain": "unitednationsdevelopmentprogramme",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T140702Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "Drone attack on Colombia police base injures civilians, including infant",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUFJBT2p5WEt2OXdzaHZHck0tYUxPMXZwNklRYjZMV2ZYcTNzUG5EQjUySGp4X1o2bElObWVtNmdyb3FYak9CUlZ1bEFIbWRfWG9iLTlRYko3cWZpQUJkM3hZMFRqWFljRmljeXkwVDd2Yzh4NURCRlg1VGJ3YWxaS2ctQnVROTNnQ1NvOUpCUVM3dU5XWDY4Qjh4ZmswOXVkcG0xS2NUd3R6VEwxZ21KTTZVRdIBuAFBVV95cUxORTczNXU3SHBrQ1ZvZkk1TUxqNWJiTThkVWpUbjdBUnpCdWJtV193X25sMTNCZVVRdEF6Q2Y5OWVzaVltX0NSMFpSLUprMzhqakl4eUN3NUNOMUZPeE9mY2V2dXp4TmlPcC1yWDBNWmNQNDlod2wxd3hXM1NwNGlkU3NrNU9rMllLaXFCRUtBRmdsdU9PemQ5Sy1MS0hxUGhmWWdUZFUwckNqVzY2emUzRW1Ud0xvV2xp?oc=5",
+      "domain": "aljazeera",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T235325Z",
+      "source": "GoogleNews"
+    },
+    {
+      "title": "There are 5 Conflict Languages—Learn Yours to Survive the Holidays",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BVDlSd05fcVZOX2NldTRmN1hHOG5HTFdWWHh1S056dHlhNnVzcHpudzJUamtaZUNKMUl6UTNqVEhmOTQyb1FBOFZ4NU1tNllqdGF1TU5OTTNGbUlCQ0xTNW9fRXJMVGsxWkRV?oc=5",
+      "domain": "purewow",
+      "language": "",
+      "tone": 0,
+      "seendate": "20261123T130000Z",
       "source": "GoogleNews"
     },
     {
@@ -1380,112 +1578,49 @@
       "source": "GoogleNews"
     },
     {
-      "title": "Iraqi Forces Enter Stronghold of Powerful Iran-Backed Militia",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOSmhZODNjd292clh2TlJBYWJNV0NuQV93UWxVTmxiMmNJaHJnNHI5WFF2bVJwOHgwcmdRS21DU3lYbGQ5aXdCVW1HbjNoaVRnSlFPRThCOFdsbTd3Y0hDUlJPci04QzdVM0d0SDhqMzVEU0VQYTUzWFNSd29FeklxbTlKWk8yQnZCV3ktZlZaOFpncHhzU3c?oc=5",
-      "domain": "thenewyorktimes",
+      "title": "Ukraine sinks Russian warship in Libya as conflict spreads beyond Europe",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVVVOaXhUTVZWaDZ0YnlSQnRpZk1JdVpWdkJKVUlmQVpETHVkYV9CazJxR0xnS041MUYxQXcyV3IxZWpqbkVrWk9ZU1NaY2NyNTdHTjd6YmFHSFRIX0NpTE8tV3ZYaS1LajllOGxZZlAzclF3OGpiWU1Jd1dTNVB2VWtJMEZQd1lROVhxUnhYUUJ3TFBsMUV2YlFaQktHU0Q4RHktYnpTLXRndjl2aEZlQ3VzZWZSSFRSVzJiZjJsa3JaSkV4?oc=5",
+      "domain": "reuters",
       "language": "",
       "tone": 0,
-      "seendate": "20261120T154352Z",
+      "seendate": "20261123T075300Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Conflict Gold to Responsible Gold",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB0WVNpeENoYzVudUVsQ0ZiTlhtNWNvZFFjVi15bTFiMDRTb3otX2VKNThiY2dod0VIY1kyMjB1aHpuOG50S203OGdlZTJNZzBPVlhQRTVucWMtSEtTWE05Z1B6ektpdzIwb19DVVlVMWNfUkNhb3d5WA?oc=5",
-      "domain": "httpsthesentry.org",
+      "title": "Iraqi forces enter Jurf al Sakhar militia stronghold as PM seeks to consolidate power",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxObXR0aG5yLU9pT1p3MmxNREJhMTFGUW5ra21KX2ROLWJWbG5ZRC1tMEszMzRwajA1bzM0a3Z4bUl3YjM5ajQzR21VbGhTWFNMb2FGMHhPaDRqNG5ldVRUaDYya2dMMHdEUlNGVDBWYnAwYXdVTmc2OWRycUtPOXVIZlJNOXlkd2FnREJOa2xWSjJJc196QmxaejZRdTY1WEpzOElQcDZuc293dUd3dWNWd0lfT2oxUXVZcGZHb3d1M3BJZWFUMHJ2c0d3M3dFTWlHdS1r?oc=5",
+      "domain": "fddslongwarjournal",
       "language": "",
       "tone": 0,
-      "seendate": "20261119T134954Z",
+      "seendate": "20261123T211303Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new strikes next year",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YeVVuSzlMa1Vza0JNYXpXbGw2emp5RndTVHplTzB1QllobEw0SW5Dc3VyTFhwMFJnMkpRSEJEZnhPOFFZYWZhckZXaUlKdTZPRzNyOGNzLWp0YUZDOHM4N0xZQWZHVm9zOHRPbXp1a040YUHSAXhBVV95cUxNcG02RV9VeGk3SG90SjhQdWEyTGd3RVdNRmw4YkZreEZmY2JHUU5nVGNBQklaSmFES0ppelA3UmZFVFVUdVF0RzlzdVBtWWF1emF1U3o1N0x4T25VRDVTMS1Od3BWZnhTVERFN0hJd1Bud1hHdkk3MnA?oc=5",
-      "domain": "cnbc",
+      "title": "First Shift: Garment unrest, port labor relief and AI capacity",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZXVmWi14N0xLd3RRZVN6QlBuUDVpN21XM0lQVDRDNjZzMlY5ZXJTTHgtcXI4N0E4bTB2bXZPTUZwU3VYd1E3VmIyTGplLXhSOUNZY0diYzNFemEwaGprYkNONkl1eDZtQ1FFMEVXNWtONXZpQXk1SDdyZlVjQ0xBT1hlVHlHS21pRktHZURpMVF4Q0k?oc=5",
+      "domain": "supplychainmanagementreview",
       "language": "",
       "tone": 0,
-      "seendate": "20261123T034000Z",
+      "seendate": "20261123T142500Z",
       "source": "GoogleNews"
     },
     {
-      "title": "Iraqi security forces deploy in Iran-backed militia stronghold",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ2RLdGYxc2lXdVVnQmx3bnBCbGtQRy1vOTZxeVROMGRIVHBkNnhtUFVaZTlScG93YzA5QUdkRlhld3dlUE0yNnNBTzRhTVA0S0ZRMzhUVTFhTHVUWEdscXA2NV9rVmhrWmtTS19FTFVidTBrX21hcGpPb3NkXzZqclMyYWlqU25vOXJvdFZ5YTFBX2xGd1RuWEx2VWczRnFaSTNyRHNDelpEZHVFSG9MSFl3?oc=5",
-      "domain": "nbcnews",
+      "title": "Russia-Ukraine conflict escalates after Trump’s meeting with Putin and Xi",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUExRa21JdG9IYzFGd0FRNW52RWdrYmtyQ20zTzVybm9iWjVZb2dDZWk1SDhiVTYtYUJMM1NIRnlMRFNPbWotU3VFNFFWRHJZeVY4cFVyTVZrOXBkNFNGUGdzMDgtMUtCV1RYeEtEQTNmaFI3WEVhZXdGOXo3SWZzcXhldnR2bnhCb0ZjTjFrQmtYM0FXVWNEY2htNXlxVW84X00tblVUQ1YyNUhlaVZreHpCX2RRbU82WUl3NGF5YlQ0UHRVTVFMOVJMaWxXS3ExRGtZazRuQ2oxQjg1b2p4Mw?oc=5",
+      "domain": "11alive.com",
       "language": "",
       "tone": 0,
-      "seendate": "20261120T230804Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Local believers in Sudan reach families facing hunger amid conflict",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeWpxZUI2UDRaQkFLYWVjRUJEYjZweVNrNGlzTnlHOWRJWDc4WXdjQzMxSWl5cUpzMU9LSDdLemRfMjF3YVh0ZklXWFNxSElDTW1lR3ZCek5nNmw5dWI4SmIwVUtzUE8ySUhsRzhTT29YS19Cal96TWc4dHp6S3U3QmJHa1c0QlBNOUp4VWVjZHEyMXF0SFZ4YmExbG5CUXRBeUJsUFlLcFVFRi1jWHc?oc=5",
-      "domain": "thechristianindex",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261123T014500Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-      "domain": "britannica",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261120T080000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPazIzNmZVck5Udmx0UjFsVV9LQjJsSDhlUm95QjhZalplRUNIa1QyNXh0Z0lPYXVEblBmOWpWN3p3b0pXWXhyZko4cmlzSl92b19UbjNqS3NZUHJwWFZiZnZiRWJHSTVKMjBkNGFmdWJWcGpBcEJfSzROU0VjZHEyVXdOWWFkb2gxN1FaZ0N3?oc=5",
-      "domain": "cnn",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261122T151328Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "The Conflict Reset: From Tension to Teamwork, Spring 2027",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLWgyR0U4VmozdXdQdFh6eUhzbmVyTkRDT2d6OFlKYVl2cWV2TU9sajdNck1sb1BvQUM2bjRPTzA3RE1YVzVBWXczdjNwZ1pBbjVvVkhwbkdxUHljTE83bTRfSElkNVlyOG5IaW5OWnh5YkVRWTczWkkxR29qbFNYRndoSU5yc0ppWUxOZDVMVHNwUGlpbHJYQzdIMFVFMGM?oc=5",
-      "domain": "themuscogeenation",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261118T080000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Congo warns that EU countries’ Rwanda deportation deal could fund armed militia",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNbU5RYWZTOVk4X2JQU3l0YnZrRWJxRUxISmtsWTQ3M25qMUtaOF9QbkNRX3Zoc0w3czhBUGduM0JwR05hNS1pUkctZE1GdGR0eEI1UmNtak1RQlgySUt3WG5aR0tHMkR6RWdac1lTSUR0VkpRUWFYdVFqM3BpX0YtZ3VoNEJIdw?oc=5",
-      "domain": "politico.eu",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261123T030000Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Police force haredi protest to disperse following widespread unrest in city",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uOXVPYVJGS0d5NGZ4dVB5Q3JIV19wZFBLTUpGZjEtU3M2NHZ1REQ3bmxYN201ay1TdmFZV2tLc1NpNjlRdzRET3dlRXUyUEdHVGFCUDFqUGxEeG5Z?oc=5",
-      "domain": "thejerusalempost",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261122T205113Z",
-      "source": "GoogleNews"
-    },
-    {
-      "title": "Iranian attacks in the Strait of Hormuz reach highest levels since the conflict began",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORGtPWmxKTElPRDA5aDRCcWttd2NxY2MxNXdLaVRqZTRUR0tLQ3lsNDVFVy1MQk9GU1NhMmIzcm9OU2RIbGxlcGRMa1JDcm5Sa0kzTEhxeUNVWG1fekI4OEVQZW4zc3BEcnBmMmJmVXA3YllNTVNsNmZWSGg5bThfMlpCNlM1NWdvWjBaSXdSV1NPOGp1NDhyTzJkVE0xSXVCcHNORVNIWGZXdVRPNW1CX1ZMZUp5WlBkUVE2RDJMblRWV1NEbXJiUWt0d1hWZkF5Z21wZC1Wb0VwTEx2d2Q1NHg2cHcxM3dRRTRzZzFVOG81RHZQVkN6TEI1YWd2LV9jQjdF?oc=5",
-      "domain": "komu8",
-      "language": "",
-      "tone": 0,
-      "seendate": "20261122T154700Z",
+      "seendate": "20261123T202500Z",
       "source": "GoogleNews"
     }
   ],
   "timeseries": [],
   "llm_summary": "",
   "early_warning": {
-    "issued_at": "2026-11-23T07:40:43.058887+00:00",
+    "issued_at": "2026-11-23T23:54:34.658903+00:00",
     "horizon": "0-14 days",
     "classification": "precursor-anomaly-watch-not-event-probability",
-    "score": 0.2,
+    "score": 0.6,
     "level": "ROUTINE",
     "confidence": "MEDIUM",
     "confidence_score": 65.0,
@@ -1498,7 +1633,7 @@
         "events_considered": 50,
         "precursor_event_count": 0,
         "precursor_share": 0.0,
-        "independent_sources": 38,
+        "independent_sources": 44,
         "signals": [
           {
             "id": "force_posture",
@@ -1538,12 +1673,12 @@
         "id": "nato_posture_shift",
         "label": "NATO official-language shift",
         "available": true,
-        "score": 0.5,
-        "articles_considered": 85,
-        "current_window_articles": 28,
-        "current_weighted_term_rate": 0.054,
-        "baseline_weeks": 10,
-        "anomaly_z": -1.12,
+        "score": 1.3,
+        "articles_considered": 100,
+        "current_window_articles": 11,
+        "current_weighted_term_rate": 0.136,
+        "baseline_weeks": 11,
+        "anomaly_z": -0.64,
         "evidence": [
           {
             "title": "Allies strengthen medical support for NATO’s collective defence",
@@ -1591,16 +1726,6 @@
     },
     "alerts": [],
     "history": [
-      {
-        "timestamp": "2026-09-24T04:54:12.465399+00:00",
-        "score": 0.3,
-        "level": "ROUTINE",
-        "components": {
-          "narrative_pressure": 0.0,
-          "nato_posture_shift": 1.1,
-          "cross_market_dislocation": 0.0
-        }
-      },
       {
         "timestamp": "2026-09-24T11:48:38.506642+00:00",
         "score": 0.3,
@@ -3390,12 +3515,22 @@
           "nato_posture_shift": 0.5,
           "cross_market_dislocation": 0.0
         }
+      },
+      {
+        "timestamp": "2026-11-23T23:54:34.658903+00:00",
+        "score": 0.6,
+        "level": "ROUTINE",
+        "components": {
+          "narrative_pressure": 0.0,
+          "nato_posture_shift": 1.3,
+          "cross_market_dislocation": 0.0
+        }
       }
     ],
     "data_health": {
       "events_considered": 50,
-      "independent_sources": 38,
-      "nato_articles_considered": 85,
+      "independent_sources": 44,
+      "nato_articles_considered": 100,
       "market_series_available": 0,
       "available_components": 2,
       "retained_components": []
